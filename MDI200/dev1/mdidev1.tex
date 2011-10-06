@@ -14,6 +14,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}   % acentuação
 \usepackage{ae,aecompl,aeguill}  % pdfs plus beaux =)
+\usepackage{dsfont}
 
 %%% autres %%%
 \usepackage{multirow}
@@ -25,6 +26,7 @@
 \usepackage{subfig}
 \usepackage[letterpaper]{geometry}
 \geometry{verbose,lmargin=3cm,rmargin=3cm}
+\usepackage{amsfonts}
 
 %\setcounter{tocdepth}{0}
 
@@ -43,4 +45,115 @@
 \begin{document}
 \titleTMB 
 \newpage
+
+\section{Exercice 1}
+
+\subsection{}
+Si $X$ et $Y$ sont deux variables aléatoires indépendantes de lois respectives $G(a_1,\mu)$ et $G(a_2,\mu)$, cela veut dire:
+
+\begin{equation}
+f(x)=\mathds{1}_{\mathbb{R}+}(x)\frac{\mu^{a_1}}{\Gamma (a_1)}x^{a_1-1}e^{-\mu x}
+\end{equation}
+
+\begin{equation}
+f(y)=\mathds{1}_{\mathbb{R}+}(x)\frac{\mu^{a_2}}{\Gamma (a_2)}x^{a_2-1}e^{-\mu x}
+\end{equation}
+
+Où:
+\begin{equation}
+\Gamma \left( a \right) = \int\limits_0^\infty {x^{a - 1} } e^{ - x} dx  
+\end{equation}
+
+En utilizant la convolution, on doit trouver la loi de probabilité d'une somme de deux variables indépendantes $Z = X + Y$. 
+
+Donc, soit k(z) une densité on a:
+
+\begin{equation}
+f(z)=f(x)f(y)
+\end{equation}
+\begin{equation}
+k(z)= \int\limits_0^\infty\frac{\mu^{a_2}}{\Gamma (a_2)}x^{a_2-1}e^{-\mu x} \frac{\mu^{a_1}}{\Gamma (a_1)}(z-x)^{a_1-1}e^{-\mu (z-x)}dx
+\end{equation}
+
+\begin{equation}
+k(z)=\frac{\mu^{a_2+a_1}}{\Gamma (a_2)\Gamma (a_1)}\int\limits_0^\infty{x^{a_2-1}e^{-\mu x} }(z-x)^{a_1-1}e^{-\mu (z-x)}dx
+\end{equation}
+
+
+\begin{equation}
+k(z)=\frac{\mu^{a_2+a_1}e^{-\mu z}}{\Gamma (a_2)\Gamma (a_1)}\int\limits_0^\infty{x^{a_2-1}}(z-x)^{a_1-1}dx
+\end{equation}
+
+Si $x = tz$ (Donc, $dx = zdt$)
+
+\begin{equation}
+k(z)=\frac{\mu^{a_2+a_1}e^{-\mu z}}{\Gamma (a_2)\Gamma (a_1)}\int\limits_0^1{t^{a_2-1}z^{a_2-1}}(z^{a_1-1}(1-t)^{a_1-1})zdt
+\end{equation}
+
+\begin{equation}
+k(z)=\frac{\mu^{a_2+a_1}e^{-\mu z}z^{a_2+a_1-1}}{\Gamma (a_2)\Gamma (a_1)}\int\limits_0^1{t^{a_2-1}}(1-t)^{a_1-1}dt
+\end{equation}
+
+En connaissant la fonction Beta:
+
+\begin{equation}
+\mathrm{\beta}(x,y) = \int_0^1t^{x-1}(1-t)^{y-1}\,dt
+\end{equation}
+
+Et la propriéte:
+
+\begin{equation}
+\beta(x,y)=\frac{\Gamma(x)\,\Gamma(y)}{\Gamma(x+y)}
+\end{equation}
+
+
+On a:
+\begin{equation}
+k(z)=\frac{\mu^{a_2+a_1}e^{-\mu z}z^{a_2+a_1-1}}{\Gamma (a_2)\Gamma (a_1)}\frac{\Gamma(a_1)\,\Gamma(a_2)}{\Gamma(a_1+a_2)}
+\end{equation}
+
+Finalment:
+
+\begin{equation}
+k(z)=\frac{\mu^{a_2+a_1}e^{-\mu z}z^{a_2+a_1-1}}{\Gamma(a_1+a_2)}
+\end{equation}
+
+Ainsi:
+\begin{equation}
+\gamma_{x}+\gamma_{y}=\gamma_{x+y}
+\end{equation}
+
+Par la démonstration au dessus, le résultat ne serais pas sembable si les segondes paramètres ne sont pas le mêmes, parce que 
+$\mu_{1}^r \mu_{2}^s = \mu^{s+r}$ si et seulement si $\mu_1=\mu_2=\mu$.
+
+\subsection{}
+
+Soit X une v.a de loi $N(0,\sigma^2)$:
+\begin{equation}
+f(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{(-\frac{1}{2}(\frac{x-\mu}{\sigma})^2)}
+\end{equation}
+\begin{equation}
+f(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{(-\frac{1}{2}(\frac{x}{\sigma})^2)}
+\end{equation}
+
+Donc, si $Z=X*X$ ($dZ=2XdX$)
+
+$\frac{U^2}{2}$ suit une loi de $\gamma_{\frac{1}{2}}$ 
+
+\subsection{}
+\subsection{}
+\subsection{}
+
+%\begin{enumerate}
+%\item oi
+%\end{enumerate}
+
+\section{Exercice 2 }
+\subsection{}
+\subsection{}
+\subsection{}
+\subsection{}
+\subsection{}
+
+
 \end{document}
