@@ -136,9 +136,9 @@ f(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{(-\frac{1}{2}(\frac{x-\mu}{\sigma})^2)}
 f(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{(-\frac{1}{2}(\frac{x}{\sigma})^2)}
 \end{equation}
 
-Donc, si $Z=X*X$ ($dZ=2XdX$)
+Donc, si $Z=X*X$ ($dZ=2XdX$) ...
 
-$\frac{U^2}{2}$ suit une loi de $\gamma_{\frac{1}{2}}$ 
+%$\frac{U^2}{2}$ suit une loi de $\gamma_{\frac{1}{2}}$ 
 
 \subsection{}
 \subsection{}
@@ -149,8 +149,55 @@ $\frac{U^2}{2}$ suit une loi de $\gamma_{\frac{1}{2}}$
 %\end{enumerate}
 
 \section{Exercice 2 }
+
+
 \subsection{}
+En sachant que la loi de probabilité de poisson est donné par:
+
+\begin{equation}
+P(X=x [x \in \mathrm{N}])=\frac{e^{-\lambda }(\lambda )^x}{x!}
+\end{equation}
+
+Étant un processus ponctuel de poisson tel que, pour tout instant t, la v.a. $N_{0,t}$,
+suit une loi de Poisson de paramètre $\lambda t$, $\lambda >0$, on a:
+
+\begin{equation}
+P(N_{0,t}=k)=\frac{e^{-\lambda (t-0)}(\lambda (t-0))^k}{k!} , k \in N
+\end{equation}
+
+Ainsi,
+\begin{equation}
+P(N_{0,t}-N_{0,s}=N_{s,t}=k)=\frac{e^{-\lambda (t-s)}(\lambda (t-s))^k}{k!} , k \in N
+\end{equation}
+
 \subsection{}
+Soit:
+
+\begin{equation}
+P[T_n > t] = \frac{\lambda ^n}{(n - 1)!}\int\limits_t^\infty{x^{n-1}}e^{\lambda x}dx
+\end{equation}
+
+Pour n=1, on a:
+
+\begin{equation}
+P[T_1 > t] = \frac{\lambda ^1}{(1 - 1)!}\int\limits_t^\infty{x^{1-1}}e^{\lambda x}dx=e^{-\lambda t}
+\end{equation}
+
+Au même temps:
+\begin{equation}
+P(N_{0,t}=0)=\frac{e^{-\lambda (t-0)}(\lambda (t-0))^0}{0!}=e^{-\lambda t} 
+\end{equation}
+
+Comme $G(n,\lambda)$ respect la loi suivante:
+\begin{equation}
+G(n,\lambda)= \int\limits_0^\infty \frac{\lambda^{n}}{\Gamma (n)}x^{n-1}e^{-\lambda x}dx=\frac{\lambda^{n}}{(n-1)!}\int\limits_0^\infty x^{n-1}e^{-\lambda x}dx
+\end{equation}
+
+On a:
+\begin{equation}
+G(n,\lambda)=\frac{\lambda^{n}}{(n-1)!}\int\limits_t^\infty x^{n-1}e^{-\lambda x}dx=P[T_n > t]
+\end{equation}
+
 \subsection{}
 \subsection{}
 \subsection{}
