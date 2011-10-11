@@ -66,38 +66,38 @@ Où:
 
 En utilizant la convolution, on doit trouver la loi de probabilité d'une somme de deux variables indépendantes $Z = X + Y$. 
 
-Donc, soit k(z) une densité on a:
+Donc, soit K(z) une loi de probabilité on a:
 
 \begin{equation}
 f(z)=f(x)f(y)
 \end{equation}
 \begin{equation}
-k(z)= \int\limits_0^\infty\frac{\mu^{a_2}}{\Gamma (a_2)}x^{a_2-1}e^{-\mu x} \frac{\mu^{a_1}}{\Gamma (a_1)}(z-x)^{a_1-1}e^{-\mu (z-x)}dx
+K(z)= \int\limits_0^\infty\frac{\mu^{a_2}}{\Gamma (a_2)}x^{a_2-1}e^{-\mu x} \frac{\mu^{a_1}}{\Gamma (a_1)}(z-x)^{a_1-1}e^{-\mu (z-x)}dx
 \end{equation}
 
 \begin{equation}
-k(z)=\frac{\mu^{a_2+a_1}}{\Gamma (a_2)\Gamma (a_1)}\int\limits_0^\infty{x^{a_2-1}e^{-\mu x} }(z-x)^{a_1-1}e^{-\mu (z-x)}dx
+K(z)=\frac{\mu^{a_2+a_1}}{\Gamma (a_2)\Gamma (a_1)}\int\limits_0^\infty{x^{a_2-1}e^{-\mu x} }(z-x)^{a_1-1}e^{-\mu (z-x)}dx
 \end{equation}
 
 
 \begin{equation}
-k(z)=\frac{\mu^{a_2+a_1}e^{-\mu z}}{\Gamma (a_2)\Gamma (a_1)}\int\limits_0^\infty{x^{a_2-1}}(z-x)^{a_1-1}dx
+K(z)=\frac{\mu^{a_2+a_1}e^{-\mu z}}{\Gamma (a_2)\Gamma (a_1)}\int\limits_0^\infty{x^{a_2-1}}(z-x)^{a_1-1}dx
 \end{equation}
 
 Si $x = tz$ (Donc, $dx = zdt$)
 
 \begin{equation}
-k(z)=\frac{\mu^{a_2+a_1}e^{-\mu z}}{\Gamma (a_2)\Gamma (a_1)}\int\limits_0^1{t^{a_2-1}z^{a_2-1}}(z^{a_1-1}(1-t)^{a_1-1})zdt
+K(z)=\frac{\mu^{a_2+a_1}e^{-\mu z}}{\Gamma (a_2)\Gamma (a_1)}\int\limits_0^1{t^{a_2-1}z^{a_2-1}}(z^{a_1-1}(1-t)^{a_1-1})zdt
 \end{equation}
 
 \begin{equation}
-k(z)=\frac{\mu^{a_2+a_1}e^{-\mu z}z^{a_2+a_1-1}}{\Gamma (a_2)\Gamma (a_1)}\int\limits_0^1{t^{a_2-1}}(1-t)^{a_1-1}dt
+K(z)=\frac{\mu^{a_2+a_1}e^{-\mu z}z^{a_2+a_1-1}}{\Gamma (a_2)\Gamma (a_1)}\int\limits_0^1{t^{a_2-1}}(1-t)^{a_1-1}dt
 \end{equation}
 
 En connaissant la fonction Beta:
 
 \begin{equation}
-\mathrm{\beta}(x,y) = \int_0^1t^{x-1}(1-t)^{y-1}\,dt
+\mathbb{\beta}(x,y) = \int_0^1t^{x-1}(1-t)^{y-1}\,dt
 \end{equation}
 
 Et la propriéte:
@@ -109,13 +109,13 @@ Et la propriéte:
 
 On a:
 \begin{equation}
-k(z)=\frac{\mu^{a_2+a_1}e^{-\mu z}z^{a_2+a_1-1}}{\Gamma (a_2)\Gamma (a_1)}\frac{\Gamma(a_1)\,\Gamma(a_2)}{\Gamma(a_1+a_2)}
+K(z)=\frac{\mu^{a_2+a_1}e^{-\mu z}z^{a_2+a_1-1}}{\Gamma (a_2)\Gamma (a_1)}\frac{\Gamma(a_1)\,\Gamma(a_2)}{\Gamma(a_1+a_2)}
 \end{equation}
 
 Finalment:
 
 \begin{equation}
-k(z)=\frac{\mu^{a_2+a_1}e^{-\mu z}z^{a_2+a_1-1}}{\Gamma(a_1+a_2)}
+K(z)=\frac{\mu^{a_2+a_1}e^{-\mu z}z^{a_2+a_1-1}}{\Gamma(a_1+a_2)}
 \end{equation}
 
 Ainsi:
@@ -126,27 +126,104 @@ Ainsi:
 Par la démonstration au dessus, le résultat ne serais pas sembable si les segondes paramètres ne sont pas le mêmes, parce que 
 $\mu_{1}^r \mu_{2}^s = \mu^{s+r}$ si et seulement si $\mu_1=\mu_2=\mu$.
 
-\subsection{}
-
-Soit X une v.a de loi $N(0,\sigma^2)$:
+On peut aussi utilizer la fonction caracteristique:
 \begin{equation}
-f(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{(-\frac{1}{2}(\frac{x-\mu}{\sigma})^2)}
-\end{equation}
-\begin{equation}
-f(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{(-\frac{1}{2}(\frac{x}{\sigma})^2)}
+\phi_{x_1+x_2}=\phi_{x_1}+\phi_{x_2}=\frac{1}{(1-\frac{it}{\mu})^{a_1+a_2}}
 \end{equation}
 
-Donc, si $Z=X*X$ ($dZ=2XdX$) ...
+Donc, on a une loi $G(a_1+a_2,\mu)$
 
-%$\frac{U^2}{2}$ suit une loi de $\gamma_{\frac{1}{2}}$ 
+
+%% Questao 2 parte 1
 
 \subsection{}
-\subsection{}
-\subsection{}
 
-%\begin{enumerate}
-%\item oi
-%\end{enumerate}
+Soit X une v.a de loi $N(0,\sigma^2)$, la v.a. $X^2$ suit une loi $G(\frac{1}{2},\frac{1}{2\sigma^2})$:
+\begin{equation}
+E[g(X^2)]=\frac{1}{\sigma\sqrt{2\pi}}\int\limits_{-\infty}^\infty g(x^2)e^{-\frac{x^2}{2\sigma²}}dx
+\end{equation}
+
+\begin{equation}
+E[g(X^2)]=\frac{2}{\sigma\sqrt{2\pi}}\int\limits_{0}^\infty g(x^2)e^{-\frac{x^2}{2\sigma²}}dx
+\end{equation}
+
+Chagement de variable: $t=x^2$ ($dt=2xdx$)
+
+\begin{equation}
+E[g(t)]=\frac{2}{\sigma\sqrt{2\pi}}\int\limits_{0}^\infty g(t)t^{-\frac{1}{2}}e^{-\frac{t}{2\sigma²}}dt
+\end{equation}
+
+Donc, la v.a $X²$ a une loi $G(\frac{1}{2},\frac{1}{2\sigma^2})$.
+
+% Questão 3 parte 1
+\subsection{}
+Soient $X_1,...,X_n$  des variables  aléatoires indépendantes suivant  toutes la
+même loi  $N(0, \sigma^2)$.  La loi,  et la densité  de la  v.a $Y=X_1^2  +... +
+X_n^2$ suite une loi $G(\frac{n}{2},\frac{1}{2})$, que s'appelle aussi, loi du khi-carré.
+
+Ainsi, la densité est:
+
+\begin{equation}
+f(t)=\frac{1}{2^{\frac{n}{2}}\Gamma(\frac{n}{2})}t^{\frac{n}{2}-1}e^{-\frac{t}{2}}
+\end{equation}
+
+Et, la loi est:
+\begin{equation}
+F(t)=\frac{\gamma(n/2,1/2)}{\Gamma(n/2)}=G(\frac{n}{2},\frac{1}{2}) 
+\end{equation}
+
+
+%%% questão 4 parte 1
+
+\subsection{}
+\subsubsection{}
+Soit T une  v.a. à valeurs dans $\mathbb{R}_+$  vérifiant la condition d'absence
+d'usure (non-vieillissement), on  a pour $t=0$, ça veut dire qui  le début est 0
+et donc, il n'existe pas de difference entre las probabilités de deux temps (non-vieillissement):
+\begin{equation}
+P(T\geq s+t/ T \geq s)=P(T\geq t /T\geq 0)=P(T\geq t )
+\end{equation}
+Parce  que $T\geq  t=0$  et $P[T\geq  0]=1$. Et  pout  $t\geq 0$  et sachant  la
+probabilité condicionel:
+
+\begin{equation}
+P(T\geq s+t/ T\geq s)=\frac{P[(T\geq s+t )\cap (T \geq s)]}{P(T\geq s )}=\frac{P(T\geq s+t )}{P(T\geq s )}
+\end{equation}
+
+Avec les equations antérieurs, on a: 
+
+\begin{equation}
+P(T\geq s )=\frac{P(T\geq s+t )}{P(T\geq t )}
+\end{equation}
+
+Si $G(t)=P(T\geq t )$ donc: 
+
+\begin{equation}
+G(s)=\frac{G(s+t)}{G(t)}, (G(0)= 1)
+\end{equation}
+
+\subsubsection{}
+Soi G(s) la  loi de probabilité, pour  avoir la dénsité de cette  loi, G(s) doit
+être derivable. Ainsi, la unique function (et sa derivé) dont le produit entre deux
+functions (dérivées) est le même que la funciotion (derivée) de la somme est une
+exponencial:
+
+\begin{equation}
+G(t)=e^{\lambda t}
+\end{equation}
+Donc, la derivé (fonction de dénsité):
+
+\begin{equation}
+f(t)=\lambda e^{\lambda t}
+\end{equation}
+
+Comme f(t)  doi être plus petite  que 1, $f(t)\leq  1$, donc on sait  que, comme
+$t\geq 0$, $\lambda \leq 0$.
+
+Pour  considerer que  $t  \in \mathbb{R}$,  on  sache que  tout  réel peut  être
+considéré  comme  une limite  d'une  suite de  rationnels,  et  que la  fonction
+exponencial est continue sur $\mathbb{R}$,  donc on peut élagir la notation pour
+les réels ($\mathbb{R}$).
 
 \section{Exercice 2 }
 
@@ -155,14 +232,14 @@ Donc, si $Z=X*X$ ($dZ=2XdX$) ...
 En sachant que la loi de probabilité de poisson est donné par:
 
 \begin{equation}
-P(X=x [x \in \mathrm{N}])=\frac{e^{-\lambda }(\lambda )^x}{x!}
+P(X=k [k \in \mathbb{N}])=\frac{e^{-\lambda }(\lambda )^k}{k!}
 \end{equation}
 
 Étant un processus ponctuel de poisson tel que, pour tout instant t, la v.a. $N_{0,t}$,
 suit une loi de Poisson de paramètre $\lambda t$, $\lambda >0$, on a:
 
 \begin{equation}
-P(N_{0,t}=k)=\frac{e^{-\lambda (t-0)}(\lambda (t-0))^k}{k!} , k \in N
+P(N_{0,t}=k)=\frac{e^{-\lambda (t-0)}(\lambda (t-0))^k}{k!}=\frac{e^{-\lambda t}(\lambda t)^k}{k!} , k \in N
 \end{equation}
 
 Ainsi,
@@ -170,25 +247,54 @@ Ainsi,
 P(N_{0,t}-N_{0,s}=N_{s,t}=k)=\frac{e^{-\lambda (t-s)}(\lambda (t-s))^k}{k!} , k \in N
 \end{equation}
 
+On voit que $N_{0,t}=N_{0,s}+N_{s,t}$, veut dire que le nombre d'arrivés entre 0
+et t, est  la somme entre les temps 0 et  s; et s et t. Donc,  le dombre dans un
+periode s et t, irais être le nombre entre 0 et t moins le nombre entre 0 et s.
+
+En utilisant la fonction caracteristique on a:
+\begin{equation}
+\phi_{x_1}=E[e^{itx}]=e^{\lambda t_1(e^{it}-1)}
+\end{equation}
+
+Donc,    comme     $N_{0,s}$    et    $N_{s,t}$     sont    indépendentes,    soit
+$Y=N_{0,t}$,$X_1=N_{0,s}$ et $X_2=N_{s,t}$. On a:
+\begin{equation}
+\phi_{Y=X_2+X_1}=\phi_{X_2}\phi_{X_1}=e^{\lambda (t+s)(e^{in}-1)}
+\end{equation}
+
+Étant donné cela, on voit que la fonction caracteristique corresponde a une 
+fonction de poisson avec les parametres t+s.
+
+Ainsi, on peut vérifier que :
+
+\begin{equation}
+P(N_{0,t}-N_{0,s}=N_{s,t}=k)=\frac{e^{-\lambda (t-s)}(\lambda (t-s))^k}{k!} , k \in N
+\end{equation}
+
+
+%% Parte dois questão 1
 \subsection{}
-Soit:
+On sache que $T_1$ est la première arrivée, donc $P[T_1\geq t]=P[N_{0,t}=0]$, parce
+que jusqu'au moment $t$ on doit avoir  aucune arivée pour que au moment un petit
+peu plus grand que t, on a la première arrivée.
 
-\begin{equation}
-P[T_n > t] = \frac{\lambda ^n}{(n - 1)!}\int\limits_t^\infty{x^{n-1}}e^{\lambda x}dx
-\end{equation}
+Ainsi:
 
-Pour n=1, on a:
-
-\begin{equation}
-P[T_1 > t] = \frac{\lambda ^1}{(1 - 1)!}\int\limits_t^\infty{x^{1-1}}e^{\lambda x}dx=e^{-\lambda t}
-\end{equation}
-
-Au même temps:
 \begin{equation}
 P(N_{0,t}=0)=\frac{e^{-\lambda (t-0)}(\lambda (t-0))^0}{0!}=e^{-\lambda t} 
 \end{equation}
 
-Comme $G(n,\lambda)$ respect la loi suivante:
+
+On sait que $t_n= X_1 + X_2+ ...+ x_n$, cela veut dire que le temps $t_n$ est le
+temps necessaire pour que on a n arrivées. Comme un arrive a une loi exponentiel
+(il respect la loi de poisson), $t_n$ serait donne par une somme de v.a. dont la
+loi de  densité est exponenciel. Ainsi, la  densité et la loi  d'un processus de
+poisson est donné respectivement par:
+
+\begin{equation}
+f_n(x)=\frac{\lambda^{n}}{(n-1)!}x^{n-1}e^{-\lambda x}
+\end{equation}
+
 \begin{equation}
 G(n,\lambda)= \int\limits_0^\infty \frac{\lambda^{n}}{\Gamma (n)}x^{n-1}e^{-\lambda x}dx=\frac{\lambda^{n}}{(n-1)!}\int\limits_0^\infty x^{n-1}e^{-\lambda x}dx
 \end{equation}
@@ -198,9 +304,82 @@ On a:
 G(n,\lambda)=\frac{\lambda^{n}}{(n-1)!}\int\limits_t^\infty x^{n-1}e^{-\lambda x}dx=P[T_n > t]
 \end{equation}
 
+
+% Parte 3 q2
 \subsection{}
+Soit $T_1$ et $T_2$ independantes, on a que $\phi_{t+(-s)}=\phi_t*\phi_{-s}$:
+
+\begin{equation}
+f_n(x)=\frac{\lambda^{n}}{(n-1)!}x^{n-1}e^{-\lambda x}
+\end{equation}
+
+\begin{equation}
+\phi_{x_1}=E(e^{tix})=\int\limits_0^\infty f_n(e^{itx})xdx=e^{\lambda t_1(e^{it}-1)}
+\end{equation}
+
+\begin{equation}
+\phi_{x_1}=E(e^{tix})=\int\limits_0^\infty f_n(e^{itx})xdx=e^{\lambda t_1(e^{it}-1)}
+\end{equation}
+
+\begin{equation}
+\phi_{T_2-T_1}=\phi_t*\phi_{-s}=e^{\lambda (t_2-t_1)(e^{it}-1)}
+\end{equation}
+
+
+
 \subsection{}
+
+On sait que:
+
+\begin{equation}
+P[T_2 > t] =1 - P[T_2 < t]
+\end{equation}
+
+Nous voudrions  chercher la probabilite tel  que $P[T_1\leq s  \cap T_2\leq t]$,
+donc si t ou s = 0, on a $s \cap t = 0$ et cela nous donne une probabilité 0.
+
+Pour analiser les autres situations, on a:
+
+\begin{equation}
+P[T_2 > t] = \frac{\lambda ^2}{(2 - 1)!}\int\limits_t^\infty{x^{2-1}}e^{-\lambda x}dx= \lambda ^2 *(-\frac{x}{\lambda} e^{-\lambda x} |_t^\infty)- \lambda^{-2} e^{-\lambda x}|_t^\infty = \lambda te^{-\lambda t} + e^{-\lambda t}
+\end{equation}
+
+Comme  on voudrait  la probabilité  d'intersection  entre s  e t,  si $s<t$,  la
+probabilité de que  les évenements sont avant  de n, et aussi avant  t est donné
+par, $1 - \lambda se^{-\lambda s} + e^{-\lambda s}$, si $t<s$, on a 
+$1 - \lambda te^{-\lambda t} + e^{-\lambda t}$.
+
+%Et on a déduit que 
+
+%\begin{equation}
+%P[T_1 > t] = e^{-\lambda }
+%\end{equation}
+
+Conclusion: 
+
+Si $s \leq 0$ ou $t \leq 0$, donc $P[{T_1 \leq s} \cap {T_2 \leq t}]=0$. Donc,(F(s,t)=0).
+
+Si $0 \leq s \leq t $, donc $P[{T_1 \leq s} \cap {T_2 \leq t}]=1-P[T_2 > s]$. Donc,(F(s,t)=$1 - \lambda se^{-\lambda s} - e^{-\lambda s}$).
+
+Si $0 \leq t \leq s $, donc $P[{T_1 \leq s} \cap {T_2 \leq t}]=1-P[T_2 > t]$. Donc,(F(s,t)=$1 - \lambda te^{-\lambda t} - e^{-\lambda t}$).
+
+
 \subsection{}
+Avec la fonction de repation, on  peut avoir la dénsité en dérivante la fonction
+de repartition. 
+
+\begin{equation}
+f_x(t) = \lambda e^{\lambda s}+\lambda ^2se^{-\lambda s}+\lambda e^{-\lambda t} , t>0
+\end{equation}
+
+\begin{equation}
+f_x(t_1-t_2) = \lambda e^{\lambda t_1-t_2}+\lambda ^2(t_1-t_2)e^{-\lambda t_1-t_2}+\lambda e^{-\lambda t_1-t_2} , t>0
+\end{equation}
+
+
+\section{Bibliography}
+
+IEOR 6711: Notes on the Poisson Process
 
 
 \end{document}
