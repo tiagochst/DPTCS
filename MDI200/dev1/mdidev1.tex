@@ -66,7 +66,7 @@ Où:
 \Gamma \left( a \right) = \int\limits_0^\infty {x^{a - 1} } e^{ - x} dx  
 \end{equation}
 
-En utilizant la convolution, on doit trouver la loi de probabilité d'une somme de deux variables indépendantes $Z = X + Y$. 
+En utilisant la convolution, on doit trouver la loi de probabilité d'une somme de deux variables indépendantes $Z = X + Y$. 
 
 Donc, soit K(z) une loi de probabilité on a:
 
@@ -93,7 +93,7 @@ En connaissant la fonction Beta:
 \mathbb{\beta}(x,y) = \int_0^1t^{x-1}(1-t)^{y-1}\,dt
 \end{equation}
 
-Et la propriéte:
+Et la propriété:
 
 \begin{equation}
 \beta(x,y)=\frac{\Gamma(x)\,\Gamma(y)}{\Gamma(x+y)}
@@ -104,7 +104,7 @@ On a:
 K(z)=\frac{\mu^{a_2+a_1}e^{-\mu z}z^{a_2+a_1-1}}{\Gamma (a_2)\Gamma (a_1)}\frac{\Gamma(a_1)\,\Gamma(a_2)}{\Gamma(a_1+a_2)}
 \end{equation*}
 
-Finalment:
+Finalement:
 
 \begin{equation}
 K(z)=\frac{\mu^{a_2+a_1}e^{-\mu z}z^{a_2+a_1-1}}{\Gamma(a_1+a_2)}
@@ -115,10 +115,10 @@ Ainsi:
 \gamma_{x}+\gamma_{y}=\gamma_{x+y}
 \end{equation*}
 
-Par la démonstration au dessus, le résultat ne serais pas sembable si les segondes paramètres ne sont pas le mêmes, parce que 
+Par la démonstration au dessus, le résultat ne serais pas semblable si les secondes paramètres ne sont pas le mêmes, parce que 
 $\mu_{1}^r \mu_{2}^s = \mu^{s+r}$ si et seulement si $\mu_1=\mu_2=\mu$.
 
-On peut aussi utilizer la fonction caracteristique:
+On peut aussi utiliser la fonction caractéristique:
 \begin{equation}
 \phi_{x_1+x_2}=\phi_{x_1}+\phi_{x_2}=\frac{1}{(1-\frac{it}{\mu})^{a_1+a_2}}
 \end{equation}
@@ -137,7 +137,7 @@ E[g(X^2)]&=&\frac{1}{\sigma\sqrt{2\pi}}\int\limits_{-\infty}^\infty g(x^2)e^{-\f
 &=&\frac{2}{\sigma\sqrt{2\pi}}\int\limits_{0}^\infty g(x^2)e^{-\frac{x^2}{2\sigma²}}dx
 \end{eqnarray*}
 
-Chagement de variable: $t=x^2$ ($dt=2xdx$)
+Changement de variable: $t=x^2$ ($dt=2xdx$)
 
 \begin{equation}
 E[g(t)]=\frac{2}{\sigma\sqrt{2\pi}}\int\limits_{0}^\infty g(t)t^{-\frac{1}{2}}e^{-\frac{t}{2\sigma²}}dt
@@ -169,18 +169,18 @@ F(t)=\frac{\gamma(n/2,1/2)}{\Gamma(n/2)}=G(\frac{n}{2},\frac{1}{2})
 \subsubsection{}
 Soit T une  v.a. à valeurs dans $\mathbb{R}_+$  vérifiant la condition d'absence
 d'usure (non-vieillissement), on  a pour $t=0$, ça veut dire qui  le début est 0
-et donc, il n'existe pas de difference entre las probabilités de deux temps (non-vieillissement):
+et donc, il n'existe pas de différence entre las probabilités de deux temps (non-vieillissement):
 \begin{equation}
 P(T\geq s+t/ T \geq s)=P(T\geq t /T\geq 0)=P(T\geq t )
 \end{equation}
-Parce  que $T\geq  t=0$  et $P[T\geq  0]=1$. Et  pout  $t\geq 0$  et sachant  la
-probabilité condicionel:
+Parce  que $T\geq  t=0$  et $P[T\geq  0]=1$. Et  pour  $t\geq 0$  et sachant  la
+probabilité conditionnel:
 
 \begin{equation}
 P(T\geq s+t/ T\geq s)=\frac{P[(T\geq s+t )\cap (T \geq s)]}{P(T\geq s )}=\frac{P(T\geq s+t )}{P(T\geq s )}
 \end{equation}
 
-Avec les equations antérieurs, on a: 
+Avec les équations antérieurs, on a: 
 
 \begin{equation}
 P(T\geq s )=\frac{P(T\geq s+t )}{P(T\geq t )}
@@ -193,26 +193,26 @@ G(s)=\frac{G(s+t)}{G(t)}, (G(0)= 1)
 \end{equation}
 
 \subsubsection{}
-Soi G(s) la  loi de probabilité, pour  avoir la dénsité de cette  loi, G(s) doit
-être derivable. Ainsi, la unique function (et sa derivé) dont le produit entre deux
-functions (dérivées) est le même que la funciotion (derivée) de la somme est une
-exponencial:
+Soi G(s) la  loi de probabilité, pour  avoir la densité de cette  loi, G(s) doit
+être dérivable. Ainsi, la unique fonction (et sa dérivé) dont le produit entre deux
+fonctions (dérivées) est le même que la fusionnions (dérivée) de la somme est une
+exponentiel (ou zéro, mais on considère $\lambda >0$):
 
 \begin{equation}
 G(t)=e^{\lambda t}
 \end{equation}
-Donc, la derivé (fonction de dénsité):
+Donc, la dérivé (fonction de densité):
 
 \begin{equation}
 f(t)=\lambda e^{\lambda t}
 \end{equation}
 
-Comme f(t)  doi être plus petite  que 1, $f(t)\leq  1$, donc on sait  que, comme
+Comme f(t)  doit être plus petite  que 1, $f(t)\leq  1$, donc on sait  que, comme
 $t\geq 0$, $\lambda \leq 0$.
 
-Pour  considerer que  $t  \in \mathbb{R}$,  on  sache que  tout  réel peut  être
+Pour  considérer que  $t  \in \mathbb{R}$,  on  sache que  tout  réel peut  être
 considéré  comme  une limite  d'une  suite de  rationnels,  et  que la  fonction
-exponencial est continue sur $\mathbb{R}$,  donc on peut élagir la notation pour
+exponentiel est continue sur $\mathbb{R}$,  donc on peut élargir la notation pour
 les réels ($\mathbb{R}$).
 
 \section{Exercice 2 }
@@ -237,23 +237,23 @@ Ainsi,
 P(N_{0,t}-N_{0,s}=N_{s,t}=k)=\frac{e^{-\lambda (t-s)}(\lambda (t-s))^k}{k!} , k \in \mathbb{N}
 \end{equation*}
 
-On voit que $N_{0,t}=N_{0,s}+N_{s,t}$, veut dire que le nombre d'arrivés entre 0
-et t, est  la somme entre les temps 0 et  s; et s et t. Donc,  le dombre dans un
-periode s et t, irais être le nombre entre 0 et t moins le nombre entre 0 et s.
+On voit que $N_{0,t}=N_{0,s}+N_{s,t}$, veut dire que le nombre d'arrivées entre 0
+et t, est  la somme entre les temps 0 et  s; et s et t. Donc,  le nombre dans un
+période s et t, irais être le nombre entre 0 et t moins le nombre entre 0 et s.
 
-En utilisant la fonction caracteristique on a:
+En utilisant la fonction caractéristique on a:
 \begin{equation}
 \phi_{x_1}=E[e^{itx}]=e^{\lambda t_1(e^{it}-1)}
 \end{equation}
 
-Donc,    comme     $N_{0,s}$    et    $N_{s,t}$     sont    indépendentes,    soit
+Donc,    comme     $N_{0,s}$    et    $N_{s,t}$     sont    indépendantes,    soit
 $Y=N_{0,t}$,$X_1=N_{0,s}$ et $X_2=N_{s,t}$. On a:
 \begin{equation*}
 \phi_{Y=X_2+X_1}=\phi_{X_2}\phi_{X_1}=e^{\lambda (t+s)(e^{in}-1)}
 \end{equation*}
 
-Étant donné cela, on voit que la fonction caracteristique corresponde a une 
-fonction de poisson avec les parametres t+s.
+Étant donné cela, on voit que la fonction caractéristique corresponde a une 
+fonction de poisson avec les paramètres t+s.
 
 Ainsi, on peut vérifier que :
 
@@ -265,7 +265,7 @@ P(N_{0,t}-N_{0,s}=N_{s,t}=k)=\frac{e^{-\lambda (t-s)}(\lambda (t-s))^k}{k!} , k 
 %% Parte dois questão 1
 \subsection{}
 On sache que $T_1$ est la première arrivée, donc $P[T_1\geq t]=P[N_{0,t}=0]$, parce
-que jusqu'au moment $t$ on doit avoir  aucune arivée pour que au moment un petit
+que jusqu'au moment $t$ on doit avoir  aucune arrivées pour que au moment un petit
 peu plus grand que t, on a la première arrivée.
 
 Ainsi:
@@ -276,9 +276,9 @@ P(N_{0,t}=0)=\frac{e^{-\lambda (t-0)}(\lambda (t-0))^0}{0!}=e^{-\lambda t}
 
 
 On sait que $t_n= X_1 + X_2+ ...+ x_n$, cela veut dire que le temps $t_n$ est le
-temps necessaire pour que on a n arrivées. Comme un arrive a une loi exponentiel
+temps nécessaire pour que on a n arrivées. Comme un arrive a une loi exponentiel
 (il respect la loi de poisson), $t_n$ serait donne par une somme de v.a. dont la
-loi de  densité est exponenciel. Ainsi, la  densité et la loi  d'un processus de
+loi de  densité est exponentiel. Ainsi, la  densité et la loi  d'un processus de
 poisson est donné respectivement par:
 
 \begin{equation}
@@ -297,7 +297,7 @@ P[T_{n+1} >  t] = \sum_{k=0}^{n}e^{-\lambda t}\frac{(\lambda  t)^k}{k!}= P[T_n >
 t]+ \frac{e^{-\lambda (t)}(\lambda (t))^n}{n!}
 \end{equation}
 
-En utilizant l'équation \ref{eq:e2q2}, on peut dire que :
+En utilisant l'équation \ref{eq:e2q2}, on peut dire que :
 \begin{equation} 
 P[T_n  > t] =  \frac{\lambda^{n}}{(n-1)!}\int\limits_0^\infty x^{n-1}e^{-\lambda
   x}dx
@@ -310,7 +310,7 @@ Si et seulement si l'équation suivante est vérifié:
   x}dx +  \frac{e^{-\lambda t}(\lambda t)^n}{n!}
 \end{equation}
 
-Par integration  par partie,  on a $  x^n =  U$, $nx^{n-1}=dU$ et  $ e^{-\lambda
+Par intégration  par partie,  on a $  x^n =  U$, $nx^{n-1}=dU$ et  $ e^{-\lambda
   x}dx=dV$, $V=\frac{e^{-\lambda x}}{-\lambda}$
 
 Ainsi:
@@ -341,7 +341,7 @@ Ainsi:
 \end{eqnarray*}
 
 Donc, par récurrence  on a démontrer que la formule  de probabilité est vraiment
-aplicable a $T_n$, et de même façon on a vérifié que $T_n$ suit une loi $G(n,\lambda)$.
+applicable a $T_n$, et de même façon on a vérifié que $T_n$ suit une loi $G(n,\lambda)$.
 
 \begin{equation}
 G(n,\lambda)= \int\limits_0^\infty \frac{\lambda^{n}}{\Gamma (n)}x^{n-1}e^{-\lambda x}dx=\frac{\lambda^{n}}{(n-1)!}\int\limits_0^\infty x^{n-1}e^{-\lambda x}dx=P[T_n > t]
@@ -350,7 +350,7 @@ G(n,\lambda)= \int\limits_0^\infty \frac{\lambda^{n}}{\Gamma (n)}x^{n-1}e^{-\lam
 
 % Parte 3 q2
 \subsection{}
-Soit $T_1$ et $T_2$ independantes, on a que $\phi_{t+(-s)}=\phi_t*\phi_{-s}$:
+Soit $T_1$ et $T_2$ indépendantes, on a que $\phi_{t+(-s)}=\phi_t*\phi_{-s}$:
 
 \begin{equation}
 f_n(x)=\frac{\lambda^{n}}{(n-1)!}x^{n-1}e^{-\lambda x}
@@ -378,17 +378,17 @@ On sait que:
 P[T_2 > t] =1 - P[T_2 < t]
 \end{equation}
 
-Nous voudrions  chercher la probabilite tel  que $P[T_1\leq s  \cap T_2\leq t]$,
+Nous voudrions  chercher la probabilité tel  que $P[T_1\leq s  \cap T_2\leq t]$,
 donc si t ou s = 0, on a $s \cap t = 0$ et cela nous donne une probabilité 0.
 
-Pour analiser les autres situations, on a:
+Pour analyser les autres situations, on a:
 
 \begin{equation*}
 P[T_2 > t] = \frac{\lambda ^2}{(2 - 1)!}\int\limits_t^\infty{x^{2-1}}e^{-\lambda x}dx= \lambda ^2 *(-\frac{x}{\lambda} e^{-\lambda x} |_t^\infty)- \lambda^{-2} e^{-\lambda x}|_t^\infty = \lambda te^{-\lambda t} + e^{-\lambda t}
 \end{equation*}
 
 Comme  on voudrait  la probabilité  d'intersection  entre s  e t,  si $s<t$,  la
-probabilité de que  les évenements sont avant  de n, et aussi avant  t est donné
+probabilité de que  les évènements sont avant  de n, et aussi avant  t est donné
 par, $1 - \lambda se^{-\lambda s} + e^{-\lambda s}$, si $t<s$, on a 
 $1 - \lambda te^{-\lambda t} + e^{-\lambda t}$.
 
@@ -408,8 +408,8 @@ Si $0 \leq t \leq s $, donc $P[{T_1 \leq s} \cap {T_2 \leq t}]=1-P[T_2 > t]$. Do
 
 
 \subsection{}
-Avec la fonction de repation, on  peut avoir la dénsité en dérivante la fonction
-de repartition. 
+Avec la fonction de répartition, on  peut avoir la densité en dérivant la fonction
+de répartition. 
 
 \begin{equation}
 f_x(t) = \lambda e^{\lambda s}+\lambda ^2se^{-\lambda s}+\lambda e^{-\lambda t} , t>0
