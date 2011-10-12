@@ -26,7 +26,9 @@
 \usepackage{subfig}
 \usepackage[letterpaper]{geometry}
 \geometry{verbose,lmargin=3cm,rmargin=3cm}
+
 \usepackage{amsfonts}
+\usepackage{amsmath} 
 
 %\setcounter{tocdepth}{0}
 
@@ -71,28 +73,19 @@ Donc, soit K(z) une loi de probabilité on a:
 \begin{equation}
 f(z)=f(x)f(y)
 \end{equation}
-\begin{equation}
-K(z)= \int\limits_0^\infty\frac{\mu^{a_2}}{\Gamma (a_2)}x^{a_2-1}e^{-\mu x} \frac{\mu^{a_1}}{\Gamma (a_1)}(z-x)^{a_1-1}e^{-\mu (z-x)}dx
-\end{equation}
 
-\begin{equation}
-K(z)=\frac{\mu^{a_2+a_1}}{\Gamma (a_2)\Gamma (a_1)}\int\limits_0^\infty{x^{a_2-1}e^{-\mu x} }(z-x)^{a_1-1}e^{-\mu (z-x)}dx
-\end{equation}
-
-
-\begin{equation}
-K(z)=\frac{\mu^{a_2+a_1}e^{-\mu z}}{\Gamma (a_2)\Gamma (a_1)}\int\limits_0^\infty{x^{a_2-1}}(z-x)^{a_1-1}dx
-\end{equation}
+\begin{eqnarray*}
+K(z) &=& \int\limits_0^\infty\frac{\mu^{a_2}}{\Gamma (a_2)}x^{a_2-1}e^{-\mu x} \frac{\mu^{a_1}}{\Gamma (a_1)}(z-x)^{a_1-1}e^{-\mu (z-x)}dx\\
+&=&\frac{\mu^{a_2+a_1}}{\Gamma (a_2)\Gamma (a_1)}\int\limits_0^\infty{x^{a_2-1}e^{-\mu x} }(z-x)^{a_1-1}e^{-\mu (z-x)}dx\\
+&=&\frac{\mu^{a_2+a_1}e^{-\mu z}}{\Gamma (a_2)\Gamma (a_1)}\int\limits_0^\infty{x^{a_2-1}}(z-x)^{a_1-1}dx
+\end{eqnarray*}
 
 Si $x = tz$ (Donc, $dx = zdt$)
 
-\begin{equation}
-K(z)=\frac{\mu^{a_2+a_1}e^{-\mu z}}{\Gamma (a_2)\Gamma (a_1)}\int\limits_0^1{t^{a_2-1}z^{a_2-1}}(z^{a_1-1}(1-t)^{a_1-1})zdt
-\end{equation}
-
-\begin{equation}
-K(z)=\frac{\mu^{a_2+a_1}e^{-\mu z}z^{a_2+a_1-1}}{\Gamma (a_2)\Gamma (a_1)}\int\limits_0^1{t^{a_2-1}}(1-t)^{a_1-1}dt
-\end{equation}
+\begin{eqnarray*}
+K(z)&=&\frac{\mu^{a_2+a_1}e^{-\mu z}}{\Gamma (a_2)\Gamma (a_1)}\int\limits_0^1{t^{a_2-1}z^{a_2-1}}(z^{a_1-1}(1-t)^{a_1-1})zdt\\
+&=&\frac{\mu^{a_2+a_1}e^{-\mu z}z^{a_2+a_1-1}}{\Gamma (a_2)\Gamma (a_1)}\int\limits_0^1{t^{a_2-1}}(1-t)^{a_1-1}dt
+\end{eqnarray*}
 
 En connaissant la fonction Beta:
 
@@ -106,11 +99,10 @@ Et la propriéte:
 \beta(x,y)=\frac{\Gamma(x)\,\Gamma(y)}{\Gamma(x+y)}
 \end{equation}
 
-
 On a:
-\begin{equation}
+\begin{equation*}
 K(z)=\frac{\mu^{a_2+a_1}e^{-\mu z}z^{a_2+a_1-1}}{\Gamma (a_2)\Gamma (a_1)}\frac{\Gamma(a_1)\,\Gamma(a_2)}{\Gamma(a_1+a_2)}
-\end{equation}
+\end{equation*}
 
 Finalment:
 
@@ -119,9 +111,9 @@ K(z)=\frac{\mu^{a_2+a_1}e^{-\mu z}z^{a_2+a_1-1}}{\Gamma(a_1+a_2)}
 \end{equation}
 
 Ainsi:
-\begin{equation}
+\begin{equation*}
 \gamma_{x}+\gamma_{y}=\gamma_{x+y}
-\end{equation}
+\end{equation*}
 
 Par la démonstration au dessus, le résultat ne serais pas sembable si les segondes paramètres ne sont pas le mêmes, parce que 
 $\mu_{1}^r \mu_{2}^s = \mu^{s+r}$ si et seulement si $\mu_1=\mu_2=\mu$.
@@ -139,13 +131,11 @@ Donc, on a une loi $G(a_1+a_2,\mu)$
 \subsection{}
 
 Soit X une v.a de loi $N(0,\sigma^2)$, la v.a. $X^2$ suit une loi $G(\frac{1}{2},\frac{1}{2\sigma^2})$:
-\begin{equation}
-E[g(X^2)]=\frac{1}{\sigma\sqrt{2\pi}}\int\limits_{-\infty}^\infty g(x^2)e^{-\frac{x^2}{2\sigma²}}dx
-\end{equation}
 
-\begin{equation}
-E[g(X^2)]=\frac{2}{\sigma\sqrt{2\pi}}\int\limits_{0}^\infty g(x^2)e^{-\frac{x^2}{2\sigma²}}dx
-\end{equation}
+\begin{eqnarray*}
+E[g(X^2)]&=&\frac{1}{\sigma\sqrt{2\pi}}\int\limits_{-\infty}^\infty g(x^2)e^{-\frac{x^2}{2\sigma²}}dx\\
+&=&\frac{2}{\sigma\sqrt{2\pi}}\int\limits_{0}^\infty g(x^2)e^{-\frac{x^2}{2\sigma²}}dx
+\end{eqnarray*}
 
 Chagement de variable: $t=x^2$ ($dt=2xdx$)
 
@@ -232,20 +222,20 @@ les réels ($\mathbb{R}$).
 En sachant que la loi de probabilité de poisson est donné par:
 
 \begin{equation}
-P(X=k [k \in \mathbb{N}])=\frac{e^{-\lambda }(\lambda )^k}{k!}
+P(X=k )=\frac{e^{-\lambda }(\lambda )^k}{k!},k \in \mathbb{N}
 \end{equation}
 
 Étant un processus ponctuel de poisson tel que, pour tout instant t, la v.a. $N_{0,t}$,
 suit une loi de Poisson de paramètre $\lambda t$, $\lambda >0$, on a:
 
-\begin{equation}
-P(N_{0,t}=k)=\frac{e^{-\lambda (t-0)}(\lambda (t-0))^k}{k!}=\frac{e^{-\lambda t}(\lambda t)^k}{k!} , k \in N
-\end{equation}
+\begin{equation*}
+P(N_{0,t}=k)=\frac{e^{-\lambda (t-0)}(\lambda (t-0))^k}{k!}=\frac{e^{-\lambda t}(\lambda t)^k}{k!} , k \in \mathbb{N}
+\end{equation*}
 
 Ainsi,
-\begin{equation}
-P(N_{0,t}-N_{0,s}=N_{s,t}=k)=\frac{e^{-\lambda (t-s)}(\lambda (t-s))^k}{k!} , k \in N
-\end{equation}
+\begin{equation*}
+P(N_{0,t}-N_{0,s}=N_{s,t}=k)=\frac{e^{-\lambda (t-s)}(\lambda (t-s))^k}{k!} , k \in \mathbb{N}
+\end{equation*}
 
 On voit que $N_{0,t}=N_{0,s}+N_{s,t}$, veut dire que le nombre d'arrivés entre 0
 et t, est  la somme entre les temps 0 et  s; et s et t. Donc,  le dombre dans un
@@ -258,9 +248,9 @@ En utilisant la fonction caracteristique on a:
 
 Donc,    comme     $N_{0,s}$    et    $N_{s,t}$     sont    indépendentes,    soit
 $Y=N_{0,t}$,$X_1=N_{0,s}$ et $X_2=N_{s,t}$. On a:
-\begin{equation}
+\begin{equation*}
 \phi_{Y=X_2+X_1}=\phi_{X_2}\phi_{X_1}=e^{\lambda (t+s)(e^{in}-1)}
-\end{equation}
+\end{equation*}
 
 Étant donné cela, on voit que la fonction caracteristique corresponde a une 
 fonction de poisson avec les parametres t+s.
@@ -280,9 +270,9 @@ peu plus grand que t, on a la première arrivée.
 
 Ainsi:
 
-\begin{equation}
+\begin{equation*}
 P(N_{0,t}=0)=\frac{e^{-\lambda (t-0)}(\lambda (t-0))^0}{0!}=e^{-\lambda t} 
-\end{equation}
+\end{equation*}
 
 
 On sait que $t_n= X_1 + X_2+ ...+ x_n$, cela veut dire que le temps $t_n$ est le
@@ -295,13 +285,66 @@ poisson est donné respectivement par:
 f_n(x)=\frac{\lambda^{n}}{(n-1)!}x^{n-1}e^{-\lambda x}
 \end{equation}
 
-\begin{equation}
-G(n,\lambda)= \int\limits_0^\infty \frac{\lambda^{n}}{\Gamma (n)}x^{n-1}e^{-\lambda x}dx=\frac{\lambda^{n}}{(n-1)!}\int\limits_0^\infty x^{n-1}e^{-\lambda x}dx
+Preuve:
+
+
+\begin{equation} 
+P[T_n > t] = \sum_{k=0}^{n-1}e^{-\lambda t}\frac{(\lambda t)^k}{k!}
 \end{equation}
 
-On a:
+\begin{equation}\label{eq:e2q2}
+P[T_{n+1} >  t] = \sum_{k=0}^{n}e^{-\lambda t}\frac{(\lambda  t)^k}{k!}= P[T_n >
+t]+ \frac{e^{-\lambda (t)}(\lambda (t))^n}{n!}
+\end{equation}
+
+En utilizant l'équation \ref{eq:e2q2}, on peut dire que :
+\begin{equation} 
+P[T_n  > t] =  \frac{\lambda^{n}}{(n-1)!}\int\limits_0^\infty x^{n-1}e^{-\lambda
+  x}dx
+\end{equation}
+
+Si et seulement si l'équation suivante est vérifié:
+\begin{equation} 
+\frac{\lambda^{n+1}}{(n)!}\int\limits_0^\infty x^{n}e^{-\lambda
+  x}dx = \frac{\lambda^{n}}{(n-1)!}\int\limits_0^\infty x^{n-1}e^{-\lambda
+  x}dx +  \frac{e^{-\lambda t}(\lambda t)^n}{n!}
+\end{equation}
+
+Par integration  par partie,  on a $  x^n =  U$, $nx^{n-1}=dU$ et  $ e^{-\lambda
+  x}dx=dV$, $V=\frac{e^{-\lambda x}}{-\lambda}$
+
+Ainsi:
+% \begin{equation} 
+% \frac{\lambda^{n+1}}{(n)!}\int\limits_0^\infty x^{n}e^{-\lambda
+%   x}dx       =\frac{\lambda^{n+1}}{n!}[VU  -       \int       VdU]       =
+% \frac{\lambda^{n+1}}{n!}[\frac{x^n    e^{-\lambda     x}}{-\lambda}    -    \int
+% \frac{x^{n-1}n e^{-\lambda x}}{-\lambda}dx] = 
+% \end{equation}
+
+% \begin{equation} 
+% = \frac{\lambda^{n}}{(n-1)!}[\frac{-x^n e^{-\lambda x}}{n} +
+% \int_t^\infty{x^{n-1} e^{-\lambda x}}dx]
+% \end{equation}
+
+
+\begin{eqnarray*}
+\frac{\lambda^{n+1}}{(n)!}\int\limits_0^\infty x^{n}e^{-\lambda
+  x}dx &=& \frac{\lambda^{n+1}}{n!}[VU|_t^\infty - \int_t^\infty VdU] \\
+& =&\frac{\lambda^{n+1}}{n!}[\frac{x^n    e^{-\lambda     x}}{-\lambda}    -    \int
+\frac{x^{n-1}n e^{-\lambda x}}{-\lambda}dx] \\
+& =&  \frac{\lambda^{n}}{(n-1)!}[\frac{-x^n e^{-\lambda x}}{n}|_t^\infty +
+\int_t^\infty{x^{n-1} e^{-\lambda x}}dx] \\
+& =&  \frac{\lambda^{n}}{(n-1)!}[\frac{-t^n e^{-\lambda t}}{n} +
+\int_t^\infty{x^{n-1} e^{-\lambda x}}dx] \\
+& =& \frac{(\lambda t)^n e^{-\lambda t}}{n!} +
+\frac{\lambda^{n}}{(n-1)!}\int_t^\infty{x^{n-1} e^{-\lambda x}}dx
+\end{eqnarray*}
+
+Donc, par récurrence  on a démontrer que la formule  de probabilité est vraiment
+aplicable a $T_n$, et de même façon on a vérifié que $T_n$ suit une loi $G(n,\lambda)$.
+
 \begin{equation}
-G(n,\lambda)=\frac{\lambda^{n}}{(n-1)!}\int\limits_t^\infty x^{n-1}e^{-\lambda x}dx=P[T_n > t]
+G(n,\lambda)= \int\limits_0^\infty \frac{\lambda^{n}}{\Gamma (n)}x^{n-1}e^{-\lambda x}dx=\frac{\lambda^{n}}{(n-1)!}\int\limits_0^\infty x^{n-1}e^{-\lambda x}dx=P[T_n > t]
 \end{equation}
 
 
@@ -340,9 +383,9 @@ donc si t ou s = 0, on a $s \cap t = 0$ et cela nous donne une probabilité 0.
 
 Pour analiser les autres situations, on a:
 
-\begin{equation}
+\begin{equation*}
 P[T_2 > t] = \frac{\lambda ^2}{(2 - 1)!}\int\limits_t^\infty{x^{2-1}}e^{-\lambda x}dx= \lambda ^2 *(-\frac{x}{\lambda} e^{-\lambda x} |_t^\infty)- \lambda^{-2} e^{-\lambda x}|_t^\infty = \lambda te^{-\lambda t} + e^{-\lambda t}
-\end{equation}
+\end{equation*}
 
 Comme  on voudrait  la probabilité  d'intersection  entre s  e t,  si $s<t$,  la
 probabilité de que  les évenements sont avant  de n, et aussi avant  t est donné
@@ -377,9 +420,9 @@ f_x(t_1-t_2) = \lambda e^{\lambda t_1-t_2}+\lambda ^2(t_1-t_2)e^{-\lambda t_1-t_
 \end{equation}
 
 
-\section{Bibliography}
+%\section{Bibliography}
 
-IEOR 6711: Notes on the Poisson Process
+%IEOR 6711: Notes on the Poisson Process
 
 
 \end{document}
