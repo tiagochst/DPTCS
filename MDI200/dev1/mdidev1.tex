@@ -299,14 +299,14 @@ t]+ \frac{e^{-\lambda (t)}(\lambda (t))^n}{n!}
 
 En utilisant l'équation \ref{eq:e2q2}, on peut dire que :
 \begin{equation} 
-P[T_n  > t] =  \frac{\lambda^{n}}{(n-1)!}\int\limits_0^\infty x^{n-1}e^{-\lambda
+P[T_n  > t] =  \frac{\lambda^{n}}{(n-1)!}\int\limits_t^\infty x^{n-1}e^{-\lambda
   x}dx
 \end{equation}
 
 Si et seulement si l'équation suivante est vérifié:
 \begin{equation} 
-\frac{\lambda^{n+1}}{(n)!}\int\limits_0^\infty x^{n}e^{-\lambda
-  x}dx = \frac{\lambda^{n}}{(n-1)!}\int\limits_0^\infty x^{n-1}e^{-\lambda
+\frac{\lambda^{n+1}}{(n)!}\int\limits_t^\infty x^{n}e^{-\lambda
+  x}dx = \frac{\lambda^{n}}{(n-1)!}\int\limits_t^\infty x^{n-1}e^{-\lambda
   x}dx +  \frac{e^{-\lambda t}(\lambda t)^n}{n!}
 \end{equation}
 
@@ -361,7 +361,7 @@ f_n(x)=\frac{\lambda^{n}}{(n-1)!}x^{n-1}e^{-\lambda x}
 \end{equation}
 
 \begin{equation}
-\phi_{x_1}=E(e^{tix})=\int\limits_0^\infty f_n(e^{itx})xdx=e^{\lambda t_1(e^{it}-1)}
+\phi_{x_2}=E(e^{tix})=\int\limits_0^\infty f_n(e^{itx})xdx=e^{\lambda t_2(e^{it}-1)}
 \end{equation}
 
 \begin{equation}
@@ -378,8 +378,15 @@ On sait que:
 P[T_2 > t] =1 - P[T_2 < t]
 \end{equation}
 
+Donc:
+\begin{equation}
+P[T_2 < t] =1 - P[T_2 > t]
+\end{equation}
+
 Nous voudrions  chercher la probabilité tel  que $P[T_1\leq s  \cap T_2\leq t]$,
-donc si t ou s = 0, on a $s \cap t = 0$ et cela nous donne une probabilité 0.
+donc si t=0 ou s = 0, on a $P[{T_1  \leq s} \cap {T_2 \leq t}] = 0$ et cela nous
+donne une  probabilité 0.  On doit  rappeler que $P[A  \cap B]=P[A|B]P[B]  $, si
+$P[A]=0$ ou $P[B]=0$, $P[{T_1  \leq s} \cap {T_2 \leq t}] = 0$.
 
 Pour analyser les autres situations, on a:
 
@@ -387,38 +394,111 @@ Pour analyser les autres situations, on a:
 P[T_2 > t] = \frac{\lambda ^2}{(2 - 1)!}\int\limits_t^\infty{x^{2-1}}e^{-\lambda x}dx= \lambda ^2 *(-\frac{x}{\lambda} e^{-\lambda x} |_t^\infty)- \lambda^{-2} e^{-\lambda x}|_t^\infty = \lambda te^{-\lambda t} + e^{-\lambda t}
 \end{equation*}
 
-Comme  on voudrait  la probabilité  d'intersection  entre s  e t,  si $s<t$,  la
-probabilité de que  les évènements sont avant  de n, et aussi avant  t est donné
-par, $1 - \lambda se^{-\lambda s} + e^{-\lambda s}$, si $t<s$, on a 
-$1 - \lambda te^{-\lambda t} + e^{-\lambda t}$.
+Comme  on voudrait  la probabilité  d'intersection  entre s  e t,  si $t<s$,  le
+événemet la probabilité  de que $P[T_1 <t]$, est la même  que $P[T_2 <t]$, parce
+que le si on a deux événemts avant $t$ on a un avant s.
 
-%Et on a déduit que 
+Donc, reste la probabilité si $0<s<t$, la dans lequel il y a deux cas:
+\begin{enumerate}
+\item Au moins deux arrivées dans [0,s]
+\item Exactement un arrivée dans [0,s] et au moins deux arrivées dans [s,t]
+\end{enumerate}
 
-%\begin{equation}
-%P[T_1 > t] = e^{-\lambda }
-%\end{equation}
+Comme il y a deux cas, on a que la probabilité est la somme de ces deux cas.
+Ainsi:
+\begin{equation}
+P[{T_1 \leq s} \cap {T_2 \leq t}] = P[T_2 < s] + P[N_{0,s}=1]*P[T_1<t-s], \quad si 
+\quad 0
+\leq s \leq t
+\end{equation}
+
+\begin{equation*}
+P[T_2 < s]= 1 - e^{-\lambda s}- \lambda s e^{-\lambda s}
+\end{equation*}
+
+\begin{equation*}
+P[N_{0,s}=1]*P[T_1<t-s]=s\lambda e^{-\lambda s}[1-e^{-\lambda{(t-s)}}]
+\end{equation*}
+
+Finalement:
+\begin{equation}
+P[{T_1 \leq s} \cap  {T_2 \leq t}] =
+1   -   e^{-\lambda   s}-   \lambda  s   e^{-\lambda   s}+s\lambda   e^{-\lambda
+  s}[1-e^{-\lambda{t-s}}]= 1 - e^{-\lambda s} - \lambda se^{-\lambda   t}
+\end{equation}
 
 Conclusion: 
 
 Si $s \leq 0$ ou $t \leq 0$, donc $P[{T_1 \leq s} \cap {T_2 \leq t}]=0$. Donc,(F(s,t)=0).
 
-Si $0 \leq s \leq t $, donc $P[{T_1 \leq s} \cap {T_2 \leq t}]=1-P[T_2 > s]$. Donc,(F(s,t)=$1 - \lambda se^{-\lambda s} - e^{-\lambda s}$).
+Si $0 \leq s \leq t $, donc $P[{T_1 \leq s} \cap {T_2 \leq t}]=1-P[T_2 > s]$. Donc,(F(s,t)=$1 - \lambda se^{-\lambda t} - e^{-\lambda s}$).
 
 Si $0 \leq t \leq s $, donc $P[{T_1 \leq s} \cap {T_2 \leq t}]=1-P[T_2 > t]$. Donc,(F(s,t)=$1 - \lambda te^{-\lambda t} - e^{-\lambda t}$).
 
 
 \subsection{}
+
+% La loi de densité de $(T_1,T_2)$ est donné par:
+% \begin{equation}
+% f_x(t_1,t_2) = \lambda^2 e^{-\lambda t_2}, si t2>t1>0
+% \end{equation}
+
+% La loi de $(T_1,T_2-T_1)$ est donné par:
+% \begin{equation}
+% P(t_1,t_2-t_1) = \int_0^{t_1}\int_{t_1}^{t_2-t_1} \lambda^2 e^{-\lambda t}dxdt
+% \end{equation}
+
 Avec la fonction de répartition, on  peut avoir la densité en dérivant la fonction
 de répartition. 
 
-\begin{equation}
-f_x(t) = \lambda e^{\lambda s}+\lambda ^2se^{-\lambda s}+\lambda e^{-\lambda t} , t>0
-\end{equation}
+ \begin{equation}
+ f_{T_1,T_2}(s,t)   =   \frac{ \partial^2F_{T_1,T_2}(s,t)}{\partial_{s}\partial_{t}} 
+ \end{equation}
+
+Aisi:
+
+ \begin{equation*}
+ f_{T_1,T_2}(s,t)                                                               =
+ \frac{  \partial^2F_{T_1,T_2}(s,t)}{\partial_{s}\partial_{t}}=0,  \quad si  \quad
+ t<0,\text{ ou } s<0
+ \end{equation*}
+
+
+ \begin{equation*}
+ f_{T_1,T_2}(s,t)                                                               =
+ \frac{  \partial^2F_{T_1,T_2}(s,t)}{\partial_{s}\partial_{t}}=0,  \quad si  \quad
+ 0<t<s
+ \end{equation*}
+
+Observation:
+
+ \begin{equation*}
+ f_{T_2}(t)                                                               =
+ \frac{ \partial F_{T_1,T_2}(s,t)}{\partial_{t}}=\lambda^2te^{-\lambda t}, \quad si \quad
+ 0<t<s
+ \end{equation*}
+
+
+
+ \begin{equation*}
+ f_{T_1,T_2}(s,t)                                                               =
+ \frac{ \partial^2F_{T_1,T_2}(s,t)}{\partial_{s}\partial_{t}}=\lambda^2e^{-\lambda t}, \quad si \quad
+ 0<s<t
+ \end{equation*}
+
+
+Pour déduire que $T_1$ et $T_2-T_1$ sont indépendantes, on doit avoir:
+ \begin{equation*}
+ f_{T_1,T_2}(s,t)=f_{T_1}(s)*f_{T_2}(t)
+ \end{equation*}
+
+Ainsi, comme la loi de dénsité sont:$f_{T_1}(s)=\lambda e^{-\lambda s}$ et loi de $f_{T_2-T_1}(t-s)=\lambda^{2}e^{-\lambda t-s}$
 
 \begin{equation}
-f_x(t_1-t_2) = \lambda e^{\lambda t_1-t_2}+\lambda ^2(t_1-t_2)e^{-\lambda t_1-t_2}+\lambda e^{-\lambda t_1-t_2} , t>0
+ f_{T_1,T_2}(s,t)=\lambda^2e^{-\lambda t}=\lambda^2e^{-\lambda (t-s)}\lambda^2e^{-\lambda s}=f_{T_1}(s)f_{T_2-T_1}(t-s)
 \end{equation}
 
+Donc, les lois sont indépendantes.
 
 %\section{Bibliography}
 
