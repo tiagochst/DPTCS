@@ -314,17 +314,6 @@ Par intégration  par partie,  on a $  x^n =  U$, $nx^{n-1}=dU$ et  $ e^{-\lambd
   x}dx=dV$, $V=\frac{e^{-\lambda x}}{-\lambda}$
 
 Ainsi:
-% \begin{equation} 
-% \frac{\lambda^{n+1}}{(n)!}\int\limits_0^\infty x^{n}e^{-\lambda
-%   x}dx       =\frac{\lambda^{n+1}}{n!}[VU  -       \int       VdU]       =
-% \frac{\lambda^{n+1}}{n!}[\frac{x^n    e^{-\lambda     x}}{-\lambda}    -    \int
-% \frac{x^{n-1}n e^{-\lambda x}}{-\lambda}dx] = 
-% \end{equation}
-
-% \begin{equation} 
-% = \frac{\lambda^{n}}{(n-1)!}[\frac{-x^n e^{-\lambda x}}{n} +
-% \int_t^\infty{x^{n-1} e^{-\lambda x}}dx]
-% \end{equation}
 
 
 \begin{eqnarray*}
@@ -350,23 +339,30 @@ G(n,\lambda)= \int\limits_0^\infty \frac{\lambda^{n}}{\Gamma (n)}x^{n-1}e^{-\lam
 
 % Parte 3 q2
 \subsection{}
-Soit $T_1$ et $T_2$ indépendantes, on a que $\phi_{t+(-s)}=\phi_t*\phi_{-s}$:
+Soit $T_1$ et $T_2-T_1$ indépendantes, on a que $\phi_{T_2}=\phi_{T_1}*\phi_{T_2-T_1}$:
+
+Comme  $T_n$   suivre  une  loi  $G(n,\lambda)$,  en   utilizant  les  fonctions
+caractéristiques (voir le énonce de la question 1 du devoir), on a:
 
 \begin{equation}
-f_n(x)=\frac{\lambda^{n}}{(n-1)!}x^{n-1}e^{-\lambda x}
+\phi_{T_2}=\frac{1}{1-\frac{it}{\lambda}^2}=\frac{1}{1-\frac{it}{\lambda}}\phi_{T_2-T_1}
 \end{equation}
 
-\begin{equation}
-\phi_{x_1}=E(e^{tix})=\int\limits_0^\infty f_n(e^{itx})xdx=e^{\lambda t_1(e^{it}-1)}
-\end{equation}
+Cela résulte dans le fonction caractéristique de $T_2-T_1$:
 
 \begin{equation}
-\phi_{x_2}=E(e^{tix})=\int\limits_0^\infty f_n(e^{itx})xdx=e^{\lambda t_2(e^{it}-1)}
+\frac{1}{1-\frac{it}{\lambda}}=\phi_{T_2-T_1}
 \end{equation}
 
-\begin{equation}
-\phi_{T_2-T_1}=\phi_t*\phi_{-s}=e^{\lambda (t_2-t_1)(e^{it}-1)}
-\end{equation}
+Ainsi, $T_2-T_1$ suit une loi $G(1,\lambda)$ ainsi come $T_1$.
+
+% \begin{equation}
+% \phi_{x_2}=E(e^{tix})=\int\limits_0^\infty f_n(e^{itx})xdx=e^{\lambda t_2(e^{it}-1)}
+% \end{equation}
+
+% \begin{equation}
+% \phi_{T_2-T_1}=\phi_t*\phi_{-s}=e^{\lambda (t_2-t_1)(e^{it}-1)}
+% \end{equation}
 
 
 
