@@ -1,0 +1,110 @@
+%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
+% MDI200: Probabilités                            %  
+% Devoir 1                                        %
+% Data:05/10/2011                                 %
+% Paris,France                                    % 
+% Groupe:                                         %
+%       - Tiago Chedraoui Silva                   % 
+%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
+
+\documentclass[a4paper]{article}
+
+%%% fontes %%%
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}   % acentuação
+\usepackage{ae,aecompl,aeguill}  % pdfs plus beaux =)
+\usepackage{dsfont}
+
+%%% autres %%%
+\usepackage{multirow}
+\usepackage{textcomp}
+\usepackage{color}       
+\usepackage{indentfirst}     
+\usepackage{multicol}   
+\usepackage[linkbordercolor={1 1 1},urlcolor=black,colorlinks=true]{hyperref} % links
+\usepackage{subfig}
+\usepackage[letterpaper]{geometry}
+\geometry{verbose,lmargin=3cm,rmargin=3cm}
+
+\usepackage{amsfonts}
+\usepackage{amsmath} 
+
+%\setcounter{tocdepth}{0}
+
+\renewcommand{\thefigure}{\arabic{figure}}
+
+\date{Octobre 17, 2011}
+% Capa estilizada %
+\newcommand*{\titleTMB}{\begingroup \centering \settowidth{\unitlength}{\LARGE EE531} {\large\scshape MDI200 - Cycle d'harmonisation }\\[0.2\baselineskip] \rule{11.0cm}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt} \rule{11.0cm}{0.4pt}\\[\baselineskip] {\LARGE Devoir 02}\\\vspace*{\baselineskip}  {\itshape Introduction aux Probabilités - Deuxième Semestre de 2011}\\ \rule{11.0cm}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt} \rule{11.0cm}{1.6pt}\\[\baselineskip] {\large\scshape Professeur: Michel Grojnowski}\par \vfill {\normalsize   \scshape 
+    \begin{center} 
+      \begin{tabular}{  l  l  p{5cm} } 
+        Tiago Chedraoui Silva  & Cassier: 214\\
+      \end{tabular} \end{center}
+    \itshape 17 octobre de 2011    }\\[\baselineskip] \vspace{3.2pt} \endgroup}
+
+
+\begin{document}
+\titleTMB 
+\newpage
+
+\section{Exercice 1}
+\subsection{}
+\subsection{}
+\subsection{}
+\subsection{}
+\section{Exercice 2 }
+\subsection{}
+\subsection{}
+\section{Exercice 3}
+
+Si $X_1$ e $X_2$ sont deux  v.a. de Poisson indépendantes, de paramètres $\mu_1$
+et $\mu_2$. La loi caractéristique est donné par:
+\begin{equation}
+\phi_x(t)=e^{\mu(e^{it}-1)}
+\end{equation}
+
+Comme $X_1$ e $X_2$ sont indépendantes:
+\begin{equation}
+\phi_{x_1+x+2}(t)=\phi_{x_1}(t)\phi_{x_2}(t)=e^{\mu_1(e^{it}-1)}e^{\mu_2(e^{it}-1)}=
+e^{(\mu_1+\mu_2)(e^{it}-1)}
+\end{equation}
+
+Ainsi la somme  de $X_1$ e $X_2$(paramètres $\mu_1$ et $\mu_2$)  suit une loi de
+Poisson de paramètre $\mu=\mu_1+\mu_2$.
+
+\subsection{}
+Pour calculer la espérance et la  variance d'une loi de poisso, on doit utiliser
+génératrice.
+
+\begin{equation}
+  g_x(t)=\sum_{n=0}^{\infty}z^nP[X=n]=E[z^X]
+\end{equation}
+
+Ainsi:
+\begin{eqnarray*}
+ g_x(t)&=& \sum_{n=0}^{\infty}z^nP[X=n]\\
+ &=& e^{-\lambda}\sum_{n=0}^{\infty}\frac{z^n(z\lambda)^k}{k!}\\
+ &=& e^{-\lambda}e^{\lambda z}\\
+&=& e^{\lambda(z-1)}
+\end{eqnarray*}
+\begin{eqnarray*}
+ g'_x(t)&=& \lambda ze^{\lambda(z-1)}\\
+ g'_x(1)&=&E[X]= \lambda\\
+ g^{''}_x(t)&=& \lambda e^{\lambda(z-1)}+(\lambda z)^2e^{\lambda(z-1)}\\
+ g^{''}_x(1)&=& \lambda + \lambda^2 = E[X²]-E[X]\\
+Var[X] &=& E[X²]-E[X]² = \lambda^2
+\end{eqnarray*}
+
+Si le paramètre est 1, alors:
+\begin{eqnarray*}
+E[X]&=& 1\\
+Var[X] &=& 1
+\end{eqnarray*}
+
+
+\subsection{}
+\subsection{}
+
+
+\end{document}
