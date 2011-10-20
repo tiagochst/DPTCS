@@ -1,11 +1,11 @@
-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
+% -%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
 % MDI200: Probabilités                            %  
 % Devoir 1                                        %
 % Data:05/10/2011                                 %
 % Paris,France                                    % 
 % Groupe:                                         %
-%       - Tiago Chedraoui Silva                   % 
-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
+% - Tiago Chedraoui Silva                   % 
+% -%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
 
 \documentclass[a4paper]{article}
 
@@ -30,7 +30,20 @@
 \usepackage{amsfonts}
 \usepackage{amsmath} 
 
-%\setcounter{tocdepth}{0}
+\usepackage{tikz}
+\usetikzlibrary{trees}
+
+% Set the overall layout of the tree
+\tikzstyle{level 1}=[level distance=3.5cm, sibling distance=3.5cm]
+\tikzstyle{level 2}=[level distance=3.5cm, sibling distance=2cm]
+
+% Define styles for bags and leafs
+\tikzstyle{bag} = [text width=4em, text centered]
+\tikzstyle{end} = [circle, minimum width=3pt,fill, inner sep=0pt]
+
+
+
+% \setcounter{tocdepth}{0}
 
 \renewcommand{\thefigure}{\arabic{figure}}
 
@@ -50,24 +63,272 @@
 
 \section{Exercice 1}
 \subsection{}
+
+En sachant que A est au service au départ, la probabilité qu'il gagne est, ou il  gagne le  premier  point (p),  ou il  perde  le premier  (p-1),il gagne  le
+deuxième (q) e il gagne le  troisième(p) et ainsi de suite. Le dessin ci-dessous
+représente les états du jeu que sont dans un cycle.
+
+% The sloped option gives rotated edge labels. Personally
+% I find sloped labels a bit difficult to read. Remove the sloped options
+% to get horizontal labels. 
+\begin{tikzpicture}[grow=right, sloped]
+  \node[bag] {Service A}
+  child {
+    node[bag] {Service B} 
+    child {
+      node[bag,label=
+      {Service A}] 
+      {}
+      child {
+        node[bag] {Service B} 
+        child {
+          node[end,label=
+          {Service A}] {}
+          edge from parent
+          node[above] {q}
+          node[below]  {}
+        }
+        edge from parent
+        node[above] {1-p}
+        node[below]  {}
+      }
+      child {
+        node[bag] {Point A} 
+        edge from parent         
+        node[above] {p}
+        node[below]  {}
+      }
+      edge from parent
+      node[above] {q}
+      node[below]  {}
+    }
+    edge from parent 
+    node[above] {1-p}
+    node[below]  {}
+  }
+  child {
+    node[bag] {Point A} 
+    edge from parent         
+    node[above] {p}
+    node[below]  {}
+  };
+\end{tikzpicture}
+
+
+Le tableau ci-dessous
+représente le probabilité de un point.
+
+\begin{table}[h!]
+  \begin{centering}
+    \begin{tabular}{|c|c|c|}
+      \hline 
+      k & nombre services & Probabilité que A gagne le point après n services\tabularnewline
+      \hline 
+      \hline 
+      0 & 1 & p\tabularnewline
+      \hline 
+      1 & 3 & (1-p)qp\tabularnewline
+      \hline 
+      2 & 5 & (1-p)\texttwosuperior{}q\texttwosuperior{}p\tabularnewline
+      \hline 
+      3 & 7 & (1-p)\textthreesuperior{}q\textthreesuperior{}p\tabularnewline
+      \hline 
+    \end{tabular}
+    \par\end{centering}
+  \caption{Probabilite 1 point}
+\end{table}
+
+En utilisant le tableau, on peut savoir la $P[n=1]$:
+
+\begin{eqnarray*}
+  P(n=1)  &  =  &  \sum_{k=0}(1-p)^kq^kp= \frac{p}{1-(1-p)q}  ;\quad  \text{(suite
+    géométrique avec (1-p)q<1) }
+\end{eqnarray*}
+
+Pour que A gagne n points, il doit gagne n-1. Ainsi:
+\begin{eqnarray*}
+  P(n) & = &P(n-1)\sum_{k=0}(1-p)^kq^kp= \frac{p}{1-(1-p)q}\\
+  & = &P(n-1)P(1)
+\end{eqnarray*}
+
+Récursivement on a :
+\begin{eqnarray*}
+  P(n) & = &P(n-1)\sum_{k=0}(1-p)^kq^kp= \frac{p}{1-(1-p)q}\\
+  & = &P(n-1)P(1)\\
+  & = &P(n-2)P(1)P(1)\\
+  & = &P(1)^n
+\end{eqnarray*}
+
+%%%%%%%%%%%%%%%%%%%%% 
+% Parte B exercício 1
+%%%%%%%%%%%%%%%%%%%%% 
 \subsection{}
+
+En sachant que B  est au service au départ, la probabilité  que A gagne un point
+est, ou il gagne deux points suivantes (qp), ou il gagne le premier (q),perde le
+deuxième (p-1) et il gagne le
+troisième (q) e il gagne le quatrième (p) et ainsi de suite. Le dessin ci-dessous
+représente les états du jeu que sont dans un cycle.
+
+% The sloped option gives rotated edge labels. Personally
+% I find sloped labels a bit difficult to read. Remove the sloped options
+% to get horizontal labels. 
+\begin{tikzpicture}[grow=right, sloped]
+  \node[bag] {Service B}
+  child {
+    node[bag] {Service A} 
+    child {
+      node[bag,label=
+      {Service B}] 
+      {}
+      child {
+        node[bag] {Service A} 
+        child {
+          node[end,label=
+          {Service B}] {}
+          edge from parent
+          node[above] {1-p}
+          node[below]  {}
+        }
+        child {
+          node[bag] {Point 1} 
+          edge from parent         
+          node[above] {p}
+          node[below]  {}
+        }
+        edge from parent
+        node[above] {q}
+        node[below]  {}
+      }
+      edge from parent
+      node[above] {1-p}
+      node[below]  {}
+    }
+    child {
+      node[bag] {Point 1} 
+      edge from parent         
+      node[above] {p}
+      node[below]  {}
+    }
+    edge from parent 
+    node[above] {q}
+    node[below]  {}
+  }
+  ;
+\end{tikzpicture}
+
+
+Le tableau ci-dessous
+représente le probabilité de un point.
+
+\begin{table}[h!]
+  \begin{centering}
+    \begin{tabular}{|c|c|c|}
+      \hline 
+      k & nombre services & Probabilité que A gagne le point après n services\tabularnewline
+      \hline 
+      \hline 
+      0 & 2 & $pq$\tabularnewline
+      \hline 
+      1 & 4 & $(1-p)q²p$\tabularnewline
+      \hline 
+      2 & 6 & $(1-p)²q³p$\tabularnewline
+      \hline 
+      3 & 8 & $(1-p)³q^{4}p$\tabularnewline
+      \hline 
+    \end{tabular}
+    \par\end{centering}
+  \caption{Probabilite 1 point}
+\end{table}
+
+En utilisant le tableau, on peut savoir la $P[n=1]$:
+
+\begin{eqnarray*}
+  Q(n=1)  &  =  &  \sum_{k=0}(1-p)^kq^{k+1}p= \frac{pq}{1-(1-p)q}  ;\quad  \text{(suite
+    géométrique avec (1-p)q<1) }
+\end{eqnarray*}
+
+Pour que A gagne n points, il doit gagne n-1. Ainsi:
+\begin{eqnarray*}
+  Q(1) & = &P(1)q\\
+  Q(n) & = &P(n)q
+\end{eqnarray*}
+
 \subsection{}
+En sachant que $Q(1)=P(1)q$, et que la probabilité de que A gagne le point si il
+est en  service est  p au première  service plus  la probabilité qu'il  perde le
+première service fois la probabilité qu'il gagne si B a le service!
+
+\begin{eqnarray*}
+  P(1) & = &p+ (1-p)Q(1)\\
+  & = &p+ q(1-p)P(1)
+\end{eqnarray*}
+
+En récurrence:
+
+\begin{eqnarray*}
+  P(2) & = &p+ q(1-p)P(2)=p+ q(1-p)P(1)^2\\
+  P(n) & =& p+ q(1-p)P(2)=p+ q(1-p)P(1)^n
+\end{eqnarray*}
+
+
 \subsection{}
+Soit $\frac{1}{2}$ la probabilité que A commence, ainsi comme B commence.
+Alors, la probabilité que:
+
+\begin{eqnarray*}
+ P[n=21] &=&\frac{P[n=21]}{2}+\frac{Q[n=21]}{2}\\
+ &=& \frac{P[1]^{21}}{2}+\frac{qP[1]^{21}}{2}\\
+ &=& \frac{(1+q)P[1]^{21}}{2}\\
+ &=& \frac{(1+q)}{2}(\frac{p}{1-q+pq})^{21}\\
+\end{eqnarray*}
+
+
+
 \section{Exercice 2 }
 \subsection{}
+
+Comme la variable aléatoire $X_2$ a de valeurs dans $\mathbb{R}_+$ et $X_1$ dans
+$\mathbb{R}$, une composition  entre le tuple $(X_1 , X_2)$  aura ses valeurs dan
+$\mathbb{R}\times\mathbb{R}_+$. De  cette façon,  la densité $f(x1,  x2)$ aura
+valeur nulle en dehors de $\mathbb{R}\times\mathbb{R}_+$.
+
+Ainsi, pour une fonction $g:\mathbb{R}^2 \rightarrow \mathbb{R}_+$:
+\begin{equation}
+ \mathbb{E}[g(\frac{X_1}{X_2},X_2)]=\int_{x_1 \in \mathbb{R}} \int_{x_2>0}g(\frac{X_1}{X_2},X_2)f(x_1,x_2)dx_1dx_2
+\end{equation}
+
+Si   on  appelle   $a=\frac{x_1}{x_2}$  et   $b=x_2$,  on   a   $x_2(a,b)=b$  et
+$x_1(a,b)=ab$. Par conséquent:
+\begin{equation}
+ \mathbb{E}[g(\frac{X_1}{X_2},X_2)]=\int_{u            \in           \mathbb{R}}
+ \int_{v>0}g(u,v)f(uv,v)vdudv=\int \int_{\mathbb{R}^2} \mathds{1}_\mathbb{R}(u)\mathds{1}_{\mathbb{R}_+}(v)g(u,v)f(uv,v)ududv
+\end{equation}
+
+Donc, la densité de $U(\frac{X_1}{X_2},X_2)$ est $f(u,v)=\mathds{1}_\mathbb{R}(u)\mathds{1}_{\mathbb{R}_+}(v)g(u,v)f(uv,v)u$
+
 \subsection{}
+
+Comme $Y=\frac{X_1}{X_2}$, on a $U(Y,X_2)$, ainsi,  pour trouver la loi de Y, on
+calcule la densité marginale de la première composante de U:
+
+\begin{equation}
+f_Y(u)=\int_0^\infty f_1(uv)f_2(v)vdv ; \quad u \in \mathbb{R}
+\end{equation}
+
+
 \section{Exercice 3}
 
 Si $X_1$ e $X_2$ sont deux  v.a. de Poisson indépendantes, de paramètres $\mu_1$
 et $\mu_2$. La loi caractéristique est donné par:
 \begin{equation}
-\phi_x(t)=e^{\mu(e^{it}-1)}
+  \phi_x(t)=e^{\mu(e^{it}-1)}
 \end{equation}
 
 Comme $X_1$ e $X_2$ sont indépendantes:
 \begin{equation}
-\phi_{x_1+x+2}(t)=\phi_{x_1}(t)\phi_{x_2}(t)=e^{\mu_1(e^{it}-1)}e^{\mu_2(e^{it}-1)}=
-e^{(\mu_1+\mu_2)(e^{it}-1)}
+  \phi_{x_1+x+2}(t)=\phi_{x_1}(t)\phi_{x_2}(t)=e^{\mu_1(e^{it}-1)}e^{\mu_2(e^{it}-1)}=
+  e^{(\mu_1+\mu_2)(e^{it}-1)}
 \end{equation}
 
 Ainsi la somme  de $X_1$ e $X_2$(paramètres $\mu_1$ et $\mu_2$)  suit une loi de
@@ -83,27 +344,27 @@ génératrice.
 
 Ainsi:
 \begin{eqnarray*}
- g_x(t)&=& \sum_{n=0}^{\infty}z^nP[X=n]\\
- &=& e^{-\lambda}\sum_{n=0}^{\infty}\frac{z^n(z\lambda)^k}{k!}\\
- &=& e^{-\lambda}e^{\lambda z}\\
-&=& e^{\lambda(z-1)}
+  g_x(t)&=& \sum_{n=0}^{\infty}z^nP[X=n]\\
+  &=& e^{-\lambda}\sum_{n=0}^{\infty}\frac{z^n(z\lambda)^k}{k!}\\
+  &=& e^{-\lambda}e^{\lambda z}\\
+  &=& e^{\lambda(z-1)}
 \end{eqnarray*}
 \begin{eqnarray*}
- g'_x(t)&=& \lambda ze^{\lambda(z-1)}\\
- g'_x(1)&=&E[X]= \lambda\\
- g^{''}_x(t)&=& \lambda e^{\lambda(z-1)}+(\lambda z)^2e^{\lambda(z-1)}\\
- g^{''}_x(1)&=& \lambda + \lambda^2 = E[X²]-E[X]\\
-Var[X] &=& E[X²]-E[X]² = \lambda^2
+  g'_x(t)&=& \lambda ze^{\lambda(z-1)}\\
+  g'_x(1)&=&E[X]= \lambda\\
+  g^{''}_x(t)&=& \lambda e^{\lambda(z-1)}+(\lambda z)^2e^{\lambda(z-1)}\\
+  g^{''}_x(1)&=& \lambda + \lambda^2 = E[X²]-E[X]\\
+  Var[X] &=& E[X²]-E[X]² = \lambda^2
 \end{eqnarray*}
 
 Si le paramètre est 1, alors:
 \begin{eqnarray*}
-E[X]&=& 1\\
-Var[X] &=& 1
+  E[X]&=& 1\\
+  Var[X] &=& 1
 \end{eqnarray*}
 
-
 \subsection{}
+Soit $\lambda =1$
 \subsection{}
 
 
