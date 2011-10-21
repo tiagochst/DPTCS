@@ -30,6 +30,8 @@
 \usepackage{amsfonts}
 \usepackage{amsmath} 
 
+\usepackage{pgfplots}
+
 \usepackage{tikz}
 \usetikzlibrary{trees}
 
@@ -41,7 +43,92 @@
 \tikzstyle{bag} = [text width=4em, text centered]
 \tikzstyle{end} = [circle, minimum width=3pt,fill, inner sep=0pt]
 
+% Define a the counter cnt. Used to identify files generated for use
+% with Gnuplot.
+\newcounter{cnt}
+\setcounter{cnt}{0}
 
+
+\newcommand{\distpic}[3]{
+    % First draw the upper distribution.
+    % Shade the critical region:
+    \fill[red!30] (0.658,0)  -- plot[id=f3,domain=0.658:3,samples=50]
+        function {exp(-x*x*0.5/0.16)} -- (3,0) -- cycle;
+
+    % Draw the normal distribution curve
+    \draw[blue!50!black,smooth,thick] plot[id=f1,domain=-2:3,samples=50]
+    function {};
+    % Draw the x-axis
+    \draw[->,black] (-2.2,0) -- (3.2,0);
+    % Put some ticks and tick labels in:
+    \foreach \x in {-2,-1,0,1,2,3}
+    \draw (\x,0) -- (\x,-0.1) node[below] {$\x$};
+    % Put in a label for the critical region boundary:
+    \draw[red!50!black,thick] (0.658,0) node[below,yshift=-0.5cm] {0.658}
+    -- (0.658,0.85);
+
+    % Put in labels for accepting or rejecting the null hypothesis with
+    % the corresponding regions:
+    \draw[red!50!black,thick,->] (0.688,0.7) -- (1.3,0.7)
+        node[anchor=south] {Reject  $H_0$};
+    \draw[red!50!black,thick,->] (0.628,0.7) -- (-1,0.7)
+        node[anchor=south]{\parbox{1.5cm}{\raggedright Fail to reject $H_0$}};
+
+    % Add a label to the upper picture, when the null is true
+    \draw (-3,1) node[above,draw,fill=green!30] {$H_0$ is true:};
+
+    % Label the critical region with an alpha level:
+    \draw[<-,thick] (0.75,0.05) -- (1.6,0.2) node[right,yshift=0.3cm]
+    {\begin{tabular}{l} $\alpha=0.05$ \\ (Type I error rate) \end{tabular}};
+
+
+    % Add a label showing the effect size between the two plots:
+    \draw[very thin] (0,-1) -- (0,-0.5);
+    \draw[<->,thick] (0,-1) node[left] {Effect size:  #1} -- (#1,-1);
+    \draw[thick] (0,-.9) -- (0,-1.1);
+
+    \draw[very thin] (#1,-1) -- (#1,-1.7);
+    \draw[thick] (#1,-.9) -- (#1,-1.1);
+
+    % Now draw the lower distribution showing the effect size:
+    \begin{scope}[yshift=-3cm]
+    % Shade the "reject H0" region red
+    \fill[red!30] (0.658,0)  -- plot[id=f3\thecnt,domain=0.658:3,samples=50]
+        function {exp(-(x-#1)*(x-#1)*0.5/0.16)} --
+        (3,0) -- cycle;
+        % Shade the "accept H0" region blue
+    \fill[blue!30] (-2,0) -- plot[id=f4\thecnt,domain=-2:0.658,samples=50]
+        function {exp(-(x-#1)*(x-#1)*0.5/0.16)} --
+        (0.658,0) -- cycle;
+
+        % Draw the shifted normal distribution:
+    \draw[blue!50!black,smooth,thick] plot[id=f1\thecnt,domain=-2:3,samples=50]
+            function {exp(-(x-#1)*(x-#1)*0.5/0.16)};
+
+        % Draw the x-axis and put in some ticks and tick labels
+    \draw[->,black] (-2.2,0) -- (3.2,0);
+    \foreach \x in {-2,-1,0,1,2,3}
+            \draw (\x,0) -- (\x,-0.1) node[below] {$\x$};
+
+        % Draw and label the critical region boundary
+    \draw[red!50!black,very thick] (0.658,0) node[below,yshift=-0.5cm] {0.658}
+        -- (0.658,1.0);
+    \draw[red!50!black,very thick,->] (0.688,0.7) -- (2.7,0.7)
+        node[anchor=south west] {Reject  $H_0$};
+    \draw[red!50!black,very thick,->] (0.628,0.7) -- (-0.5,0.7)
+        node[anchor=south]{\parbox{1.5cm}{\raggedright Fail to reject $H_0$}};
+
+    % Add a label to the lower picture, when the alternative hypothesis is true:
+    \draw (-3,1) node[above,draw,fill=green!30] {$H_a$ is true:};
+
+        % Add labels showing the statistical power and the Type II error rate:
+    \draw[<-,thick] (1.5,0.1) -- (3,0.2) node[anchor=south west]
+        {Power = \large #2};
+    \draw[<-,thick] (0.4,0.1) -- (-1,0.2) node[left,yshift=0.3cm]
+        {\begin{tabular}{l}
+        $\beta$ = {\large #3} \\ (Type II error rate) \end{tabular}};
+    \end{scope}
+}
 
 % \setcounter{tocdepth}{0}
 
@@ -301,11 +388,11 @@ Ainsi, pour une fonction $g:\mathbb{R}^2 \rightarrow \mathbb{R}_+$:
 Si   on  appelle   $a=\frac{x_1}{x_2}$  et   $b=x_2$,  on   a   $x_2(a,b)=b$  et
 $x_1(a,b)=ab$. Par conséquent:
 \begin{equation}
- \mathbb{E}[g(\frac{X_1}{X_2},X_2)]=\int_{u            \in           \mathbb{R}}
- \int_{v>0}g(u,v)f(uv,v)vdudv=\int \int_{\mathbb{R}^2} \mathds{1}_\mathbb{R}(u)\mathds{1}_{\mathbb{R}_+}(v)g(u,v)f(uv,v)ududv
+ \mathbb{E}[g(\frac{X_1}{X_2},X_2)]=\int_{a            \in           \mathbb{R}}
+ \int_{b>0}g(a,b)f(ab,b)bdadb=\int \int_{\mathbb{R}^2} \mathds{1}_\mathbb{R}(u)\mathds{1}_{\mathbb{R}_+}(v)g(a,b)f(ab,b)bdadb
 \end{equation}
 
-Donc, la densité de $U(\frac{X_1}{X_2},X_2)$ est $f(u,v)=\mathds{1}_\mathbb{R}(u)\mathds{1}_{\mathbb{R}_+}(v)g(u,v)f(uv,v)u$
+Donc, la densité de $U(\frac{X_1}{X_2},X_2)$ est $f(a,b)=\mathds{1}_\mathbb{R}(a)\mathds{1}_{\mathbb{R}_+}(a)f(ab,b)b$
 
 \subsection{}
 
@@ -313,12 +400,13 @@ Comme $Y=\frac{X_1}{X_2}$, on a $U(Y,X_2)$, ainsi,  pour trouver la loi de Y, on
 calcule la densité marginale de la première composante de U:
 
 \begin{equation}
-f_Y(u)=\int_0^\infty f_1(uv)f_2(v)vdv ; \quad u \in \mathbb{R}
+f_Y(a)=\int_0^\infty f_1(ab,b)bdb ; \quad a \in \mathbb{R}
 \end{equation}
 
 
 \section{Exercice 3}
 
+\subsection{}
 Si $X_1$ e $X_2$ sont deux  v.a. de Poisson indépendantes, de paramètres $\mu_1$
 et $\mu_2$. La loi caractéristique est donné par:
 \begin{equation}
@@ -353,8 +441,8 @@ Ainsi:
   g'_x(t)&=& \lambda ze^{\lambda(z-1)}\\
   g'_x(1)&=&E[X]= \lambda\\
   g^{''}_x(t)&=& \lambda e^{\lambda(z-1)}+(\lambda z)^2e^{\lambda(z-1)}\\
-  g^{''}_x(1)&=& \lambda + \lambda^2 = E[X²]-E[X]\\
-  Var[X] &=& E[X²]-E[X]² = \lambda^2
+  g^{''}_x(1)&=& \lambda + \lambda^2 = E[X^2]\\
+  Var[X] &=& E[X^2]-E[X]^2 = \lambda
 \end{eqnarray*}
 
 Si le paramètre est 1, alors:
@@ -364,8 +452,57 @@ Si le paramètre est 1, alors:
 \end{eqnarray*}
 
 \subsection{}
-Soit $\lambda =1$
-\subsection{}
 
+On va considérer que $P_1,...,P_n$ sont indépendantes et suivent une loi de poisson de paramètre 1, donné par:
+\begin{eqnarray*}
+  e^{-\lambda}\frac{\lambda^k}{k!}=P[k]\\
+\end{eqnarray*}
+
+Ainsi, on a :
+\begin{eqnarray*}
+  e^{-n}\sum_{k=0}^n\frac{n^k}{k!}&=&\mathbb{P}[P_1+P_2+...+P_n\leq n]\\
+\end{eqnarray*}
+
+Si on appelle $S_n=P_1+\dots+P_n$, le valeur de la moyenne ira être $n\mu$ et la
+variance  $n\sigma^2$. En  appellent $Z_n=\frac{S_n-n\mu}{\sigma  \sqrt{n}}$, on
+peut  utiliser  la  loi  de  limite  central pour  approcher  $Z_n$  a  une  loi
+normal. Soit, $\mu=\sigma=1$, comme considéré avant,$Z_n=\frac{S_n-n}{\sqrt{n}}$.
+
+\begin{eqnarray*}
+ \mathbb{P}[P_1+P_2+...+P_n\leq n]&=& \mathbb{P}[\frac{P_1+P_2+...+P_n-n}{\sqrt{n}} \leq 0] \\
+\end{eqnarray*}
+
+Pour terminer, par le théorème central limité(TCL), on a:
+
+\begin{eqnarray*}
+ \lim_{n\rightarrow\infty} e^{-n}\sum_{k=0}^n\frac{n^k}{k!}=\mathbb{P}(N\leq 0)
+\end{eqnarray*}
+
+On  peut   vérifier  para  le  graphique   au-dessous,  que  si   on  centre  la
+distribution($\mu=0$),la moitie de  la courbe va entre à gauche  de 0, cela nous
+donné la probabilité de $\frac{1}{2}$.
+
+\begin{center}
+\begin{tikzpicture} 
+  \begin{axis}
+    [separate axis lines, % important !
+    xtick={0,-5,5,-10,10,-15,15},
+    xticklabels={$\mu$,$-\sigma$,$\sigma$,$-2\sigma$,$2\sigma$,$-3\sigma$,$3\sigma$},
+    ytick={0,0.25,0.5,0.75,1.0},
+    yticklabels={0,0.1,0.2,0.3,0.4},
+    legend style={at={(0.5,-0.15)}, anchor=north,legend columns=-1},
+    ]
+    \addplot[blue,id=DoG, samples=100,
+    domain=-15:15] gnuplot{exp(-x*x*0.03/2.66)};
+    \legend{Normal distribution};
+  \end{axis} 
+\end{tikzpicture}
+\end{center}
+
+Conclusion:
+
+\begin{eqnarray*}
+ \lim_{n\rightarrow\infty} e^{-n}\sum_{k=0}^n\frac{n^k}{k!}=\mathbb{P}(N\leq 0)=\frac{1}{2}
+\end{eqnarray*}
 
 \end{document}
