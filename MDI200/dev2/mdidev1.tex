@@ -234,7 +234,7 @@ En utilisant le tableau, on peut savoir la $P[n=1]$:
 
 Pour que A gagne n points, il doit gagne n-1. Ainsi:
 \begin{eqnarray*}
-  P(n) & = &P(n-1)\sum_{k=0}(1-p)^kq^kp= \frac{p}{1-(1-p)q}\\
+  P(n) & = &P(n-1)\sum_{k=0}(1-p)^kq^kp= P(n-1)\frac{p}{1-(1-p)q}\\
   & = &P(n-1)P(1)
 \end{eqnarray*}
 
@@ -386,7 +386,17 @@ Ainsi, pour une fonction $g:\mathbb{R}^2 \rightarrow \mathbb{R}_+$:
 \end{equation}
 
 Si   on  appelle   $a=\frac{x_1}{x_2}$  et   $b=x_2$,  on   a   $x_2(a,b)=b$  et
-$x_1(a,b)=ab$. Par conséquent:
+$x_1(a,b)=ab$.   La deuxième  étape est  calculer le  jacobien du  changement de
+variable inverse:
+
+$J=\left[ \begin {array}{cc} {\frac {d}{da}}x1&{\frac {d}{da}}x2\\\noalign{\medskip}{\frac {d}{db}}x1&{\frac {d}{db}}x2\end {array}
+\right] = b*1-a*0=b
+$ 
+
+%dx1/da=b dx2/da=0
+%dx1/db=a dx2/db=1
+
+Par conséquent:
 \begin{equation}
  \mathbb{E}[g(\frac{X_1}{X_2},X_2)]=\int_{a            \in           \mathbb{R}}
  \int_{b>0}g(a,b)f(ab,b)bdadb=\int \int_{\mathbb{R}^2} \mathds{1}_\mathbb{R}(u)\mathds{1}_{\mathbb{R}_+}(v)g(a,b)f(ab,b)bdadb
@@ -466,10 +476,11 @@ Ainsi, on a :
 Si on appelle $S_n=P_1+\dots+P_n$, le valeur de la moyenne ira être $n\mu$ et la
 variance  $n\sigma^2$. En  appellent $Z_n=\frac{S_n-n\mu}{\sigma  \sqrt{n}}$, on
 peut  utiliser  la  loi  de  limite  central pour  approcher  $Z_n$  a  une  loi
-normal. Soit, $\mu=\sigma=1$, comme considéré avant,$Z_n=\frac{S_n-n}{\sqrt{n}}$.
-
+normal.      Soit,       comme      considéré      avant,$\mu=\sigma=1$,      on
+a,$Z_n=\frac{S_n-n}{\sqrt{n}}$. Donc, on peut récrire la équation suivante
 \begin{eqnarray*}
- \mathbb{P}[P_1+P_2+...+P_n\leq n]&=& \mathbb{P}[\frac{P_1+P_2+...+P_n-n}{\sqrt{n}} \leq 0] \\
+ \mathbb{P}[P_1+P_2+...+P_n\leq n]&=& \mathbb{P}[P_1+P_2+...+P_n-n \leq 0] \\
+ &=& \mathbb{P}[\frac{P_1+P_2+...+P_n-n}{\sqrt{n}} \leq 0]  ; \quad \text{n > 0};
 \end{eqnarray*}
 
 Pour terminer, par le théorème central limité(TCL), on a:
