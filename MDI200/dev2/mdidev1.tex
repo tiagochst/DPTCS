@@ -338,7 +338,10 @@ En utilisant le tableau, on peut savoir la $P[n=1]$:
 Pour que A gagne n points, il doit gagne n-1. Ainsi:
 \begin{eqnarray*}
   Q(1) & = &P(1)q\\
-  Q(n) & = &P(n)q
+  Q(n) & = &Q(1)^n\\
+  & = &(P(1)p)^n\\
+  & = &(P(1)^np^n\\
+  & = &P(n)q^n
 \end{eqnarray*}
 
 \subsection{}
@@ -351,11 +354,17 @@ première service fois la probabilité qu'il gagne si B a le service!
   & = &p+ q(1-p)P(1)
 \end{eqnarray*}
 
+Ainsi:
+\begin{eqnarray*}
+  P(1)(1-q+qp)& = &p\\
+  P(1)& = &\frac{p}{(1-q+qp)}
+\end{eqnarray*}
+
 En récurrence:
 
 \begin{eqnarray*}
-  P(2) & = &p+ q(1-p)P(2)=p+ q(1-p)P(1)^2\\
-  P(n) & =& p+ q(1-p)P(2)=p+ q(1-p)P(1)^n
+  P(n) & =& P(1)^n\\
+  P(n)& = &\frac{p^n}{(1-q+qp)^n}
 \end{eqnarray*}
 
 
@@ -365,9 +374,9 @@ Alors, la probabilité que:
 
 \begin{eqnarray*}
  P[n=21] &=&\frac{P[n=21]}{2}+\frac{Q[n=21]}{2}\\
- &=& \frac{P[1]^{21}}{2}+\frac{qP[1]^{21}}{2}\\
- &=& \frac{(1+q)P[1]^{21}}{2}\\
- &=& \frac{(1+q)}{2}(\frac{p}{1-q+pq})^{21}\\
+ &=& \frac{P[1]^{21}}{2}+\frac{q^{21}P[1]^{21}}{2}\\
+ &=& \frac{(1+q^{21})P[1]^{21}}{2}\\
+ &=& \frac{(1+q^{21})}{2}(\frac{p}{1-q+pq})^{21}\\
 \end{eqnarray*}
 
 
