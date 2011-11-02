@@ -1,0 +1,240 @@
+% -%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
+% Tutorat 01 EN                                    %  
+% Data:02/11/2011                                  %
+% Paris,France                                     %
+% - Tiago Chedraoui Silva                          %
+% -%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
+\documentclass[dvips,11pt,xcolor=dvipsnames]{beamer}
+
+%%% fontes %%%
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}   
+\usepackage{ae,aecompl,aeguill}  % pdfs plus beaux =)
+
+%%% matematicos %%%
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathptmx}
+
+%%% figuras %%%
+\usepackage{graphicx}
+\usepackage{wrapfig}
+
+%%% tabelas %%%
+\usepackage{colortbl}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{fancyvrb}
+\usepackage{color}
+
+%%% outros %%%
+\usepackage{url}
+\usepackage{textcomp}
+\usepackage{hyperref} %internal links
+\usepackage{color}       
+\usepackage{indentfirst} %retira padrao americano de paragrafos
+\usepackage{multicol}    
+\numberwithin{table}{section}
+\numberwithin{figure}{section} %numercao de figuras por secao
+
+%%% extras %%%
+\RequirePackage{marvosym} % figuras \Letter \Email 
+\usepackage{fancyhdr}     % Headers
+\usepackage{epsf}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\tikzstyle{block}=[draw opacity=0.7,line width=1.4cm]
+
+%%% Beamer style %%%
+\usetheme{Warsaw}
+%\usecolortheme[named=Green]{structure}
+\usefonttheme[onlylarge]{structurebold} % fontes em negrito
+\setbeamerfont*{frametitle}{size=\normalsize,series=\bfseries}%define tamanhos de letras
+\setbeamertemplate{navigation symbols}{}% barra de navegacao superior
+% \setbeamercovered{transparent}
+
+% -%-%-%-%-%-%-%-%-%
+% Inicio Slides  %
+% -%-%-%-%-%-%-%-%-%
+
+\title{Mentoring}                               
+% Refletindo os valores humanos na era digital
+\subtitle{A new ally against Cancer} 
+\author[Tiago S.]{
+  Tiago Chedraoui Silva \\
+}
+\institute{}
+
+\date{November 03, 2011}
+%\date{\today}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+%\begin{frame}{Outline}
+%  \tableofcontents
+%\end{frame}
+
+
+\section{Introduction}
+
+\begin{frame}{Cancer}
+ 
+ \begin{block}{Three main therapies}
+    \begin{itemize}
+    \item Surgery 
+    \item Chemotherpy 
+    \item Radiation 
+    \end{itemize}
+  \end{block}
+
+\pause \begin{alertblock}{More clearly}
+    \begin{itemize}
+    \item Slash 
+    \item Poison 
+    \item Burn 
+    \end{itemize}
+  \end{alertblock}
+
+\end{frame}
+
+
+%\begin{frame}{Outils}
+
+%\end{frame}
+
+\begin{frame}{How to attack the cancer?}
+ \begin{block}{Idea}
+    \begin{itemize}
+    \item Prod body's own immune system to do a better job of fighting malignancies.
+    \end{itemize}
+  \end{block}
+
+\pause \begin{block}{How?}
+    \begin{itemize}
+    \item Vaccines: FDA approved the first vaccine to treat cancer
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+
+\section{A New Ally}
+
+\begin{frame}{The vaccine}
+ \begin{block}{Common vaccine}
+    \begin{itemize}
+    \item Prevents infections.
+      \item Triggers a simple antibody response.
+    \end{itemize}
+  \end{block}
+
+\pause  \begin{block}{Cancer vaccine}
+    \begin{itemize}
+    \item  Train the body  to recognize  and destroy  cancer cells  that already
+      exists;
+    \item After it continues killing malignant cells;
+    \end{itemize}
+  \end{block}
+
+\pause \begin{alertblock}{Why different?}
+    \begin{itemize}
+    \item Antibodies response are not strong to kill cancer cells.
+    \item Immune system needs T cells.
+    \end{itemize}
+  \end{alertblock}
+\end{frame}
+
+
+
+
+\begin{frame}{The T cells}
+ \begin{exampleblock}{Two types of T cells}
+    \begin{itemize}
+    \item CD4 - Give orders about who and what to attack.
+      \item CD8 - Distroy malignant cells.
+    \end{itemize}
+  \end{exampleblock}
+
+\pause \begin{block}{What we need to know}
+    \begin{itemize}
+    \item As tumor  grows, it releases more substances  that actively suppress T
+      cells;
+    \item So, we need to treat early as possible.
+    \item Vaccines with only CD8 cells had shown no benefit.
+    \end{itemize}
+  \end{block}
+
+\pause \begin{alertblock}{A new vaccine}
+    \begin{itemize}
+    \item A mix of CD4 and CD8.
+    \item Took T  cells from a patient  and train them to target  and attack the
+      tumor;
+    \item Injected them into the patient;
+    \end{itemize}
+  \end{alertblock}
+\end{frame}
+
+
+
+\section{Strategies}
+
+\begin{frame}{Making a vaccine: three elements}
+ \begin{exampleblock}{What?}
+    \begin{itemize}
+    \item What molecular feature in a  malignant tumor should  be recognized as
+      foreign and target to be killed;
+    \end{itemize}
+  \end{exampleblock}
+
+\pause \begin{exampleblock}{How?}
+    \begin{itemize}
+    \item How to deliver a trigger agent or vaccine to the immune system.
+    \end{itemize}
+  \end{exampleblock}
+
+\pause \begin{exampleblock}{Who and When?}
+    \begin{itemize}
+    \item Which cancer patients to treat; 
+      \item When during the couse of their
+      disease to administer the vaccine.
+    \end{itemize}
+  \end{exampleblock}
+\end{frame}
+
+\begin{frame}{Making a vaccine: three elements}
+ \begin{block}{What?}
+    \begin{itemize}
+    \item Proteins (peptides);
+    \item Difficult: genetic alterations of cancer cells;
+    \item So, we need various examples of these peptides!
+    \end{itemize}
+  \end{block}
+
+  \pause \begin{block}{How?}
+    \begin{itemize}
+    \item Other idea  is to use a  dendritic cells which alert the  T cells that
+      something is wrong;
+    \item Difficulties: T cells and dendritic must be genetically identical;
+    \item We need to harvest them from each individual patient (\$\$)
+    \end{itemize}
+  \end{block}
+
+  \pause \begin{alertblock}{When?}
+    \begin{itemize}
+    \item It may take a year  after the treatment for immune system start making
+      substantial progress
+    \end{itemize}
+  \end{alertblock}
+\end{frame}
+
+%\section{Vocabulaire}
+%\section{Écrire}
+%\section{Culture Française}
+%\section{Littérature Fra
+nçaise}
+%\section{Site intéressant}
+\end{document}
