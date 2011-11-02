@@ -1,0 +1,74 @@
+\documentclass[11pt]{article}
+
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}   
+\usepackage{ae,aecompl,aeguill}  % pdfs plus beaux =)
+\usepackage{lmodern}
+\usepackage{marvosym}
+\usepackage{ifpdf}
+\ifpdf
+  \usepackage[pdftex]{graphicx}
+\else
+  \usepackage[dvips]{graphicx}\fi
+
+\pagestyle{empty}
+
+\usepackage[scale=0.8]{geometry}
+\setlength{\parindent}{0pt}
+\addtolength{\parskip}{6pt}
+
+\def\firstname{Tiago}
+\def\familyname{Chedraoui Silva}
+\def\FileAuthor{\firstname \familyname}
+\def\FileTitle{\firstname \familyname's cover letter}
+\def\FileSubject{Cover letter}
+\def\FileKeyWords{\firstname \familyname, Cover letter}
+
+\usepackage{url}
+\renewcommand{\ttdefault}{pcr}
+\urlstyle{tt}
+\ifpdf
+  \usepackage[pdftex,pdfborder=0,breaklinks,baseurl=http://,pdfpagemode=None,pdfstartview=XYZ,pdfstartpage=1]{hyperref}
+  \hypersetup{
+    pdfauthor   = \FileAuthor,%
+    pdftitle    = \FileTitle,%
+    pdfsubject  = \FileSubject,%
+    pdfkeywords = \FileKeyWords,%
+    pdfcreator  = \LaTeX,%
+    pdfproducer = \LaTeX}
+\else
+  \usepackage[dvips]{hyperref}
+\fi
+
+\renewcommand{\familydefault}{\sfdefault}% for use with a résumé using sans serif fonts;
+%\renewcommand{\familydefault}{\rmdefault}% for use with a résumé using sans serif fonts;
+
+\begin{document}
+
+
+% - - - - - - - - - - - - - - - 
+% Texto estruturado em frances
+% - - - - - - - - - - - - - - -
+
+% Intro, primeiramente:
+% D'abord, premièrement, tout d'abord, en premier lieu, dans un premier temps
+%
+
+% Aditividade:
+% Par ailleurs, de plus, en outre
+
+% Conclusion:
+% Enfin, finalement, en dernier lieu, dernièrement, donc (on parle plus: alors)
+
+% Lado negativo:
+% Toutefois, pourtant, cependant, néanmoins, mains
+
+% Conclusion:
+% On peut conclure, en conclusion, pour conclure
+%
+
+% D'une part, d'autre part
+
+
+\end{document}
