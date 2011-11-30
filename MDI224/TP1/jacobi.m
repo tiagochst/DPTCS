@@ -49,14 +49,14 @@ for i=1:maxit,
   xn=inv(D)*(b-K*x);
 
   % sauvegarder les valeurs pour faire
-  % le plot log(ereur) X iteres 
-  printf('NORM %e\n',norm( x - xn ));
+  % le plot log(erreur) X iteres 
+  err=norm( x - xn );
   
-  y(i)=log(norm( x - xn )); 
+  y(i)=log(err); 
   
   % si l'erreur d'approximation est plus petite
   % que eps on doit arreter
-  if (norm( x - xn ) < eps) 
+  if (err < eps) 
     printf('Nombre iterations: %d\n',i);
     break;
   end;
