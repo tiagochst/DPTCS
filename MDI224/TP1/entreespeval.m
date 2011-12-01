@@ -1,10 +1,10 @@
 a=0;
-b=5*pi;
-x1 = a:0.5:b;
+b=5;
+x1 = a:0.1:b;
 s = sin(x1);
 sp = cos(x1);
 
-x2 = a:0.5:b;
+x2 = a:0.05:b;
 %x2=[pi];
 y=speval(a,b,s,sp,x2)
 

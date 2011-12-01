@@ -43,6 +43,11 @@ for j=1:N,
   % Quel points sont les plus proches duquel je voudrais calculer?
   % t1 et t2 vont donner le index du vecteur 
   % t11 et t22 vont donner les valeur temporel plus proche
+  t1=1;
+  t2=2;
+  t11=a;
+  t22=a+h;
+ 
   for k=1:N2-1,
     if(x(j)>(b-k*h))
       t1=N2-k;
@@ -50,11 +55,6 @@ for j=1:N,
       t11=b-k*h;
       t22=b+h*(1-k);
       break;
-    else
-      t1=1;
-      t2=2;
-      t11=a;
-      t22=a+h;
     end;
   end;
   
