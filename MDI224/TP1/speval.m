@@ -44,7 +44,7 @@ for j=1:N,
   % t1 et t2 vont donner le index du vecteur 
   % t11 et t22 vont donner les valeur temporel plus proche
   for k=1:N2-1,
-    if(x(j)>(b-k*0.2))
+    if(x(j)>(b-k*h))
       t1=N2-k;
       t2=N2-k+1;
       t11=b-k*h;
@@ -62,7 +62,7 @@ for j=1:N,
   diff2 = ((x(j)-t11)^2)/(h*h);
   L = (s(t1))+((sp(t1)+2*s(t1)/h)*(x(j)-t11));
   M = (s(t2))+((sp(t2)-2*s(t2)/h)*(x(j)-t22));
-
+  
   y(j)= diff1*L+diff2*M;
 
 end;

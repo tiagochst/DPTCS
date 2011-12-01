@@ -1,11 +1,10 @@
 a=0;
 b=5*pi;
-x1 = a:0.2:b;
+x1 = a:0.5:b;
 s = sin(x1);
 sp = cos(x1);
 
-disp(sp);
-x2 = a:0.10:b;
+x2 = a:0.5:b;
 %x2=[pi];
 y=speval(a,b,s,sp,x2)
 
@@ -22,3 +21,10 @@ p=plot(x2,y);
 filename = 'speval_sininter';
 set(p,'Color','blue','LineWidth',4)
 print(h, '-depsc2', filename);
+
+h = figure; 
+p=plot(x1,s,x2,y);
+filename = 'teste';
+set(p,'Color','blue','LineWidth',4)
+print(h, '-depsc2', filename);
+
