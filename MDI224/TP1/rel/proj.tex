@@ -49,11 +49,35 @@
   \label{fig:jacobi-conv}
 \end{figure}
 
+En utilisant la fonction polyfit, nous avons trouvé le polynome: 
+$p(x)= -0.693147 x + 1.903331 $
+
 
 \subsection{Méthode de relaxation}
 \subsubsection{Implémentation}
-\subsubsection{Convergence}
+\begin{multicols}{2}
+  \lstinputlisting[title=\textbf{Méthode de Jacobi}]{../relax.m}
+\end{multicols}
 
+\subsubsection{Convergence}
+\begin{figure}[h!]
+  \begin{centering}
+    \includegraphics[scale=0.5]{../relaxation_graph}
+    \label{rspro2}
+    \par\end{centering}
+  \caption{Convergence de la méthode de Relaxation pour w=0.5}
+  \label{fig:jacobi-conv}
+\end{figure}
+
+
+\begin{figure}[h!]
+  \begin{centering}
+    \includegraphics[scale=0.5]{../relaxation_conv}
+    \label{rspro2}
+    \par\end{centering}
+  \caption{Taux de convergence en fonction du paramètre de relaxation w}
+  \label{fig:jacobi-conv}
+\end{figure}
 
 \subsection{Méthode de Cholesky}
 \subsubsection{Implémentation}

@@ -1,7 +1,7 @@
 %!PS-Adobe-2.0 EPSF-2.0
-%%Title: jacobi_graph.eps
+%%Title: relaxation_graph.eps
 %%Creator: gnuplot 4.4 patchlevel 2
-%%CreationDate: Thu Dec  1 06:38:01 2011
+%%CreationDate: Thu Dec  1 07:03:59 2011
 %%DocumentFonts: (atend)
 %%BoundingBox: 50 50 626 482
 %%EndComments
@@ -44,13 +44,13 @@ systemdict /pdfmark known not {
   userdict /pdfmark systemdict /cleartomark get put
 } if
 SDict begin [
-  /Title (jacobi_graph.eps)
+  /Title (relaxation_graph.eps)
   /Subject (gnuplot plot)
   /Creator (gnuplot 4.4 patchlevel 2)
   /Author (tiago)
 %  /Producer (gnuplot)
 %  /Keywords ()
-  /CreationDate (Thu Dec  1 06:38:01 2011)
+  /CreationDate (Thu Dec  1 07:03:59 2011)
   /DOCINFO pdfmark
 end
 } ifelse
@@ -553,46 +553,36 @@ LTb
 -88 0 V
 stroke
 0.00 0.00 0.00 C 740 640 M
-[ [({}) 200.0 0.0 true true 0 (-20)]
-] -66.7 MRshow
-0.500 UL
-LTb
-860 2192 M
-88 0 V
-10211 0 R
--88 0 V
-stroke
-0.00 0.00 0.00 C 740 2192 M
 [ [({}) 200.0 0.0 true true 0 (-15)]
 ] -66.7 MRshow
 0.500 UL
 LTb
-860 3744 M
+860 2580 M
 88 0 V
 10211 0 R
 -88 0 V
 stroke
-0.00 0.00 0.00 C 740 3744 M
+0.00 0.00 0.00 C 740 2580 M
 [ [({}) 200.0 0.0 true true 0 (-10)]
 ] -66.7 MRshow
 0.500 UL
 LTb
-860 5295 M
+860 4519 M
 88 0 V
 10211 0 R
 -88 0 V
 stroke
-0.00 0.00 0.00 C 740 5295 M
+0.00 0.00 0.00 C 740 4519 M
 [ [({}) 200.0 0.0 true true 0 (-5)]
 ] -66.7 MRshow
 0.500 UL
 LTb
-860 6847 M
+860 6459 M
 88 0 V
 10211 0 R
 -88 0 V
 stroke
-0.00 0.00 0.00 C 740 6847 M
+0.00 0.00 0.00 C 740 6459 M
 [ [({}) 200.0 0.0 true true 0 (0)]
 ] -66.7 MRshow
 0.500 UL
@@ -617,43 +607,53 @@ stroke
 ] -66.7 MCshow
 0.500 UL
 LTb
-2920 640 M
+2577 640 M
 0 88 V
 0 7671 R
 0 -88 V
 stroke
-0.00 0.00 0.00 C 2920 440 M
+0.00 0.00 0.00 C 2577 440 M
 [ [({}) 200.0 0.0 true true 0 (5)]
 ] -66.7 MCshow
 0.500 UL
 LTb
-4980 640 M
+4293 640 M
 0 88 V
 0 7671 R
 0 -88 V
 stroke
-0.00 0.00 0.00 C 4980 440 M
+0.00 0.00 0.00 C 4293 440 M
 [ [({}) 200.0 0.0 true true 0 (10)]
 ] -66.7 MCshow
 0.500 UL
 LTb
-7039 640 M
+6010 640 M
 0 88 V
 0 7671 R
 0 -88 V
 stroke
-0.00 0.00 0.00 C 7039 440 M
+0.00 0.00 0.00 C 6010 440 M
 [ [({}) 200.0 0.0 true true 0 (15)]
 ] -66.7 MCshow
 0.500 UL
 LTb
-9099 640 M
+7726 640 M
 0 88 V
 0 7671 R
 0 -88 V
 stroke
-0.00 0.00 0.00 C 9099 440 M
+0.00 0.00 0.00 C 7726 440 M
 [ [({}) 200.0 0.0 true true 0 (20)]
+] -66.7 MCshow
+0.500 UL
+LTb
+9443 640 M
+0 88 V
+0 7671 R
+0 -88 V
+stroke
+0.00 0.00 0.00 C 9443 440 M
+[ [({}) 200.0 0.0 true true 0 (25)]
 ] -66.7 MCshow
 0.500 UL
 LTb
@@ -663,7 +663,7 @@ LTb
 0 -88 V
 stroke
 0.00 0.00 0.00 C 11159 440 M
-[ [({}) 200.0 0.0 true true 0 (25)]
+[ [({}) 200.0 0.0 true true 0 (30)]
 ] -66.7 MCshow
 0.500 UL
 LTb
@@ -691,29 +691,35 @@ LTb
 % Begin plot #1
 4.000 UL
 LT0
-0.00 0.00 1.00 C 1272 7223 M
-412 -215 V
-412 -215 V
-412 -216 V
-412 -215 V
-412 -215 V
-412 -215 V
-412 -215 V
-412 -215 V
-412 -215 V
-412 -215 V
-412 -216 V
-411 -215 V
-412 -215 V
-412 -215 V
-412 -215 V
-412 -215 V
-412 -215 V
-412 -215 V
-412 -216 V
-412 -215 V
-412 -215 V
-412 -215 V
+0.00 0.00 1.00 C 1203 6614 M
+344 -423 V
+343 -418 V
+343 -398 V
+344 -348 V
+343 -272 V
+343 -212 V
+343 -185 V
+344 -175 V
+343 -172 V
+343 -171 V
+344 -171 V
+343 -170 V
+343 -169 V
+344 -169 V
+343 -167 V
+343 -166 V
+343 -163 V
+344 -161 V
+343 -157 V
+343 -153 V
+344 -150 V
+343 -146 V
+343 -142 V
+344 -140 V
+343 -137 V
+343 -134 V
+343 -133 V
+344 -132 V
 % End plot #1
 1.000 UP
 stroke
