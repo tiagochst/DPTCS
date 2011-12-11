@@ -1,5 +1,5 @@
 % % % % % % % % % % % % % % % % % % %
-% xx/12/11
+% 12/12/11
 % Chedraoui Silva,Tiago 
 % Casier: 214 
 % TP1: interpolation par splines cubiques
@@ -20,9 +20,6 @@ function x = relax(A,b,x0,w,eps,maxit)
 % A in [N X N]
 N = size(A);
 
-% Sortie
-x =  zeros(N);
-
 % Iniatialization sortie
 x = x0;
 
@@ -30,11 +27,6 @@ x = x0;
 % A = M - K
 % M = D/w - L 
 % K = (1-w)D/w + U
-
-% creation de matrices N X N
-K = zeros(N);
-D = zeros(N);
-M = zeros(N);
 
 % Pour rappeler:
 % ----------
@@ -57,18 +49,18 @@ K = (1.0-w)*D/w + U;
 
 for i=1:maxit,
 
-  xn=inv(M)*((K*x)+b);
+  xn=M\((K*x)+b);
 
   % sauvegarder les valeurs pour faire
   % le plot log(erreur) X iteres 
   err=norm( x - xn );
   
-  y(i)=log(err); 
+  %log_y(i)=log(err);
   
   % si l'erreur d'approximation est plus petite
   % que eps on doit arreter
   if (err <= eps) 
-%    printf('Nombre iterations: %d\n',i);
+    printf('Nombre iterations: %d\n',i);
     break;
   end;
   
@@ -77,15 +69,15 @@ for i=1:maxit,
 end;
 
 % Plot graphic
-h = figure; 
-filename = 'relaxation_graph';
-p=plot(y);
-xlabel('Iteres');
-ylabel('log(erreur)');
-set(p,'Color','blue','LineWidth',4)
-print(h, '-depsc2', filename);
+%h = figure; 
+%filename = 'relaxation_graph';
+%p=plot(log_y);
+%xlabel('Iteres');
+%ylabel('log(erreur)');
+%set(p,'Color','blue','LineWidth',4)
+%print(h, '-depsc2', filename);
 
-printf('=== Taux de convergence pour %f ===\n',w);
-p = polyfit([1:i],y,1);
-printf('p(x)= %f x + %f \n',p(1),p(2));
-printf('============================\n');
+%printf('=== Taux de convergence pour %f ===\n',w);
+%p = polyfit([1:i],log_y,1);
+%printf('p(x)= %f x + %f \n',p(1),p(2));
+%printf('============================\n');
