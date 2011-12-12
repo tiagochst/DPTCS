@@ -9,27 +9,32 @@ b = A*xex;
 x0 = zeros(N,1);
 x = jacobi(A,b,x0,eps,maxiter);
 
-%printf('INPUT:\n');
-%disp(A);
-%disp(b);
-
 printf('My result is:\n');
-disp(x);
-
-%eps=0.001;
-%maxiter=100;
-%A = [5.02 2.01 -0.98; 3.03 6.95 3.04; 1.01 -3.99 5.98];
-%b = [2.05 -1.02 0.98]';     
-%x0 = [0.49807, -0.30502, -0.11969]';
-%x = jacobi(A,b,x0,eps,maxiter);
-
-%printf('INPUT:\n');
-%disp(A);
-%disp(b);
-
-%printf('My result is:\n');
 %disp(x);
 
+N2=size(x);
+printf('My size:\n');
+disp(N2);
+
+for i=1:N2(2),
+  e(i)=norm(x(:,i)-xex);
+end;
+
+y=log(e);
+
+% Plot graphic
+h = figure; 
+filename = 'jacobi_graph';
+p=plot(y);
+xlabel('Iteres');
+ylabel('log(erreur)');
+set(p,'Color','blue','LineWidth',4)
+print(h, '-depsc2', filename);
+
+printf('=== Taux de convergence ===\n');
+p = polyfit([1:i],y,1);
+printf('p(x)= %f x + %f \n',p(1),p(2));
+printf('============================\n');
 
 %section 3.3.2: complexite%
 

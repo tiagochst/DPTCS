@@ -49,35 +49,20 @@ K = (1.0-w)*D/w + U;
 
 for i=1:maxit,
 
-  xn=M\((K*x)+b);
-
+  xn=M\((K*x(:,i))+b);
+  
+  x=[x xn];
+  
   % sauvegarder les valeurs pour faire
   % le plot log(erreur) X iteres 
-  err=norm( x - xn );
-  
-  %log_y(i)=log(err);
+  err=norm( x(:,i+1) - x(:,i) );
   
   % si l'erreur d'approximation est plus petite
   % que eps on doit arreter
   if (err <= eps) 
-    printf('Nombre iterations: %d\n',i);
     break;
   end;
   
   % sinon je doit repeter l'iteration jusqu'a convergence
-  x=xn;
+
 end;
-
-% Plot graphic
-%h = figure; 
-%filename = 'relaxation_graph';
-%p=plot(log_y);
-%xlabel('Iteres');
-%ylabel('log(erreur)');
-%set(p,'Color','blue','LineWidth',4)
-%print(h, '-depsc2', filename);
-
-%printf('=== Taux de convergence pour %f ===\n',w);
-%p = polyfit([1:i],log_y,1);
-%printf('p(x)= %f x + %f \n',p(1),p(2));
-%printf('============================\n');

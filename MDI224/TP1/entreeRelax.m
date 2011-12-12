@@ -9,29 +9,85 @@ xex = ones(N,1);
 b = A*xex;
 x0 = zeros(N,1);
 
-%for w=0.1:0.1:2
-  x = relax(A,b,x0,w,eps,maxiter);
-%end
+x = relax(A,b,x0,w,eps,maxiter);
 
 printf('My result is:\n');
 disp(x);
 
-wx=[0.0:0.1:2];
-wy=[ -0.000150; -0.118230 ;-0.191228 ;-0.278141 ;-0.369919 
-     -0.465960 ;-0.560344 ;-0.674184 ;-0.812304 
-     -1.015682 ;-1.380155 ;-2.007046 ;-1.469264
-     -1.191068 ;-0.918860 ;-0.688261 ;-0.507122
-     -0.358010 ;-0.223573 ;-0.105267 ; 0.000049 ];
+N2=size(x);
+
+for i=1:N2(2),
+  e(i)=norm(x(:,i)-xex);
+end;
+
+y=log(e);
+
+% Plot graphic
+h = figure; 
+filename = 'relaxation_graph';
+p=plot(y);
+xlabel('Iteres');
+ylabel('log(erreur)');
+set(p,'Color','blue','LineWidth',4)
+print(h, '-depsc2', filename);
+
+% Display polyfot of log(err)
+printf('=== Taux de convergence pour %f ===\n',w);
+p = polyfit([1:i],y,1);
+printf('p(x)= %f x + %f \n',p(1),p(2));
+printf('============================\n');
+
+
+% Trouver le meilleur w
+l=1;
+for w=0.01:0.1:1.9,
+  
+  x = relax(A,b,x0,w,eps,maxiter);
+
+  N2=size(x);
+
+  ew=[];
+  for i=1:N2(2),
+    ew(i)=norm(x(:,i)-xex);
+  end;
+ 
+  log_y=log(ew);
+
+  p= polyfit([1:i],log_y,1);
+  wy(l)=p(1);
+  l=l+1;
+
+end;
+
+x = relax(A,b,x0,1.99,eps,maxiter);
+
+N2=size(x);
+
+ew=[];
+for i=1:N2(2),
+  ew(i)=norm(x(:,i)-xex);
+end;
+
+log_y=log(ew);
+
+p= polyfit([1:i],log_y,1);
+wy(l)=p(1);
+l=l+1;
+
+
+wy=exp(wy);
+wx=[0.01:0.1:1.9];
+wx=[wx 1.99];
 
 
 % Plot conv graphic
-%h = figure; 
-%filename = 'relaxation_conv';
-%p=plot(wx,exp(wy));
-%xlabel('Omega');
-%ylabel('Taux de convergence');
-%set(p,'Color','blue','LineWidth',4)
-%print(h, '-depsc2', filename);
+h = figure; 
+filename = 'relaxation_conv2';
+p=plot(wx,wy);
+xlabel('Omega');
+ylabel('Taux de convergence');
+set(p,'Color','blue','LineWidth',4)
+print(h, '-depsc2', filename);
 
 %section 3.3.2: complexite%
 

@@ -1,5 +1,5 @@
 % % % % % % % % % % % % % % % % % % %
-% xx/12/11
+% 12/12/11
 % Chedraoui Silva,Tiago 
 % Casier: 214 
 % TP1: interpolation par splines cubiques
