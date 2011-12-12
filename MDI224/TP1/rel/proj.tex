@@ -1,10 +1,10 @@
 % -%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
-% FLE % 
-% Data:28/11/2011                                 %
+% MDI224 % 
+% Data:12/12/2011                                 %
 % Paris,France                                    % 
 % Groupe:                                         %
 % - Tiago Chedraoui Silva                   % 
-% - Angie Anazgo la Rosa %
+% - Anthony CLERBOUT
 % -%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
 
 \documentclass[a4paper,11pt]{article}
@@ -19,7 +19,7 @@
 \def \mysubtitle{ Travaux Pratique 1 - Deuxième semestre de 2011} % subtitle
 \def \ttauthi{Anthony CLERBOUT} % author's name
 \def \ttxti{Casier: 234} % Extra text right side of name
-\def \ttauthii{Tiago Chedraoui Silva} % author's name
+\def \ttauthii{Tiago CHEDRAUOI SILVA} % author's name
 \def \ttxtii{Casier: 214 } % Extra text right side of name
 \def \ttdate{Décembre 15, 2011} % date
 
@@ -27,6 +27,7 @@
 \titleTMB 
 \newpage
 \tableofcontents
+\listoffigures
 \newpage
 
 \section{Résolution du système linéaire}
@@ -201,8 +202,14 @@ code n'est pas optimal c'est pour cela que le temps pour N grand est grand.
 
 \subsection{Application}
 
-En utilisant les  fonctions implementes avant, on a  utilise les fonctions sinus
-et exponentielle pour vérifier le spline cubique.
+En utilisant les  fonctions mis en œuvre avant, on a utilisé les fonctions sinus
+et exponentielle pour vérifier le spline cubique. Les graphes suivantes sont les valeurs interpolées par le
+spline cubique et l'erreur de cette interpolation si on comparé aux valeurs de la fonction réel.
+
+ Une observation, pour les graphes des erreurs,  les points  en 0  sont le  points utilisées pour trouver  les valeurs
+pendand l'interpolation, c'est-à-dire, sont le point en commun entre le fonction
+réel et l'interpolée, donc il n'existe pas d'erreur parce que c'est le même valeur.
+D'autre remarque est que plus le valeur de la fonction est grand, plus est l'erreur.
 
 \begin{figure}[h!]
   \begin{centering}
@@ -213,13 +220,32 @@ et exponentielle pour vérifier le spline cubique.
   \label{fig:jacobi-conv}
 \end{figure}
 
+\begin{figure}[h!]
+  \begin{centering}
+    \includegraphics[scale=0.5]{../sinus_2_error}
+    \label{rspro2}
+    \par\end{centering}
+  \caption{Error Spline Cubique - fonction sinus pas original 0.5, pas spline 0.25}
+  \label{fig:jacobi-conv}
+\end{figure}
+
 
 \begin{figure}[h!]
   \begin{centering}
-    \includegraphics[scale=0.5]{../sinus_2}
+    \includegraphics[scale=0.5]{../sinus_5}
     \label{rspro2}
     \par\end{centering}
   \caption{Spline Cubique - fonction sinus pas original 0.5, pas spline 0.1}
+  \label{fig:jacobi-conv}
+\end{figure}
+
+
+\begin{figure}[h!]
+  \begin{centering}
+    \includegraphics[scale=0.5]{../sinus_5_error}
+    \label{rspro2}
+    \par\end{centering}
+  \caption{Error Spline Cubique - fonction sinus pas original 0.5, pas spline 0.25}
   \label{fig:jacobi-conv}
 \end{figure}
 
@@ -235,6 +261,15 @@ et exponentielle pour vérifier le spline cubique.
 
 \begin{figure}[h!]
   \begin{centering}
+    \includegraphics[scale=0.5]{../sinus_10_error}
+    \label{rspro2}
+    \par\end{centering}
+  \caption{Error Spline Cubique - fonction sinus pas original 0.5, pas spline 0.25}
+  \label{fig:jacobi-conv}
+\end{figure}
+
+\begin{figure}[h!]
+  \begin{centering}
     \includegraphics[scale=0.5]{../exp_2}
     \label{rspro2}
     \par\end{centering}
@@ -245,10 +280,28 @@ et exponentielle pour vérifier le spline cubique.
 
 \begin{figure}[h!]
   \begin{centering}
+    \includegraphics[scale=0.5]{../exp_2_error}
+    \label{rspro2}
+    \par\end{centering}
+  \caption{Error Spline Cubique - fonction exp pas original 1, pas spline 0.5}
+  \label{fig:jacobi-conv}
+\end{figure}
+
+\begin{figure}[h!]
+  \begin{centering}
     \includegraphics[scale=0.5]{../exp_5}
     \label{rspro2}
     \par\end{centering}
   \caption{Spline Cubique - fonction exp pas original 1, pas spline 0.02}
+  \label{fig:jacobi-conv}
+\end{figure}
+
+\begin{figure}[h!]
+  \begin{centering}
+    \includegraphics[scale=0.5]{../exp_5_error}
+    \label{rspro2}
+    \par\end{centering}
+  \caption{Error Spline Cubique - fonction exp pas original 1, pas spline 0.5}
   \label{fig:jacobi-conv}
 \end{figure}
 
@@ -260,6 +313,41 @@ et exponentielle pour vérifier le spline cubique.
     \par\end{centering}
   \caption{Spline Cubique - fonction exp pas original 1, pas spline 0.1}
   \label{fig:jacobi-conv}
+\end{figure}
+
+\begin{figure}[h!]
+  \begin{centering}
+    \includegraphics[scale=0.5]{../exp_10_error}
+    \label{rspro2}
+    \par\end{centering}
+  \caption{Error Spline Cubique - fonction exp pas original 1, pas spline 0.5}
+  \label{fig:jacobi-conv}
+\end{figure}
+
+
+\begin{figure}[h!]
+  \begin{centering}
+    \subfigure[Interpolation]{
+      \includegraphics[scale=0.35]{../exp_5}    }
+    \subfigure[Erreur interpolation.]{
+      \includegraphics[scale=0.35]{../exp_5_error}
+    }
+    \par\end{centering}
+  \caption{Fonction exp pas original 1, pas spline 0.1}
+  \label{rspro}
+\end{figure}
+
+
+\begin{figure}[h!]
+  \begin{centering}
+    \subfigure[Interpolation]{
+      \includegraphics[scale=0.35]{../exp_10}    }
+    \subfigure[Erreur interpolation.]{
+      \includegraphics[scale=0.35]{../exp_10_error}
+    }
+    \par\end{centering}
+  \caption{Fonction exp pas original 1, pas spline 0.5}
+  \label{rspro}
 \end{figure}
 
 \end{document}

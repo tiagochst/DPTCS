@@ -2,6 +2,8 @@
 % 12/12/11
 % Chedraoui Silva,Tiago 
 % Casier: 214 
+% Anthony CLERBOUT
+% Casier: 234 
 % TP1: interpolation par splines cubiques
 % Description: evaluer une fonction spline 
 % cubique aux points donnes par x

@@ -20,6 +20,14 @@ set(p,'LineWidth',4)
 legend('sin','sin spline')
 print(h, '-depsc2', filename);
 
+% error sinus_2
+h = figure; 
+p = plot(x2,sin(x2)'-y);
+filename = 'sinus_2_error';
+set(p,'LineWidth',4)
+legend('error spline')
+print(h, '-depsc2', filename);
+
 %  h = 0.5
  % N = 5
 N=5;
@@ -40,6 +48,14 @@ p=plot(x1,s,x2,y);
 filename = 'sinus_5';
 set(p,'LineWidth',4)
 legend('sin','sin spline')
+print(h, '-depsc2', filename);
+
+% error sinus_5
+h = figure; 
+p = plot(x2,sin(x2)'-y);
+filename = 'sinus_5_error';
+set(p,'LineWidth',4)
+legend('error spline')
 print(h, '-depsc2', filename);
 
 
@@ -65,8 +81,13 @@ set(p,'LineWidth',4)
 legend('sin','sin spline')
 print(h, '-depsc2', filename);
 
-
-
+% error sinus_10
+h = figure; 
+p = plot(x2,sin(x2)'-y);
+filename = 'sinus_10_error';
+set(p,'LineWidth',4)
+legend('error spline')
+print(h, '-depsc2', filename);
 
 %  h = 0.5
  % N = 2
@@ -90,6 +111,13 @@ set(p,'LineWidth',4)
 legend('exp','exp spline')
 print(h, '-depsc2', filename);
 
+% error exp_2
+h = figure; 
+p = plot(x2,exp(x2)'-y);
+filename = 'exp_2_error';
+set(p,'LineWidth',4)
+legend('error spline')
+print(h, '-depsc2', filename);
 
 
 %  h = 0.5
@@ -115,6 +143,14 @@ legend('exp','exp spline')
 print(h, '-depsc2', filename);
 
 
+% error exp_5
+h = figure; 
+p = plot(x2,exp(x2)'-y);
+filename = 'exp_5_error';
+set(p,'LineWidth',4)
+legend('error spline')
+print(h, '-depsc2', filename);
+
 
 %  h = 0.5
  % N = 5
@@ -139,3 +175,11 @@ legend('exp','exp spline')
 print(h, '-depsc2', filename);
 
 
+
+% error exp_10
+h = figure; 
+p = plot(x2,exp(x2)'-y);
+filename = 'exp_10_error';
+set(p,'LineWidth',4)
+legend('error spline')
+print(h, '-depsc2', filename);
