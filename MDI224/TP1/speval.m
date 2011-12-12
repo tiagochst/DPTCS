@@ -7,31 +7,25 @@
 % cubique aux points donnes par x
 % % % % % % % % % % % % % % % % % % %
 
-function y = speval(a,b,s,sp,x)
+function y = speval(a,b,s,sp,x,h)
 
 % Entree
 % [a,b] : valeurs intervale 
 % s : valeurs splines 
 % sp :valeurs derive premier
 % x :vecteur de points a value la fonction
+% h: pas interaction
 
 % Sortie
 
 % x in [N X 1]
 N = size(x,2);
 N2 = size(s,2);
+
 % Sortie
 y =  zeros(N,1);
 
-
-% size interval, equidistants
-h = (b-a)/size(s,2);
-
-%printf('== h ==\n');
-%disp(h);
-%disp(size(s,2));
-
-%Poly page 28/43
+% Theorique: Poly page 28/43
 % P(i)= diff1*L+diff2*M
 % diff1= (t-t_i+1)^2/(h*h)
 % diff2= (t-t_i)^2/(h*h)

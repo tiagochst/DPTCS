@@ -39,7 +39,7 @@
 \RequirePackage{multicol} 
 \RequirePackage{amsfonts}
 \RequirePackage{amsmath} 
-%\RequirePackage{pgfplots} % graphics
+\RequirePackage{pgfplots} % graphics
 \RequirePackage{setspace}
 
 
@@ -93,42 +93,6 @@
   \ifthenelse{\equal{#1}{1.5}}{\onehalfspacing}{}
   \ifthenelse{\equal{#1}{2}}{\doublespacing}{}
 }
-
-
-% Programming
-
-%%% usado para codigo %%%
-\usepackage{listings}
-\lstset{
-  language = Matlab,
-  basicstyle=\scriptsize\ttfamily, 
-%  basicstyle=\footnotesize\ttfamily, 
-  numbers=left,               
-  numberstyle=\tiny,         
-  numbersep=5pt,             
-  tabsize=2,                  
-  extendedchars=true,  
-  breaklines=true,       
-  keywordstyle=\color{blue},
-  % frame=b,         
-  stringstyle=\color{green}\ttfamily, 
-  showspaces=false,          
-  showtabs=false,             
-  xleftmargin=17pt,
-  framexleftmargin=17pt,
-  framexrightmargin=5pt,
-  commentstyle=\color[rgb]{0.133,0.545,0.133},
-  stringstyle=\color[rgb]{0.627,0.126,0.941},
-  framexbottommargin=4pt,
-  showstringspaces=false              
-}
-\lstloadlanguages{Matlab}
-\usepackage{caption}
-\DeclareCaptionFont{white}{\color{white}}
-\DeclareCaptionFont{green}{\color{green}}
-\DeclareCaptionFormat{listing}{{\colorbox[cmyk]{1,1,1,1}{
-      \parbox{7.5cm}{\centering #1#2#3}}}}
-\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white, singlelinecheck=false, margin=0pt, font={bf,footnotesize}}
 
 
 %% Fin du package

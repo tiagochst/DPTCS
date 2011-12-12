@@ -7,7 +7,7 @@
 % pour resoudre un systeme lineaire
 % % % % % % % % % % % % % % % % % % %
 
-function x = relax(A,b,x0,w,eps,maxit)
+function [x,rho] = relax(A,b,x0,w,eps,maxit)
 
 % Entree
 % A : matrice
@@ -47,11 +47,14 @@ L = (-1)*tril(A,-1);
 M = D/w - L;
 K = (1.0-w)*D/w + U;
 
+Rw = M\((1.0-w)*D/w + U);
+rho = max(abs(eig(Rw)));
+
 for i=1:maxit,
 
-  xn=M\((K*x(:,i))+b);
+  xn = M\((K*x(:,i))+b);
   
-  x=[x xn];
+  x = [x xn];
   
   % sauvegarder les valeurs pour faire
   % le plot log(erreur) X iteres 

@@ -1,5 +1,5 @@
 % % % % % % % % % % % % % % % % % % %
-% xx/12/11
+% 12/12/11
 % Chedraoui Silva,Tiago 
 % Casier: 214 
 % TP1: interpolation par splines cubiques
@@ -35,7 +35,7 @@ end;
 % Iniatialization vecteur b (Ax=b)
 b = zeros(N,1);
 
-% cas donné par C3
+% cas donne par C3
 b(N)=y(N)-y(N-1);
 b(1)=y(2)-y(1);
 
@@ -47,12 +47,6 @@ end;
 h=1;
 b=(3/h)*b;
 
-printf('== Matrice A ==\n');
-disp(A);
-printf('== vecteur b ==\n');
-disp(b);
-
-sp=inv(A)*(b);
-disp(sp);
+sp=A\(b);
 
 end;

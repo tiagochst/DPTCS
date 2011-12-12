@@ -9,7 +9,7 @@ xex = ones(N,1);
 b = A*xex;
 x0 = zeros(N,1);
 
-x = relax(A,b,x0,w,eps,maxiter);
+[x,rho] = relax(A,b,x0,w,eps,maxiter);
 
 printf('My result is:\n');
 disp(x);
@@ -24,25 +24,25 @@ y=log(e);
 
 % Plot graphic
 h = figure; 
-filename = 'relaxation_graph';
-p=plot(y);
-xlabel('Iteres');
-ylabel('log(erreur)');
-set(p,'Color','blue','LineWidth',4)
-print(h, '-depsc2', filename);
+%filename = 'relaxation_graph';
+%p=plot(y);
+%xlabel('Iteres');
+%ylabel('log(erreur)');
+%set(p,'Color','blue','LineWidth',4)
+%print(h, '-depsc2', filename);
 
 % Display polyfot of log(err)
-printf('=== Taux de convergence pour %f ===\n',w);
-p = polyfit([1:i],y,1);
-printf('p(x)= %f x + %f \n',p(1),p(2));
-printf('============================\n');
+%printf('=== Taux de convergence pour %f ===\n',w);
+%p = polyfit([1:i],y,1);
+%printf('p(x)= %f x + %f \n',p(1),p(2));
+%printf('============================\n');
 
 
 % Trouver le meilleur w
 l=1;
 for w=0.01:0.1:1.9,
   
-  x = relax(A,b,x0,w,eps,maxiter);
+  [x,rho] = relax(A,b,x0,w,eps,maxiter);
 
   N2=size(x);
 
@@ -55,11 +55,12 @@ for w=0.01:0.1:1.9,
 
   p= polyfit([1:i],log_y,1);
   wy(l)=p(1);
+  yrho(l)=rho;
   l=l+1;
-
+  
 end;
 
-x = relax(A,b,x0,1.99,eps,maxiter);
+[x,rho] = relax(A,b,x0,1.99,eps,maxiter);
 
 N2=size(x);
 
@@ -72,6 +73,7 @@ log_y=log(ew);
 
 p= polyfit([1:i],log_y,1);
 wy(l)=p(1);
+yrho(l)=rho;
 l=l+1;
 
 
@@ -81,9 +83,18 @@ wx=[wx 1.99];
 
 
 % Plot conv graphic
+%h = figure; 
+%filename = 'relaxation_conv2';
+%p=plot(wx,wy);
+%xlabel('Omega');
+%ylabel('Taux de convergence');
+%set(p,'Color','blue','LineWidth',4)
+%print(h, '-depsc2', filename);
+
+% Plot conv graphic
 h = figure; 
-filename = 'relaxation_conv2';
-p=plot(wx,wy);
+filename = 'relaxation_conv_rho';
+p=plot(wx,yrho);
 xlabel('Omega');
 ylabel('Taux de convergence');
 set(p,'Color','blue','LineWidth',4)
@@ -101,7 +112,7 @@ for N=50:50:300,
   x0 = zeros(N,1);
   
   tic ();
-  x = relax(A,b,x0,w,eps,maxiter);
+  %[x,rho] = relax(A,b,x0,w,eps,maxiter);
   elapsed_time = toc ();
   
   printf('Relax time for N = %d :\n',N);
