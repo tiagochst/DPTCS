@@ -1,0 +1,114 @@
+% -%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
+% ANG: Anglais % 
+% Mentoring 2 %
+% Data:09/12/2011                                 %
+% Paris,France % 
+% Groupe: %
+% - Tiago Chedraoui Silva % 
+% -%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
+
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[english,listings,algo]{tcs}
+
+% Cover %
+\def \ttprofname{Penelope POULTON} % teachers name
+\def \ttabrv{ANG206} % abbreviation of names class
+\def \ttabrvxt{P2 } % period
+\def \mytitle{Preparations for 2014 World Cup and 2016 Olympic games} % Big title
+\def \mysubtitle{Tutorial english class - Second Semester of 2011 } % subtitle
+\def \ttauth{Tiago Chedraoui Silva} % author's name
+\def \ttxt{Pigeonhole: 214 } % Extra text right side of name
+\def \ttdate{December 8, 2011} % date
+
+\begin{document}
+\titleTMB 
+\newpage
+\spc{2} % double spacing
+
+\section*{Can great events be realized in Brazil?}
+
+% Intro
+% Which events will be staged in Brazil ? And, specifically, in which cities ?
+% What does the press think about, Brazil, Brazil's infrastructure? 
+
+In October 2007, Fédération Internationale de Football Association (FIFA), the
+sport's global governing body, chose Brazil as the host of 2014 world's cup.
+And, two years after, in October 2009, International Olympic Committee (IOC)
+announced  that Rio de Janeiro,  will stage  the 2016  Olympic  and Paralympics
+Games.  
+Although its beautiful landscapes and hospitable people,
+Brazil  is seen  by press  as a  doubtful country  regarding  infrastructure and
+security.
+
+% Why a doubtful country?
+On the security side, I think the press, based on various data, can strongly doubt my country;
+because, although Brazil holds the seventh economy in the world, its HDI (Human
+Development Index) is only the eighty-fourth; which means we have some problems.
+But, is this  classification acceptable? Unfortunately, in a  country where child
+labor still exists, where illiteracy numbers
+reaches more  than five percent of  population and  where crime scares
+population, this  classification should  be said as  correct. Also, I'm  a great
+believer that security is one of  the biggest and oldest problems of Brazil, and
+will not be solved in a short period of time.
+
+
+On infrastructure side, the imposed deadline to begin works related to
+world cup was may 2010, but at that time, not even fifty percent had begun, this
+delay made the press believe in a certain brazilian disability to hold the World
+Cup. A year later, all stadiums have already begun, but not all airports. 
+This scenario  provides a  prevision that some  airports will not  be completed,
+which means that people will be able to travel, however some problems as lack of
+flights and delays should be seen.
+
+On the  other hand,  if Brazil  will suffer in  the World  Cup, Rio  de Janeiro,
+Brazil's second  biggest city , will not  only meet all the  standards, but also
+will show why it is a spectacular city, being considered as one of the best Brazilian tourism cities.
+The first  difference for this totally opposite scenario is that Rio de
+Janeiro is a city, so in terms of size, less infrastructure is necessary, and
+as Rio already has  a good base, only a small expansion  will be performed.  The
+greatest problem  was the Crime, however  the government began  to firmly combat
+crime  and investing  in some  poor  areas, with  the purpose  to rise  people's
+condition of life and take people out of drugs market, which had been intense in the slums for a long time.
+
+
+Finally, I think world cup will develop  Brazil, and Rio de Janeiro will be more
+beautiful as  never; I hope that  everything constructed will be  used after and
+not destroyed. For example, the training centers should be used for future athletes,
+our children, independently of their  wealth conditions. In my view, Brazil will
+show everyone that money is not the most important thing in life, but love is. I will
+be waiting for a warm reception and a lot of happiness in these two events.
+
+%specified, giving a high comfort to everyone capable to pay a fortune in tickets
+
+%this data  is correct, however Brazil  is the world's fifth  largest country and
+%which  part have  a  different situation,  southeast  and south  parts are  more
+%developed. 
+
+% Infrastructure
+%I  firmly believe  that  Brazil is  not only  going  to meet  all the  standards
+%specified, giving a high comfort to everyone capable to pay a fortune in tickets,
+%but also it will show  that luxury is the less important  in life, as  show by
+%south africans, money will not bring us happy;
+
+%we should see more sun sets, complain less and live more.
+
+% To do:
+% Explain my country, and it difficulties; 
+
+% Why is Brazil capable to handle with this?
+% How was the scenario and how is it today?
+% Compare with South Africa
+% Show as example Itaquera,
+% Compare time with Dubai
+
+% I firmly believe
+% I'm a great believer
+% I feel
+% I think
+% I can't understand
+% Contrary to popular believe
+% In my view/ To my mind
+% From my point of view
+
+\end{document}
