@@ -9,19 +9,19 @@
 % d'interpolation
 % % % % % % % % % % % % % % % % % % %
 
-function sp = sinterp(y)
+function sp = sinterp(y,h)
 
 % Entree
 % y : vecteur
 
 % y in [N X 1]
-N = size(y,1);
+N = size(y,2);
 
 % Sortie
-sp =  zeros(N);
+%sp =  zeros(N);
 
-disp(N);
-disp(sp);
+%disp(N);
+%disp(sp);
 
 % Iniatialization matrice A (Ax=b)
 A = zeros(N,N);
@@ -38,17 +38,23 @@ end;
 b = zeros(N,1);
 
 % cas donne par C3
-b(N)=y(N)-y(N-1);
+
+% s(n) - s(n-1)
+b(N)=y(N)-y(N-1); 
+
+% s2-s1
 b(1)=y(2)-y(1);
 
+%
 for i=2:N-1, 
   b(i)=y(i+1)-y(i-1);
 end; 
 
-% Soit h egal a 1
-h=1;
 b=(3/h)*b;
 
-sp=A\(b);
 
+sp2=A\(b);
+[sp2,rho] = relax(A,b,sp2,1,1e-6,100);
+
+sp= sp2(:,(size(sp2,2)));
 end;
