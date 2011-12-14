@@ -33,6 +33,10 @@
 \section{Résolution du système linéaire}
 
 \subsection{Méthode de Jacobi}
+Jacobi converge ssi $\rho(D-1(L+U)) < 1$ d'après le cours.
+Or ici, $max (L) = max (U) = 1$ et $D-1$ est une matrice diagonale dont la plus grande valeur propre est $\frac{1}{2}$.
+Donc $\rho < 1$.
+
 \subsubsection{Implémentation}
 
 Pour voir la méthode de Jacobi, on a fait le code suivant:
@@ -45,8 +49,8 @@ Pour voir la méthode de Jacobi, on a fait le code suivant:
 
 Pour  voir le  convergence  de la  méthode de  Jacobi,  on a  pris, pour  chaque
 itération, chaque valeur de x
-calculé jusqu'au moment que méthode arrête. Après, on a fait la comparaison de
-chaque x avec le valeur optimal (xex) en prenant le log de la différence:
+calculée jusqu'au moment oú le critére d`arrêt est atteint. Après, on a fait la comparaison de
+chaque x avec la valeur optimale (xex) en prenant le log de la différence:
 
 \subsubsection{Convergence}
 \begin{figure}[h!]
@@ -63,17 +67,21 @@ $p(x)= -0.693147 x + 1.497866  $
 
 
 \subsection{Méthode de relaxation}
-Pour voir la méthode SOR (relaxation), on a fait le code suivant:
+
+La çéthode de la relaxation converge ssi $(\frac{D}{w}-L)-(\frac{(1-w)}{w} D + U) <1$ d'après le
+cours si A est tridiagonale et définie positive, alors la suite $(x_k)$ converge effectivement vers l'unique solution de $Ax=b$.
 
 \subsubsection{Implémentation}
+Pour voir la méthode SOR (relaxation), on a fait le code suivant:
+
 \begin{multicols}{2}
-  \lstinputlisting[title=\textbf{Méthode de Jacobi}]{../relax.m}
+  \lstinputlisting[title=\textbf{Méthode de Relaxation}]{../relax.m}
 \end{multicols}
 
-Pour  voir le  convergence  de la  méthode SOR,  on a  pris, pour  chaque
+Pour voir la convergence de la méthode SOR, on a pris, pour chaque
 itération, chaque valeur de x
-calculé jusqu'au moment que méthode arrête ( pour w=1.0). Après, on a fait la comparaison de
-chaque x avec le valeur optimal (xex) en prenant le log de la différence:
+calculée jusqu'au moment l'algorithme atteint son critére d'arrêt( pour w=1.0). Après, on a fait la comparaison de
+chaque x avec la valeur optimal (xex) en prenant le log de la différence:
 
 
 \subsubsection{Convergence}
@@ -89,30 +97,47 @@ chaque x avec le valeur optimal (xex) en prenant le log de la différence:
 
 
 
-Pour voir le  taux, il existe deux méthodes, le premier,  il utilise les erreurs
-et la fonction polyfit de matlab. Le deuxième il calcule le rayon spectral de la
-matrice  $R_w$. Ainsi,  on change  les valeurs  de $w$  de manière  a  trouve le
-meieller taux de convergence. Les graphes  pour les deux approches sont vue dans
+Pour voir le taux, il existe deux méthodes.
+La première utilise les erreurs
+et la fonction polyfit de matlab. 
+La deuxième le rayon spectral de la
+matrice $R_w$. 
+Ainsi,  on change  les valeurs  de $w$  de manière  à trouver le
+meilleur taux de convergence. Les graphes  pour les deux approches sont représentés dans
 les graphes en 3 et 4 bas.
-On a trouve un $w_{optmal}\approx 1.1$ 
+On a trouvé un $w_{optimal}\approx 1.1$ 
+
 
 \begin{figure}[h!]
   \begin{centering}
-    \includegraphics[scale=0.5]{../relaxation_conv2}
-    \label{rspro2}
+    \subfigure[Utilisant la fonction Polyfit et la suite d'erreurs]{
+      \includegraphics[scale=0.35]{../relaxation_conv2}}  
+    \subfigure[Calcule du rayon spectral de la matrice $R_w$.]{
+      \includegraphics[scale=0.35]{../relaxation_conv_rho}
+    }
     \par\end{centering}
-  \caption{Approche 1:Taux de convergence en fonction du paramètre de relaxation w}
-  \label{fig:jacobi-conv}
+  \caption{Taux de convergence en fonction du paramètre de relaxation $\omega$}
+  \label{rspro}
 \end{figure}
 
-\begin{figure}[h!]
-  \begin{centering}
-    \includegraphics[scale=0.5]{../relaxation_conv_rho}
-    \label{rspro2}
-    \par\end{centering}
-  \caption{Approche 2: Calcule du rayon spectral de la matrice $R_w$}
-  \label{fig:jacobi-conv}
-\end{figure}
+
+% \begin{figure}[h!]
+%   \begin{centering}
+%     \includegraphics[scale=0.5]{../relaxation_conv2}
+%     \label{rspro2}
+%     \par\end{centering}
+%   \caption{Approche 1:Taux de convergence en fonction du paramètre de relaxation w}
+%   \label{fig:jacobi-conv}
+% \end{figure}
+
+% \begin{figure}[h!]
+%   \begin{centering}
+%     \includegraphics[scale=0.5]{../relaxation_conv_rho}
+%     \label{rspro2}
+%     \par\end{centering}
+%   \caption{Approche 2: Calcul du rayon spectral de la matrice $R_w$}
+%   \label{fig:jacobi-conv}
+% \end{figure}
 
 %\begin{equation}
 %  \omega = \frac{2}{1+\sqrt{1- \rho(J)^2}}
@@ -122,19 +147,19 @@ On a trouve un $w_{optmal}\approx 1.1$
 %  \frac{d\omega}{d\rho} =\frac{2\,\rho}{\sqrt{1-{\rho}^{2}}\,{\left( \sqrt{1-{\rho}^{2}}+1\right) }^{2}}
 %\end{equation}
 
-%Pour le valeur  minimum ou maximum la dérivée doit être  0, donc $\rho(J)=0$, en
-%utilisant la équation 1 on a $\omega=1$;
+%Pour la valeur minimale ou maximuale, la dérivée doit être 0, donc $\rho(J)=0$,
+%en utilisant l'équation 1 on a $\omega=1$;
 
 \newpage
 \subsection{Méthode de Cholesky}
 \subsubsection{Implémentation}
 
-La fonction suivante était fournit par le problème. 
+La fonction suivante était fournie par le problème. 
 \begin{multicols}{2}
-  \lstinputlisting[title=\textbf{Méthode de Jacobi}]{../cholesky.m}
+  \lstinputlisting[title=\textbf{Méthode de Cholesky}]{../cholesky.m}
 \end{multicols}
 
-Pour le même exemple précedent, on a trouve:
+Pour le même exemple que précèdemmet, on a trouvé:
 
 \begin{table}[h!]
   \begin{center}
@@ -150,10 +175,53 @@ Pour le même exemple précedent, on a trouve:
       \hline 
     \end{tabular}
   \end{center}
-  \caption{Vérification function Cholesky}
+  \caption{Vérification fonction Cholesky}
 \end{table}
 
 \subsubsection{Complexité}
+
+La complexité de la fonction Cholesky est donné par $O(\frac{N^2p}{2})$, pour les autres
+méthodes on a:
+
+\begin{description}
+\item[Jacobi]{L'interaction  de Jacobi est donné  par: $x^{n+1}=D^{-1}(L+U)x^n +
+  D^{-1}b$,  comme la  matrice  A   est composée seulement par  des termes  non  nulles dans  la
+  diagonale principal et dans deux diagonales secondaires, on a: $(L+U)$ matrice
+  avec presque  2N termes et  $(D)^{-1}$ matrice avec  N termes. Ainsi,  pour le
+  nombre  des  multiplications  on  a  $D^{-1}(L+U)x^n  \in  O(3N)$,  parce  que
+  $D^{-1}(L+U)$  a 2N  multiplications  et  la matrice  résultante  a presque  N
+  termes, donc $D^{-1}(L+U)x^n$ ira avoir 3N multiplications. De plus, $D^{-1}b
+  \in O(N)$}. Finalement, $Jacobi \in O(3N)$
+ 
+\item[Relaxation]{ L'interaction  de Relaxation est donné  par: $x^{n+1}=(\frac{D}{w}-L)^{-1}(\frac{1-w}{w}D+U)x^n +
+  (\frac{D}{w}-L)^{-1}b$, comme la matrice A est composée seulement par des termes non nulles dans la
+  diagonale   principal   et   dans   deux   diagonales   secondaires,   on   a:
+  $(\frac{D}{w}-L)^{-1} $ matrice avec plus de $2N$ termes (on a trouvé cette valeur en
+  utilisant Matlab pour la matrice A de la sections antérieurs)
+         et $(\frac{1-w}{w}D+U)$ matrice avec 2N termes. Ainsi,
+  $(\frac{D}{w}-L)^{-1}(\frac{1-w}{w}D+U)x^n         \in        O(5N)$        et
+  $(\frac{D}{w}-L)^{-1}b \in O(3N)$. Finalement $Relax \in O(5N)$
+}
+\end{description}
+
+Afin de calculer le temps d'exécution des méthodes de Jacobi, Relaxation et
+Cholesky, les codes suivants ont été crées.
+
+
+\begin{multicols}{2}
+  \lstinputlisting[title=\textbf{Calcul temps Jacobi}]{time/entreeJacobi.m}
+\end{multicols}
+
+\begin{multicols}{2}
+  \lstinputlisting[title=\textbf{Calcul temps Relaxation}]{time/entreeRelax.m}
+\end{multicols}
+
+
+\begin{multicols}{2}
+  \lstinputlisting[title=\textbf{Calcul temps Cholesky}]{time/entreeCholesky.m}
+\end{multicols}
+
+En exécutant les codes, on a trouvé:
 
 \begin{table}[h!]
   \begin{center}
@@ -165,14 +233,14 @@ Pour le même exemple précedent, on a trouve:
       Cholesky $(p=1)$ & 0.011554       &  0.023093 & 0.036068
       & 0.047571 & 0.061026 & 0.074059 \\
       Jacobi &   0.0026100
-      &    0.0031020
-      &   0.0041549
-      &   0.0048039
-      &  0.0078550
-      &  0.0097679        \\
+      & 0.0031020
+      & 0.0041549
+      & 0.0048039
+      & 0.0078550
+      & 0.0097679        \\
       Relaxation $(w = 1.1)$
-      &  0.0020840
-      &  0.0025171
+      & 0.0020840
+      & 0.0025171
       & 0.0036389 
       & 0.0065949
       & 0.0083960
@@ -180,12 +248,16 @@ Pour le même exemple précedent, on a trouve:
       \hline 
     \end{tabular}
   \end{center}
-  \caption{Comparaison de temps entre les trois méthodes pour un système tridiagonal}
+  \caption{Comparaison des temps entre les trois méthodes pour un système tridiagonal}
 \end{table}
 
-En général le méthode Relaxation (SOR) est la méthode plus rapide pour un
-système tridiagonal, parce que il  fait moins itération que Jacobi, peut-être le
-code n'est pas optimal c'est pour cela que le temps pour N grand est grand.
+En général la méthode Jacobi est la méthode la plus rapide pour un
+système     tridiagonal,    parce     qu'elle    fait     moins  de
+multiplications. Néanmoins, la méthode de relaxation fait moins d'itérations que
+Jacobi, c'est pour cela que quand N  est petite la méthode relaxation est plus rapide
+que Jacobi; mais lorsque N croit beaucoup, la méthode de Jacobi fait moins multiplications
+même avec plus d'interaction, ce qui le fait le plus vite.
+
 
 \section{Application}
 \subsection{Calcul d'une spline d'interpolation}
@@ -202,138 +274,71 @@ code n'est pas optimal c'est pour cela que le temps pour N grand est grand.
 
 \subsection{Application}
 
-En utilisant les  fonctions mis en œuvre avant, on a utilisé les fonctions sinus
-et exponentielle pour vérifier le spline cubique. Les graphes suivantes sont les valeurs interpolées par le
-spline cubique et l'erreur de cette interpolation si on comparé aux valeurs de la fonction réel.
+En utilisant les fonctions mis en œuvre avant (relax et sinterp), on a utilisé les fonctions sinus
+et exponentielle pour vérifier le spline cubique. Les graphes suivants sont les valeurs interpolées par le
+spline cubique  et l'erreur de cette  interpolation est la  comparaison entre la
+valeur calculée par l 'algorithme et la valeur rélle de la fonction.
 
- Une observation, pour les graphes des erreurs,  les points  en 0  sont le  points utilisées pour trouver  les valeurs
-pendand l'interpolation, c'est-à-dire, sont le point en commun entre le fonction
-réel et l'interpolée, donc il n'existe pas d'erreur parce que c'est le même valeur.
-D'autre remarque est que plus le valeur de la fonction est grand, plus est l'erreur.
+ Une observation: les graphes des erreurs montrent que les points d'ordonnée 
+ nulle  sont  les points utilisées  pour trouver  les valeurs pendant l'interpolation,
+ c'est-à-dire, que ce sont les points en commun entre la fonction
+réelle et la valeur de l'interpolation. Donc il n'existe pas d'erreur parce que c'est la même valeur.
+Une autre remarque  est que plus la  valeur de la fonction est  grande, plus est
+l'erreur est importante.
 
-\begin{figure}[h!]
-  \begin{centering}
-    \includegraphics[scale=0.5]{../sinus_2}
-    \label{rspro2}
-    \par\end{centering}
-  \caption{Spline Cubique - fonction sinus pas original 0.5, pas spline 0.25}
-  \label{fig:jacobi-conv}
-\end{figure}
+Pour les graphes 6 et 9, on a  augmenté le valeur du pas de la fonction original,
+cela  veut   dire,  on  a  pris   plus  de  points  en   utilisant  la  fonction
+original. Alors, la  spline cubique ira être plus précise, comme  on voit par le
+graphes des erreurs qui démontrent des valeurs trop petites.
 
-\begin{figure}[h!]
-  \begin{centering}
-    \includegraphics[scale=0.5]{../sinus_2_error}
-    \label{rspro2}
-    \par\end{centering}
-  \caption{Error Spline Cubique - fonction sinus pas original 0.5, pas spline 0.25}
-  \label{fig:jacobi-conv}
-\end{figure}
-
+Autre remarque c'est que on a, en utilisant les fonctions spinterp et 
+relax, des erreurs avant la fonction speval. Donc, pour avoir une spline plus précise on pourrait aussi
+faire des améliorations dans la fonctions relax et spinterp.
 
 \begin{figure}[h!]
   \begin{centering}
-    \includegraphics[scale=0.5]{../sinus_5}
-    \label{rspro2}
+    \subfigure[Interpolation]{
+      \includegraphics[scale=0.35]{../sinus_2}    }
+    \subfigure[Erreur interpolation.]{
+      \includegraphics[scale=0.35]{../sinus_2_error}
+    }
     \par\end{centering}
-  \caption{Spline Cubique - fonction sinus pas original 0.5, pas spline 0.1}
-  \label{fig:jacobi-conv}
-\end{figure}
-
-
-\begin{figure}[h!]
-  \begin{centering}
-    \includegraphics[scale=0.5]{../sinus_5_error}
-    \label{rspro2}
-    \par\end{centering}
-  \caption{Error Spline Cubique - fonction sinus pas original 0.5, pas spline 0.25}
-  \label{fig:jacobi-conv}
-\end{figure}
-
-\begin{figure}[h!]
-  \begin{centering}
-    \includegraphics[scale=0.5]{../sinus_10}
-    \label{rspro2}
-    \par\end{centering}
-  \caption{Spline Cubique - fonction sinus pas original 0.5, pas spline 0.05}
-  \label{fig:jacobi-conv}
-\end{figure}
-
-
-\begin{figure}[h!]
-  \begin{centering}
-    \includegraphics[scale=0.5]{../sinus_10_error}
-    \label{rspro2}
-    \par\end{centering}
-  \caption{Error Spline Cubique - fonction sinus pas original 0.5, pas spline 0.25}
-  \label{fig:jacobi-conv}
-\end{figure}
-
-\begin{figure}[h!]
-  \begin{centering}
-    \includegraphics[scale=0.5]{../exp_2}
-    \label{rspro2}
-    \par\end{centering}
-  \caption{Spline Cubique - fonction exp pas original 1, pas spline 0.5}
-  \label{fig:jacobi-conv}
-\end{figure}
-
-
-\begin{figure}[h!]
-  \begin{centering}
-    \includegraphics[scale=0.5]{../exp_2_error}
-    \label{rspro2}
-    \par\end{centering}
-  \caption{Error Spline Cubique - fonction exp pas original 1, pas spline 0.5}
-  \label{fig:jacobi-conv}
-\end{figure}
-
-\begin{figure}[h!]
-  \begin{centering}
-    \includegraphics[scale=0.5]{../exp_5}
-    \label{rspro2}
-    \par\end{centering}
-  \caption{Spline Cubique - fonction exp pas original 1, pas spline 0.02}
-  \label{fig:jacobi-conv}
-\end{figure}
-
-\begin{figure}[h!]
-  \begin{centering}
-    \includegraphics[scale=0.5]{../exp_5_error}
-    \label{rspro2}
-    \par\end{centering}
-  \caption{Error Spline Cubique - fonction exp pas original 1, pas spline 0.5}
-  \label{fig:jacobi-conv}
-\end{figure}
-
-
-\begin{figure}[h!]
-  \begin{centering}
-    \includegraphics[scale=0.5]{../exp_10}
-    \label{rspro2}
-    \par\end{centering}
-  \caption{Spline Cubique - fonction exp pas original 1, pas spline 0.1}
-  \label{fig:jacobi-conv}
-\end{figure}
-
-\begin{figure}[h!]
-  \begin{centering}
-    \includegraphics[scale=0.5]{../exp_10_error}
-    \label{rspro2}
-    \par\end{centering}
-  \caption{Error Spline Cubique - fonction exp pas original 1, pas spline 0.5}
-  \label{fig:jacobi-conv}
+  \caption{Fonction sinus pas original 0.5, pas spline 0.25}
 \end{figure}
 
 
 \begin{figure}[h!]
   \begin{centering}
     \subfigure[Interpolation]{
-      \includegraphics[scale=0.35]{../exp_5}    }
+      \includegraphics[scale=0.35]{../sinus_10}    }
     \subfigure[Erreur interpolation.]{
-      \includegraphics[scale=0.35]{../exp_5_error}
+      \includegraphics[scale=0.35]{../sinus_10_error}
     }
     \par\end{centering}
-  \caption{Fonction exp pas original 1, pas spline 0.1}
+  \caption{Fonction sinus pas original 0.5, pas spline 0.05}
+\end{figure}
+
+
+\begin{figure}[h!]
+  \begin{centering}
+    \subfigure[Interpolation]{
+      \includegraphics[scale=0.35]{../sinus_10_2}    }
+    \subfigure[Erreur interpolation.]{
+      \includegraphics[scale=0.35]{../sinus_10_error_2}
+    }
+    \par\end{centering}
+  \caption{Fonction sinus pas original 0.05, pas spline 0.005}
+\end{figure}
+
+\begin{figure}[h!]
+  \begin{centering}
+    \subfigure[Interpolation]{
+      \includegraphics[scale=0.35]{../exp_2}    }
+    \subfigure[Erreur interpolation.]{
+      \includegraphics[scale=0.35]{../exp_2_error}
+    }
+    \par\end{centering}
+  \caption{Fonction exp pas original 1, pas spline 0.5}
   \label{rspro}
 \end{figure}
 
@@ -346,7 +351,20 @@ D'autre remarque est que plus le valeur de la fonction est grand, plus est l'err
       \includegraphics[scale=0.35]{../exp_10_error}
     }
     \par\end{centering}
-  \caption{Fonction exp pas original 1, pas spline 0.5}
+  \caption{Fonction exp pas original 1, pas spline 0.1}
+  \label{rspro}
+\end{figure}
+
+
+\begin{figure}[h!]
+  \begin{centering}
+    \subfigure[Interpolation]{
+      \includegraphics[scale=0.35]{../exp_10_2}    }
+    \subfigure[Erreur interpolation.]{
+      \includegraphics[scale=0.35]{../exp_10_error_2}
+    }
+    \par\end{centering}
+  \caption{Fonction exp pas original 0.1, pas spline 0.01}
   \label{rspro}
 \end{figure}
 
