@@ -11,15 +11,14 @@
 
 function x = gradient_conjugue(A,b,x0,eps)
 
-xn = [1 3 2 0 1]'; % rand vector
-x = x0;
-x = [x xn];
+xn = x0;
+x = [x0 xn];
 i = 1;
 
 g = A*xn-b;
 w = g;
 
-while (norm (x(:,i+1) - x(:,i))>eps),
+while (norm (x(:,i+1) - x(:,i))>eps || i==1),
   
   beta = g'*w/(w'*A*w);
 
