@@ -1,0 +1,66 @@
+% -%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
+% MDI224 % 
+% Data:12/12/2011                                 %
+% Paris,France                                    % 
+% Groupe:                                         %
+% - Tiago Chedraoui Silva                   % 
+% - Anthony CLERBOUT
+% -%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[francais,listings,algo]{tcs}
+
+% Cover %
+\def \ttprofname{Roland BADEAU} % teachers name
+\def \ttabrv{MDI224} % abbreviation of names class
+\def \ttabrvxt{} % period
+\def \mytitle{Interpolation par splines cubiques} % Big title
+\def \mysubtitle{ Travaux Pratique 2 - Deuxième semestre de 2011} % subtitle
+\def \ttauthi{Anthony CLERBOUT} % author's name
+\def \ttxti{Casier: 234} % Extra text right side of name
+\def \ttauthii{Tiago CHEDRAUOI SILVA} % author's name
+\def \ttxtii{Casier: 214 } % Extra text right side of name
+\def \ttdate{Décembre 15, 2011} % date
+
+\begin{document}
+\titleTMB 
+\newpage
+\tableofcontents
+\listoffigures
+\newpage
+
+\section{Résolution du système linéaire}
+
+\subsection{Méthode du gradient à pas constant}
+
+\subsubsection{Implémentation}
+
+Pour voir la méthode du gradient à pas constant, on a fait le code suivant:
+
+\begin{multicols}{2}
+  \lstinputlisting[title=\textbf{Méthode du gradient à pas constant}]{../mygradient.m}
+\end{multicols}
+
+
+\subsection{Méthode du gradient à pas optimal}
+
+\subsubsection{Implémentation}
+Pour voir la méthode du gradient à pas optimal, on a fait le code suivant:
+
+\begin{multicols}{2}
+  \lstinputlisting[title=\textbf{Méthode du gradient à pas optimal}]{../gradient_optimal.m}
+\end{multicols}
+
+
+\subsection{Méthode du gradient conjugué}
+\subsubsection{Implémentation}
+
+Pour voir la méthode du gradient conjuge, on a fait le code suivant:
+ 
+\begin{multicols}{2}
+  \lstinputlisting[title=\textbf{Méthode du gradient conjugué}]{../gradient_conjugue.m}
+\end{multicols}
+
+\end{document}
+
