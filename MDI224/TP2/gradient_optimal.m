@@ -9,7 +9,7 @@
 % Description: Gradient a pas constant
 % % % % % % % % % % % % % % % % % % %
 
-function x = mygradient(A,b,x0,eps)
+function x = gradient_optimal(A,b,x0,eps)
 
 % Entree
 % A : matrice

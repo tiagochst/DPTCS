@@ -18,12 +18,11 @@ function x = mygradient(A,b,x0,beta,eps)
 % beta: le pas 
 % esp: critere de convergence 
 
-xn=[1 3 2 0 1]'; % rand vector
-x=x0;
-x=[x xn];
+xn=x0;
+x=[x0 xn];
 i=1;
 
-while (norm (x(:,i+1) - x(:,i))>eps),
+while (norm (x(:,i+1) - x(:,i))>eps || i==1 ),
   
   %  Pour la  fonction
   %    J=1/2*xT*A*x-xTb;

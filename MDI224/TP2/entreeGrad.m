@@ -9,11 +9,25 @@ x0 = zeros(N,1);
 % 2.2.1
 beta=0.01;
 sol = mygradient(A,b,x0,beta,eps);
-disp(sol);
+
+disp('GRAD')
+disp('ITER')
+disp(size(sol,2)-1);
+disp('sol grad')
+disp(sol(:,size(sol,2)));
 
 sol = gradient_optimal(A,b,x0,eps);
-disp(sol);
 
+disp('GRAD')
+disp('ITER')
+disp(size(sol,2)-1);
+disp('sol grad')
+disp(sol(:,size(sol,2)));
 
 sol = gradient_conjugue(A,b,x0,eps);
-disp(sol);
+
+disp('GRAD')
+disp('ITER')
+disp(size(sol,2)-1);
+disp('sol grad')
+disp(sol(:,size(sol,2)));
