@@ -22,7 +22,7 @@ while (norm (x(:,i+1) - x(:,i))>eps || i==1),
   
   beta = g'*w/(w'*A*w);
 
-  xn = x(:,i+1)-beta*g;
+  xn = x(:,i+1)-beta*w;
   x = [x xn];
   
   g = A*xn-b;
