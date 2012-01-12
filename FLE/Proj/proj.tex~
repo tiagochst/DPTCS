@@ -1,0 +1,179 @@
+% -%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
+% MDI200: Probabilités                            %  
+% Devoir 1                                        %
+% Data:05/10/2011                                 %
+% Paris,France                                    % 
+% Groupe:                                         %
+% - Tiago Chedraoui Silva                   % 
+% -%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
+
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[english,listings,algo]{tcs}
+
+% Cover %
+\def \ttprofname{Penelope POULTON} % teachers name
+\def \ttabrv{ANG206} % abbreviation of names class
+\def \ttabrvxt{Cycle d'harmonisation } % period
+\def \mytitle{A new ally against cancer} % Big title
+\def \mysubtitle{Tutorial english class - Second Semester of 2011 } % subtitle
+\def \ttauth{Tiago Chedraoui Silva} % author's name
+\def \ttxt{Rack: 214 } % Extra text right side of name
+\def \ttdate{November 3, 2011} % date
+
+\begin{document}
+\titleTMB 
+\newpage
+
+
+\section{New Words}
+
+% Write the meanings in english-english form  
+\begin{description}
+
+%\item[Okayed] %- aprovar
+
+%\item[Enlisted] %- alistar
+
+\item[Blunt]  {\it(adjective)} - Saying what you think without trying to be polite or caring about other people’s feelings.
+%brusco
+%    blunt criticism
+%    Blunt and outspoken, he often quarreled with fellow officials.
+
+
+\item[Dash] {\it(verb)} - To move quickly.
+%(sumiram rapidamente)
+%along aside - cautiously
+
+
+\item[Endeavor] {\it(noun)} - An effort or attempt to do something.
+% Writing is a very different endeavor than teaching.
+% indévãr =P
+
+\item[Halt] {\it(verb)} - To stop something, or to bring something to a stop.
+%    [I] "Halt!" ordered the guard.
+%    [T] Congress voted additional funds in an effort to halt the spread of the disease.
+%    [T] Nationwide, mail delivery was halted by the strike.
+%parada
+
+\item[Harsh] {\it(adjective)} - Unkind or cruel.
+%severo, desagradável
+%harsh criticism
+
+\item[Lifespan] {\it(noun)} - The length of time for which a person, animal or thing exists.
+% duração de vida
+%The average human lifespan in the developed countries has increased over the last hundred years.
+%The project's lifespan is estimated at about five years.
+
+\item[Markedly] {\it(adverb)} - Obvious or noticeable.
+%   There was a marked improvement in my health when I started exercising.
+%signitificamente
+
+
+\item[Prod] {\it(verb)} - To prod someone is to encourage someone to take action, esp. when
+  the person is slow or unwilling.
+%No matter how much I prod he will not tell me what happened.
+% estimular
+% for instance por exemplo
+
+
+\item[Pointedly] {\it(adverb)} - In an obvious and intentional way.
+% claramente
+% She pointedly ignored him.
+
+\item[Subdue] {\it(verb)} - To reduce the force of something, or to prevent something from existing or developing.
+% She’d be hard to subdue if she got mad.
+%The fire burned for eight hours before the fire crews could subdue it.
+%He criticized the school for trying to subdue individual expression.
+
+
+
+%strain - tensão 
+%something that causes anxiety, worry, or difficulty:
+%    [U] Loss of funding has put a lot of strain on the day-care center.
+%    [C] The benefits of keeping our daughter at home make the strains of having only one income worthwhile.
+
+%brew- fermento 
+
+
+%\item[Out of favour] - Investments, products, or services that are out of favour are no longer popular with investors or consumers.
+%    Shares in the out-of-favour telecommunications sector fell from 391p to 246p yesterday.
+%    fall/remain/go out of favour While the markets' attention remains firmly focused on the yen, the euro has fallen out of favor.
+%    be out of favour with sb/sth Airline stocks are currently out of favour with institutional investors because of the global economic slowdown.
+%fell out of favor - caiu em desuso
+%\item[Tweak] -to pull and twist something with a small sudden movement
+%Standing in front of the mirror she tweaked a strand of hair into place.
+
+%\item[plague] - To cause someone or something difficulty or suffering, esp. repeatedly or continually.
+%    Financial problems have been plaguing the company.
+%    That pain in my shoulder is plaguing me again.
+
+%\item[setback] - Something that causes delay or stops progress.
+%    Democrats suffered a serious setback in yesterday’s election, losing all three contested seats.
+
+
+\end{description}
+
+\section{Glossary}
+
+\begin{description}
+\item[Antigen]  Biology a  harmful substance  that  causes the  body to  produce
+  antibodies, which are substances that fight disease
+\item[Cancer] A disease in which cells in the body grow without control, or a serious medical condition caused by this disease.
+\item[CD8+ T cell] Cells responsable for killing tumors
+\item[CD4+ T cell] Cells that give orders about who and what to  attack to the
+  foot soldiers.
+\item[FDA] - Food and Drug Administration
+\item[Tumors] A mass  of cells in the  body that grow faster than  usual and can
+  cause illness.
+\end{description}
+
+
+% Intro
+% New vaccine with chomoeterapy
+%
+%
+\newpage
+
+\spc{2} % double spacing
+
+\section{Text with words}
+
+In 1950, we were one billion, in 1975 were four billion, nowadays, human race has reached an incredible number of seven billion people
+living  in the  same blued-planet  called Earth  and it  is projected  to exists fifteen
+billion in 2050.  {\color{red}Pointedly}, thanks to the increase
+of  {\color{red}lifespan}, which was possible, mainly, by the development of medicine, we were
+able to achieve such impressive numbers.
+
+Nevertheless, Earth has limited resources, in a way that, in a very near future, it
+will  be no  more available  to everyone.  We  are going  to live  in period  of
+shortage, some places will not have potable water, others will run out of food,
+or will not have enough space neither to  drive a car nor to live alone. As long
+as   people  are   concerned  about   this  possible   problem,  an   effort  to
+{\color{red}halt} these increase of population  is needed. Probably, we will see
+some {\color{red}harsh} actions to be taken by countries to {\color{red}subdue} the problem of overpopulation.
+
+ Indeed, this is  a global problem and not a national  one; so we will
+need to  forget our differences in  culture, religion, language; and  we have to
+start to work together. We need to change the world, even though sometimes we have to be steady and give up the thing we
+want the  most, even our  dreams. Maybe, we  are not concerned about  the future,
+because probably we will not live in this near future, however it will be the era
+of our children. In spite of your parents and grandparents have not been concerned
+about this  problem, if  they had  the knowledge of  the consequences  caused by
+their acts they would have done things differently. Then, its our opportunity to
+change our acts, our laws, our thoughts.
+
+For example, maybe this is a {\color{red}blunt} criticism, but catholic church's idea of not allowing
+the use of preservatives during a sexual relationship should be no more accepted
+by  population,   otherwise  we  will  {\color{red}dash}  into   a  way  without
+exit. We need to be aware of the consequences our acts result in, and preventing
+an undesired baby  is not only a desire to a couple but, today,  as it concerns
+everyone, it is a need of the world so it can be in equilibrium.
+
+Finally, if you know someone who thinks differently, we just ask you to try to {\color{red}prod} him
+to think about what  is going to happen to our, yet  beautiful, planet, and what
+each person could do, it being a big {\color{red}endeavor} or not, to get us out of this situation.
+If you do it, and other people too, we are going to create a chain, which will
+little by  little {\color{red}markedly} change the situation.  
+
+\end{document}
