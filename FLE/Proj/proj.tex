@@ -12,7 +12,8 @@
 % Video GreenPeace
 % Animacao climat France 
 % http://climat.meteofrance.com/chgt_climat/rechauffement/amiens
-
+% video
+% http://acturama.org/spip.php?article231
 
 
 \documentclass[a4paper,11pt]{article}
@@ -35,12 +36,13 @@
 
 % \spc{1.5}
 \begin{document}
-
+\thispagestyle{empty}
 \titleTMB 
 \newpage
+\thispagestyle{empty}
 \tableofcontents
 \newpage
-
+\setcounter{page}{1}
 \section*{Introduction}
 
 Aujourd'hui, le réchauffement climatique, qui  a été intensifié par l’homme, est
@@ -86,19 +88,25 @@ augmente et le planète ira se réchauffer plus!
 Donc, le  problème du réchauffement climatique  est que justement  le volume des
 gaz à effet de serre est en trop forte augmentation.
 
-La figure \ref{fig:effetserre} démontre le schéma explicatif de l'effet de serre.
-On peut voir que une partie du rayonnement infrarouge (en rouge), presque 95\%, est absorbée et ré-émise par les molécules
-de gaz  à effet de serre.  La conséquence direct  en est le réchauffement  de la
+Mais comment fonctionne ce réchauffement? Les molécules de gaz à effet de serre sont responsables par l'absorption et
+ré-émission de presque 95\% du rayonnement infrarouge qui vient du soleil.  La conséquence direct en est le réchauffement de la
 surface de la terre et de la troposphère. Après, le surface se réchauffe encore et un
 rayonnement infrarouge est à nouveau émis. 
 
-\begin{figure}[H]
-  \begin{centering}
-    \includegraphics[scale=0.3]{fig/effet-de-serre}
-    \par\end{centering}
-  \caption{Schéma explicatif de l'effet de serre}
-  \label{fig:effetserre}
-\end{figure}
+
+% La figure \ref{fig:effetserre} démontre le schéma explicatif de l'effet de serre.
+% On peut voir que une partie du rayonnement infrarouge (en rouge), presque 95\%, est absorbée et ré-émise par les molécules
+% de gaz  à effet de serre.  La conséquence direct  en est le réchauffement  de la
+% surface de la terre et de la troposphère. Après, le surface se réchauffe encore et un
+% rayonnement infrarouge est à nouveau émis. 
+
+% \begin{figure}[H]
+%   \begin{centering}
+%     \includegraphics[scale=0.2]{fig/effet-de-serre}
+%     \par\end{centering}
+%   \caption{Schéma explicatif de l'effet de serre (source: Acturama} 
+%   \label{fig:effetserre}
+% \end{figure}
 
 
 Les  gaz à  effet  de serre  peuvent  être repartis  en  deux groupes,  lesquels
@@ -118,7 +126,7 @@ considérable à cause de les actions anthropiques.
 
 \begin{table}[H]
   \caption{Comparaison entre la  concentration des gaz à effet  de serre entre les
-    périodes préindustrielle e actuel }
+    périodes préindustrielle e actuel \cite{WIKI1}}
   \begin{tabular}{ |c | c| p{3cm} | p{2.5cm} | p{2.5cm}  |}
     \hline
     Gaz à effet de serre & Formule & Concentration Préindustrielle & Concentration
@@ -126,46 +134,46 @@ considérable à cause de les actions anthropiques.
     (ans)  \\
     \hline 
     \hline 
-    vapeur d'eau & \ce{H2O} & 3‰ & 3‰ &  (1-2 semaines) \\
+%    vapeur d'eau & \ce{H2O} & 3‰ & 3‰ &  (1-2 semaines) \\
     dioxyde de carbone & \ce{CO2} & 278 ppm & 387 ppm &  15 - 200 \\
     méthane & \ce{CH4} &0,7 ppm &1,7 ppm& 4 \\
-    protoxyde d'azote & \ce{N2O} & 0,275 ppm &0,311 ppm &120 \\
-    dichlorodifluorométhane  & \ce{CCl2F2} & 0 & 0,503 ppb & 130 \\
-    chlorodifluorométhane  & \ce{CHClF2} & 0 & 0,105 ppb & 12 \\
+%    protoxyde d'azote & \ce{N2O} & 0,275 ppm &0,311 ppm &120 \\
+%    dichlorodifluorométhane  & \ce{CCl2F2} & 0 & 0,503 ppb & 130 \\
+%    chlorodifluorométhane  & \ce{CHClF2} & 0 & 0,105 ppb & 12 \\
     tétrafluorométhane & \ce{CF4} & 0& 0,070 ppb &50 000 \\
-    hexafluorure de soufre & \ce{SF6} & 0 & 0,032 ppb & 3200\\
+%    hexafluorure de soufre & \ce{SF6} & 0 & 0,032 ppb & 3200\\
     \hline
   \end{tabular}
   \label{tab:gaz}
 \end{table}
 
-Le  tableau ci-dessous  montre le  valeur de  Potentiel de  réchauffement global
-(PRG), qu'est utilisé pour prédire les impacts relatifs de différents gaz sur le
-réchauffement global en se basant sur leurs propriétés radiatives.
-Par définition,  le PRG du  \ce{CO2} est  toujours identique à  1 et les  autres sont
-basées sur une comparaison avec le \ce{CO2}.
+%Le  tableau ci-dessous  montre le  valeur de  Potentiel de  réchauffement global
+%(PRG), qu'est utilisé pour prédire les impacts relatifs de différents gaz sur le
+%réchauffement global en se basant sur leurs propriétés radiatives.
+%Par définition,  le PRG du  \ce{CO2} est  toujours identique à  1 et les  autres sont
+%basées sur une comparaison avec le \ce{CO2}.
 
-\begin{table}[H]
-  \caption{Comparaison entre les effets des différents gaz de serre}
-  \begin{center}
-    \begin{tabular}{ |c | c|}
-      \hline
-      gaz à effet de serre &  PRG à 100 ans \\
-      \hline 
-      \hline 
-      vapeur d'eau &  8\\
-      dioxyde de carbone  & 1\\
-      méthane & 23\\
-      protoxyde d'azote  &310\\
-      dichlorodifluorométhane  & 6 200 - 7 100\\
-      chlorodifluorométhane  & 1 300 - 1 400\\
-      tétrafluorométhane &6 500\\
-      hexafluorure de soufre & 22 800\\
-      \hline
-    \end{tabular}
+% \begin{table}[H]
+%   \caption{Comparaison entre les effets des différents gaz de serre \cite{WIKI1}}
+%   \begin{center}
+%     \begin{tabular}{ |c | c|}
+%       \hline
+%       gaz à effet de serre &  PRG à 100 ans \\
+%       \hline 
+%       \hline 
+%       vapeur d'eau &  8\\
+%       dioxyde de carbone  & 1\\
+%       méthane & 23\\
+%       protoxyde d'azote  &310\\
+%       dichlorodifluorométhane  & 6 200 - 7 100\\
+%       chlorodifluorométhane  & 1 300 - 1 400\\
+%       tétrafluorométhane &6 500\\
+%       hexafluorure de soufre & 22 800\\
+%       \hline
+%     \end{tabular}
 
-  \end{center}
-\end{table}
+%   \end{center}
+% \end{table}
 
 Les actions qui on résulté en cette augmentation sont:
 
@@ -196,18 +204,20 @@ pourrait cause  une inondation , tandis  qu'autres lieus auront  des périodes d
 sécheresse en raison d'une baisse de précipitations.
 
 Une autre conséquence  est la diminution de la banquise,  soit dans le montagnes
-(voir figure \ref{fig:kili}) soit dans les pays avec calottes polaires (Antarctique et Groenland).
+%(voir figure \ref{fig:kili})
+ soit dans les pays avec calottes polaires (Antarctique et Groenland).
 Comme quelques montagnes sont la source de l'eau pour quelques civilisations, le
 réchauffement climatique  aura un impact  gigantesque dans la quantité  de l'eau
 disponible. Et en plus, il existe un danger de avalanche plus accentué.
 
-\begin{figure}[H]
-  \begin{centering}
-    \includegraphics[scale=0.3]{fig/kili}
-    \par\end{centering}
-  \caption{Changement de l'accumulation des neiges au sommet du Kilimandjaro}
-  \label{fig:kili}
-\end{figure}
+% \begin{figure}[H]
+%   \begin{centering}
+%     \includegraphics[scale=0.3]{fig/kili}
+%     \par\end{centering}
+%   \caption{Changement    de   l'accumulation   des    neiges   au    sommet   du
+%     Kilimandjaro (source: NASA)}
+%   \label{fig:kili}
+% \end{figure}
 
 
 Sur  l'agriculture, les  températures  ont un  effet  sur la  date des  récoltes
@@ -233,7 +243,7 @@ D'autres danger sont:
 Le réchauffement constaté en France métropolitaine au cours du $XX^e$ siècle 
 est d’environ 30  \% plus grand que le réchauffement moyen  sur le globe, tandis
 que  la température  moyenne annuelle  global a  augmenté de  $0,74^{\circ}C$ en
-France métropolitaine la valeur est de $0,95^{\circ}C$ (voir figure \ref{fig:franceMoyenne}).
+France métropolitaine la valeur est de $0,95^{\circ}C$.% (voir figure \ref{fig:franceMoyenne}).
 En raison de ce réchauffement, on a une augmentation des précipitations
 pendant l'hiver et l'automne (entre 5 et 35 \%) et d’une baisse des précipitations
 pendant l'été.
@@ -241,31 +251,35 @@ pendant l'été.
 Comme prévision dans le cas plus pessimiste,  la moyenne ira augmenter environ $8,0^{\circ}C$ et
 dans le cas plus optimiste $3,0^{\circ}C$.
 
-\begin{figure}[H]
-  \begin{centering}
-    \includegraphics[scale=0.6]{fig/franceMoyenne}
-    \par\end{centering}
-  \caption{Augmentation de la température moyenne annuelle en France
-    métropolitaine sur la période 1901-2000}
-  \label{fig:franceMoyenne}
-\end{figure}
+% \begin{figure}[H]
+%   \begin{centering}
+%     \includegraphics[scale=0.6]{fig/franceMoyenne}
+%     \par\end{centering}
+%   \caption{Augmentation de la température moyenne annuelle en France
+%     métropolitaine sur la période 1901-2000 (source: Météo-France 2007)}
+%   \label{fig:franceMoyenne}
+% \end{figure}
 
 Il  existera aussi  plus  de  jours avec  températures  maximales supérieures  à
-$35^{\circ}C$ en  France, la  figure \ref{fig:35france} démontre  les prévisions
-qui ont été  faites. Dans la situation plus pessimiste  la France souffrira plus
+$35^{\circ}C$ en France. Quelque prévisions
+ont été faites et dans la situation plus pessimiste la France souffrira plus
 de cinquante jours avec de grande températures. 
 
-\begin{figure}[H]
-  \begin{centering}
-    \includegraphics[scale=0.5]{fig/35france}
-    \par\end{centering}
-  \caption{Nombre de jours par an avec températures maximales supérieures à 35°C
-    en  France :  dernière décennie  du  20 ème  siècle comparée  à la  dernière
-    décennie du  21ème siècle, selon  les 3 scénarios  A2, A1B et  B1 (copyright
-    Météo-France 2007)}
+% Il  existera aussi  plus  de  jours avec  températures  maximales supérieures  à
+% $35^{\circ}C$ en  France, la  figure \ref{fig:35france} démontre  les prévisions
+% qui ont été  faites. Dans la situation plus pessimiste  la France souffrira plus
+% de cinquante jours avec de grande températures. 
 
-  \label{fig:35france}
-\end{figure}
+% \begin{figure}[H]
+%   \begin{centering}
+%     \includegraphics[scale=0.5]{fig/35france}
+%     \par\end{centering}
+%   \caption{Nombre de jours par an avec températures maximales supérieures à 35°C
+%     en  France :  dernière décennie  du  20 ème  siècle comparée  à la  dernière
+%     décennie du 21ème siècle, selon les 3 scénarios A2, A1B et B1 (source: Météo-France 2007)}
+
+%   \label{fig:35france}
+% \end{figure}
 
 
 \subsubsection*{Ressource en eau}
@@ -344,9 +358,9 @@ Comme un mécanisme d'alerte aux ondes de chaleur, le Plan national canicule
 fonctionnement est d'environ 740 000 euros. 
 
 \subsubsection*{Impact énergétiques}
-La consommation énergétique  en régions de climat frais  ira, peut-être diminuer
-en raison  d'une économie  en chauffage, cependant  augmenterait dans  les zones
-méridionales en raison d'une forte dépense en climatisation.
+%La consommation énergétique  en régions de climat froids  ira, peut-être diminuer
+%en raison  d'une économie  en chauffage, cependant  augmenterait dans  les zones
+%méridionales en raison d'une forte dépense en climatisation.
 
 Les baisses de précipitations modélisées dans les principaux bassins versants
 aménagés en unités hydro-électriques laissent envisager une baisse moyenne de
@@ -361,16 +375,13 @@ assez loin,  cela veut dire que  les efforts font pour  ramener le réchauffemen
 climatique à un niveau moins intense sont insuffisantes, par exemple l' objectif 
 de réduction de 20\% plutôt que 30\% est inacceptable .
   Ainsi, les ONG
-(CAN\footnote{Le  réseau  action climat  Europe  (CAN-E)  est  reconnu comme  le
-  premier réseau européen dans le domaine du climat et des énergies. CAN-E lutte
-  contre le  changement climatique et  promeut les énergies renouvelables  et la
-  politique environnementale européenne.}
+(CAN\footnote{Le  réseau  action climat  Europe  est  le
+  premier réseau européen dans le domaine du climat et des énergies.}
 Europe, Friends  of Earth\footnote{Les Amis de  la Terre (Friends  of Earth) est
-  une  organisation non  gouvernementale (ONG)  de protection  de l'Homme  et de
-  l'environnement    créée   en    1969,   et    présente   dans    76   pays.},
+  une  ONG  de protection  de l'Homme  et de
+  l'environnement.},
 Greenpeace\footnote{ Le  greenpeace est une organisation  non gouvernementale de
-  protection de l'environnement présente dans plus de quarante pays à travers le
-  monde.}  et le  WWF\footnote{Le World  Wide Fund  for Nature  est  la première
+  protection de l'environnement.}  et le  WWF\footnote{Le World  Wide Fund  for Nature  est  la première
   organisation mondiale de protection de  la nature.}) ont exigé une révision en
 profondeur  du  PECC  (Programme  européen  sur le  changement  climatique),  et
 l'établissement d'objectifs et de politiques plus ambitieux.  
@@ -392,7 +403,6 @@ climatique et  parmi ces  personnes  96\% disent que  les activités
 humaines ont intensifié le phénomène.
 Toutefois, parmi les 84\% seulement 40\% y croient "tout à fait", pendant que les autres déclarent "plutôt" y
 croire (44\%). ~\cite{FR}
-
 Cependant, seulement 31\% des Français sont convaincus que le réchauffement climatique est
 scientifiquement prouvé.
 
