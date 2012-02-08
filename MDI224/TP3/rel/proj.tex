@@ -122,9 +122,15 @@ risque plus petite.
   \label{fig:jacobi-conv}
 \end{figure}
 
-En suite, on  a pris deux actifs et  on a varier leur corrélation  entre -0.9 et
-0.9.  La  figure au dessous affiche le  rendement en fonction du  risque pour un
-portefeuille à 2 actifs pour différentes valeurs de la corrélation
+En suite, on a pris deux actifs et on a varier leur corrélation entre -0.9 et 0.9. Voir le code au dessous.
+
+\begin{multicols}{2}
+  \lstinputlisting[title=\textbf{Ventes à découvert autorisées}]{../code/rendCov.m}
+\end{multicols}
+
+
+La  figure au dessous affiche le  rendement en fonction du  risque pour un
+portefeuille à 2 actifs pour différentes valeurs de la corrélation.
 
 \begin{figure}[h!]
   \begin{centering}
@@ -136,7 +142,34 @@ portefeuille à 2 actifs pour différentes valeurs de la corrélation
 \end{figure}
 
 \newpage
-\subsection{Ventes à découvert non autorisées}
 
+\subsection{Ventes à découvert non autorisées}
+Pour que le  problème ait une solution, le rendement avec  la moyenne plus grand
+doit être plus  grand que $R_e$, cela  veut dire, si on investisse  tout dans ce
+actif on peut avoir un rendement plus haut que $R_e$, par contre en ajoutant des
+actifs avec un rendement plus petite $x^tm$ ira diminuer.
+
+Ainsi, pour  qu'il existe au  moins une solution,  le $max_i m_i$ doit  être plus
+grande que $R_e$ et $x_0$ sera un  vecteur que a un investissement de 100\% dans
+$max_i m_i$. On peut facilement que ce x  satisfait les contraintes.
+
+Pour tracer la frontière du marcher code a été crée:
+
+\begin{multicols}{2}
+  \lstinputlisting[title=\textbf{Ventes à découvert non autorisées}]{../code/noauto.m}
+\end{multicols}
+Comme résultat, on a la figure suivante:
+
+\begin{figure}[h!]
+  \begin{centering}
+    \includegraphics[scale=0.4]{parte14.eps}
+    \par\end{centering}
+  \caption{Rendement  en  fonction du  risque  pour  un  portefeuille: ventes  a
+    découverte autorisées.}
+  \label{fig:jacobi-conv}
+\end{figure}
+
+
+% ratio de sharp 11.449?
 \end{document}
 
