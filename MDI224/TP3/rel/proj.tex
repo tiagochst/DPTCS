@@ -153,7 +153,16 @@ Ainsi, pour  qu'il existe au  moins une solution,  le $max_i m_i$ doit  être pl
 grande que $R_e$ et $x_0$ sera un  vecteur que a un investissement de 100\% dans
 $max_i m_i$. On peut facilement que ce x  satisfait les contraintes.
 
-Pour tracer la frontière du marcher code a été crée:
+Comme a ce moment les ventes à découvert sont non autorisées, cela veut dire que
+notre problème sera:
+\begin{eqnarray*}
+min J(x)&=& \frac{x^tQx}{2}\\
+u^tx&=&1\\
+x^tm&\geq&Re\\
+x&\geq&0
+\end{eqnarray*}
+
+Ainsi, en utilisant la fonction QPactivate.m pour tracer la frontière du marcher, le code suivante a été crée.:
 
 \begin{multicols}{2}
   \lstinputlisting[title=\textbf{Ventes à découvert non autorisées}]{../code/noauto.m}
