@@ -137,7 +137,7 @@ portefeuille à 2 actifs pour différentes valeurs de la corrélation.
     \includegraphics[scale=0.4]{rho.eps}
     \label{rspro2}
     \par\end{centering}
-  \caption{Rendement en fonction du risque pour un portefeuille à 2 actifs pour différentes valeurs de la corrélation.}
+  \caption{Rendement  x risque: 2 actifs pour différentes valeurs de la corrélation.}
   \label{fig:jacobi-conv}
 \end{figure}
 
@@ -173,12 +173,93 @@ Comme résultat, on a la figure suivante:
   \begin{centering}
     \includegraphics[scale=0.4]{parte14.eps}
     \par\end{centering}
-  \caption{Rendement  en  fonction du  risque  pour  un  portefeuille: ventes  a
-    découverte autorisées.}
+  \caption{Rendement  x risque: ventes  a    découverte autorisées.}
   \label{fig:jacobi-conv}
 \end{figure}
 
 
-% ratio de sharp 11.449?
+En ajoutant un actif de risque 0, on doit résoudre le problème suivant:
+\begin{eqnarray*}
+min J(x)&=& \frac{x^t
+\begin{pmatrix}
+  Q & 0\\
+  0 & 0
+ \end{pmatrix} 
+x}{2}\\
+x_f+u^tx&=&1\\
+x_fR_fx_a^tm_a&\geq&Re\\
+x_a&\geq&0\\
+x_f&\geq&0
+\end{eqnarray*}
+
+
+Ainsi, en utilisant la fonction QPactivate.m pour tracer la frontière du marcher, le code suivante a été crée.:
+
+\begin{multicols}{2}
+  \lstinputlisting[title=\textbf{Ventes à découvert non autorisées: actif risque
+  0}]{../code/rendixe.m}
+\end{multicols}
+Comme résultat, on a la figure suivante. 
+
+\begin{figure}[h!]
+  \begin{centering}
+    \includegraphics[scale=0.4]{fixerend.eps}
+    \par\end{centering}
+  \caption{Rendement x risque: actif sans risques.}
+  \label{fig:jacobi-conv}
+\end{figure}
+
+\newpage
+
+Ainsi, on vérifie que cet ensemble comporte la 
+droite issue du point de coordonnées $(0, R_f )$ et 
+tangente à la frontière de marché.
+
+\begin{figure}[h!]
+  \begin{centering}
+    \includegraphics[scale=0.4]{compfixe.eps}
+    \par\end{centering}
+  \caption{Rendement  x risque: comparaison
+    avec et actif sans risques.}
+  \label{fig:jacobi-conv}
+\end{figure}
+
+Le code précédent nous a donné aussi le ratio sharpe de 0.3.
+Pour le marché 2, on a crée le code suivante:
+\begin{multicols}{2}
+  \lstinputlisting[title=\textbf{Ventes à découvert non autorisées: Marché 2}]{../code/marche2.m}
+\end{multicols}
+Comme résultat on a:
+\begin{figure}[h!]
+  \begin{centering}
+    \includegraphics[scale=0.4]{marche2.eps}
+    \par\end{centering}
+  \caption{Rendement x risque: Marche 2.}
+  \label{fig:jacobi-conv}
+\end{figure}
+
+
+\newpage
+
+En supposant l'investissement dans l'actif sans risque on a:
+\begin{table}[H]
+\begin{center}
+
+\begin{tabular}{|c|c|c|c|}
+\hline
+Fréquence temporelle & horizon temporel & Rendement& Risque\\
+\hline
+Jour & 365 &7.57\%&0\\
+Jour & 1000 &22.13\%&0\\
+Semaine & 150 &23.35\%&0\\
+Semaine &300&52.18\%&0\\
+Mois &60&43.32\%&0\\
+Mois &90&71.6\%&0\\
+\hline
+\end{tabular}
+\end{center}
+
+\end{table}
+
 \end{document}
 
