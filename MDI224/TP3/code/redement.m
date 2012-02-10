@@ -1,6 +1,4 @@
 function [ sigma ] = redement( RR, nActives, ReVar )
-%REDEMENT Summary of this function goes here
-%   Detailed explanation goes here
 
 m = mean(RR);
 m = m(1,1:nActives);
@@ -10,8 +8,6 @@ Q = RRc' * RRc/rendSize;
 
 u = ones(nActives,1);
 
-%A = u'*inv(Q)*u, B = u'*inv(Q)*m et D = m'*inv(Q)?*m.
-
 A = u'*inv(Q)*u;
 B = u'*inv(Q)*m'; 
 D = m*inv(Q)*m';
@@ -20,22 +16,22 @@ limRe = B/A;
 
 sigma=[];
 
-    for Re=ReVar,
+for Re=ReVar,
 
-       lambda = (D-Re*B)/delta;
-       mi = (-B+A*Re)/delta;
+  lambda = (D-Re*B)/delta;
+  mi = (-B+A*Re)/delta;
 
-       xe = inv(Q)*(lambda*u + mi*m');
+  xe = inv(Q)*(lambda*u + mi*m');
 
-      if (Re<B/A)
-        sigmaRes = 1/sqrt(A);
-      else
-        sigmaRes = sqrt(xe'*Q*xe);
-      end;
-   
-      sigma = [sigma sigmaRes ];
+  if (Re<B/A)
+    sigmaRes = 1/sqrt(A);
+  else
+    sigmaRes = sqrt(xe'*Q*xe);
+  end;
   
-      end;
+  sigma = [sigma sigmaRes ];
+  
+end;
 
 end
 
