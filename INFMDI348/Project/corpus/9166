@@ -1,0 +1,43 @@
+Path  cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs  ece cmu edu europa eng gtefsd com howland reston ans net agate dog ee lbl gov network ucsd edu news service uci edu cerritos edu arizona edu arizona amethyst organpipe uug arizona edu helium franklig
+Newsgroups  comp os ms windows misc
+Subject  Re  WINBENCH      help    graphics comparison   
+Message ID       Apr               organpipe uug arizona edu 
+From  franklig helium gas uug arizona edu  Gregory C Franklin  
+Date    Apr             GMT
+Sender  news organpipe uug arizona edu
+References   C zoGD C   news udel edu    pqd hINNbmi zephyr grace cri nz 
+Organization  University of Arizona  Tucson
+Lines    
+
+In article   pqd hINNbmi zephyr grace cri nz  srg sir grv grace cri nz writes 
+ 
+ 
+ In article  C zoGD C   news udel edu  swyatt bach udel edu  Stephen L Wyatt  writes 
+  I have a question about WINBENCH  pc labs thing        
+  
+  I have a        and a Ahead B     k  card and got these results 
+  
+  windows vga driver        million
+  ahead B               driver           winmarks
+  windows svga              driver        million winmarks   
+  
+  I was thinking about upgrading to a diamond   x card   I read it had about
+    million winmark  
+ 
+ On my    dx   Mhz  Mb RAM
+ Winbench    
+    x v         M                 
+      v         M                 
+      v                           
+      v                           
+
+Be very careful with these results   As I recall  numbers from Winbench
+    are calculated differently from      and so these figures are not
+comparable 
+
+However  to answer Stephen s question  replacing the Ahead B card with
+a Diamond   x will yield a cost effective  dramatic speed increase for
+Windows   That or the ATI Graphics Ultra Plus    
+  
+Greg Franklin
+franklig gas uug arizona edu

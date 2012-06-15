@@ -1,0 +1,50 @@
+Xref  cantaloupe srv cs cmu edu sci space       sci astro      
+Path  cantaloupe srv cs cmu edu magnesium club cc cmu edu news sei cmu edu fs  ece cmu edu europa eng gtefsd com howland reston ans net usc elroy jpl nasa gov nntp server caltech edu palmer
+From  palmer cco caltech edu  David M  Palmer 
+Newsgroups  sci space sci astro
+Subject  Re  Gamma Ray Bursters  positional stuff 
+Date     Apr               GMT
+Organization  California Institute of Technology  Pasadena
+Lines    
+Message ID    rp  bINNacg gap caltech edu 
+References               SAUNDRSG QUCDN QueensU CA       Apr                midway uchicago edu     APR             stdvax gsfc nasa gov    rmh eINN  h gap caltech edu       Apr            vax  mankato msus edu   C   Cs Kt  zoo toronto edu 
+NNTP Posting Host  alumni caltech edu
+
+henry zoo toronto edu  Henry Spencer  writes 
+
+ In article      Apr            vax  mankato msus edu  belgarath vax  mankato msus edu writes 
+          Actually  my advisor  another classmate of mine  and me were talking
+  the other day about putting just one detector on one of the Pluto satellites 
+  THen we realized that the satellite alone is only carrying something like    
+  pounds of eq   Well  a BATSE detector needs lead shielding to protect it 
+  and   alone weighs about     pounds itself 
+
+ Actually  the situation is even worse than that   The  total mass  of the
+ Pluto Fast Flyby spacecraft is only    ish pounds  and most of that is
+ support equipment like power and communications   The mass available for
+ instruments is maybe     of that   I don t think a BATSE will fit   
+
+From the Pluto Fast Flyby Instrument definition research anouncemnet 
+the instrument payload constraints are 
+    Mass allocation      kilograms       lbs 
+    Power allocation     watts
+    Required instruments 
+	Visible imaging system      x     CCD      mm fl  f    optics 
+	IR mapping spectrometer     x    HgCdTe array       energy resolution 
+	UV spectrometer         nm      nm resolution 
+	Radio science  ultrastable oscilator incorporated in telecom system 
+		ultrastable means        
+
+This doesn t leave much room for payloads which are totally unrelated
+to the  mission of the spacecraft   In addition  the power will come
+from a radioisotope thermal generator  and the whole space craft will
+be about   feet in diameter  with no booms  which means there will be
+strong gamma lines from Pu     and associated schmutz in the
+background  which tends to reduce sensitivity somewhat 
+
+It would still be nice  and our group here at Goddard is looking
+in to it 
+
+   
+		David M  Palmer		palmer alumni caltech edu
+					palmer tgrs gsfc nasa gov

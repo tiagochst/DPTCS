@@ -1,0 +1,53 @@
+Newsgroups  comp sys mac hardware
+Path  cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs  ece cmu edu europa eng gtefsd com paladin american edu howland reston ans net noc near net uunet world jbailey
+From  jbailey world std com  jim bailey 
+Subject  Re  Quadra         differences
+Message ID   C JFGB EtM world std com 
+Organization  The World Public Access UNIX  Brookline  MA
+References   Apr                yuma ACNS ColoState EDU       Apr                iitmax iit edu       Apr                wuecl wustl edu   C FED  Bqr world std com        jagubox gsfc nasa gov 
+Date  Thu     Apr               GMT
+Lines    
+
+jim jagubox gsfc nasa gov  Jim Jagielski  writes 
+
+ jbailey world std com  jim bailey  writes 
+
+  rdk  cec  wustl edu  Robert David Klapper  writes 
+
+   	I also believe that the     fixed a bug in the CPU which screwed up
+   some floating point calculations 
+      
+   Robert D  Klapper
+   Washington University in St  Louis
+   rdk  cec  wustl edu
+   Lubarsky s Law of Cybernetic Entomology   There s always one more bug 
+
+  Does someone have any definite information on this   This is the
+  first I ve heard of it   How does the CPU get fixed by a hardware
+  upgrade   This doesn t make much sense to me 
+
+ Let s see now    The differences between the     and     are
+ basically 
+
+ 	   Runs at   MHz  not   MHz
+ 	   Has   MHz I O bus  not   MHz
+ 	   Upgraded Graphics controller
+ 	      results in Q    requiring   ns VRAM  not    ns
+ 	   ROM fixes 
+ 	    a  rounding errors in floating point calculations
+ 	       at   th digit
+
+So patch the ROMs with the latest OS version   I don t see
+how this is a problem 
+
+ 	    b  Ethernet problems with more than    buffers
+
+ So  no doubt  the person was refering to  a  hardly  screwing
+ up  though   
+
+    
+     Jim Jagielski                   And he s gonna stiff me  So I say 
+     jim jagubox gsfc nasa gov        Hey  Lama  How about something 
+     NASA GSFC  Code                 you know  for the effort   
+     Greenbelt  MD                
+

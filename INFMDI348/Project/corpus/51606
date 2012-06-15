@@ -1,0 +1,48 @@
+Xref  cantaloupe srv cs cmu edu comp sys mac hardware       comp sys mac system      
+Newsgroups  comp sys mac hardware comp sys mac system
+Path  cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs  ece cmu edu europa eng gtefsd com howland reston ans net noc near net news centerline com uunet spsgate mogate newsgate gpb mac gpb
+From  gpb gpb mac  greg berryman  
+Subject  Re  Memory upgrades
+Message ID       Apr                newsgate sps mot com 
+Sender  usenet newsgate sps mot com
+Nntp Posting Host              
+Reply To  gpb gpb mac sps mot com
+Organization  Memories at Motorola
+X Newsreader  Tin     PL 
+References    qke s   e agate berkeley edu 
+Date  Fri     Apr               GMT
+Lines    
+
+jacob plasma  ssl berkeley edu  nga throgaw shaygiy  writes 
+  
+  Excuse me if this is a frequent question  I checked in
+  several FAQs but couldn t really find anything 
+
+You are excused    the answer varies from Mac to Mac so it would be
+a complex answer in the FAQ 
+  
+  I have a IIsi with the standard   meg memory and I want
+   need  to add additional memory   But I m on a budget 
+  I really don t need more than    meg max  so what is
+  the best  performance wise  and most economical way
+  to do this   Someone told me that I should only use
+  SIMMs of the same amount of memory  that is     meg 
+      meg  etc   What if I just wanted to buy just     meg
+  and use the rest of what I already have   The manual
+  hasn t been very helpful with this 
+  
+The si uses a    bit wide data bus and therefore you must use     bit
+wide simms   Sorry  but no short cuts here 
+
+  Thanks 
+
+You re quite welcome 
+  
+Greg 
+
+  
+My words  not Motorola s                  EQUAL rights NOT special rights     
+gpb gpb mac sps mot com         BI     I will NOT ride in the back of the bus 
+Greg Berryman                                  SILENCE   DEATH
+Motorola Austin  Texas  USA                First  be true to yourself 
+GLB mailing list      glblist gpb mac sps mot com    Motorola only 

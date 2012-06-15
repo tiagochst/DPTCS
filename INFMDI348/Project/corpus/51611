@@ -1,0 +1,43 @@
+Newsgroups  comp sys mac hardware
+Path  cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs  ece cmu edu europa eng gtefsd com uunet zaphod mps ohio state edu cs utexas edu utnut nott bnrgate bcars a  donovan
+From  donovan bnr ca  Marc Donovan 
+Subject  Re  I want use DeskJet on System 
+Message ID       Apr               bcars a  bnr ca 
+Sender  usenet bcars a  bnr ca  Use Net 
+Nntp Posting Host  bcarh ee
+Organization  Bell Northern Research Ltd   Ottawa
+References   MORI   Apr         ceres mfd cs fujitsu co jp 
+Distribution  comp
+Date  Fri     Apr               GMT
+Lines    
+
+In article  MORI   Apr         ceres mfd cs fujitsu co jp  mori volga mfd cs fujitsu co jp  Tsuyoshi Mori  writes 
+ I used HP DeskJet with Orange Micros Grappler LS on System      
+ 
+ But now I update system       to System  with Kanji Talk     
+ then I can not print by my DeskJet 
+ Is the Grappler LS old  
+ Can I use DeskJet on System   
+ Please tell me how to use DeskJet on System  
+ Thank you
+   
+ FROM JAPAN mori volga mfd cs fujitsu co jp
+
+I currently use an HP DeskJet with Grappler LS ver      
+and it works on System    Course  I only use the SWA Dutch
+and SWA Swiss fonts that came with it  due to the  x size
+requirement to print to the HP   ie  must have   pnt definition
+to print a   pnt font   When I upgraded   I talked to Orange
+Micro  and they state that ver     of Grappler LS definitely
+works with System    However  the upgrade was US     so I
+passed 
+
+Hope this helps 
+
+ marc 
+
+   
+                                                                             
+Marc Donovan      donovan bnr ca   Voice                 Fax                 
+     Disclaimer  I am the only one responsible for my opinions 
+

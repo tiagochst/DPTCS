@@ -1,0 +1,1123 @@
+﻿date_evenement;categorie_evenement;type_evenement;pole;service;lieu;fonction_declarant;gravite_cloture
+2/1/2008;C - Vie hospitalière;panne ou perte de matériel;B;Chambre mortuaire;Salle d'attente-hall - caisse - accueil;Cadre de santé-cadre administratif;Modérée
+3/1/2008;C - Vie hospitalière;panne ou perte de matériel;P;Pédiatrie générale;Ascenseur;Cadre de santé-cadre administratif;Catastrophique
+3/1/2008;C - Vie hospitalière;restauration;P;Unité d'Immunologie et d'Hématologie pédiatriques;Office alimentaire;Aide-soignant-ASH;Modérée
+3/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des soins;Vestiaire;Aide-soignant-ASH;Modérée
+2/1/2008;C - Vie hospitalière;autre C;R;Anesthésie-Réanimation;Salle d'attente-hall - caisse - accueil;Cadre de santé-cadre administratif;Modérée
+5/1/2008;C - Vie hospitalière;panne ou perte de matériel;R;Anesthésie-Réanimation;Tout le service;Cadre de santé-cadre administratif;Modérée
+6/1/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;M;Neuro-chirurgie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+5/1/2008;B - Organisation des soins - Relations avec le patient;déprogrammation d'acte(s);P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+6/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Pédiatrie générale;Office alimentaire;Cadre de santé-cadre administratif;Modérée
+6/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;M;ORL;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Mineure
+7/1/2008;C - Vie hospitalière;autre C;P;Neurologie- métabolisme-endocrinologie-diabétologie pédiatrique;Office alimentaire;Cadre de santé-cadre administratif;Modérée
+4/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;M;Bloc CCI;Salle d'opération/salle de réveil;Cadre de santé-cadre administratif;Modérée
+2/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;M;Bloc CCI;Salle d'opération/salle de réveil;Cadre de santé-cadre administratif;Mineure
+7/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des soins;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+5/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Parking - cour - jardin;Ouvrier-agent technique;Majeure
+7/1/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Infectiologie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+2/1/2008;A - Activités médicales et de soins;complication liée aux soins;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Cadre de santé-cadre administratif;Modérée
+7/1/2008;C - Vie hospitalière;autre C;Z;Sécurité incendie;Circulation : couloir - escalier - galerie - passerelle...;Ouvrier-agent technique;Modérée
+8/1/2008;C - Vie hospitalière;panne ou perte de matériel;A;Néphrologie adulte;Autre lieu de soins;Cadre de santé-cadre administratif;Majeure
+7/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité générale, accueil, standard;Tout le service;Médecin;Modérée
+9/1/2008;C - Vie hospitalière;panne ou perte de matériel;M;Chirurgie viscérale;Autre lieu professionnel;Cadre de santé-cadre administratif;Mineure
+8/1/2008;B - Organisation des soins - Relations avec le patient;transport de patient;R;Anesthésie-Réanimation;Salle d'opération/salle de réveil;Médecin;Modérée
+10/1/2008;C - Vie hospitalière;salubrité-propreté des locaux;P;Unité d'Immunologie et d'Hématologie pédiatriques;Autre lieu professionnel;Cadre de santé-cadre administratif;Mineure
+10/1/2008;C - Vie hospitalière;panne ou perte de matériel;A;Biothérapie;Laboratoires - pharmacie;Ingénieur-responsable des services techniques;Mineure
+11/1/2008;C - Vie hospitalière;linge;M;Bloc CCI;Salle d'opération/salle de réveil;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+10/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des affaires générales;Autre lieu commun;Personnel administratif;Modérée
+11/1/2008;B - Organisation des soins - Relations avec le patient;transport de patient;A;Transplantation & Réanimation adultes;Autre lieu de soins;Aide-soignant-ASH;Majeure
+13/1/2008;C - Vie hospitalière;panne ou perte de matériel;R;Anesthésie-Réanimation;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+14/1/2008;C - Vie hospitalière;salubrité-propreté des locaux;A;Urologie;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+14/1/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction de la logistique et des achats;Autre lieu commun;Aide-soignant-ASH;Modérée
+14/1/2008;C - Vie hospitalière;panne ou perte de matériel;A;Infectiologie;Ascenseur;Cadre de santé-cadre administratif;Modérée
+3/1/2008;C - Vie hospitalière;autre C;Z;Sécurité incendie;Salle à manger-salle TV - salle de jeux...;Personnel administratif;Catastrophique
+10/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Pédiatrie générale;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+14/1/2008;C - Vie hospitalière;autre C;P;Unité d'Immunologie et d'Hématologie pédiatriques;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Catastrophique
+14/1/2008;C - Vie hospitalière;panne ou perte de matériel;M;Néphrologie pédiatrique;Autre lieu professionnel;Cadre de santé-cadre administratif;Mineure
+15/1/2008;C - Vie hospitalière;incidents liés aux chantiers;Z;Direction de la logistique et des achats;Autre lieu professionnel;Cadre de santé-cadre administratif;Majeure
+8/1/2008;C - Vie hospitalière;panne ou perte de matériel;B;Pharmacie;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Modérée
+15/1/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Restauration;Tout le service;Ouvrier-agent technique;Modérée
+7/1/2008;B - Organisation des soins - Relations avec le patient;autre B;I;Radiologie adulte;Consultations - radio - salle d'examens;Médecin;Modérée
+15/1/2008;C - Vie hospitalière;salubrité-propreté des locaux;A;Infectiologie;Locaux poubelles/déchets;Cadre de santé-cadre administratif;Majeure
+14/1/2008;D - Vigilances;matériovigilance;R;CUDR;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Majeure
+16/1/2008;C - Vie hospitalière;restauration;P;Pneumologie - Allergologie pédiatrique;Tout le service;Aide-soignant-ASH;Mineure
+16/1/2008;A - Activités médicales et de soins;dossier médical et de soins;P;Pneumologie - Allergologie pédiatrique;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Modérée
+16/1/2008;C - Vie hospitalière;restauration;Z;Direction des ressources humaines;Salle à manger-salle TV - salle de jeux...;Cadre de santé-cadre administratif;Majeure
+14/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Ophtalmologie;Vestiaire;Cadre de santé-cadre administratif;Majeure
+15/1/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Services techniques;Autre lieu professionnel;Technicien-manipulateur-préparateur;Modérée
+16/1/2008;C - Vie hospitalière;restauration;P;Pédiatrie générale;Autre lieu professionnel;Secrétaire-agent administratif;Majeure
+16/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Néphrologie adulte;Vestiaire;Cadre de santé-cadre administratif;Catastrophique
+16/1/2008;C - Vie hospitalière;panne ou perte de matériel;P;Unité d'Immunologie et d'Hématologie pédiatriques;Office alimentaire;Cadre de santé-cadre administratif;Modérée
+11/1/2008;A - Activités médicales et de soins;autre A;M;Chirurgie viscérale;Poste de soins;Cadre de santé-cadre administratif;Modérée
+16/1/2008;C - Vie hospitalière;autre C;R;Anesthésie-Réanimation;Autre lieu de soins;Cadre de santé-cadre administratif;Majeure
+16/1/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;R;Anesthésie-Réanimation;Salle d'opération/salle de réveil;Cadre de santé-cadre administratif;Majeure
+4/1/2008;D - Vigilances;pharmacovigilance;R;Réanimation Pédiatrique;Chambre;Médecin;Majeure
+17/1/2008;C - Vie hospitalière;autre C;A;Infectiologie;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Modérée
+18/1/2008;D - Vigilances;matériovigilance;P;Pédiatrie générale;Chambre;Cadre de santé-cadre administratif;Modérée
+18/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Activité pédiatrique ambulatoire;Autre lieu commun;Cadre de santé-cadre administratif;Mineure
+18/1/2008;C - Vie hospitalière;panne ou perte de matériel;A;Ophtalmologie;Ascenseur;Cadre de santé-cadre administratif;Majeure
+18/1/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction de la logistique et des achats;Autre lieu professionnel;Cadre de santé-cadre administratif;Majeure
+16/1/2008;B - Organisation des soins - Relations avec le patient;autre B;R;Anesthésie-Réanimation;Salle d'opération/salle de réveil;Cadre de santé-cadre administratif;Majeure
+18/1/2008;C - Vie hospitalière;panne ou perte de matériel;R;Anesthésie-Réanimation;Tout le service;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+18/1/2008;B - Organisation des soins - Relations avec le patient;transport de patient;R;Anesthésie-Réanimation;Ascenseur;Cadre de santé-cadre administratif;Majeure
+18/1/2008;D - Vigilances;pharmacovigilance;I;Radiologie pédiatrie;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Modérée
+17/1/2008;B - Organisation des soins - Relations avec le patient;autre B;R;Anesthésie-Réanimation;Salle d'opération/salle de réveil;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+19/1/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+20/1/2008;C - Vie hospitalière;restauration;I;Radiologie adulte;Office alimentaire;Aide-soignant-ASH;Modérée
+18/1/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Restauration;Vestiaire;Ouvrier-agent technique;Mineure
+21/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Néphrologie adulte;Chambre;Cadre de santé-cadre administratif;Catastrophique
+21/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction stratégie, qualité;Parking - cour - jardin;Cadre de santé-cadre administratif;Majeure
+18/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Néphrologie adulte;Bureaux - locaux administratifs - archives;Diététicien-kiné-ergothérapeute-psychomotricien-autre rééducateur;Modérée
+22/1/2008;C - Vie hospitalière;panne ou perte de matériel;P;Neurologie- métabolisme-endocrinologie-diabétologie pédiatrique;Chambre;Cadre de santé-cadre administratif;Majeure
+21/1/2008;C - Vie hospitalière;incidents liés aux chantiers;P;Neurologie- métabolisme-endocrinologie-diabétologie pédiatrique;Toilettes/douche destinés aux patients;Cadre de santé-cadre administratif;Majeure
+20/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Parking - cour - jardin;Ouvrier-agent technique;Majeure
+22/1/2008;C - Vie hospitalière;panne ou perte de matériel;Q;Cardiologie pédiatrique;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+22/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Mineure
+20/1/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;Q;Maternité;Toilettes/douche destinés aux patients;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+22/1/2008;C - Vie hospitalière;transport logistique;Z;Direction des soins;Autre lieu commun;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+23/1/2008;C - Vie hospitalière;salubrité-propreté des locaux;P;Unité d'Immunologie et d'Hématologie pédiatriques;Circulation : couloir - escalier - galerie - passerelle...;Aide-soignant-ASH;Modérée
+23/1/2008;D - Vigilances;matériovigilance;B;Laboratoire d'hématologie;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Majeure
+23/1/2008;C - Vie hospitalière;autre C;B;Bactériologie-Virologie;Tout le service;Technicien-manipulateur-préparateur;Modérée
+23/1/2008;C - Vie hospitalière;restauration;A;Biothérapie;Self du personnel;Diététicien-kiné-ergothérapeute-psychomotricien-autre rééducateur;Modérée
+24/1/2008;B - Organisation des soins - Relations avec le patient;erreur d'identification;M;Chirurgie viscérale;Chambre;Cadre de santé-cadre administratif;Modérée
+24/1/2008;A - Activités médicales et de soins;autre A;P;Neurologie- métabolisme-endocrinologie-diabétologie pédiatrique;Tout le service;Cadre de santé-cadre administratif;Majeure
+24/1/2008;A - Activités médicales et de soins;autre A;P;Unité d'Immunologie et d'Hématologie pédiatriques;Sans objet ou lieu inconnu ( fugues - pertes ...);Cadre de santé-cadre administratif;Modérée
+25/1/2008;A - Activités médicales et de soins;autre A;P;Unité d'Immunologie et d'Hématologie pédiatriques;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Modérée
+24/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Pédiatrie générale;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+25/1/2008;B - Organisation des soins - Relations avec le patient;transport de patient;A;Ophtalmologie;Ascenseur;Cadre de santé-cadre administratif;Majeure
+24/1/2008;A - Activités médicales et de soins;complication liée aux soins;M;Chirurgie orthopédique pédiatrique;Chambre;Cadre de santé-cadre administratif;Mineure
+25/1/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;Q;Chirurgie cardiaque pédiatrique;Chambre;Cadre de santé-cadre administratif;Mineure
+28/1/2008;C - Vie hospitalière;linge;Z;Restauration;Tout le service;Ouvrier-agent technique;Modérée
+21/1/2008;C - Vie hospitalière;incidents liés aux chantiers;Z;Direction des investissements;Circulation : couloir - escalier - galerie - passerelle...;Ouvrier-agent technique;Mineure
+28/1/2008;C - Vie hospitalière;panne ou perte de matériel;P;Unité d'Immunologie et d'Hématologie pédiatriques;Autre lieu professionnel;Cadre de santé-cadre administratif;Modérée
+28/1/2008;C - Vie hospitalière;autre C;Z;Direction des ressources humaines;Autre lieu commun;Cadre de santé-cadre administratif;Mineure
+28/1/2008;B - Organisation des soins - Relations avec le patient;autre B;B;Chambre mortuaire;Salle d'attente-hall - caisse - accueil;Cadre de santé-cadre administratif;Modérée
+28/1/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Néphrologie adulte;Chambre;Cadre de santé-cadre administratif;Mineure
+29/1/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;M;Chirurgie orthopédique pédiatrique;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+29/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Ophtalmologie;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Majeure
+29/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Restauration;Autre lieu professionnel;Ouvrier-agent technique;Mineure
+28/1/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Brancardage;Ascenseur;Cadre de santé-cadre administratif;Modérée
+29/1/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Brancardage;Ascenseur;Cadre de santé-cadre administratif;Modérée
+29/1/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;A;Infectiologie;Poste de soins;Cadre de santé-cadre administratif;Majeure
+29/1/2008;C - Vie hospitalière;linge;Z;Restauration;Autre lieu professionnel;Ouvrier-agent technique;Mineure
+29/1/2008;D - Vigilances;hémovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+30/1/2008;C - Vie hospitalière;restauration;M;Chirurgie orthopédique pédiatrique;Office alimentaire;Cadre de santé-cadre administratif;Mineure
+30/1/2008;B - Organisation des soins - Relations avec le patient;transport de patient;P;Activité pédiatrique ambulatoire;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Majeure
+30/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction de la logistique et des achats;Salle à manger-salle TV - salle de jeux...;Aide-soignant-ASH;Majeure
+30/1/2008;A - Activités médicales et de soins;complication liée aux soins;M;Chirurgie orthopédique pédiatrique;Chambre;Cadre de santé-cadre administratif;Modérée
+30/1/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;P;Unité d'Immunologie et d'Hématologie pédiatriques;Circulation : couloir - escalier - galerie - passerelle...;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+25/1/2008;A - Activités médicales et de soins;complication liée aux soins;P;Pédiatrie générale;Chambre;Cadre de santé-cadre administratif;Majeure
+31/1/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction de la logistique et des achats;Ascenseur;Cadre de santé-cadre administratif;Majeure
+31/1/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction de la logistique et des achats;Ascenseur;Cadre de santé-cadre administratif;Majeure
+31/1/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Ophtalmologie;Chambre;Cadre de santé-cadre administratif;Modérée
+31/1/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Brancardage;Ascenseur;Cadre de santé-cadre administratif;Majeure
+31/1/2008;C - Vie hospitalière;autre C;Z;Direction stratégie, qualité;Tout l'hôpital;Cadre de santé-cadre administratif;Majeure
+31/1/2008;B - Organisation des soins - Relations avec le patient;transport de patient;R;Anesthésie-Réanimation;Chambre;Cadre de santé-cadre administratif;Modérée
+30/1/2008;C - Vie hospitalière;panne ou perte de matériel;Q;Cardiologie pédiatrique;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+1/2/2008;C - Vie hospitalière;panne ou perte de matériel;A;Transplantation & Réanimation adultes;Ascenseur;Cadre de santé-cadre administratif;Majeure
+30/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Hématologie clinique adultes;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+31/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Hématologie clinique adultes;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+2/2/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;P;Neurologie- métabolisme-endocrinologie-diabétologie pédiatrique;Chambre;Cadre de santé-cadre administratif;Modérée
+3/2/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+3/2/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Poste de soins;Infirmier-infirmier spécialisé-puéricultrice;Insignifiante
+4/2/2008;C - Vie hospitalière;autre C;A;Hématologie clinique adultes;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Mineure
+4/2/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+1/2/2008;A - Activités médicales et de soins;dossier médical et de soins;P;Activité pédiatrique ambulatoire;Salle d'opération/salle de réveil;Cadre de santé-cadre administratif;Majeure
+1/2/2008;A - Activités médicales et de soins;complication médicale ou chirurgicale inattendue;P;Activité pédiatrique ambulatoire;Salle d'opération/salle de réveil;Cadre de santé-cadre administratif;Majeure
+4/2/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Poste de soins;Cadre de santé-cadre administratif;Mineure
+5/2/2008;C - Vie hospitalière;autre C;Z;Direction stratégie, qualité;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+4/2/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Chirurgie cardiaque pédiatrique;Salle d'opération/salle de réveil;Cadre de santé-cadre administratif;Modérée
+6/2/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Brancardage;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Majeure
+6/2/2008;B - Organisation des soins - Relations avec le patient;autre B;P;Neurologie- métabolisme-endocrinologie-diabétologie pédiatrique;Chambre;Cadre de santé-cadre administratif;Modérée
+6/2/2008;D - Vigilances;matériovigilance;M;Néphrologie pédiatrique;Chambre;Cadre de santé-cadre administratif;Majeure
+25/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité générale, accueil, standard;Parking - cour - jardin;Personnel administratif;Modérée
+7/2/2008;C - Vie hospitalière;incidents liés aux chantiers;Z;Direction stratégie, qualité;Autre lieu professionnel;Cadre de santé-cadre administratif;Modérée
+7/2/2008;A - Activités médicales et de soins;autre A;B;Chambre mortuaire;Autre lieu de soins;Cadre de santé-cadre administratif;Majeure
+7/2/2008;A - Activités médicales et de soins;complication liée aux soins;B;Chambre mortuaire;Autre lieu de soins;Cadre de santé-cadre administratif;Majeure
+8/2/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;Z;Sécurité incendie;Circulation : couloir - escalier - galerie - passerelle...;Personnel administratif;Majeure
+8/2/2008;C - Vie hospitalière;incidents liés aux chantiers;Q;Chirurgie cardiaque pédiatrique;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Majeure
+6/2/2008;A - Activités médicales et de soins;autre A;R;Réanimation Pédiatrique;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Majeure
+8/2/2008;C - Vie hospitalière;transport logistique;R;Réanimation Pédiatrique;Office alimentaire;Cadre de santé-cadre administratif;Modérée
+7/2/2008;D - Vigilances;matériovigilance;R;Anesthésie-Réanimation;Salle d'opération/salle de réveil;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+7/2/2008;D - Vigilances;matériovigilance;R;Réanimation Pédiatrique;Chambre;Médecin;Modérée
+7/2/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Chirurgie cardiaque pédiatrique;Autre lieu professionnel;Cadre de santé-cadre administratif;Mineure
+9/2/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;M;Neuro-chirurgie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+10/2/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+9/1/2008;C - Vie hospitalière;salubrité-propreté des locaux;Z;Direction stratégie, qualité;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Mineure
+7/2/2008;C - Vie hospitalière;transport logistique;Z;Direction stratégie, qualité;Autre lieu professionnel;Technicien-manipulateur-préparateur;Mineure
+7/2/2008;C - Vie hospitalière;panne ou perte de matériel;M;Chirurgie orthopédique pédiatrique;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Modérée
+11/2/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;R;CUDR;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+12/2/2008;C - Vie hospitalière;autre C;M;Chirurgie orthopédique pédiatrique;Tout le service;Cadre de santé-cadre administratif;Modérée
+12/2/2008;D - Vigilances;matériovigilance;B;Anatomie & cytologie pathologiques;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Mineure
+12/2/2008;D - Vigilances;matériovigilance;B;Histo-Embryologie-Cytogénétique;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Mineure
+12/2/2008;A - Activités médicales et de soins;complication liée aux soins;M;Chirurgie viscérale;Chambre;Cadre de santé-cadre administratif;Majeure
+12/2/2008;D - Vigilances;biovigilance;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Majeure
+12/2/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Catastrophique
+13/2/2008;C - Vie hospitalière;linge;R;Réanimation Pédiatrique;Tout le service;Cadre de santé-cadre administratif;Modérée
+12/2/2008;D - Vigilances;matériovigilance;R;Réanimation Pédiatrique;Chambre;Médecin;Mineure
+13/2/2008;C - Vie hospitalière;salubrité-propreté des locaux;M;Chirurgie viscérale;Circulation : couloir - escalier - galerie - passerelle...;Médecin;Majeure
+13/2/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Neurologie- métabolisme-endocrinologie-diabétologie pédiatrique;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Modérée
+13/2/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Restauration;Autre lieu professionnel;Ouvrier-agent technique;Mineure
+9/2/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;P;Neurologie- métabolisme-endocrinologie-diabétologie pédiatrique;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Majeure
+8/2/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Chirurgie cardiaque pédiatrique;Autre lieu commun;Cadre de santé-cadre administratif;Modérée
+12/2/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Chirurgie cardiaque pédiatrique;Autre lieu commun;Cadre de santé-cadre administratif;Modérée
+15/2/2008;A - Activités médicales et de soins;autre A;R;Anesthésie-Réanimation;Salle d'opération/salle de réveil;Médecin;Majeure
+5/2/2008;C - Vie hospitalière;transport logistique;P;Pédopsychiatrie;Bureaux - locaux administratifs - archives;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+15/2/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des finances et de la recherche;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Majeure
+16/2/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;M;Neuro-chirurgie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+18/2/2008;C - Vie hospitalière;autre C;B;Biochimie B;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Mineure
+17/2/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Restauration;Magasin - lingerie;Ouvrier-agent technique;Majeure
+17/2/2008;C - Vie hospitalière;salubrité-propreté des locaux;A;Cardiologie adultes;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Mineure
+16/2/2008;B - Organisation des soins - Relations avec le patient;autre B;M;Gastroentérologie & nutrition pédiatriques;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Majeure
+18/2/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Catastrophique
+19/2/2008;C - Vie hospitalière;transport logistique;A;Transplantation & Réanimation adultes;Locaux poubelles/déchets;Cadre de santé-cadre administratif;Majeure
+19/2/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+19/2/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction de la logistique et des achats;Ascenseur;Cadre de santé-cadre administratif;Majeure
+20/2/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction de la logistique et des achats;Ascenseur;Cadre de santé-cadre administratif;Catastrophique
+20/2/2008;C - Vie hospitalière;panne ou perte de matériel;B;Explorations fonctionnelles-physiologie;Ascenseur;Technicien-manipulateur-préparateur;Modérée
+18/2/2008;C - Vie hospitalière;panne ou perte de matériel;M;Chirurgie viscérale;Autre lieu professionnel;Cadre de santé-cadre administratif;Mineure
+20/2/2008;C - Vie hospitalière;salubrité-propreté des locaux;A;Infectiologie;Locaux poubelles/déchets;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+20/2/2008;C - Vie hospitalière;transport logistique;A;Infectiologie;Ascenseur;Infirmier-infirmier spécialisé-puéricultrice;Catastrophique
+20/2/2008;C - Vie hospitalière;transport logistique;A;Infectiologie;Ascenseur;Infirmier-infirmier spécialisé-puéricultrice;Catastrophique
+18/2/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;R;Anesthésie-Réanimation;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Modérée
+21/2/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Restauration;Autre lieu professionnel;Ouvrier-agent technique;Majeure
+20/2/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Pédopsychiatrie;Bureaux - locaux administratifs - archives;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+21/2/2008;A - Activités médicales et de soins;complication liée aux soins;R;Anesthésie-Réanimation;Tout le service;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+21/2/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;M;Chirurgie orthopédique pédiatrique;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+22/2/2008;C - Vie hospitalière;autre C;Z;Direction de la logistique et des achats;Circulation : couloir - escalier - galerie - passerelle...;Ouvrier-agent technique;Catastrophique
+22/2/2008;B - Organisation des soins - Relations avec le patient;autre B;A;Infectiologie;Circulation : couloir - escalier - galerie - passerelle...;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+20/2/2008;B - Organisation des soins - Relations avec le patient;perte ou bris de prothèse;A;Infectiologie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+22/2/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Cadre de santé-cadre administratif;Mineure
+23/2/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;P;Unité d'Immunologie et d'Hématologie pédiatriques;Toilettes/douche destinés aux patients;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+24/2/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Unité d'Immunologie et d'Hématologie pédiatriques;Vestiaire;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+18/2/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;A;Néphrologie adulte;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Modérée
+26/2/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;M;Neuro-chirurgie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+24/2/2008;C - Vie hospitalière;transport logistique;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Cadre de santé-cadre administratif;Majeure
+26/2/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Restauration;Vestiaire;Ouvrier-agent technique;Modérée
+26/2/2008;D - Vigilances;matériovigilance;R;SAMU SMUR;Autre lieu commun;Cadre de santé-cadre administratif;Modérée
+24/2/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des soins;Office alimentaire;Cadre de santé-cadre administratif;Mineure
+27/2/2008;D - Vigilances;biovigilance;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Modérée
+21/2/2008;B - Organisation des soins - Relations avec le patient;autre B;M;Gastroentérologie & nutrition pédiatriques;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Modérée
+25/2/2008;C - Vie hospitalière;autre C;M;Gastroentérologie & nutrition pédiatriques;Autre lieu professionnel;Cadre de santé-cadre administratif;Mineure
+28/2/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Catastrophique
+15/2/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité générale, accueil, standard;Loge - barrière;Personnel administratif;Majeure
+23/2/2008;A - Activités médicales et de soins;complication liée aux soins;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Cadre de santé-cadre administratif;Modérée
+24/2/2008;A - Activités médicales et de soins;complication liée aux soins;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Cadre de santé-cadre administratif;Majeure
+28/2/2008;D - Vigilances;matériovigilance;Q;Chirurgie cardiaque pédiatrique;Chambre;Cadre de santé-cadre administratif;Catastrophique
+27/2/2008;D - Vigilances;infectiovigilance;A;Hématologie clinique adultes;Chambre;Cadre de santé-cadre administratif;Modérée
+27/2/2008;D - Vigilances;matériovigilance;R;Réanimation Pédiatrique;Chambre;Médecin;Majeure
+5/2/2008;D - Vigilances;biovigilance;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Majeure
+2/3/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;M;Neuro-chirurgie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+2/3/2008;B - Organisation des soins - Relations avec le patient;fugue ou patient égaré;A;Infectiologie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+3/3/2008;C - Vie hospitalière;panne ou perte de matériel;M;Chirurgie viscérale;Autre lieu professionnel;Cadre de santé-cadre administratif;Mineure
+3/3/2008;D - Vigilances;infectiovigilance;B;Histo-Embryologie-Cytogénétique;Parking - cour - jardin;Technicien-manipulateur-préparateur;Modérée
+22/1/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Services techniques;Locaux des services techniques;Technicien-manipulateur-préparateur;Modérée
+29/2/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Catastrophique
+3/3/2008;D - Vigilances;biovigilance;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Mineure
+28/2/2008;C - Vie hospitalière;salubrité-propreté des locaux;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Modérée
+28/2/2008;A - Activités médicales et de soins;complication liée aux soins;I;Radiologie pédiatrie;Salle d'attente-hall - caisse - accueil;Cadre de santé-cadre administratif;Catastrophique
+4/3/2008;D - Vigilances;matériovigilance;R;Réanimation Pédiatrique;Chambre;Médecin;Modérée
+3/3/2008;A - Activités médicales et de soins;complication médicale ou chirurgicale inattendue;P;Pédiatrie générale;Chambre;Cadre de santé-cadre administratif;Majeure
+5/3/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;R;Anesthésie-Réanimation;Salle d'opération/salle de réveil;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+6/3/2008;D - Vigilances;matériovigilance;P;Neurologie- métabolisme-endocrinologie-diabétologie pédiatrique;Tout le service;Cadre de santé-cadre administratif;Modérée
+7/3/2008;C - Vie hospitalière;autre C;Z;Sécurité incendie;Circulation : couloir - escalier - galerie - passerelle...;Personnel administratif;Catastrophique
+7/3/2008;C - Vie hospitalière;autre C;Z;Sécurité incendie;Circulation : couloir - escalier - galerie - passerelle...;Personnel administratif;Catastrophique
+7/3/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;M;Neuro-chirurgie;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Modérée
+9/3/2008;C - Vie hospitalière;autre C;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+10/3/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction stratégie, qualité;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Mineure
+6/3/2008;B - Organisation des soins - Relations avec le patient;difficulté hospitalisation ou transfert;P;Unité d'Immunologie et d'Hématologie pédiatriques;Autre lieu professionnel;Cadre de santé-cadre administratif;Modérée
+10/3/2008;C - Vie hospitalière;panne ou perte de matériel;R;Anesthésie-Réanimation;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Majeure
+5/3/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;B;Biochimie A;Self du personnel;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+6/3/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;Z;Archives;Self du personnel;Aide-soignant-ASH;Majeure
+11/3/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;B;Biochimie B;Tout le service;Ingénieur-responsable des services techniques;Mineure
+11/3/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;P;Dermatologie;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Modérée
+11/3/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Restauration;Vestiaire;Ouvrier-agent technique;Modérée
+11/3/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Neurologie- métabolisme-endocrinologie-diabétologie pédiatrique;Bureaux - locaux administratifs - archives;Personnel administratif;Modérée
+6/3/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Neurologie- métabolisme-endocrinologie-diabétologie pédiatrique;Vestiaire;Personnel administratif;Modérée
+12/3/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;M;Bloc CCI;Autre lieu professionnel;Cadre de santé-cadre administratif;Modérée
+12/3/2008;C - Vie hospitalière;transport logistique;B;Laboratoire d'immunologie;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Modérée
+11/3/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;Z;Direction des ressources humaines;Salle d'opération/salle de réveil;Personnel administratif;Majeure
+13/3/2008;C - Vie hospitalière;transport logistique;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Majeure
+14/3/2008;C - Vie hospitalière;salubrité-propreté des locaux;B;Bactériologie-Virologie;Parking - cour - jardin;Cadre de santé-cadre administratif;Modérée
+14/3/2008;C - Vie hospitalière;salubrité-propreté des locaux;B;Laboratoire d'immunologie;Vestiaire;Cadre de santé-cadre administratif;Modérée
+14/3/2008;D - Vigilances;matériovigilance;R;Anesthésie-Réanimation;Salle d'opération/salle de réveil;Médecin;Modérée
+14/3/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+16/3/2008;B - Organisation des soins - Relations avec le patient;autre B;B;Chambre mortuaire;Salle d'attente-hall - caisse - accueil;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+15/3/2008;C - Vie hospitalière;panne ou perte de matériel;R;Réanimation Pédiatrique;Ascenseur;Cadre de santé-cadre administratif;Majeure
+16/3/2008;B - Organisation des soins - Relations avec le patient;autre B;B;Chambre mortuaire;Autre lieu de soins;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+17/3/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Pédiatrie générale;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Modérée
+17/3/2008;C - Vie hospitalière;autre C;P;Dermatologie;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Mineure
+16/3/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Cardiologie adultes;Ascenseur;Cadre de santé-cadre administratif;Modérée
+10/3/2008;D - Vigilances;pharmacovigilance;A;Hématologie clinique adultes;Autre lieu de soins;Cadre de santé-cadre administratif;Modérée
+18/3/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Cadre de santé-cadre administratif;Mineure
+18/3/2008;A - Activités médicales et de soins;complication médicale ou chirurgicale inattendue;I;Radiologie pédiatrie;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Majeure
+18/3/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Néphrologie adulte;Toilettes/douche destinés aux patients;Cadre de santé-cadre administratif;Catastrophique
+18/3/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;R;CUDR;Consultations - radio - salle d'examens;Médecin;Modérée
+20/3/2008;C - Vie hospitalière;salubrité-propreté des locaux;Z;Direction des soins;Locaux poubelles/déchets;Cadre de santé-cadre administratif;Majeure
+20/3/2008;C - Vie hospitalière;salubrité-propreté des locaux;Z;Direction des soins;Locaux poubelles/déchets;Cadre de santé-cadre administratif;Majeure
+20/3/2008;B - Organisation des soins - Relations avec le patient;autre B;M;Chirurgie viscérale;Autre lieu de soins;Cadre de santé-cadre administratif;Modérée
+21/3/2008;C - Vie hospitalière;salubrité-propreté des locaux;Z;Archives;Toilettes;Cadre de santé-cadre administratif;Mineure
+22/3/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;R;CUDR;Chambre;Cadre de santé-cadre administratif;Mineure
+23/3/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;B;Bactériologie-Virologie;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Modérée
+18/3/2008;C - Vie hospitalière;transport logistique;A;Transplantation & Réanimation adultes;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Modérée
+17/3/2008;D - Vigilances;matériovigilance;A;Biothérapie;Laboratoires - pharmacie;Ingénieur-responsable des services techniques;Majeure
+18/3/2008;A - Activités médicales et de soins;complication liée aux soins;A;Urologie;Salle d'opération/salle de réveil;Médecin;Modérée
+26/3/2008;B - Organisation des soins - Relations avec le patient;fugue ou patient égaré;A;Infectiologie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+26/3/2008;C - Vie hospitalière;salubrité-propreté des locaux;R;Anesthésie-Réanimation;Locaux poubelles/déchets;Cadre de santé-cadre administratif;Majeure
+25/3/2008;B - Organisation des soins - Relations avec le patient;autre B;P;Unité d'Immunologie et d'Hématologie pédiatriques;Autre lieu professionnel;Cadre de santé-cadre administratif;Majeure
+26/3/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;B;Centre de tri des prélévements biologiques;Consultations - radio - salle d'examens;Technicien-manipulateur-préparateur;Modérée
+26/3/2008;C - Vie hospitalière;transport logistique;Q;Maternité;Consultations - radio - salle d'examens;Sage femme;Modérée
+18/3/2008;C - Vie hospitalière;transport logistique;Q;Maternité;Magasin - lingerie;Sage femme;Modérée
+21/3/2008;A - Activités médicales et de soins;autre A;P;Unité d'Immunologie et d'Hématologie pédiatriques;Laboratoires - pharmacie;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+27/3/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Chirurgie cardiaque pédiatrique;Autre lieu professionnel;Cadre de santé-cadre administratif;Modérée
+28/3/2008;C - Vie hospitalière;salubrité-propreté des locaux;A;Néphrologie adulte;Locaux poubelles/déchets;Cadre de santé-cadre administratif;Modérée
+28/3/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;Q;Maternité;Toilettes/douche destinés aux patients;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+29/3/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;M;Neuro-chirurgie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+29/3/2008;B - Organisation des soins - Relations avec le patient;autre B;P;Pneumologie - Allergologie pédiatrique;Chambre;Cadre de santé-cadre administratif;Catastrophique
+30/3/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+29/3/2008;C - Vie hospitalière;autre C;P;Pneumologie - Allergologie pédiatrique;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Catastrophique
+31/3/2008;C - Vie hospitalière;salubrité-propreté des locaux;B;Histo-Embryologie-Cytogénétique;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Modérée
+31/3/2008;C - Vie hospitalière;salubrité-propreté des locaux;B;Histo-Embryologie-Cytogénétique;Circulation : couloir - escalier - galerie - passerelle...;Secrétaire-agent administratif;Catastrophique
+30/3/2008;C - Vie hospitalière;salubrité-propreté des locaux;A;Hématologie clinique adultes;Chambre;Cadre de santé-cadre administratif;Majeure
+29/3/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;R;CUDR;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Modérée
+31/3/2008;A - Activités médicales et de soins;dossier médical et de soins;R;Anesthésie-Réanimation;Consultations - radio - salle d'examens;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+31/3/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+1/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Biothérapie;Circulation : couloir - escalier - galerie - passerelle...;Technicien-manipulateur-préparateur;Modérée
+1/4/2008;C - Vie hospitalière;incidents liés aux chantiers;A;Biothérapie;Non précisé;Technicien-manipulateur-préparateur;Majeure
+2/4/2008;C - Vie hospitalière;panne ou perte de matériel;A;Hématologie clinique adultes;Chambre;Cadre de santé-cadre administratif;Modérée
+3/4/2008;C - Vie hospitalière;salubrité-propreté des locaux;B;Biochimie B;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Modérée
+2/4/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;Z;Direction des soins;Autre lieu professionnel;Cadre de santé-cadre administratif;Modérée
+3/4/2008;C - Vie hospitalière;panne ou perte de matériel;B;Bactériologie-Virologie;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Insignifiante
+3/3/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Néphrologie adulte;Parking - cour - jardin;Cadre de santé-cadre administratif;Mineure
+3/4/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Néphrologie adulte;Parking - cour - jardin;Cadre de santé-cadre administratif;Mineure
+3/4/2008;C - Vie hospitalière;salubrité-propreté des locaux;R;CUDR;Autre lieu professionnel;Cadre de santé-cadre administratif;Mineure
+2/4/2008;B - Organisation des soins - Relations avec le patient;erreur d'identification;B;Chambre mortuaire;Autre lieu de soins;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+2/4/2008;B - Organisation des soins - Relations avec le patient;autre B;B;Chambre mortuaire;Autre lieu de soins;Infirmier-infirmier spécialisé-puéricultrice;Insignifiante
+26/3/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Pédiatrie générale;Office alimentaire;Cadre de santé-cadre administratif;Modérée
+4/4/2008;D - Vigilances;matériovigilance;A;Néphrologie adulte;Chambre;Cadre de santé-cadre administratif;Majeure
+5/4/2008;C - Vie hospitalière;panne ou perte de matériel;M;Chirurgie viscérale;Poste de soins;Médecin;Modérée
+5/4/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Urologie;Toilettes/douche destinés aux patients;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+5/4/2008;A - Activités médicales et de soins;complication liée aux soins;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+2/4/2008;D - Vigilances;matériovigilance;M;Néphrologie pédiatrique;Autre lieu de soins;Cadre de santé-cadre administratif;Modérée
+6/4/2008;C - Vie hospitalière;panne ou perte de matériel;A;Infectiologie;Circulation : couloir - escalier - galerie - passerelle...;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+6/4/2008;B - Organisation des soins - Relations avec le patient;autre B;Z;Direction des finances et de la recherche;Autre lieu professionnel;Cadre de santé-cadre administratif;Majeure
+8/4/2008;C - Vie hospitalière;panne ou perte de matériel;P;Pédiatrie générale;Ascenseur;Cadre de santé-cadre administratif;Majeure
+8/4/2008;C - Vie hospitalière;panne ou perte de matériel;A;Consultations multidisciplinaires;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Majeure
+9/4/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Transplantation & Réanimation adultes;Chambre;Médecin;Mineure
+31/3/2008;B - Organisation des soins - Relations avec le patient;transport de patient;A;Hématologie clinique adultes;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Majeure
+30/3/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Ophtalmologie;Salle à manger-salle TV - salle de jeux...;Cadre de santé-cadre administratif;Modérée
+9/4/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Catastrophique
+20/3/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Catastrophique
+9/4/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;M;Bloc CCI;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+8/4/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Néphrologie adulte;Chambre;Cadre de santé-cadre administratif;Mineure
+11/4/2008;B - Organisation des soins - Relations avec le patient;transport de patient;B;Chambre mortuaire;Tout le service;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+9/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Cardiologie pédiatrique;Autre lieu professionnel;Secrétaire-agent administratif;Modérée
+10/4/2008;D - Vigilances;matériovigilance;A;Biothérapie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+10/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité générale, accueil, standard;Non précisé;Cadre de santé-cadre administratif;Modérée
+10/4/2008;C - Vie hospitalière;linge;Z;Sécurité générale, accueil, standard;Autre lieu professionnel;Cadre de santé-cadre administratif;Mineure
+10/4/2008;C - Vie hospitalière;salubrité-propreté des locaux;Z;Sécurité générale, accueil, standard;Parking - cour - jardin;Cadre de santé-cadre administratif;Modérée
+10/4/2008;B - Organisation des soins - Relations avec le patient;autre B;Z;Sécurité générale, accueil, standard;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Insignifiante
+11/4/2008;A - Activités médicales et de soins;dossier médical et de soins;B;Explorations fonctionnelles-physiologie;Consultations - radio - salle d'examens;Technicien-manipulateur-préparateur;Majeure
+12/4/2008;C - Vie hospitalière;autre C;M;Neuro-chirurgie;Poste de soins;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+11/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Infectiologie;Vestiaire;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+13/4/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;I;Radiologie adulte;Office alimentaire;Médecin;Mineure
+13/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Ophtalmologie;Poste de soins;Cadre de santé-cadre administratif;Majeure
+7/4/2008;D - Vigilances;matériovigilance;M;Gastroentérologie & nutrition pédiatriques;Chambre;Cadre de santé-cadre administratif;Modérée
+14/4/2008;C - Vie hospitalière;panne ou perte de matériel;P;Pneumologie - Allergologie pédiatrique;Autre lieu professionnel;Cadre de santé-cadre administratif;Modérée
+14/4/2008;D - Vigilances;matériovigilance;B;Anatomie & cytologie pathologiques;Tout le service;Cadre de santé-cadre administratif;Mineure
+14/4/2008;B - Organisation des soins - Relations avec le patient;déprogrammation d'acte(s);P;Pneumologie - Allergologie pédiatrique;Salle d'opération/salle de réveil;Cadre de santé-cadre administratif;Modérée
+8/4/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Ascenseur;Cadre de santé-cadre administratif;Modérée
+15/4/2008;C - Vie hospitalière;panne ou perte de matériel;P;Pneumologie - Allergologie pédiatrique;Ascenseur;Cadre de santé-cadre administratif;Majeure
+14/4/2008;C - Vie hospitalière;autre C;A;Urologie;Bureaux - locaux administratifs - archives;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+15/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;R;CUDR;Autre lieu commun;Médecin;Modérée
+10/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Magasin - lingerie;Ouvrier-agent technique;Majeure
+10/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Circulation : couloir - escalier - galerie - passerelle...;Ouvrier-agent technique;Modérée
+10/4/2008;C - Vie hospitalière;autre C;Z;Sécurité incendie;Bureaux - locaux administratifs - archives;Ouvrier-agent technique;Majeure
+10/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Circulation : couloir - escalier - galerie - passerelle...;Ouvrier-agent technique;Modérée
+10/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Circulation : couloir - escalier - galerie - passerelle...;Ouvrier-agent technique;Modérée
+10/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Circulation : couloir - escalier - galerie - passerelle...;Ouvrier-agent technique;Majeure
+10/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Circulation : couloir - escalier - galerie - passerelle...;Ouvrier-agent technique;Majeure
+14/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Circulation : couloir - escalier - galerie - passerelle...;Ouvrier-agent technique;Majeure
+16/4/2008;C - Vie hospitalière;panne ou perte de matériel;A;Bloc opératoire du pôle;Salle d'opération/salle de réveil;Médecin;Majeure
+14/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Activité pédiatrique ambulatoire;Salle à manger-salle TV - salle de jeux...;Cadre de santé-cadre administratif;Modérée
+17/4/2008;C - Vie hospitalière;transport logistique;Z;Direction stratégie, qualité;Magasin - lingerie;Cadre de santé-cadre administratif;Modérée
+17/4/2008;B - Organisation des soins - Relations avec le patient;transport de patient;A;Néphrologie adulte;Tout le service;Médecin;Modérée
+17/4/2008;D - Vigilances;matériovigilance;P;Activité pédiatrique ambulatoire;Chambre;Cadre de santé-cadre administratif;Majeure
+17/4/2008;B - Organisation des soins - Relations avec le patient;autre B;B;Chambre mortuaire;Autre lieu professionnel;Cadre de santé-cadre administratif;Modérée
+17/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des affaires générales;Autre lieu commun;Personnel administratif;Modérée
+17/4/2008;C - Vie hospitalière;panne ou perte de matériel;M;Neuro-chirurgie;Tout le service;Médecin;Majeure
+17/4/2008;C - Vie hospitalière;panne ou perte de matériel;M;Neuro-chirurgie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+17/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des finances et de la recherche;Bureaux - locaux administratifs - archives;Secrétaire-agent administratif;Insignifiante
+18/4/2008;D - Vigilances;matériovigilance;P;Pédiatrie générale;Sans objet ou lieu inconnu ( fugues - pertes ...);Cadre de santé-cadre administratif;Modérée
+18/4/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Transplantation & Réanimation adultes;Chambre;Cadre de santé-cadre administratif;Mineure
+1/4/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction stratégie, qualité;Ascenseur;Personnel administratif;Majeure
+18/4/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Urologie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+19/4/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;P;Unité d'Immunologie et d'Hématologie pédiatriques;Circulation : couloir - escalier - galerie - passerelle...;Infirmier-infirmier spécialisé-puéricultrice;Insignifiante
+20/4/2008;C - Vie hospitalière;autre C;B;Laboratoire d'hématologie;Laboratoires - pharmacie;Aide-soignant-ASH;Modérée
+20/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Parking - cour - jardin;Ouvrier-agent technique;Majeure
+19/4/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction stratégie, qualité;Ascenseur;Cadre de santé-cadre administratif;Modérée
+21/4/2008;C - Vie hospitalière;autre C;Q;Cardiologie pédiatrique;Chambre;Cadre de santé-cadre administratif;Modérée
+1/4/2008;A - Activités médicales et de soins;complication liée aux soins;Q;Chirurgie cardiaque pédiatrique;Salle d'opération/salle de réveil;Cadre de santé-cadre administratif;Catastrophique
+1/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Pédopsychiatrie;Bureaux - locaux administratifs - archives;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+21/4/2008;B - Organisation des soins - Relations avec le patient;sortie contre avis médical;P;Hôpital de jour multidisciplinaire;Chambre;Cadre de santé-cadre administratif;Modérée
+21/4/2008;D - Vigilances;matériovigilance;R;CUDR;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Catastrophique
+22/4/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Urologie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+22/4/2008;A - Activités médicales et de soins;autre A;R;Anesthésie-Réanimation;Consultations - radio - salle d'examens;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+23/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Ophtalmologie;Tout le service;Cadre de santé-cadre administratif;Majeure
+23/4/2008;D - Vigilances;matériovigilance;M;Neuro-chirurgie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+23/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Urologie;Poste de soins;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+23/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Restauration;Magasin - lingerie;Ouvrier-agent technique;Modérée
+23/4/2008;A - Activités médicales et de soins;circuit médicaments - dispositifs médicaux stériles;P;Unité d'Immunologie et d'Hématologie pédiatriques;Autre lieu professionnel;Cadre de santé-cadre administratif;Modérée
+23/4/2008;B - Organisation des soins - Relations avec le patient;déprogrammation d'acte(s);P;Hôpital de jour multidisciplinaire;Consultations - radio - salle d'examens;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+23/4/2008;C - Vie hospitalière;panne ou perte de matériel;P;Activité pédiatrique ambulatoire;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Mineure
+23/4/2008;C - Vie hospitalière;panne ou perte de matériel;P;Activité pédiatrique ambulatoire;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Mineure
+23/4/2008;C - Vie hospitalière;panne ou perte de matériel;P;Activité pédiatrique ambulatoire;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Mineure
+23/4/2008;C - Vie hospitalière;panne ou perte de matériel;P;Activité pédiatrique ambulatoire;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Mineure
+23/4/2008;C - Vie hospitalière;panne ou perte de matériel;P;Activité pédiatrique ambulatoire;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Mineure
+23/4/2008;C - Vie hospitalière;panne ou perte de matériel;P;Activité pédiatrique ambulatoire;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Mineure
+24/4/2008;A - Activités médicales et de soins;dossier médical et de soins;A;Biothérapie;Consultations - radio - salle d'examens;Technicien-manipulateur-préparateur;Majeure
+24/4/2008;B - Organisation des soins - Relations avec le patient;fugue ou patient égaré;P;Hôpital de jour multidisciplinaire;Salle d'attente-hall - caisse - accueil;Cadre de santé-cadre administratif;Majeure
+1/4/2008;C - Vie hospitalière;panne ou perte de matériel;M;Chirurgie viscérale;Circulation : couloir - escalier - galerie - passerelle...;Médecin;Modérée
+24/4/2008;D - Vigilances;matériovigilance;A;Cardiologie adultes;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Modérée
+24/4/2008;D - Vigilances;matériovigilance;P;Activité pédiatrique ambulatoire;Consultations - radio - salle d'examens;Aide-soignant-ASH;Modérée
+25/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;R;Anesthésie-Réanimation;Circulation : couloir - escalier - galerie - passerelle...;Aide-soignant-ASH;Modérée
+24/4/2008;B - Organisation des soins - Relations avec le patient;transport de patient;Q;Chirurgie cardiaque pédiatrique;Autre lieu de soins;Médecin;Catastrophique
+28/4/2008;C - Vie hospitalière;incidents liés aux chantiers;P;Unité d'Immunologie et d'Hématologie pédiatriques;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Modérée
+28/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Urologie;Chambre;Cadre de santé-cadre administratif;Modérée
+28/4/2008;D - Vigilances;infectiovigilance;Q;Maternité N-B;Consultations - radio - salle d'examens;Sage femme;Modérée
+29/4/2008;C - Vie hospitalière;transport logistique;Z;Restauration;Autre lieu professionnel;Ouvrier-agent technique;Modérée
+29/4/2008;A - Activités médicales et de soins;dossier médical et de soins;P;Pneumologie - Allergologie pédiatrique;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Modérée
+28/4/2008;A - Activités médicales et de soins;complication liée aux soins;A;Transplantation & Réanimation adultes;Poste de soins;Cadre de santé-cadre administratif;Majeure
+29/4/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Cadre de santé-cadre administratif;Majeure
+30/4/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;P;Unité d'Immunologie et d'Hématologie pédiatriques;Poste de soins;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+30/4/2008;C - Vie hospitalière;linge;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+30/4/2008;C - Vie hospitalière;restauration;A;Transplantation & Réanimation adultes;Office alimentaire;Cadre de santé-cadre administratif;Modérée
+30/4/2008;C - Vie hospitalière;panne ou perte de matériel;P;Activité pédiatrique ambulatoire;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Modérée
+30/4/2008;C - Vie hospitalière;salubrité-propreté des locaux;B;Chambre mortuaire;Autre lieu professionnel;Cadre de santé-cadre administratif;Modérée
+28/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;R;Réanimation Pédiatrique;Chambre;Cadre de santé-cadre administratif;Mineure
+1/5/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;M;Neuro-chirurgie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+2/5/2008;A - Activités médicales et de soins;dossier médical et de soins;A;Biothérapie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+2/5/2008;C - Vie hospitalière;incidents liés aux chantiers;Z;Direction de la logistique et des achats;Ascenseur;Aide-soignant-ASH;Insignifiante
+30/4/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Activité pédiatrique ambulatoire;Vestiaire;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+5/5/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des affaires générales;Autre lieu commun;Personnel administratif;Modérée
+5/5/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Hématologie clinique adultes;Chambre;Médecin;Majeure
+7/5/2008;C - Vie hospitalière;panne ou perte de matériel;A;Néphrologie adulte;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Majeure
+6/5/2008;C - Vie hospitalière;panne ou perte de matériel;M;ORL;Autre lieu professionnel;Cadre de santé-cadre administratif;Insignifiante
+2/4/2008;C - Vie hospitalière;panne ou perte de matériel;P;Activité pédiatrique ambulatoire;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+8/5/2008;C - Vie hospitalière;panne ou perte de matériel;A;Cardiologie adultes;Ascenseur;Cadre de santé-cadre administratif;Modérée
+8/5/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;B;Pharmacie;Loge - barrière;Cadre de santé-cadre administratif;Modérée
+9/5/2008;C - Vie hospitalière;salubrité-propreté des locaux;P;Activité pédiatrique ambulatoire;Locaux poubelles/déchets;Cadre de santé-cadre administratif;Majeure
+9/5/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Restauration;Non précisé;Ouvrier-agent technique;Majeure
+10/5/2008;B - Organisation des soins - Relations avec le patient;autre B;B;Chambre mortuaire;Autre lieu de soins;Infirmier-infirmier spécialisé-puéricultrice;Insignifiante
+10/5/2008;D - Vigilances;matériovigilance;R;Réanimation Pédiatrique;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+14/5/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;B;Pharmacie;Autre lieu commun;Cadre de santé-cadre administratif;Modérée
+9/5/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Unité d'Immunologie et d'Hématologie pédiatriques;Bureaux - locaux administratifs - archives;Médecin;Modérée
+13/5/2008;C - Vie hospitalière;panne ou perte de matériel;R;Anesthésie-Réanimation;Sans objet ou lieu inconnu ( fugues - pertes ...);Cadre de santé-cadre administratif;Mineure
+9/5/2008;C - Vie hospitalière;panne ou perte de matériel;B;Bactériologie-Virologie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Majeure
+13/5/2008;C - Vie hospitalière;panne ou perte de matériel;B;Bactériologie-Virologie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Majeure
+14/5/2008;C - Vie hospitalière;linge;P;Pédiatrie générale;Magasin - lingerie;Aide-soignant-ASH;Mineure
+14/5/2008;C - Vie hospitalière;panne ou perte de matériel;B;Bactériologie-Virologie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Majeure
+14/5/2008;C - Vie hospitalière;panne ou perte de matériel;B;Bactériologie-Virologie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Majeure
+13/5/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Majeure
+9/5/2008;C - Vie hospitalière;transport logistique;B;Anatomie & cytologie pathologiques;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Majeure
+15/5/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Urologie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+14/5/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;M;Gastroentérologie & nutrition pédiatriques;Autre lieu de soins;Cadre de santé-cadre administratif;Modérée
+17/4/2008;C - Vie hospitalière;panne ou perte de matériel;B;Explorations fonctionnelles-physiologie;Bureaux - locaux administratifs - archives;Secrétaire-agent administratif;Majeure
+15/5/2008;C - Vie hospitalière;magasin;P;Unité d'Immunologie et d'Hématologie pédiatriques;Tout le service;Cadre de santé-cadre administratif;Modérée
+13/5/2008;C - Vie hospitalière;magasin;P;Pédiatrie générale;Autre lieu commun;Cadre de santé-cadre administratif;Modérée
+15/5/2008;B - Organisation des soins - Relations avec le patient;fugue ou patient égaré;P;Pédiatrie générale;Parking - cour - jardin;Cadre de santé-cadre administratif;Modérée
+15/5/2008;C - Vie hospitalière;restauration;Z;Direction de la logistique et des achats;Autre lieu professionnel;Cadre de santé-cadre administratif;Majeure
+16/5/2008;A - Activités médicales et de soins;dossier médical et de soins;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Majeure
+16/5/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Ophtalmologie;Circulation : couloir - escalier - galerie - passerelle...;Aide-soignant-ASH;Modérée
+16/5/2008;C - Vie hospitalière;autre C;A;Hématologie clinique adultes;Tout le service;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+19/5/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Restauration;Autre lieu professionnel;Ouvrier-agent technique;Modérée
+11/5/2008;A - Activités médicales et de soins;complication liée aux soins;P;Pédiatrie générale;Chambre;Cadre de santé-cadre administratif;Majeure
+20/5/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;Z;Direction stratégie, qualité;Circulation : couloir - escalier - galerie - passerelle...;Personnel administratif;Modérée
+11/5/2008;A - Activités médicales et de soins;autre A;P;Pédiatrie générale;Consultations - radio - salle d'examens;Médecin;Modérée
+21/5/2008;C - Vie hospitalière;autre C;B;Laboratoire d'immunologie;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Majeure
+22/5/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Unité d'Immunologie et d'Hématologie pédiatriques;Non précisé;Cadre de santé-cadre administratif;Catastrophique
+22/5/2008;C - Vie hospitalière;incidents liés aux chantiers;P;Unité d'Immunologie et d'Hématologie pédiatriques;Circulation : couloir - escalier - galerie - passerelle...;Médecin;Majeure
+15/5/2008;A - Activités médicales et de soins;complication médicale ou chirurgicale inattendue;R;Anesthésie-Réanimation;Salle d'opération/salle de réveil;Médecin;Majeure
+22/5/2008;A - Activités médicales et de soins;dossier médical et de soins;A;Hématologie clinique adultes;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+30/1/2008;D - Vigilances;matériovigilance;R;CUDR;Chambre;Cadre de santé-cadre administratif;Majeure
+23/5/2008;A - Activités médicales et de soins;complication liée aux soins;A;Hématologie clinique adultes;Consultations - radio - salle d'examens;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+24/5/2008;A - Activités médicales et de soins;autre A;R;Réanimation Pédiatrique;Laboratoires - pharmacie;Médecin;Modérée
+25/5/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Transplantation & Réanimation adultes;Toilettes/douche destinés aux patients;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+27/5/2008;C - Vie hospitalière;panne ou perte de matériel;M;Chirurgie orthopédique pédiatrique;Salle d'opération/salle de réveil;Cadre de santé-cadre administratif;Mineure
+27/5/2008;C - Vie hospitalière;panne ou perte de matériel;A;Hématologie clinique adultes;Tout le service;Cadre de santé-cadre administratif;Majeure
+27/5/2008;A - Activités médicales et de soins;complication liée aux soins;R;Anesthésie-Réanimation;Consultations - radio - salle d'examens;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+28/5/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Archives;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Mineure
+29/5/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des finances et de la recherche;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+29/5/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Ophtalmologie;Tout le service;Aide-soignant-ASH;Mineure
+29/5/2008;C - Vie hospitalière;restauration;Z;Direction des ressources humaines;Office alimentaire;Cadre de santé-cadre administratif;Mineure
+30/5/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Ophtalmologie;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Majeure
+28/5/2008;C - Vie hospitalière;panne ou perte de matériel;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Cadre de santé-cadre administratif;Modérée
+30/5/2008;C - Vie hospitalière;transport logistique;Z;Restauration;Locaux poubelles/déchets;Ouvrier-agent technique;Majeure
+30/5/2008;B - Organisation des soins - Relations avec le patient;autre B;R;CUDR;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Catastrophique
+30/5/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Pédiatrie générale;Tout le service;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+1/6/2008;C - Vie hospitalière;restauration;P;Pédiatrie générale;Office alimentaire;Aide-soignant-ASH;Modérée
+2/6/2008;B - Organisation des soins - Relations avec le patient;autre B;B;Chambre mortuaire;Sans objet ou lieu inconnu ( fugues - pertes ...);Infirmier-infirmier spécialisé-puéricultrice;Mineure
+2/6/2008;C - Vie hospitalière;restauration;Q;Cardiologie pédiatrique;Office alimentaire;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+3/6/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Catastrophique
+22/5/2008;C - Vie hospitalière;panne ou perte de matériel;P;Pneumologie - Allergologie pédiatrique;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Majeure
+3/6/2008;C - Vie hospitalière;salubrité-propreté des locaux;P;Neurologie- métabolisme-endocrinologie-diabétologie pédiatrique;Circulation : couloir - escalier - galerie - passerelle...;Médecin;Majeure
+3/6/2008;B - Organisation des soins - Relations avec le patient;autre B;B;Chambre mortuaire;Tout le service;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+3/6/2008;B - Organisation des soins - Relations avec le patient;transport de patient;P;Unité d'Immunologie et d'Hématologie pédiatriques;Autre lieu de soins;Cadre de santé-cadre administratif;Majeure
+4/6/2008;A - Activités médicales et de soins;autre A;P;Pneumologie - Allergologie pédiatrique;Poste de soins;Cadre de santé-cadre administratif;Majeure
+4/6/2008;A - Activités médicales et de soins;complication liée aux soins;P;Pneumologie - Allergologie pédiatrique;Chambre;Cadre de santé-cadre administratif;Majeure
+5/6/2008;A - Activités médicales et de soins;complication liée aux soins;M;Chirurgie viscérale;Chambre;Cadre de santé-cadre administratif;Mineure
+30/5/2008;A - Activités médicales et de soins;autre A;P;Neurologie- métabolisme-endocrinologie-diabétologie pédiatrique;Bureaux - locaux administratifs - archives;Médecin;Majeure
+4/6/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Non précisé;Ouvrier-agent technique;Modérée
+4/6/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Autre lieu commun;Ouvrier-agent technique;Majeure
+5/6/2008;D - Vigilances;matériovigilance;Q;Cardiologie pédiatrique;Chambre;Cadre de santé-cadre administratif;Modérée
+2/6/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Restauration;Autre lieu professionnel;Ouvrier-agent technique;Majeure
+5/6/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Restauration;Non précisé;Ouvrier-agent technique;Majeure
+27/5/2008;C - Vie hospitalière;panne ou perte de matériel;P;Dermatologie;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+30/5/2008;C - Vie hospitalière;transport logistique;B;Histo-Embryologie-Cytogénétique;Laboratoires - pharmacie;Ingénieur-responsable des services techniques;Mineure
+5/6/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Salle à manger-salle TV - salle de jeux...;Ouvrier-agent technique;Majeure
+6/6/2008;C - Vie hospitalière;panne ou perte de matériel;P;Pédiatrie générale;Ascenseur;Aide-soignant-ASH;Majeure
+6/6/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Autre lieu professionnel;Ouvrier-agent technique;Modérée
+6/6/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Bureaux - locaux administratifs - archives;Ouvrier-agent technique;Modérée
+5/6/2008;C - Vie hospitalière;panne ou perte de matériel;P;Pédiatrie générale;Ascenseur;Médecin;Majeure
+9/6/2008;C - Vie hospitalière;salubrité-propreté des locaux;R;CUDR;Consultations - radio - salle d'examens;Aide-soignant-ASH;Majeure
+6/6/2008;B - Organisation des soins - Relations avec le patient;transport de patient;P;Unité d'Immunologie et d'Hématologie pédiatriques;Autre lieu professionnel;Cadre de santé-cadre administratif;Majeure
+7/6/2008;A - Activités médicales et de soins;dossier médical et de soins;P;Pneumologie - Allergologie pédiatrique;Poste de soins;Cadre de santé-cadre administratif;Majeure
+7/5/2008;D - Vigilances;matériovigilance;A;Biothérapie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+9/6/2008;D - Vigilances;matériovigilance;A;Biothérapie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+9/6/2008;B - Organisation des soins - Relations avec le patient;autre B;B;Chambre mortuaire;Autre lieu de soins;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+9/6/2008;B - Organisation des soins - Relations avec le patient;transport de patient;P;Pédiatrie générale;Ascenseur;Médecin;Majeure
+9/6/2008;B - Organisation des soins - Relations avec le patient;transport de patient;P;Pédiatrie générale;Ascenseur;Médecin;Majeure
+10/6/2008;C - Vie hospitalière;panne ou perte de matériel;B;Pharmacie;Ascenseur;Cadre de santé-cadre administratif;Majeure
+10/6/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;B;Biochimie B;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Mineure
+10/6/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Sécurité générale, accueil, standard;Bureaux - locaux administratifs - archives;Personnel administratif;Modérée
+4/6/2008;D - Vigilances;matériovigilance;A;Biothérapie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+8/6/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Consultations multidisciplinaires;Salle d'attente-hall - caisse - accueil;Cadre de santé-cadre administratif;Majeure
+11/6/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Archives;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+11/6/2008;B - Organisation des soins - Relations avec le patient;transport de patient;R;Anesthésie-Réanimation;Ascenseur;Cadre de santé-cadre administratif;Modérée
+11/6/2008;B - Organisation des soins - Relations avec le patient;transport de patient;P;Unité d'Immunologie et d'Hématologie pédiatriques;Autre lieu professionnel;Cadre de santé-cadre administratif;Majeure
+12/6/2008;C - Vie hospitalière;panne ou perte de matériel;Q;Chirurgie cardiaque pédiatrique;Ascenseur;Cadre de santé-cadre administratif;Modérée
+12/6/2008;D - Vigilances;matériovigilance;R;Réanimation Pédiatrique;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+12/6/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Activité pédiatrique ambulatoire;Chambre;Cadre de santé-cadre administratif;Majeure
+12/6/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;M;Bloc CCI;Poste de soins;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+13/6/2008;B - Organisation des soins - Relations avec le patient;fugue ou patient égaré;P;Pneumologie - Allergologie pédiatrique;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Insignifiante
+16/6/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Transplantation & Réanimation adultes;Chambre;Aide-soignant-ASH;Mineure
+16/6/2008;C - Vie hospitalière;panne ou perte de matériel;M;Chirurgie orthopédique pédiatrique;Tout le service;Cadre de santé-cadre administratif;Mineure
+17/6/2008;C - Vie hospitalière;salubrité-propreté des locaux;Z;Direction de la logistique et des achats;Locaux poubelles/déchets;Cadre de santé-cadre administratif;Catastrophique
+16/6/2008;A - Activités médicales et de soins;dossier médical et de soins;A;Biothérapie;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Majeure
+17/6/2008;C - Vie hospitalière;autre C;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Modérée
+18/6/2008;C - Vie hospitalière;restauration;P;Pneumologie - Allergologie pédiatrique;Tout le service;Aide-soignant-ASH;Modérée
+19/5/2008;A - Activités médicales et de soins;dossier médical et de soins;A;Biothérapie;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+16/6/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Services techniques;Locaux des services techniques;Ouvrier-agent technique;Insignifiante
+19/6/2008;A - Activités médicales et de soins;dossier médical et de soins;A;Hématologie clinique adultes;Sans objet ou lieu inconnu ( fugues - pertes ...);Médecin;Modérée
+19/6/2008;A - Activités médicales et de soins;complication liée aux soins;R;Réanimation Pédiatrique;Chambre;Médecin;Modérée
+20/6/2008;A - Activités médicales et de soins;dossier médical et de soins;A;Hématologie clinique adultes;Sans objet ou lieu inconnu ( fugues - pertes ...);Médecin;Majeure
+16/6/2008;C - Vie hospitalière;incidents liés aux chantiers;Q;Cardiologie pédiatrique;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Majeure
+20/6/2008;B - Organisation des soins - Relations avec le patient;transport de patient;A;Ophtalmologie;Chambre;Cadre de santé-cadre administratif;Insignifiante
+20/6/2008;A - Activités médicales et de soins;dossier médical et de soins;A;Hématologie clinique adultes;Sans objet ou lieu inconnu ( fugues - pertes ...);Médecin;Majeure
+19/6/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Brancardage;Parking - cour - jardin;Cadre de santé-cadre administratif;Modérée
+20/6/2008;D - Vigilances;infectiovigilance;Z;Direction des ressources humaines;Parking - cour - jardin;Personnel administratif;Mineure
+20/6/2008;C - Vie hospitalière;panne ou perte de matériel;Q;Maternité;Tout le service;Cadre de santé-cadre administratif;Majeure
+22/6/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Urologie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+21/6/2008;C - Vie hospitalière;panne ou perte de matériel;R;Anesthésie-Réanimation;Autre lieu professionnel;Médecin;Majeure
+23/6/2008;C - Vie hospitalière;panne ou perte de matériel;P;Pédiatrie générale;Non précisé;Diététicien-kiné-ergothérapeute-psychomotricien-autre rééducateur;Majeure
+16/6/2008;C - Vie hospitalière;salubrité-propreté des locaux;A;Biothérapie;Locaux poubelles/déchets;Aide-soignant-ASH;Modérée
+23/6/2008;C - Vie hospitalière;linge;P;Pédiatrie générale;Magasin - lingerie;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+22/6/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Néphrologie adulte;Chambre;Cadre de santé-cadre administratif;Majeure
+23/6/2008;C - Vie hospitalière;autre C;P;Hôpital de jour multidisciplinaire;Circulation : couloir - escalier - galerie - passerelle...;Aide-soignant-ASH;Mineure
+23/6/2008;C - Vie hospitalière;panne ou perte de matériel;Q;Cardiologie pédiatrique;Non précisé;Cadre de santé-cadre administratif;Majeure
+17/6/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Neurologie- métabolisme-endocrinologie-diabétologie pédiatrique;Vestiaire;Cadre de santé-cadre administratif;Majeure
+20/6/2008;B - Organisation des soins - Relations avec le patient;sortie contre avis médical;P;Neurologie- métabolisme-endocrinologie-diabétologie pédiatrique;Chambre;Cadre de santé-cadre administratif;Modérée
+23/6/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Maternité;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Modérée
+21/6/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Cardiologie pédiatrique;Bureaux - locaux administratifs - archives;Aide-soignant-ASH;Mineure
+23/6/2008;D - Vigilances;matériovigilance;A;Biothérapie;Poste de soins;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+24/6/2008;D - Vigilances;matériovigilance;A;Biothérapie;Poste de soins;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+26/6/2008;B - Organisation des soins - Relations avec le patient;autre B;B;Chambre mortuaire;Autre lieu de soins;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+26/6/2008;B - Organisation des soins - Relations avec le patient;autre B;B;Chambre mortuaire;Autre lieu de soins;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+17/6/2008;D - Vigilances;matériovigilance;B;Laboratoire d'hématologie;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Modérée
+26/6/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Maternité;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Majeure
+25/6/2008;B - Organisation des soins - Relations avec le patient;autre B;B;Chambre mortuaire;Autre lieu commun;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+25/6/2008;B - Organisation des soins - Relations avec le patient;autre B;B;Chambre mortuaire;Autre lieu de soins;Infirmier-infirmier spécialisé-puéricultrice;Insignifiante
+26/6/2008;C - Vie hospitalière;transport logistique;B;Stérilisation;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Majeure
+24/6/2008;D - Vigilances;pharmacovigilance;A;Néphrologie adulte;Chambre;Cadre de santé-cadre administratif;Modérée
+26/6/2008;A - Activités médicales et de soins;complication médicale ou chirurgicale inattendue;M;Bloc CCI;Chambre;Médecin;Majeure
+26/6/2008;A - Activités médicales et de soins;complication médicale ou chirurgicale inattendue;M;Gastroentérologie & nutrition pédiatriques;Chambre;Cadre de santé-cadre administratif;Catastrophique
+27/6/2008;C - Vie hospitalière;linge;P;Hôpital de jour multidisciplinaire;Tout le service;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+27/6/2008;C - Vie hospitalière;salubrité-propreté des locaux;M;Gastroentérologie & nutrition pédiatriques;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Modérée
+26/6/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Chirurgie cardiaque pédiatrique;Poste de soins;Médecin;Modérée
+27/6/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+27/6/2008;B - Organisation des soins - Relations avec le patient;autre B;B;Chambre mortuaire;Autre lieu de soins;Infirmier-infirmier spécialisé-puéricultrice;Insignifiante
+29/6/2008;D - Vigilances;matériovigilance;R;Réanimation Pédiatrique;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+30/6/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Archives;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+30/6/2008;C - Vie hospitalière;panne ou perte de matériel;M;Chirurgie viscérale;Toilettes/douche destinés aux patients;Cadre de santé-cadre administratif;Majeure
+30/6/2008;C - Vie hospitalière;panne ou perte de matériel;M;Gastroentérologie & nutrition pédiatriques;Ascenseur;Cadre de santé-cadre administratif;Majeure
+30/6/2008;C - Vie hospitalière;panne ou perte de matériel;A;Infectiologie;Ascenseur;Cadre de santé-cadre administratif;Majeure
+30/6/2008;C - Vie hospitalière;restauration;P;Hôpital de jour multidisciplinaire;Tout le service;Aide-soignant-ASH;Majeure
+29/6/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Restauration;Tout l'hôpital;Ouvrier-agent technique;Majeure
+26/6/2008;A - Activités médicales et de soins;complication liée aux soins;P;Pédiatrie générale;Chambre;Médecin;Majeure
+28/6/2008;C - Vie hospitalière;salubrité-propreté des locaux;Z;Sécurité incendie;Salle d'attente-hall - caisse - accueil;Personnel administratif;Majeure
+1/7/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Autre lieu commun;Ouvrier-agent technique;Catastrophique
+1/7/2008;B - Organisation des soins - Relations avec le patient;autre B;B;Chambre mortuaire;Autre lieu de soins;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+1/7/2008;A - Activités médicales et de soins;autre A;P;Unité d'Immunologie et d'Hématologie pédiatriques;Autre lieu de soins;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+1/7/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+1/7/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;R;CUDR;Salle d'attente-hall - caisse - accueil;Cadre de santé-cadre administratif;Majeure
+1/7/2008;B - Organisation des soins - Relations avec le patient;autre B;I;Radiologie adulte;Consultations - radio - salle d'examens;Médecin;Majeure
+30/6/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Services techniques;Locaux des services techniques;Ouvrier-agent technique;Majeure
+2/7/2008;D - Vigilances;matériovigilance;A;Biothérapie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+20/5/2008;D - Vigilances;biovigilance;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Majeure
+3/7/2008;C - Vie hospitalière;restauration;P;Unité d'Immunologie et d'Hématologie pédiatriques;Office alimentaire;Aide-soignant-ASH;Majeure
+2/7/2008;B - Organisation des soins - Relations avec le patient;déprogrammation d'acte(s);R;Anesthésie-Réanimation;Salle d'opération/salle de réveil;Médecin;Majeure
+3/7/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des investissements;Autre lieu commun;Ingénieur-responsable des services techniques;Modérée
+3/7/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;A;Hématologie clinique adultes;Ascenseur;Cadre de santé-cadre administratif;Modérée
+18/6/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Chirurgie cardiaque pédiatrique;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Modérée
+1/7/2008;B - Organisation des soins - Relations avec le patient;déprogrammation d'acte(s);Q;Cardiologie pédiatrique;Autre lieu professionnel;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+3/7/2008;C - Vie hospitalière;restauration;M;Chirurgie orthopédique pédiatrique;Tout le service;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+3/7/2008;A - Activités médicales et de soins;complication liée aux soins;Q;Cardiologie pédiatrique;Chambre;Cadre de santé-cadre administratif;Mineure
+4/7/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;Q;Maternité;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+4/7/2008;D - Vigilances;biovigilance;A;Hématologie clinique adultes;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+4/7/2008;C - Vie hospitalière;panne ou perte de matériel;A;Urologie;Autre lieu professionnel;Cadre de santé-cadre administratif;Modérée
+3/7/2008;C - Vie hospitalière;autre C;P;Hôpital de jour multidisciplinaire;Office alimentaire;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+7/7/2008;C - Vie hospitalière;autre C;Z;Services techniques;Chambre;Ingénieur-responsable des services techniques;Majeure
+8/7/2008;C - Vie hospitalière;panne ou perte de matériel;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Cadre de santé-cadre administratif;Majeure
+8/7/2008;C - Vie hospitalière;panne ou perte de matériel;B;Pharmacie;Ascenseur;Cadre de santé-cadre administratif;Modérée
+8/7/2008;C - Vie hospitalière;autre C;Z;Archives;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+3/7/2008;D - Vigilances;matériovigilance;A;Biothérapie;Poste de soins;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+8/7/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;A;Biothérapie;Circulation : couloir - escalier - galerie - passerelle...;Technicien-manipulateur-préparateur;Modérée
+10/7/2008;B - Organisation des soins - Relations avec le patient;erreur d'identification;B;Bactériologie-Virologie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Insignifiante
+11/7/2008;C - Vie hospitalière;panne ou perte de matériel;B;Anatomie & cytologie pathologiques;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Majeure
+11/7/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Infectiologie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+25/6/2008;C - Vie hospitalière;autre C;Z;Direction stratégie, qualité;Bureaux - locaux administratifs - archives;Médecin;Modérée
+11/7/2008;C - Vie hospitalière;panne ou perte de matériel;A;Hématologie clinique adultes;Locaux des services techniques;Cadre de santé-cadre administratif;Mineure
+11/7/2008;C - Vie hospitalière;panne ou perte de matériel;B;Laboratoire d'hématologie;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Modérée
+15/7/2008;D - Vigilances;biovigilance;A;Hématologie clinique adultes;Chambre;Cadre de santé-cadre administratif;Majeure
+11/7/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Circulation : couloir - escalier - galerie - passerelle...;Ouvrier-agent technique;Catastrophique
+11/7/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Circulation : couloir - escalier - galerie - passerelle...;Ouvrier-agent technique;Majeure
+16/7/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;B;Stérilisation;Bureaux - locaux administratifs - archives;Pharmacien;Modérée
+16/7/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Cardiologie pédiatrique;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+15/7/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Cardiologie pédiatrique;Autre lieu professionnel;Cadre de santé-cadre administratif;Modérée
+12/7/2008;A - Activités médicales et de soins;complication liée aux soins;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Cadre de santé-cadre administratif;Modérée
+16/7/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Unité d'Immunologie et d'Hématologie pédiatriques;Autre lieu professionnel;Cadre de santé-cadre administratif;Modérée
+1/7/2008;C - Vie hospitalière;panne ou perte de matériel;B;Bactériologie-Virologie;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+16/7/2008;C - Vie hospitalière;panne ou perte de matériel;B;Laboratoire d'hématologie;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Majeure
+17/7/2008;B - Organisation des soins - Relations avec le patient;transport de patient;R;Anesthésie-Réanimation;Chambre;Médecin;Majeure
+17/7/2008;A - Activités médicales et de soins;autre A;Z;Sécurité générale, accueil, standard;Autre lieu professionnel;Personnel administratif;Majeure
+5/6/2008;D - Vigilances;biovigilance;Z;Direction stratégie, qualité;Chambre;Personnel administratif;Modérée
+10/7/2008;D - Vigilances;biovigilance;Z;Direction stratégie, qualité;Tout l'hôpital;Personnel administratif;Modérée
+10/7/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;B;Anatomie & cytologie pathologiques;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Majeure
+16/7/2008;C - Vie hospitalière;panne ou perte de matériel;B;Bactériologie-Virologie;Ascenseur;Cadre de santé-cadre administratif;Majeure
+17/7/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des finances et de la recherche;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+18/7/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Majeure
+19/7/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Urologie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Insignifiante
+21/7/2008;D - Vigilances;biovigilance;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Majeure
+21/7/2008;B - Organisation des soins - Relations avec le patient;autre B;B;Chambre mortuaire;Poste de soins;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+21/7/2008;C - Vie hospitalière;autre C;A;Urologie;Consultations - radio - salle d'examens;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+21/7/2008;C - Vie hospitalière;panne ou perte de matériel;M;ORL;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Mineure
+1/7/2008;D - Vigilances;matériovigilance;R;Anesthésie-Réanimation;Salle d'opération/salle de réveil;Médecin;Insignifiante
+18/7/2008;A - Activités médicales et de soins;dossier médical et de soins;A;Infectiologie;Sans objet ou lieu inconnu ( fugues - pertes ...);Cadre de santé-cadre administratif;Majeure
+22/7/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Maternité;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Mineure
+23/7/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Catastrophique
+23/7/2008;C - Vie hospitalière;panne ou perte de matériel;B;Bactériologie-Virologie;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Catastrophique
+23/7/2008;C - Vie hospitalière;incidents liés aux chantiers;Z;Sécurité incendie;Vestiaire;Personnel administratif;Majeure
+18/7/2008;D - Vigilances;biovigilance;B;Laboratoire d'immunologie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Modérée
+9/7/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction de la logistique et des achats;Bureaux - locaux administratifs - archives;Personnel administratif;Mineure
+25/7/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;M;Chirurgie viscérale;Consultations - radio - salle d'examens;Personnel administratif;Modérée
+27/7/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;M;Chirurgie orthopédique pédiatrique;Circulation : couloir - escalier - galerie - passerelle...;Infirmier-infirmier spécialisé-puéricultrice;Insignifiante
+28/7/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Archives;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+28/7/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+28/7/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+28/7/2008;D - Vigilances;matériovigilance;A;Néphrologie adulte;Autre lieu professionnel;Cadre de santé-cadre administratif;Majeure
+31/7/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Insignifiante
+31/7/2008;C - Vie hospitalière;salubrité-propreté des locaux;Z;Sécurité incendie;Circulation : couloir - escalier - galerie - passerelle...;Personnel administratif;Majeure
+30/7/2008;D - Vigilances;infectiovigilance;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Modérée
+30/7/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;Q;Chirurgie cardiaque pédiatrique;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Modérée
+31/7/2008;B - Organisation des soins - Relations avec le patient;autre B;R;SAMU SMUR;Tout le service;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+25/7/2008;C - Vie hospitalière;autre C;Z;Direction des finances et de la recherche;Bureaux - locaux administratifs - archives;Personnel administratif;Mineure
+1/8/2008;C - Vie hospitalière;panne ou perte de matériel;M;Chirurgie viscérale;Autre lieu commun;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+2/8/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+4/8/2008;A - Activités médicales et de soins;complication liée aux soins;M;Gastroentérologie & nutrition pédiatriques;Chambre;Aide-soignant-ASH;Modérée
+4/8/2008;A - Activités médicales et de soins;circuit médicaments - dispositifs médicaux stériles;R;Anesthésie-Réanimation;Salle d'opération/salle de réveil;Cadre de santé-cadre administratif;Mineure
+2/8/2008;C - Vie hospitalière;incidents liés aux chantiers;Z;Sécurité incendie;Autre lieu professionnel;Personnel administratif;Majeure
+5/8/2008;D - Vigilances;matériovigilance;P;Hôpital de jour multidisciplinaire;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+5/8/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;R;CUDR;Salle d'attente-hall - caisse - accueil;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+5/8/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;M;Chirurgie orthopédique pédiatrique;Chambre;Cadre de santé-cadre administratif;Mineure
+6/8/2008;D - Vigilances;matériovigilance;P;Hôpital de jour multidisciplinaire;Salle d'opération/salle de réveil;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+6/8/2008;A - Activités médicales et de soins;autre A;M;Chirurgie viscérale;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Mineure
+7/8/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Archives;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Mineure
+6/8/2008;C - Vie hospitalière;incidents liés aux chantiers;Z;Sécurité incendie;Toilettes/douche destinés aux patients;Personnel administratif;Majeure
+7/8/2008;C - Vie hospitalière;salubrité-propreté des locaux;Z;Sécurité incendie;Autre lieu professionnel;Personnel administratif;Majeure
+7/8/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction de la logistique et des achats;Bureaux - locaux administratifs - archives;Personnel administratif;Modérée
+16/3/2008;B - Organisation des soins - Relations avec le patient;autre B;Z;Direction des finances et de la recherche;Consultations - radio - salle d'examens;Personnel administratif;Mineure
+7/8/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;Q;Chirurgie cardiaque pédiatrique;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Modérée
+7/8/2008;C - Vie hospitalière;autre C;P;Hôpital de jour multidisciplinaire;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Majeure
+8/8/2008;C - Vie hospitalière;panne ou perte de matériel;B;Biochimie B;Ascenseur;Technicien-manipulateur-préparateur;Modérée
+8/8/2008;D - Vigilances;hémovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Sans objet ou lieu inconnu ( fugues - pertes ...);Cadre de santé-cadre administratif;Modérée
+12/8/2008;C - Vie hospitalière;panne ou perte de matériel;P;Pédiatrie générale;Autre lieu commun;Cadre de santé-cadre administratif;Modérée
+12/8/2008;C - Vie hospitalière;autre C;Z;Direction de la logistique et des achats;Locaux poubelles/déchets;Cadre de santé-cadre administratif;Majeure
+12/8/2008;C - Vie hospitalière;salubrité-propreté des locaux;P;Hôpital de jour multidisciplinaire;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Modérée
+12/8/2008;D - Vigilances;matériovigilance;M;Chirurgie orthopédique pédiatrique;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+12/8/2008;C - Vie hospitalière;salubrité-propreté des locaux;Z;Direction stratégie, qualité;Parking - cour - jardin;Personnel administratif;Mineure
+12/8/2008;C - Vie hospitalière;incidents liés aux chantiers;P;Unité d'Immunologie et d'Hématologie pédiatriques;Tout le service;Cadre de santé-cadre administratif;Majeure
+13/8/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Poste de soins;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+10/8/2008;D - Vigilances;hémovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+14/8/2008;D - Vigilances;matériovigilance;A;Transplantation & Réanimation adultes;Chambre;Médecin;Modérée
+14/8/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Circulation : couloir - escalier - galerie - passerelle...;Ouvrier-agent technique;Catastrophique
+17/8/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+15/8/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Office alimentaire;Ouvrier-agent technique;Modérée
+18/8/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des finances et de la recherche;Tout le service;Cadre de santé-cadre administratif;Modérée
+18/8/2008;C - Vie hospitalière;autre C;M;Néphrologie pédiatrique;Chambre;Cadre de santé-cadre administratif;Mineure
+19/8/2008;C - Vie hospitalière;salubrité-propreté des locaux;P;Pneumologie - Allergologie pédiatrique;Locaux poubelles/déchets;Cadre de santé-cadre administratif;Majeure
+19/8/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Infectiologie;Toilettes/douche destinés aux patients;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+18/8/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Pédopsychiatrie;Bureaux - locaux administratifs - archives;Secrétaire-agent administratif;Modérée
+19/8/2008;C - Vie hospitalière;autre C;Z;Direction stratégie, qualité;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Mineure
+19/8/2008;C - Vie hospitalière;transport logistique;P;Unité d'Immunologie et d'Hématologie pédiatriques;Circulation : couloir - escalier - galerie - passerelle...;Aide-soignant-ASH;Majeure
+4/8/2008;C - Vie hospitalière;panne ou perte de matériel;M;Gastroentérologie & nutrition pédiatriques;Chambre;Cadre de santé-cadre administratif;Modérée
+19/8/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction stratégie, qualité;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Modérée
+31/7/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction des soins;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Mineure
+18/8/2008;C - Vie hospitalière;panne ou perte de matériel;B;Bactériologie-Virologie;Bureaux - locaux administratifs - archives;Médecin;Majeure
+21/8/2008;C - Vie hospitalière;salubrité-propreté des locaux;Z;Services techniques;Circulation : couloir - escalier - galerie - passerelle...;Ouvrier-agent technique;Majeure
+21/8/2008;D - Vigilances;matériovigilance;R;CUDR;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Majeure
+21/8/2008;C - Vie hospitalière;salubrité-propreté des locaux;B;Bactériologie-Virologie;Toilettes;Cadre de santé-cadre administratif;Majeure
+21/8/2008;B - Organisation des soins - Relations avec le patient;autre B;M;Chirurgie viscérale;Tout le service;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+21/8/2008;C - Vie hospitalière;panne ou perte de matériel;B;Anatomie & cytologie pathologiques;Non précisé;Cadre de santé-cadre administratif;Modérée
+22/8/2008;C - Vie hospitalière;autre C;Z;Restauration;Autre lieu professionnel;Ouvrier-agent technique;Mineure
+24/8/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Chirurgie cardiaque pédiatrique;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Majeure
+23/8/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Restauration;Vestiaire;Ouvrier-agent technique;Modérée
+25/8/2008;C - Vie hospitalière;panne ou perte de matériel;P;Pneumologie - Allergologie pédiatrique;Ascenseur;Cadre de santé-cadre administratif;Majeure
+25/6/2008;B - Organisation des soins - Relations avec le patient;transport de patient;B;Chambre mortuaire;Tout le service;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+25/8/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Transplantation & Réanimation adultes;Toilettes/douche destinés aux patients;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+21/8/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;B;Bactériologie-Virologie;Locaux poubelles/déchets;Aide-soignant-ASH;Modérée
+22/8/2008;D - Vigilances;matériovigilance;A;Infectiologie;Poste de soins;Cadre de santé-cadre administratif;Mineure
+25/8/2008;B - Organisation des soins - Relations avec le patient;difficulté hospitalisation ou transfert;Z;Direction des soins;Loge - barrière;Cadre de santé-cadre administratif;Majeure
+25/8/2008;C - Vie hospitalière;autre C;Z;Restauration;Autre lieu professionnel;Ouvrier-agent technique;Mineure
+25/8/2008;C - Vie hospitalière;autre C;Z;Restauration;Autre lieu professionnel;Ouvrier-agent technique;Mineure
+26/8/2008;C - Vie hospitalière;panne ou perte de matériel;A;Ophtalmologie;Ascenseur;Cadre de santé-cadre administratif;Modérée
+26/8/2008;D - Vigilances;matériovigilance;A;Transplantation & Réanimation adultes;Chambre;Médecin;Mineure
+25/8/2008;A - Activités médicales et de soins;circuit médicaments - dispositifs médicaux stériles;P;Unité d'Immunologie et d'Hématologie pédiatriques;Autre lieu professionnel;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+26/8/2008;C - Vie hospitalière;salubrité-propreté des locaux;A;Biothérapie;Locaux poubelles/déchets;Technicien-manipulateur-préparateur;Mineure
+26/8/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Transplantation & Réanimation adultes;Chambre;Aide-soignant-ASH;Modérée
+26/8/2008;C - Vie hospitalière;autre C;Z;Restauration;Autre lieu professionnel;Ouvrier-agent technique;Mineure
+26/8/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Services techniques;Autre lieu professionnel;Ingénieur-responsable des services techniques;Modérée
+27/8/2008;C - Vie hospitalière;transport logistique;P;Pneumologie - Allergologie pédiatrique;Locaux poubelles/déchets;Cadre de santé-cadre administratif;Majeure
+27/8/2008;B - Organisation des soins - Relations avec le patient;autre B;R;CUDR;Tout le service;Aide-soignant-ASH;Modérée
+28/8/2008;C - Vie hospitalière;salubrité-propreté des locaux;B;Biochimie B;Locaux poubelles/déchets;Cadre de santé-cadre administratif;Mineure
+28/8/2008;C - Vie hospitalière;incidents liés aux chantiers;P;Unité d'Immunologie et d'Hématologie pédiatriques;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Majeure
+27/8/2008;C - Vie hospitalière;salubrité-propreté des locaux;A;Hématologie clinique adultes;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Modérée
+28/8/2008;A - Activités médicales et de soins;complication liée aux soins;P;Neurologie- métabolisme-endocrinologie-diabétologie pédiatrique;Chambre;Cadre de santé-cadre administratif;Modérée
+28/8/2008;C - Vie hospitalière;incidents liés aux chantiers;P;Unité d'Immunologie et d'Hématologie pédiatriques;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Majeure
+29/8/2008;C - Vie hospitalière;incidents liés aux chantiers;P;Unité d'Immunologie et d'Hématologie pédiatriques;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Majeure
+29/8/2008;B - Organisation des soins - Relations avec le patient;perte ou bris de prothèse;A;Transplantation & Réanimation adultes;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+28/8/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Cardiologie pédiatrique;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Mineure
+29/8/2008;B - Organisation des soins - Relations avec le patient;autre B;A;Hématologie clinique adultes;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Modérée
+29/8/2008;C - Vie hospitalière;panne ou perte de matériel;B;Biochimie A;Tout le service;Cadre de santé-cadre administratif;Majeure
+30/8/2008;C - Vie hospitalière;salubrité-propreté des locaux;P;Pneumologie - Allergologie pédiatrique;Locaux poubelles/déchets;Cadre de santé-cadre administratif;Majeure
+30/8/2008;C - Vie hospitalière;panne ou perte de matériel;P;Pneumologie - Allergologie pédiatrique;Ascenseur;Cadre de santé-cadre administratif;Majeure
+26/8/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;A;Infectiologie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+31/8/2008;C - Vie hospitalière;salubrité-propreté des locaux;Z;Restauration;Autre lieu professionnel;Ouvrier-agent technique;Majeure
+29/8/2008;C - Vie hospitalière;autre C;Z;Restauration;Autre lieu professionnel;Ouvrier-agent technique;Mineure
+31/8/2008;C - Vie hospitalière;salubrité-propreté des locaux;P;Pneumologie - Allergologie pédiatrique;Autre lieu professionnel;Cadre de santé-cadre administratif;Majeure
+31/8/2008;C - Vie hospitalière;panne ou perte de matériel;A;Bloc opératoire du pôle;Ascenseur;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+30/8/2008;C - Vie hospitalière;panne ou perte de matériel;P;Unité d'Immunologie et d'Hématologie pédiatriques;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Majeure
+2/9/2008;B - Organisation des soins - Relations avec le patient;transport de patient;A;Infectiologie;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Modérée
+2/9/2008;D - Vigilances;hémovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+2/9/2008;B - Organisation des soins - Relations avec le patient;autre B;P;Pédiatrie générale;Consultations - radio - salle d'examens;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+3/9/2008;B - Organisation des soins - Relations avec le patient;erreur d'identification;P;Pneumologie - Allergologie pédiatrique;Tout l'hôpital;Cadre de santé-cadre administratif;Modérée
+1/9/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Chirurgie cardiaque pédiatrique;Vestiaire;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+3/7/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des finances et de la recherche;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+3/9/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des finances et de la recherche;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+4/9/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Ophtalmologie;Chambre;Aide-soignant-ASH;Majeure
+4/9/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;B;Explorations fonctionnelles-physiologie;Vestiaire;Cadre de santé-cadre administratif;Mineure
+4/9/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;M;ORL;Vestiaire;Cadre de santé-cadre administratif;Majeure
+4/9/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;B;Anatomie & cytologie pathologiques;Vestiaire;Cadre de santé-cadre administratif;Modérée
+5/9/2008;C - Vie hospitalière;panne ou perte de matériel;M;Bloc CCI;Ascenseur;Cadre de santé-cadre administratif;Majeure
+5/9/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Archives;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Majeure
+5/9/2008;C - Vie hospitalière;panne ou perte de matériel;A;Ophtalmologie;Autre lieu professionnel;Cadre de santé-cadre administratif;Majeure
+5/9/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Brancardage;Chambre;Cadre de santé-cadre administratif;Majeure
+5/9/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Brancardage;Chambre;Cadre de santé-cadre administratif;Majeure
+5/9/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Brancardage;Salle d'opération/salle de réveil;Cadre de santé-cadre administratif;Majeure
+5/9/2008;C - Vie hospitalière;panne ou perte de matériel;A;Infectiologie;Ascenseur;Cadre de santé-cadre administratif;Majeure
+8/9/2008;C - Vie hospitalière;panne ou perte de matériel;A;Infectiologie;Ascenseur;Cadre de santé-cadre administratif;Majeure
+3/9/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Chirurgie cardiaque pédiatrique;Vestiaire;Cadre de santé-cadre administratif;Majeure
+7/9/2008;A - Activités médicales et de soins;circuit médicaments - dispositifs médicaux stériles;P;Unité d'Immunologie et d'Hématologie pédiatriques;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Majeure
+9/9/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des soins;Autre lieu professionnel;Cadre de santé-cadre administratif;Modérée
+3/9/2008;C - Vie hospitalière;panne ou perte de matériel;A;Ophtalmologie;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Majeure
+9/9/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Poste de soins;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+10/9/2008;A - Activités médicales et de soins;complication médicale ou chirurgicale inattendue;P;Pédiatrie générale;Chambre;Cadre de santé-cadre administratif;Modérée
+10/9/2008;B - Organisation des soins - Relations avec le patient;transport de patient;A;Ophtalmologie;Poste de soins;Cadre de santé-cadre administratif;Modérée
+11/9/2008;C - Vie hospitalière;autre C;P;Hôpital de jour multidisciplinaire;Sans objet ou lieu inconnu ( fugues - pertes ...);Cadre de santé-cadre administratif;Majeure
+10/9/2008;A - Activités médicales et de soins;complication médicale ou chirurgicale inattendue;A;Néphrologie adulte;Consultations - radio - salle d'examens;Médecin;Catastrophique
+11/9/2008;C - Vie hospitalière;panne ou perte de matériel;P;Pédiatrie générale;Ascenseur;Cadre de santé-cadre administratif;Majeure
+11/9/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Archives;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Mineure
+11/9/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;M;Neuro-chirurgie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+12/9/2008;B - Organisation des soins - Relations avec le patient;autre B;P;Pédiatrie générale;Consultations - radio - salle d'examens;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+12/9/2008;C - Vie hospitalière;salubrité-propreté des locaux;A;Urologie;Office alimentaire;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+12/9/2008;B - Organisation des soins - Relations avec le patient;autre B;B;Chambre mortuaire;Autre lieu de soins;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+15/9/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Archives;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Majeure
+14/9/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité générale, accueil, standard;Bureaux - locaux administratifs - archives;Personnel administratif;Majeure
+15/9/2008;C - Vie hospitalière;incidents liés aux chantiers;P;Pneumologie - Allergologie pédiatrique;Ascenseur;Cadre de santé-cadre administratif;Majeure
+15/9/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Archives;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Mineure
+15/9/2008;C - Vie hospitalière;panne ou perte de matériel;A;Ophtalmologie;Ascenseur;Cadre de santé-cadre administratif;Modérée
+15/9/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;M;Chirurgie orthopédique pédiatrique;Vestiaire;Secrétaire-agent administratif;Majeure
+16/9/2008;C - Vie hospitalière;restauration;P;Pédiatrie générale;Office alimentaire;Aide-soignant-ASH;Mineure
+15/9/2008;A - Activités médicales et de soins;circuit médicaments - dispositifs médicaux stériles;P;Pédiatrie générale;Autre lieu de soins;Cadre de santé-cadre administratif;Modérée
+17/9/2008;C - Vie hospitalière;autre C;Z;Sécurité incendie;Circulation : couloir - escalier - galerie - passerelle...;Ouvrier-agent technique;Catastrophique
+17/9/2008;C - Vie hospitalière;panne ou perte de matériel;M;Gastroentérologie & nutrition pédiatriques;Sans objet ou lieu inconnu ( fugues - pertes ...);Cadre de santé-cadre administratif;Modérée
+16/9/2008;C - Vie hospitalière;panne ou perte de matériel;B;Bactériologie-Virologie;Ascenseur;Cadre de santé-cadre administratif;Majeure
+18/9/2008;C - Vie hospitalière;autre C;Z;Sécurité incendie;Circulation : couloir - escalier - galerie - passerelle...;Ouvrier-agent technique;Catastrophique
+18/9/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Circulation : couloir - escalier - galerie - passerelle...;Ouvrier-agent technique;Majeure
+18/9/2008;B - Organisation des soins - Relations avec le patient;déprogrammation d'acte(s);P;Pédiatrie générale;Chambre;Médecin;Majeure
+18/9/2008;C - Vie hospitalière;restauration;M;Gastroentérologie & nutrition pédiatriques;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Modérée
+19/9/2008;C - Vie hospitalière;autre C;Z;Sécurité générale, accueil, standard;Loge - barrière;Personnel administratif;Mineure
+19/9/2008;C - Vie hospitalière;salubrité-propreté des locaux;A;Biothérapie;Laboratoires - pharmacie;Aide-soignant-ASH;Majeure
+19/9/2008;D - Vigilances;biovigilance;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Majeure
+20/9/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+19/9/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Insignifiante
+22/9/2008;C - Vie hospitalière;panne ou perte de matériel;A;Ophtalmologie;Ascenseur;Cadre de santé-cadre administratif;Modérée
+22/9/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction de la logistique et des achats;Ascenseur;Cadre de santé-cadre administratif;Majeure
+23/9/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction de la logistique et des achats;Ascenseur;Cadre de santé-cadre administratif;Majeure
+22/9/2008;D - Vigilances;matériovigilance;R;Anesthésie-Réanimation;Chambre;Cadre de santé-cadre administratif;Modérée
+22/9/2008;B - Organisation des soins - Relations avec le patient;autre B;Z;Direction des soins;Loge - barrière;Cadre de santé-cadre administratif;Majeure
+24/9/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction de la logistique et des achats;Ascenseur;Ouvrier-agent technique;Majeure
+24/9/2008;C - Vie hospitalière;panne ou perte de matériel;A;Bloc opératoire du pôle;Ascenseur;Cadre de santé-cadre administratif;Catastrophique
+24/9/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Brancardage;Ascenseur;Cadre de santé-cadre administratif;Catastrophique
+22/9/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des ressources humaines;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+25/9/2008;C - Vie hospitalière;panne ou perte de matériel;A;Ophtalmologie;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Majeure
+25/9/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;M;Chirurgie orthopédique pédiatrique;Chambre;Médecin;Mineure
+22/9/2008;C - Vie hospitalière;panne ou perte de matériel;P;Hôpital de jour multidisciplinaire;Poste de soins;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+25/9/2008;C - Vie hospitalière;panne ou perte de matériel;P;Pédiatrie générale;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Majeure
+26/9/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;M;Chirurgie viscérale;Autre lieu professionnel;Médecin;Modérée
+25/9/2008;A - Activités médicales et de soins;complication liée aux soins;P;Pédiatrie générale;Chambre;Cadre de santé-cadre administratif;Majeure
+22/9/2008;D - Vigilances;matériovigilance;Q;Maternité N-B;Salle d'opération/salle de réveil;Cadre de santé-cadre administratif;Modérée
+26/9/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;Z;Direction stratégie, qualité;Laboratoires - pharmacie;Ingénieur-responsable des services techniques;Mineure
+25/9/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;R;CUDR;Tout le service;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+29/9/2008;C - Vie hospitalière;panne ou perte de matériel;A;Ophtalmologie;Ascenseur;Cadre de santé-cadre administratif;Majeure
+20/9/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité générale, accueil, standard;Magasin - lingerie;Cadre de santé-cadre administratif;Majeure
+28/9/2008;A - Activités médicales et de soins;dossier médical et de soins;A;Urologie;Tout le service;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+30/9/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction de la logistique et des achats;Ascenseur;Cadre de santé-cadre administratif;Catastrophique
+28/9/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;P;Unité d'Immunologie et d'Hématologie pédiatriques;Bureaux - locaux administratifs - archives;Médecin;Modérée
+29/9/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Infectiologie;Parking - cour - jardin;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+29/9/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Transplantation & Réanimation adultes;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+30/9/2008;B - Organisation des soins - Relations avec le patient;autre B;B;Chambre mortuaire;Autre lieu de soins;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+30/9/2008;C - Vie hospitalière;panne ou perte de matériel;Q;Cardiologie pédiatrique;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+29/9/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+30/9/2008;C - Vie hospitalière;panne ou perte de matériel;Q;Cardiologie pédiatrique;Tout le service;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+30/9/2008;C - Vie hospitalière;panne ou perte de matériel;Q;Cardiologie pédiatrique;Tout le service;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+30/9/2008;B - Organisation des soins - Relations avec le patient;sortie contre avis médical;Q;Cardiologie pédiatrique;Chambre;Cadre de santé-cadre administratif;Majeure
+1/10/2008;C - Vie hospitalière;panne ou perte de matériel;A;Ophtalmologie;Ascenseur;Cadre de santé-cadre administratif;Majeure
+1/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Circulation : couloir - escalier - galerie - passerelle...;Personnel administratif;Catastrophique
+1/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;M;Chirurgie orthopédique pédiatrique;Autre lieu de soins;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+1/10/2008;A - Activités médicales et de soins;autre A;P;Pédiatrie générale;Tout le service;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+2/10/2008;C - Vie hospitalière;panne ou perte de matériel;Q;Cardiologie pédiatrique;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+1/10/2008;C - Vie hospitalière;panne ou perte de matériel;Q;Cardiologie pédiatrique;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+22/9/2008;C - Vie hospitalière;panne ou perte de matériel;P;Unité d'Immunologie et d'Hématologie pédiatriques;Bureaux - locaux administratifs - archives;Secrétaire-agent administratif;Mineure
+25/9/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+30/9/2008;B - Organisation des soins - Relations avec le patient;transport de patient;M;ORL;Chambre;Cadre de santé-cadre administratif;Mineure
+2/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Hématologie clinique adultes;Poste de soins;Cadre de santé-cadre administratif;Modérée
+2/10/2008;C - Vie hospitalière;restauration;Z;Direction des ressources humaines;Salle à manger-salle TV - salle de jeux...;Cadre de santé-cadre administratif;Mineure
+2/10/2008;A - Activités médicales et de soins;autre A;B;Bactériologie-Virologie;Sans objet ou lieu inconnu ( fugues - pertes ...);Cadre de santé-cadre administratif;Majeure
+2/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;M;Chirurgie orthopédique pédiatrique;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+3/10/2008;B - Organisation des soins - Relations avec le patient;transport de patient;A;Bloc opératoire du pôle;Salle d'opération/salle de réveil;Médecin;Modérée
+3/10/2008;C - Vie hospitalière;autre C;Z;Archives;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Mineure
+2/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;B;Laboratoire d'hématologie;Non précisé;Cadre de santé-cadre administratif;Majeure
+3/10/2008;B - Organisation des soins - Relations avec le patient;autre B;B;Chambre mortuaire;Autre lieu de soins;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+3/10/2008;C - Vie hospitalière;panne ou perte de matériel;I;Radiologie adulte;Chambre;Technicien-manipulateur-préparateur;Modérée
+4/10/2008;C - Vie hospitalière;panne ou perte de matériel;R;Réanimation Pédiatrique;Tout le service;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+6/10/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+23/9/2008;D - Vigilances;matériovigilance;R;Réanimation Pédiatrique;Chambre;Médecin;Majeure
+6/10/2008;C - Vie hospitalière;transport logistique;Z;Sécurité générale, accueil, standard;Loge - barrière;Personnel administratif;Mineure
+6/10/2008;A - Activités médicales et de soins;complication liée aux soins;Q;Chirurgie cardiaque pédiatrique;Chambre;Cadre de santé-cadre administratif;Majeure
+7/10/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+25/9/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;M;Chirurgie orthopédique pédiatrique;Autre lieu professionnel;Cadre de santé-cadre administratif;Modérée
+7/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Bloc opératoire du pôle;Autre lieu professionnel;Cadre de santé-cadre administratif;Majeure
+7/10/2008;B - Organisation des soins - Relations avec le patient;autre B;B;Chambre mortuaire;Autre lieu de soins;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+29/9/2008;A - Activités médicales et de soins;dossier médical et de soins;A;Urologie;Chambre;Cadre de santé-cadre administratif;Majeure
+7/10/2008;A - Activités médicales et de soins;complication liée aux soins;R;Anesthésie-Réanimation;Salle d'opération/salle de réveil;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+6/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Maternité N-B;Bureaux - locaux administratifs - archives;Sage femme;Majeure
+8/10/2008;C - Vie hospitalière;panne ou perte de matériel;B;Pharmacie;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Modérée
+8/10/2008;C - Vie hospitalière;panne ou perte de matériel;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Cadre de santé-cadre administratif;Modérée
+6/10/2008;A - Activités médicales et de soins;autre A;B;Laboratoire d'hématologie;Laboratoires - pharmacie;Aide-soignant-ASH;Modérée
+9/10/2008;C - Vie hospitalière;panne ou perte de matériel;Q;Maternité N-B;Ascenseur;Cadre de santé-cadre administratif;Majeure
+8/10/2008;A - Activités médicales et de soins;complication liée aux soins;Q;Chirurgie cardiaque pédiatrique;Chambre;Cadre de santé-cadre administratif;Modérée
+9/10/2008;C - Vie hospitalière;restauration;P;Hôpital de jour multidisciplinaire;Office alimentaire;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+9/10/2008;A - Activités médicales et de soins;complication liée aux soins;M;Chirurgie orthopédique pédiatrique;Chambre;Cadre de santé-cadre administratif;Modérée
+8/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité générale, accueil, standard;Office alimentaire;Personnel administratif;Modérée
+9/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Archives;Bureaux - locaux administratifs - archives;Aide-soignant-ASH;Majeure
+2/10/2008;D - Vigilances;matériovigilance;A;Biothérapie;Poste de soins;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+9/10/2008;D - Vigilances;matériovigilance;Q;Chirurgie cardiaque pédiatrique;Salle d'opération/salle de réveil;Cadre de santé-cadre administratif;Majeure
+10/10/2008;C - Vie hospitalière;panne ou perte de matériel;M;Neuro-chirurgie;Consultations - radio - salle d'examens;Aide-soignant-ASH;Majeure
+13/10/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction de la logistique et des achats;Non précisé;Ouvrier-agent technique;Catastrophique
+13/10/2008;C - Vie hospitalière;salubrité-propreté des locaux;B;Biochimie B;Bureaux - locaux administratifs - archives;Ingénieur-responsable des services techniques;Modérée
+13/10/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+13/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité générale, accueil, standard;Tout le service;Cadre de santé-cadre administratif;Majeure
+14/10/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+14/10/2008;C - Vie hospitalière;salubrité-propreté des locaux;B;Pharmacie;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Majeure
+14/10/2008;D - Vigilances;matériovigilance;R;Réanimation Pédiatrique;Chambre;Aide-soignant-ASH;Modérée
+12/10/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Autre lieu professionnel;Cadre de santé-cadre administratif;Majeure
+15/10/2008;B - Organisation des soins - Relations avec le patient;autre B;M;Gastroentérologie & nutrition pédiatriques;Loge - barrière;Cadre de santé-cadre administratif;Modérée
+16/10/2008;B - Organisation des soins - Relations avec le patient;autre B;A;Néphrologie adulte;Chambre;Cadre de santé-cadre administratif;Majeure
+16/10/2008;C - Vie hospitalière;incidents liés aux chantiers;P;Unité d'Immunologie et d'Hématologie pédiatriques;Tout le service;Cadre de santé-cadre administratif;Catastrophique
+16/10/2008;A - Activités médicales et de soins;complication liée aux soins;I;Radiologie pédiatrie;Consultations - radio - salle d'examens;Technicien-manipulateur-préparateur;Majeure
+15/10/2008;A - Activités médicales et de soins;complication liée aux soins;M;Neuro-chirurgie;Chambre;Cadre de santé-cadre administratif;Mineure
+17/10/2008;C - Vie hospitalière;panne ou perte de matériel;A;Infectiologie;Ascenseur;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+17/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;R;CUDR;Consultations - radio - salle d'examens;Médecin;Mineure
+16/10/2008;A - Activités médicales et de soins;autre A;A;Néphrologie adulte;Autre lieu de soins;Cadre de santé-cadre administratif;Majeure
+1/10/2008;C - Vie hospitalière;panne ou perte de matériel;A;Ophtalmologie;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Modérée
+17/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Restauration;Office alimentaire;Ouvrier-agent technique;Modérée
+18/10/2008;C - Vie hospitalière;panne ou perte de matériel;A;Néphrologie adulte;Non précisé;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+19/10/2008;C - Vie hospitalière;panne ou perte de matériel;A;Néphrologie adulte;Non précisé;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+19/10/2008;C - Vie hospitalière;linge;A;Néphrologie adulte;Vestiaire;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+18/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des finances et de la recherche;Bureaux - locaux administratifs - archives;Personnel administratif;Modérée
+20/10/2008;C - Vie hospitalière;restauration;Z;Direction de la logistique et des achats;Office alimentaire;Cadre de santé-cadre administratif;Majeure
+20/10/2008;A - Activités médicales et de soins;autre A;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+20/10/2008;C - Vie hospitalière;panne ou perte de matériel;P;Activité pédiatrique ambulatoire;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Catastrophique
+21/10/2008;C - Vie hospitalière;panne ou perte de matériel;P;Activité pédiatrique ambulatoire;Non précisé;Cadre de santé-cadre administratif;Catastrophique
+21/10/2008;C - Vie hospitalière;panne ou perte de matériel;P;Pédiatrie générale;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Majeure
+21/10/2008;C - Vie hospitalière;panne ou perte de matériel;P;Activité pédiatrique ambulatoire;Tout le service;Cadre de santé-cadre administratif;Majeure
+18/10/2008;C - Vie hospitalière;restauration;A;Infectiologie;Office alimentaire;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+19/10/2008;C - Vie hospitalière;panne ou perte de matériel;A;Infectiologie;Non précisé;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+21/10/2008;C - Vie hospitalière;restauration;P;Pédiatrie générale;Office alimentaire;Aide-soignant-ASH;Modérée
+22/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;B;Chambre mortuaire;Tout le service;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+20/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des affaires générales;Parking - cour - jardin;Personnel administratif;Modérée
+18/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Unité d'Immunologie et d'Hématologie pédiatriques;Circulation : couloir - escalier - galerie - passerelle...;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+21/10/2008;C - Vie hospitalière;panne ou perte de matériel;P;Unité d'Immunologie et d'Hématologie pédiatriques;Non précisé;Médecin;Modérée
+23/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction de la logistique et des achats;Tout le service;Cadre de santé-cadre administratif;Majeure
+19/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Pneumologie - Allergologie pédiatrique;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Majeure
+23/10/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+23/10/2008;B - Organisation des soins - Relations avec le patient;transport de patient;R;Anesthésie-Réanimation;Sans objet ou lieu inconnu ( fugues - pertes ...);Médecin;Majeure
+20/10/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Sécurité générale, accueil, standard;Autre lieu professionnel;Personnel administratif;Mineure
+23/10/2008;C - Vie hospitalière;salubrité-propreté des locaux;Z;Direction de la logistique et des achats;Locaux poubelles/déchets;Cadre de santé-cadre administratif;Catastrophique
+24/10/2008;C - Vie hospitalière;salubrité-propreté des locaux;Z;Direction de la logistique et des achats;Locaux poubelles/déchets;Ouvrier-agent technique;Modérée
+24/10/2008;A - Activités médicales et de soins;autre A;I;Radiologie pédiatrie;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Modérée
+25/10/2008;C - Vie hospitalière;salubrité-propreté des locaux;Z;Restauration;Tout le service;Ouvrier-agent technique;Majeure
+26/10/2008;C - Vie hospitalière;restauration;P;Pédiatrie générale;Office alimentaire;Aide-soignant-ASH;Modérée
+26/10/2008;C - Vie hospitalière;restauration;P;Neurologie- métabolisme-endocrinologie-diabétologie pédiatrique;Office alimentaire;Aide-soignant-ASH;Modérée
+26/10/2008;A - Activités médicales et de soins;autre A;P;Pneumologie - Allergologie pédiatrique;Laboratoires - pharmacie;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+26/10/2008;C - Vie hospitalière;autre C;M;Gastroentérologie & nutrition pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+26/10/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Infectiologie;Toilettes/douche destinés aux patients;Personnel administratif;Mineure
+27/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Pédopsychiatrie;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+14/10/2008;B - Organisation des soins - Relations avec le patient;difficulté hospitalisation ou transfert;Q;Maternité N-B;Autre lieu professionnel;Sage femme;Majeure
+18/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Maternité;Vestiaire;Sage femme;Modérée
+28/10/2008;C - Vie hospitalière;transport logistique;B;Pharmacie;Parking - cour - jardin;Cadre de santé-cadre administratif;Mineure
+28/10/2008;D - Vigilances;matériovigilance;R;CUDR;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Majeure
+22/9/2008;C - Vie hospitalière;panne ou perte de matériel;M;Néphrologie pédiatrique;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+29/10/2008;C - Vie hospitalière;restauration;P;Pédiatrie générale;Office alimentaire;Aide-soignant-ASH;Modérée
+1/9/2008;C - Vie hospitalière;autre C;Z;Services techniques;Circulation : couloir - escalier - galerie - passerelle...;Ingénieur-responsable des services techniques;Majeure
+26/10/2008;C - Vie hospitalière;restauration;Z;Restauration;Autre lieu professionnel;Ouvrier-agent technique;Catastrophique
+30/10/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Transplantation & Réanimation adultes;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+21/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;R;Anesthésie-Réanimation;Bureaux - locaux administratifs - archives;Secrétaire-agent administratif;Majeure
+30/10/2008;C - Vie hospitalière;panne ou perte de matériel;B;Pharmacie;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Majeure
+20/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Pédiatrie générale;Autre lieu professionnel;Médecin;Modérée
+29/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction stratégie, qualité;Bureaux - locaux administratifs - archives;Ingénieur-responsable des services techniques;Mineure
+30/10/2008;A - Activités médicales et de soins;complication liée aux soins;P;Pédiatrie générale;Salle d'opération/salle de réveil;Cadre de santé-cadre administratif;Majeure
+30/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Restauration;Vestiaire;Ouvrier-agent technique;Modérée
+31/10/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction de la logistique et des achats;Autre lieu professionnel;Ouvrier-agent technique;Majeure
+30/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Consultations multidisciplinaires;Toilettes;Cadre de santé-cadre administratif;Mineure
+31/10/2008;D - Vigilances;matériovigilance;A;Hématologie clinique adultes;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Mineure
+31/10/2008;C - Vie hospitalière;panne ou perte de matériel;A;Hématologie clinique adultes;Chambre;Cadre de santé-cadre administratif;Modérée
+31/10/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+29/9/2008;D - Vigilances;biovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Autre lieu de soins;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+3/11/2008;D - Vigilances;biovigilance;A;Biothérapie;Bureaux - locaux administratifs - archives;Technicien-manipulateur-préparateur;Majeure
+31/10/2008;D - Vigilances;matériovigilance;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Majeure
+31/10/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Restauration;Ascenseur;Ouvrier-agent technique;Modérée
+4/11/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+4/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;M;ORL;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Modérée
+5/11/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Brancardage;Ascenseur;Aide-soignant-ASH;Modérée
+4/11/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Brancardage;Ascenseur;Aide-soignant-ASH;Modérée
+4/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Unité d'Immunologie et d'Hématologie pédiatriques;Vestiaire;Cadre de santé-cadre administratif;Mineure
+5/11/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction de la logistique et des achats;Autre lieu professionnel;Ouvrier-agent technique;Majeure
+5/11/2008;B - Organisation des soins - Relations avec le patient;autre B;P;Neurologie- métabolisme-endocrinologie-diabétologie pédiatrique;Chambre;Cadre de santé-cadre administratif;Mineure
+6/11/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Majeure
+6/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des soins;Vestiaire;Ouvrier-agent technique;Majeure
+6/11/2008;C - Vie hospitalière;magasin;P;Neurologie- métabolisme-endocrinologie-diabétologie pédiatrique;Chambre;Cadre de santé-cadre administratif;Modérée
+7/11/2008;D - Vigilances;biovigilance;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Majeure
+5/11/2008;D - Vigilances;nutrivigilance;M;Gastroentérologie & nutrition pédiatriques;Chambre;Cadre de santé-cadre administratif;Mineure
+5/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Bloc opératoire du pôle;Salle d'opération/salle de réveil;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+8/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des soins;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Majeure
+8/11/2008;C - Vie hospitalière;panne ou perte de matériel;P;Unité d'Immunologie et d'Hématologie pédiatriques;Non précisé;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+9/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Ophtalmologie;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Majeure
+10/11/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+9/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;M;Bloc CCI;Vestiaire;Cadre de santé-cadre administratif;Modérée
+10/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Maternité;Bureaux - locaux administratifs - archives;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+8/10/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;M;Bloc CCI;Salle d'opération/salle de réveil;Cadre de santé-cadre administratif;Mineure
+10/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des ressources humaines;Autre lieu professionnel;Cadre de santé-cadre administratif;Mineure
+10/11/2008;A - Activités médicales et de soins;complication liée aux soins;P;Pédiatrie générale;Chambre;Cadre de santé-cadre administratif;Modérée
+9/11/2008;C - Vie hospitalière;incidents liés aux chantiers;Z;Direction stratégie, qualité;Parking - cour - jardin;Cadre de santé-cadre administratif;Mineure
+12/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des ressources humaines;Tout le service;Cadre de santé-cadre administratif;Mineure
+12/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Ophtalmologie;Toilettes;Cadre de santé-cadre administratif;Modérée
+13/11/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Infectiologie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+11/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Parking - cour - jardin;Ouvrier-agent technique;Majeure
+13/11/2008;A - Activités médicales et de soins;complication liée aux soins;P;Pédiatrie générale;Chambre;Cadre de santé-cadre administratif;Modérée
+7/11/2008;A - Activités médicales et de soins;complication liée aux soins;P;Pédiatrie générale;Chambre;Cadre de santé-cadre administratif;Majeure
+13/11/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction de la logistique et des achats;Autre lieu professionnel;Ouvrier-agent technique;Catastrophique
+14/11/2008;C - Vie hospitalière;autre C;Z;Direction de la logistique et des achats;Ascenseur;Cadre de santé-cadre administratif;Catastrophique
+14/11/2008;C - Vie hospitalière;panne ou perte de matériel;A;Biothérapie;Ascenseur;Technicien-manipulateur-préparateur;Modérée
+10/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;R;CUDR;Consultations - radio - salle d'examens;Médecin;Modérée
+14/11/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+16/11/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;B;Pharmacie;Tout le service;Cadre de santé-cadre administratif;Modérée
+15/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Hôpital de jour multidisciplinaire;Tout le service;Cadre de santé-cadre administratif;Insignifiante
+14/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des ressources humaines;Parking - cour - jardin;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+17/11/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+17/11/2008;C - Vie hospitalière;linge;P;Hôpital de jour multidisciplinaire;Magasin - lingerie;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+17/11/2008;C - Vie hospitalière;restauration;A;Hématologie clinique adultes;Office alimentaire;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+18/11/2008;C - Vie hospitalière;panne ou perte de matériel;A;Consultations multidisciplinaires;Tout le service;Cadre de santé-cadre administratif;Majeure
+18/11/2008;B - Organisation des soins - Relations avec le patient;difficulté hospitalisation ou transfert;R;CUDR;Chambre;Cadre de santé-cadre administratif;Modérée
+18/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des ressources humaines;Non précisé;Cadre de santé-cadre administratif;Mineure
+18/11/2008;D - Vigilances;matériovigilance;M;Gastroentérologie & nutrition pédiatriques;Autre lieu de soins;Cadre de santé-cadre administratif;Mineure
+17/11/2008;A - Activités médicales et de soins;complication liée aux soins;P;Pneumologie - Allergologie pédiatrique;Chambre;Cadre de santé-cadre administratif;Majeure
+19/11/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Ophtalmologie;Chambre;Aide-soignant-ASH;Mineure
+20/11/2008;B - Organisation des soins - Relations avec le patient;autre B;P;Hôpital de jour multidisciplinaire;Chambre;Cadre de santé-cadre administratif;Modérée
+20/11/2008;A - Activités médicales et de soins;dossier médical et de soins;Z;Biostatistique et informatique médicale;Bureaux - locaux administratifs - archives;Médecin;Majeure
+20/11/2008;D - Vigilances;matériovigilance;P;Activité pédiatrique ambulatoire;Chambre;Cadre de santé-cadre administratif;Majeure
+20/11/2008;C - Vie hospitalière;magasin;P;Pédiatrie générale;Magasin - lingerie;Cadre de santé-cadre administratif;Majeure
+19/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;M;Neuro-chirurgie;Poste de soins;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+20/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Maternité;Chambre;Cadre de santé-cadre administratif;Modérée
+18/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Néphrologie adulte;Chambre;Cadre de santé-cadre administratif;Majeure
+20/11/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Archives;Non précisé;Cadre de santé-cadre administratif;Mineure
+19/11/2008;B - Organisation des soins - Relations avec le patient;autre B;A;Biothérapie;Tout le service;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+20/11/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Transplantation & Réanimation adultes;Toilettes/douche destinés aux patients;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+20/11/2008;B - Organisation des soins - Relations avec le patient;autre B;M;Bloc CCI;Salle d'opération/salle de réveil;Médecin;Modérée
+21/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Neurologie- métabolisme-endocrinologie-diabétologie pédiatrique;Circulation : couloir - escalier - galerie - passerelle...;Cadre de santé-cadre administratif;Modérée
+17/11/2008;B - Organisation des soins - Relations avec le patient;déprogrammation d'acte(s);A;Biothérapie;Consultations - radio - salle d'examens;Technicien-manipulateur-préparateur;Modérée
+21/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;B;Bactériologie-Virologie;Autre lieu professionnel;Cadre de santé-cadre administratif;Majeure
+20/11/2008;C - Vie hospitalière;salubrité-propreté des locaux;A;Hématologie clinique adultes;Chambre;Cadre de santé-cadre administratif;Majeure
+22/11/2008;C - Vie hospitalière;salubrité-propreté des locaux;R;Anesthésie-Réanimation;Salle d'opération/salle de réveil;Médecin;Modérée
+21/11/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;M;Neuro-chirurgie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+23/11/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Archives;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+24/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction de la logistique et des achats;Salle à manger-salle TV - salle de jeux...;Aide-soignant-ASH;Majeure
+18/11/2008;A - Activités médicales et de soins;complication liée aux soins;A;Urologie;Chambre;Cadre de santé-cadre administratif;Majeure
+17/11/2008;B - Organisation des soins - Relations avec le patient;autre B;A;Urologie;Consultations - radio - salle d'examens;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+10/11/2008;A - Activités médicales et de soins;complication médicale ou chirurgicale inattendue;A;Urologie;Chambre;Cadre de santé-cadre administratif;Modérée
+24/11/2008;C - Vie hospitalière;incidents liés aux chantiers;Q;Chirurgie cardiaque pédiatrique;Chambre;Cadre de santé-cadre administratif;Modérée
+14/11/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Archives;Bureaux - locaux administratifs - archives;Aide-soignant-ASH;Majeure
+24/11/2008;A - Activités médicales et de soins;dossier médical et de soins;A;Biothérapie;Poste de soins;Cadre de santé-cadre administratif;Mineure
+25/11/2008;B - Organisation des soins - Relations avec le patient;déprogrammation d'acte(s);A;Biothérapie;Salle d'opération/salle de réveil;Médecin;Modérée
+25/11/2008;C - Vie hospitalière;panne ou perte de matériel;B;Pharmacie;Ascenseur;Cadre de santé-cadre administratif;Modérée
+19/11/2008;D - Vigilances;matériovigilance;B;Anatomie & cytologie pathologiques;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Majeure
+20/11/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;A;Ophtalmologie;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Majeure
+25/11/2008;A - Activités médicales et de soins;circuit médicaments - dispositifs médicaux stériles;P;Unité d'Immunologie et d'Hématologie pédiatriques;Poste de soins;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+25/11/2008;C - Vie hospitalière;panne ou perte de matériel;M;Gastroentérologie & nutrition pédiatriques;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Modérée
+26/11/2008;B - Organisation des soins - Relations avec le patient;transport de patient;R;Anesthésie-Réanimation;Salle d'opération/salle de réveil;Médecin;Modérée
+24/11/2008;D - Vigilances;matériovigilance;R;Réanimation Pédiatrique;Chambre;Médecin;Mineure
+25/11/2008;C - Vie hospitalière;restauration;Z;Direction de la logistique et des achats;Office alimentaire;Cadre de santé-cadre administratif;Majeure
+26/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Salle à manger-salle TV - salle de jeux...;Personnel administratif;Majeure
+26/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Chirurgie cardiaque pédiatrique;Vestiaire;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+26/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité incendie;Circulation : couloir - escalier - galerie - passerelle...;Personnel administratif;Catastrophique
+25/11/2008;A - Activités médicales et de soins;autre A;M;Neuro-chirurgie;Autre lieu de soins;Personnel administratif;Insignifiante
+26/11/2008;B - Organisation des soins - Relations avec le patient;déprogrammation d'acte(s);R;Anesthésie-Réanimation;Salle d'opération/salle de réveil;Médecin;Modérée
+28/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;M;Chirurgie viscérale;Chambre;Cadre de santé-cadre administratif;Modérée
+28/11/2008;A - Activités médicales et de soins;autre A;R;Anesthésie-Réanimation;Salle d'opération/salle de réveil;Médecin;Modérée
+29/10/2008;A - Activités médicales et de soins;complication liée aux soins;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Cadre de santé-cadre administratif;Majeure
+30/11/2008;C - Vie hospitalière;panne ou perte de matériel;Q;Chirurgie cardiaque pédiatrique;Toilettes;Cadre de santé-cadre administratif;Modérée
+30/11/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+16/11/2008;C - Vie hospitalière;linge;P;Unité d'Immunologie et d'Hématologie pédiatriques;Poste de soins;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+1/12/2008;C - Vie hospitalière;panne ou perte de matériel;M;Chirurgie orthopédique pédiatrique;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+1/12/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Chirurgie cardiaque pédiatrique;Vestiaire;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+2/12/2008;B - Organisation des soins - Relations avec le patient;déprogrammation d'acte(s);P;Neurologie- métabolisme-endocrinologie-diabétologie pédiatrique;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+2/12/2008;D - Vigilances;matériovigilance;M;Néphrologie pédiatrique;Autre lieu de soins;Cadre de santé-cadre administratif;Majeure
+27/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des investissements;Autre lieu professionnel;Technicien-manipulateur-préparateur;Modérée
+1/12/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Maternité N-B;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Majeure
+2/12/2008;C - Vie hospitalière;restauration;Z;Direction de la logistique et des achats;Office alimentaire;Cadre de santé-cadre administratif;Catastrophique
+2/12/2008;B - Organisation des soins - Relations avec le patient;difficulté hospitalisation ou transfert;R;Anesthésie-Réanimation;Salle d'opération/salle de réveil;Médecin;Modérée
+2/12/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;B;Laboratoire d'hématologie;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Modérée
+3/12/2008;B - Organisation des soins - Relations avec le patient;transport de patient;R;Anesthésie-Réanimation;Salle d'opération/salle de réveil;Médecin;Majeure
+3/12/2008;D - Vigilances;matériovigilance;A;Hématologie clinique adultes;Chambre;Cadre de santé-cadre administratif;Majeure
+3/12/2008;C - Vie hospitalière;autre C;A;Hématologie clinique adultes;Bureaux - locaux administratifs - archives;Secrétaire-agent administratif;Modérée
+24/11/2008;B - Organisation des soins - Relations avec le patient;transport de patient;A;Néphrologie adulte;Autre lieu professionnel;Cadre de santé-cadre administratif;Catastrophique
+29/11/2008;A - Activités médicales et de soins;complication liée aux soins;A;Hématologie clinique adultes;Chambre;Médecin;Modérée
+3/12/2008;A - Activités médicales et de soins;dossier médical et de soins;A;Hématologie clinique adultes;Consultations - radio - salle d'examens;Médecin;Majeure
+3/12/2008;A - Activités médicales et de soins;dossier médical et de soins;A;Hématologie clinique adultes;Consultations - radio - salle d'examens;Médecin;Majeure
+26/11/2008;A - Activités médicales et de soins;dossier médical et de soins;A;Hématologie clinique adultes;Consultations - radio - salle d'examens;Médecin;Majeure
+4/12/2008;C - Vie hospitalière;panne ou perte de matériel;A;Urologie;Parking - cour - jardin;Cadre de santé-cadre administratif;Insignifiante
+5/12/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction de la logistique et des achats;Ascenseur;Cadre de santé-cadre administratif;Majeure
+3/12/2008;A - Activités médicales et de soins;dossier médical et de soins;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Majeure
+5/12/2008;C - Vie hospitalière;panne ou perte de matériel;P;Unité d'Immunologie et d'Hématologie pédiatriques;Autre lieu professionnel;Cadre de santé-cadre administratif;Mineure
+4/12/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Cadre de santé-cadre administratif;Mineure
+19/11/2008;C - Vie hospitalière;magasin;B;Biochimie B;Sans objet ou lieu inconnu ( fugues - pertes ...);Cadre de santé-cadre administratif;Majeure
+5/12/2008;D - Vigilances;matériovigilance;R;Anesthésie-Réanimation;Salle d'opération/salle de réveil;Cadre de santé-cadre administratif;Majeure
+4/12/2008;A - Activités médicales et de soins;circuit médicaments - dispositifs médicaux stériles;A;Hématologie clinique adultes;Bureaux - locaux administratifs - archives;Médecin;Majeure
+4/12/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Cadre de santé-cadre administratif;Modérée
+5/12/2008;B - Organisation des soins - Relations avec le patient;déprogrammation d'acte(s);I;Radiologie pédiatrie;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Modérée
+6/12/2008;A - Activités médicales et de soins;complication liée aux soins;M;Gastroentérologie & nutrition pédiatriques;Chambre;Aide-soignant-ASH;Modérée
+7/12/2008;A - Activités médicales et de soins;autre A;P;Pneumologie - Allergologie pédiatrique;Laboratoires - pharmacie;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+7/12/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des finances et de la recherche;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Majeure
+8/12/2008;C - Vie hospitalière;panne ou perte de matériel;A;Ophtalmologie;Ascenseur;Cadre de santé-cadre administratif;Majeure
+8/12/2008;C - Vie hospitalière;restauration;M;Gastroentérologie & nutrition pédiatriques;Office alimentaire;Aide-soignant-ASH;Mineure
+8/12/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Majeure
+7/12/2008;D - Vigilances;matériovigilance;M;Gastroentérologie & nutrition pédiatriques;Circulation : couloir - escalier - galerie - passerelle...;Aide-soignant-ASH;Modérée
+9/12/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction des finances et de la recherche;Non précisé;Personnel administratif;Modérée
+6/12/2008;D - Vigilances;matériovigilance;R;Anesthésie-Réanimation;Chambre;Cadre de santé-cadre administratif;Majeure
+9/12/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction de la logistique et des achats;Chambre;Aide-soignant-ASH;Majeure
+9/12/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction de la logistique et des achats;Ascenseur;Cadre de santé-cadre administratif;Catastrophique
+4/12/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Sécurité générale, accueil, standard;Bureaux - locaux administratifs - archives;Personnel administratif;Mineure
+9/12/2008;C - Vie hospitalière;panne ou perte de matériel;R;Anesthésie-Réanimation;Salle d'opération/salle de réveil;Médecin;Modérée
+9/12/2008;A - Activités médicales et de soins;autre A;R;Anesthésie-Réanimation;Salle d'opération/salle de réveil;Médecin;Modérée
+2/12/2008;B - Organisation des soins - Relations avec le patient;autre B;M;Gastroentérologie & nutrition pédiatriques;Tout le service;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+9/12/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction de la logistique et des achats;Ascenseur;Cadre de santé-cadre administratif;Catastrophique
+10/12/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Autre lieu professionnel;Cadre de santé-cadre administratif;Mineure
+9/12/2008;A - Activités médicales et de soins;autre A;R;Anesthésie-Réanimation;Salle d'opération/salle de réveil;Ouvrier-agent technique;Majeure
+10/12/2008;C - Vie hospitalière;restauration;A;Hématologie clinique adultes;Salle à manger-salle TV - salle de jeux...;Médecin;Catastrophique
+10/12/2008;C - Vie hospitalière;panne ou perte de matériel;A;Hématologie clinique adultes;Consultations - radio - salle d'examens;Médecin;Majeure
+11/12/2008;C - Vie hospitalière;panne ou perte de matériel;Q;Maternité N-B;Chambre;Sage femme;Majeure
+11/12/2008;B - Organisation des soins - Relations avec le patient;risques professionnels;Z;Direction stratégie, qualité;Locaux poubelles/déchets;Cadre de santé-cadre administratif;Modérée
+11/12/2008;C - Vie hospitalière;linge;Q;Cardiologie pédiatrique;Vestiaire;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+11/12/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction des soins;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Majeure
+12/12/2008;C - Vie hospitalière;magasin;Q;Maternité N-B;Poste de soins;Sage femme;Modérée
+11/12/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Chirurgie cardiaque pédiatrique;Non précisé;Cadre de santé-cadre administratif;Majeure
+4/12/2008;C - Vie hospitalière;incidents liés aux chantiers;P;Unité d'Immunologie et d'Hématologie pédiatriques;Autre lieu professionnel;Cadre de santé-cadre administratif;Modérée
+28/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction stratégie, qualité;Tout le service;Cadre de santé-cadre administratif;Majeure
+5/12/2008;A - Activités médicales et de soins;complication liée aux soins;P;Pédiatrie générale;Chambre;Cadre de santé-cadre administratif;Majeure
+12/12/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Urologie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+13/12/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Unité d'Immunologie et d'Hématologie pédiatriques;Circulation : couloir - escalier - galerie - passerelle...;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+14/12/2008;A - Activités médicales et de soins;autre A;M;Neuro-chirurgie;Consultations - radio - salle d'examens;Aide-soignant-ASH;Modérée
+14/12/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+13/12/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;P;Unité d'Immunologie et d'Hématologie pédiatriques;Autre lieu professionnel;Cadre de santé-cadre administratif;Modérée
+16/12/2008;C - Vie hospitalière;magasin;P;Pédiatrie générale;Magasin - lingerie;Cadre de santé-cadre administratif;Modérée
+16/12/2008;C - Vie hospitalière;panne ou perte de matériel;A;Hématologie clinique adultes;Autre lieu commun;Secrétaire-agent administratif;Majeure
+7/12/2008;A - Activités médicales et de soins;complication liée aux soins;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+16/12/2008;D - Vigilances;matériovigilance;P;Unité d'Immunologie et d'Hématologie pédiatriques;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+17/12/2008;C - Vie hospitalière;panne ou perte de matériel;A;Hématologie clinique adultes;Bureaux - locaux administratifs - archives;Secrétaire-agent administratif;Modérée
+2/12/2008;C - Vie hospitalière;panne ou perte de matériel;A;Hématologie clinique adultes;Bureaux - locaux administratifs - archives;Médecin;Modérée
+17/12/2008;C - Vie hospitalière;panne ou perte de matériel;A;Hématologie clinique adultes;Non précisé;Cadre de santé-cadre administratif;Modérée
+11/12/2008;D - Vigilances;matériovigilance;Q;Cardiologie pédiatrique;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Modérée
+17/12/2008;C - Vie hospitalière;incidents liés aux chantiers;Q;Cardiologie pédiatrique;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Modérée
+1/12/2008;C - Vie hospitalière;panne ou perte de matériel;M;Néphrologie pédiatrique;Salle d'attente-hall - caisse - accueil;Cadre de santé-cadre administratif;Modérée
+17/12/2008;A - Activités médicales et de soins;dossier médical et de soins;A;Hématologie clinique adultes;Consultations - radio - salle d'examens;Médecin;Majeure
+17/12/2008;C - Vie hospitalière;panne ou perte de matériel;A;Hématologie clinique adultes;Consultations - radio - salle d'examens;Médecin;Majeure
+29/11/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Z;Direction des soins;Laboratoires - pharmacie;Cadre de santé-cadre administratif;Majeure
+18/12/2008;D - Vigilances;matériovigilance;A;Néphrologie adulte;Autre lieu professionnel;Cadre de santé-cadre administratif;Catastrophique
+16/12/2008;C - Vie hospitalière;panne ou perte de matériel;M;Chirurgie orthopédique pédiatrique;Bureaux - locaux administratifs - archives;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+11/12/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Direction des ressources humaines;Bureaux - locaux administratifs - archives;Personnel administratif;Mineure
+18/12/2008;B - Organisation des soins - Relations avec le patient;autre B;M;Bloc CCI;Salle d'opération/salle de réveil;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+18/12/2008;B - Organisation des soins - Relations avec le patient;autre B;A;Biothérapie;Tout le service;Cadre de santé-cadre administratif;Majeure
+18/12/2008;C - Vie hospitalière;panne ou perte de matériel;A;Hématologie clinique adultes;Bureaux - locaux administratifs - archives;Secrétaire-agent administratif;Modérée
+18/12/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Majeure
+19/12/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Majeure
+18/12/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Biothérapie;Laboratoires - pharmacie;Technicien-manipulateur-préparateur;Majeure
+19/12/2008;C - Vie hospitalière;panne ou perte de matériel;A;Urologie;Autre lieu commun;Cadre de santé-cadre administratif;Majeure
+19/12/2008;C - Vie hospitalière;panne ou perte de matériel;A;Hématologie clinique adultes;Bureaux - locaux administratifs - archives;Secrétaire-agent administratif;Modérée
+19/12/2008;C - Vie hospitalière;panne ou perte de matériel;P;Unité d'Immunologie et d'Hématologie pédiatriques;Autre lieu professionnel;Cadre de santé-cadre administratif;Mineure
+19/12/2008;D - Vigilances;matériovigilance;A;Néphrologie adulte;Tout le service;Cadre de santé-cadre administratif;Majeure
+20/12/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Infectiologie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+21/12/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;M;Chirurgie viscérale;Autre lieu commun;Cadre de santé-cadre administratif;Modérée
+22/12/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;B;Laboratoire d'hématologie;Sans objet ou lieu inconnu ( fugues - pertes ...);Cadre de santé-cadre administratif;Modérée
+22/12/2008;B - Organisation des soins - Relations avec le patient;autre B;M;ORL;Consultations - radio - salle d'examens;Cadre de santé-cadre administratif;Majeure
+23/12/2008;D - Vigilances;matériovigilance;M;Gastroentérologie & nutrition pédiatriques;Autre lieu de soins;Cadre de santé-cadre administratif;Majeure
+23/12/2008;C - Vie hospitalière;incidents liés aux chantiers;Z;Sécurité incendie;Circulation : couloir - escalier - galerie - passerelle...;Personnel administratif;Majeure
+23/12/2008;B - Organisation des soins - Relations avec le patient;chute de patient ou de personnel;A;Transplantation & Réanimation adultes;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Modérée
+23/12/2008;C - Vie hospitalière;panne ou perte de matériel;A;Hématologie clinique adultes;Bureaux - locaux administratifs - archives;Secrétaire-agent administratif;Modérée
+23/12/2008;A - Activités médicales et de soins;circuit médicaments - dispositifs médicaux stériles;P;Unité d'Immunologie et d'Hématologie pédiatriques;Poste de soins;Infirmier-infirmier spécialisé-puéricultrice;Mineure
+20/12/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Infectiologie;Tout le service;Cadre de santé-cadre administratif;Majeure
+24/12/2008;C - Vie hospitalière;panne ou perte de matériel;A;Hématologie clinique adultes;Bureaux - locaux administratifs - archives;Secrétaire-agent administratif;Modérée
+24/12/2008;C - Vie hospitalière;panne ou perte de matériel;Z;Restauration;Autre lieu professionnel;Ouvrier-agent technique;Majeure
+24/12/2008;C - Vie hospitalière;incidents liés aux chantiers;Z;Sécurité incendie;Ascenseur;Personnel administratif;Catastrophique
+24/12/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Infectiologie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+25/12/2008;D - Vigilances;matériovigilance;A;Bloc opératoire du pôle;Salle d'opération/salle de réveil;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+26/12/2008;A - Activités médicales et de soins;dossier médical et de soins;A;Biothérapie;Autre lieu de soins;Technicien-manipulateur-préparateur;Majeure
+26/12/2008;C - Vie hospitalière;transport logistique;M;Chirurgie viscérale;Tout le service;Cadre de santé-cadre administratif;Modérée
+28/12/2008;C - Vie hospitalière;panne ou perte de matériel;A;Hématologie clinique adultes;Tout le service;Médecin;Catastrophique
+27/12/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;Q;Maternité N-B;Bureaux - locaux administratifs - archives;Sage femme;Modérée
+29/12/2008;C - Vie hospitalière;panne ou perte de matériel;M;Chirurgie orthopédique pédiatrique;Bureaux - locaux administratifs - archives;Cadre de santé-cadre administratif;Modérée
+29/12/2008;C - Vie hospitalière;vol ou agression ou dégradation ou sécurité incendie;A;Urologie;Chambre;Infirmier-infirmier spécialisé-puéricultrice;Majeure
+29/12/2008;B - Organisation des soins - Relations avec le patient;transport de patient;R;Anesthésie-Réanimation;Tout le service;Médecin;Majeure
+30/12/2008;A - Activités médicales et de soins;circuit médicaments - dispositifs médicaux stériles;P;Hôpital de jour multidisciplinaire;Chambre;Cadre de santé-cadre administratif;Modérée
+30/12/2008;B - Organisation des soins - Relations avec le patient;autre B;Z;Services techniques;Chambre;Ingénieur-responsable des services techniques;Catastrophique
+30/12/2008;C - Vie hospitalière;panne ou perte de matériel;M;Neuro-chirurgie;Salle d'opération/salle de réveil;Médecin;Majeure
+9/1/2008;C - Vie hospitalière;panne ou perte de matériel;A;Hématologie clinique adultes;Bureaux - locaux administratifs - archives;Secrétaire-agent administratif;Majeure

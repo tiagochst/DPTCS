@@ -8,12 +8,14 @@
 
 \documentclass[11pt]{article}
 
-\usepackage[french]{babel}
+\usepackage[francais]{babel}
+\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}   
 \usepackage{ae,aecompl,aeguill}  % pdfs plus beaux =)
 \usepackage{lmodern}
 \usepackage{marvosym}
+\usepackage{color}
+\usepackage{eurosym}
 \usepackage{ifpdf}
 \ifpdf
   \usepackage[pdftex]{graphicx}
@@ -52,14 +54,17 @@
 \renewcommand{\familydefault}{\sfdefault}% for use with a résumé using sans serif fonts;
 %\renewcommand{\familydefault}{\rmdefault}% for use with a résumé using sans serif fonts;
 
+
 \begin{document}
+\date{Le 5 avril}
+
 \hfill%
 \begin{minipage}[t]{.6\textwidth}
 \raggedleft%
 {\bfseries Tiago Silva}\\[.35ex]
 \small\itshape%
 1, boulevard Jourdan, Maison du Maroc\\
-Paris,France,75014\\[.35ex]
+75014,Paris,France\\[.35ex]
 \Letter~tiagochst@gmail.com
 \end{minipage}\\[1em]
 %
@@ -75,7 +80,8 @@ Lettre à un ami\\
 %\\[1em] % UK style
 \begin{minipage}[t]{.4\textwidth}
 \raggedleft % US style
-\today
+%\date{5/10/2001}
+Le \today
 %April 6, 2006 % US informal style
 %05/04/2006 % UK formal style
 \end{minipage}\\[2em]
@@ -103,13 +109,31 @@ Lettre à un ami\\
 
 Salut Aline,\\[1.5em]
 
-Tous va bien au Brésil?Il y a deux mois que je te vois pas!
-J'ai vraiment aimé de Paris, cependant, le froid en France est insupportable pour moi. Autre problème est  la viande que les françaises mangent, elle est presque cru, je déteste ça.
+% Erro 1= Tous va bien au Brésil? 
+% Correção = Tout va bien au Brésil? 
 
-Les musées ici sont incroyables! J'ai déjà visité le Louvre, le musée de la guerre, le musée d'évolution, le musée de la marine, le musée de l'architecture et d'autres lieux vraiment belles.
+% cependant é formal demais usar mais para cartas de amigo
+% un autre e não autre
 
-Le unique problème est que je te manque beaucoup, mais je suis vraiment heureux que tu viendras me voir l'année prochain.
-On peut aller manger dans un bateau au rivière Sena, si tu veux. Ça te plaît?
+% Não há Françaises! É les Français sempre e maiúcula por falar de pessoas.
+
+{\color{red}Tout} va bien au Brésil? Il y a deux mois {\color{red}qu'on ne s'est pas vu}!
+J'aime vraiment Paris,  mais, le froid en France est  insupportable pour moi, un
+autre problème {\color{red}c}'est la viande que les {\color{red}Français} mangent, elle est presque 
+cru{\color{red}e}, je déteste ça.
+
+Les musées  ici sont  incroyables! J'ai déjà  visité le  Louvre, le musée  de la
+guerre, le musée  {\color{red}de l'}évolution, le musée de la marine, le musée de l'architecture et d'autres lieux vraiment {\color{red}beaux}.
+
+% lieux é masculin donc beaux
+
+% erro grave!! je te manque é eu te faço falta, voce me faz falta e
+% tu me manque (sinto saudades de voce) O.o
+L'unique problème est que  {\color{red}tu me manque} beaucoup, mais je suis vraiment heureux que tu {\color{red}viennes} me voir l'année prochaine.
+On peut aller manger dans un bateau
+{\color{red}sur la Seine}, si tu veux. Ça te plaît?
+
+% au rivière Sena, si tu veux. Ça te plaît?
 
 Bisous,\\[2em]
 %Tiago

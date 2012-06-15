@@ -1,0 +1,30 @@
+Path  cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs  ece cmu edu europa eng gtefsd com howland reston ans net noc near net uunet gatekeeper us oracle com decwrl waikato ac nz ldo
+From  ldo waikato ac nz  Lawrence D Oliveiro  Waikato University 
+Newsgroups  comp sys mac hardware
+Subject  Re  Interesting ADB behaviour on C   
+Message ID       Apr                waikato ac nz 
+Date     Apr                  
+References       Apr                waikato ac nz 
+Organization  University of Waikato  Hamilton  New Zealand
+Lines    
+
+In article      Apr                waikato ac nz   I said 
+
+  I know that plugging and unplugging ADB devices with the power on is  not
+  supported   and you can hit problems if you have multiple devices with
+  clashing addresses  and all that 
+
+I ve had a couple of e mail responses from people who seem to believe that
+this sort of thing is not only unsupported  it is downright dangerous 
+
+I have heard of no such warnings from anybody at Apple  Just to be sure  I
+asked a couple of our technicians  one of whom has been servicing Macs for
+years  There is  no  danger of damaging logic boards by plugging and unplugging
+ADB devices with the power on 
+
+SCSI  yes  ADB  no   
+
+Lawrence D Oliveiro                       fone                
+Computer Services Dept                     fax                
+University of Waikato            electric mail  ldo waikato ac nz
+Hamilton  New Zealand                S              E  GMT      

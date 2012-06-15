@@ -1,0 +1,41 @@
+%% LyX 2.0.3 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+\begin{table}
+\begin{centering}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\cline{2-15} 
+\multicolumn{1}{c|}{} & Time & SSE & \multicolumn{4}{c|}{Distrib} & \multicolumn{4}{c|}{Purity} & \multicolumn{4}{c|}{Entropy}\tabularnewline
+\hline 
+Fixe & 0.028 & 987.42 & 367 & 381 & 218 & 155 & 0.59 & 1 & 0.94 & 0.98 & 1.34 & 0 & -0.30 & -0.99\tabularnewline
+\hline 
+Random (nstart = 1) & 0.044 & 988.28 & 301 & 222 & 434 & 164 & 0.98 & 1 & 0.74 & 1 & 0.11 & 0 & 1.08 & 0\tabularnewline
+\hline 
+Random (nstart = 5) & 0.273 & 986.35 & 383 & 219 & 422 & 97 & 1 & 0.94 & 0.65 & 0.98 & 0 & 0.30 & 1.23 & 0.08\tabularnewline
+\hline 
+Random (nstart = 10) & 0.323 & 986.35 & 383 & 97 & 422 & 219 & 1 & 0.99 & 0.65 & 0.94 & 0 & 0.08 & 1.23 & 0.30\tabularnewline
+\hline 
+Random (nstart = 20) & 0.57 & 985.88 & 77 & 384 & 219 & 441 & 0.99 & 1 & 0.94 & 0.66 & 0.1 & 0 & 0.3 & 1.2\tabularnewline
+\hline 
+\end{tabular}
+\par\end{centering}
+
+\caption{Resultats k-means }
+
+
+\end{table}
+
+\end{document}

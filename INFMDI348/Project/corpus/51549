@@ -1,0 +1,29 @@
+Xref  cantaloupe srv cs cmu edu comp sys mac hardware       comp sys mac programmer      
+Path  cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs  ece cmu edu europa eng gtefsd com gatech concert duke wolves ggw
+From  ggw wolves Durham NC US  Gregory G  Woodbury 
+Newsgroups  comp sys mac hardware comp sys mac programmer
+Subject  Q    FP Errors   was  Quadra         differences
+Message ID   C IAE  F w wolves Durham NC US 
+Date     Apr             GMT
+References   Apr                yuma ACNS ColoState EDU       Apr                iitmax iit edu       Apr                wuecl wustl edu 
+Reply To  ggw wolves durham nc us
+Organization  Wolves Den UNIX
+Lines    
+X Md  Signature     f f   b ed    bc   af  e b a 
+
+rdk  cec  wustl edu  Robert David Klapper  writes 
+ 
+ 	I also believe that the     fixed a bug in the CPU which screwed up
+ some floating point calculations 
+
+	Does anyone have details on this    What sort of FP errors is
+the Q    sensitive to 
+
+	 My Q    is having some strange problems with an FP intensive
+program  getting a lot of DS    Segment Loader  errors   ThinkC      and
+System        
+   
+Gregory G  Woodbury   The Wolves Den UNIX  Durham NC   Standard disclaimers 
+UUCP     dukcds wolves ggw      duke wolves ggw            use the maps  
+Domain  ggw wolves Durham NC US  ggw wolves duke cs duke edu
+ This site is  not  affiliated with Duke University    Idiots    

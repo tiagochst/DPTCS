@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2011.7.27)  16 DEC 2011 20:31
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2011.7.27)  19 DEC 2011 10:01
 entering extended mode
  %&-line parsing enabled.
 **proj.tex
@@ -796,15 +796,27 @@ Package caption Info: hyperref package v6.74m (or newer) detected on input line
  304.
 Package caption Info: listings package v1.2 (or newer) detected on input line 3
 38.
-)) (./proj.aux)
+)) (./proj.aux
+
+LaTeX Warning: Label `rspro2' multiply defined.
+
+
+LaTeX Warning: Label `fig:jacobi-conv' multiply defined.
+
+
+LaTeX Warning: Label `rspro2' multiply defined.
+
+
+LaTeX Warning: Label `fig:jacobi-conv' multiply defined.
+
+)
 \openout1 = `proj.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for T1/lmr/m/n on input line 26.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 26.
-
-(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+ (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
 LaTeX Font Info:    ... okay on input line 26.
@@ -931,32 +943,107 @@ File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 \openout6 = `proj.lof'.
 
 
-[2]
-Overfull \hbox (6.15231pt too wide) in paragraph at lines 42--42
+[2] [3] [4]
+File: ../conv_beta.eps Graphic file (type eps)
+ <../conv_beta.eps> [5]
+Overfull \hbox (6.15231pt too wide) in paragraph at lines 176--176
 [] [][][][][][] 
  []
 
-LaTeX Font Info:    Try loading font information for T1+aett on input line 42.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 176.
+
 (/usr/share/texmf/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 ) (../mygradient.m)
-Overfull \hbox (6.15231pt too wide) in paragraph at lines 52--52
+File: ../grad_beta.eps Graphic file (type eps)
+ <../grad_beta.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 203.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\beta' on input line 203.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 203.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 203.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `subscript' on input line 203.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\beta' on input line 203.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `subscript' on input line 203.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 203.
+
+[7]
+Overfull \hbox (6.15231pt too wide) in paragraph at lines 235--235
 [] [][][][][][] 
  []
 
-(../gradient_optimal.m [3])
-Overfull \hbox (6.15231pt too wide) in paragraph at lines 62--62
+(../gradient_optimal.m)
+File: ../grad_optimal.eps Graphic file (type eps)
+ <../grad_optimal.eps> [8]
+LaTeX Font Info:    Try loading font information for TS1+aer on input line 258.
+
+LaTeX Font Info:    No file TS1aer.fd. on input line 258.
+
+
+LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textasciiacute' on input line 258.
+
+
+Overfull \hbox (6.15231pt too wide) in paragraph at lines 278--278
 [] [][][][][][] 
  []
 
-(../gradient_conjugue.m) [4] (./proj.aux) ) 
+(../gradient_conjugue.m)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9]
+Overfull \hbox (6.15231pt too wide) in paragraph at lines 305--305
+[] [][][][][][] 
+ []
+
+(../tstinvtridiag0.m)
+File: ../figue_spline3.eps Graphic file (type eps)
+ <../figue_spline3.eps>
+File: ../exemple_spline_naturelle.eps Graphic file (type eps)
+ <../exemple_spline_naturelle.eps>
+[10] (./proj.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 8596 strings out of 256217
- 115394 string characters out of 1917095
- 378432 words of memory out of 1500000
- 11672 multiletter control sequences out of 10000+200000
- 31718 words of font info for 56 fonts, out of 1200000 for 2000
+ 8662 strings out of 256217
+ 116286 string characters out of 1917095
+ 384432 words of memory out of 1500000
+ 11726 multiletter control sequences out of 10000+200000
+ 33554 words of font info for 58 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 42i,7n,42p,226b,1899s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 42i,8n,42p,273b,1705s stack positions out of 5000i,500n,6000p,200000b,15000s
 
-Output written on proj.dvi (4 pages, 66284 bytes).
+Output written on proj.dvi (10 pages, 108800 bytes).

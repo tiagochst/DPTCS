@@ -1,0 +1,34 @@
+Newsgroups  comp sys mac hardware
+Path  cantaloupe srv cs cmu edu crabapple srv cs cmu edu bb  andrew cmu edu news sei cmu edu cis ohio state edu zaphod mps ohio state edu cs utexas edu utnut nott bnrgate bcars    NewsWatcher user
+From  ellens bnr ca  Chris Ellens 
+Subject  Re  HD Setup Partition  Was  OK to set    lbs on top of Centris       
+Message ID   ellens                         
+Followup To  comp sys mac hardware
+Sender  news bnr ca  usenet 
+Nntp Posting Host  bcarm   
+Organization  Bell Northern Research
+References   C HvJx DJ  news cso uiuc edu       Apr                urbana mcd mot com 
+Date  Fri     Apr               GMT
+Lines    
+
+In article      Apr                urbana mcd mot com  
+feldman urbana mcd mot com  Mike Feldman  wrote 
+  
+  
+  Now if I can figure out if there s any hope using the  partition  button
+  on the hard disk setup utility  do I dare just try it and see what happens   
+  then maybe I can divide up the wealth among the family members a bit more
+  securly   The  getting more information  section of the manual suggested
+  trying other avenues before calling Apple  but didn t mention the net 
+     
+  Mike Feldman  Motorola Computer Group                      FAX               
+       East University Avenue	   Pager in IL                               
+  Urbana  IL             mcdphx uiucuxc  udc feldman feldman urbana mcd mot com
+
+The Partition button in Apple s HD Setup lets you set up A UX and other
+types of partitions  It WON T let you create more than one normal mac
+volume  You need SilverLining or something similar to do that  It WILL 
+however  allow you to take advantage of some possible unused space on your
+hard disk  if you don t mind reformatting the whole thing 
+
+Chris Ellens         ellens bnr ca

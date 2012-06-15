@@ -8,7 +8,13 @@ x0 = zeros(N,1);
 
 % 2.2.1
 beta=0.01;
+
+tic ();
 sol = mygradient(A,b,x0,beta,eps);
+elapsed_time = toc ();
+
+printf('GRAD time:\n');
+disp(elapsed_time);
 
 disp('GRAD')
 disp('ITER')
@@ -22,6 +28,37 @@ disp(sol(:,size(sol,2)));
 lambda1 = max(abs(eig(A)));
 disp('le plus grande valeur propre de la matrice A');
 disp(lambda1);
+
+lambdaN = min(abs(eig(A)));
+disp('le plus petite valeur propre de la matrice A');
+disp(lambdaN);
+
+l=1;
+maxVar=2/lambda1
+betaVar=0.01:0.04:maxVar;
+betaVar=[betaVar maxVar-0.0001];
+
+for beta=betaVar,
+  if(beta<2/(lambdaN+lambda1))
+    rho(l)=1-beta*lambdaN;
+  end;
+
+  if(beta>2/(lambdaN+lambda1))
+    rho(l)=beta*lambda1-1;
+  end;
+  
+  l=l+1;
+ 
+end;
+
+%h = figure; 
+%filename = 'conv_beta';
+%p=plot(betaVar,rho);
+%xlabel('Beta');
+%ylabel('Taux de convergence theorique');
+%set(p,'Color','blue','LineWidth',4)
+%print(h, '-depsc2', filename);
+
 
 
 % Trouver le meilleur Beta

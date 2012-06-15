@@ -14,6 +14,7 @@
 \usepackage{ae,aecompl,aeguill}  % pdfs plus beaux =)
 \usepackage{lmodern}
 \usepackage{marvosym}
+\usepackage{color}
 \usepackage{ifpdf}
 \ifpdf
   \usepackage[pdftex]{graphicx}
@@ -51,6 +52,7 @@
 
 \renewcommand{\familydefault}{\sfdefault}% for use with a résumé using sans serif fonts;
 %\renewcommand{\familydefault}{\rmdefault}% for use with a résumé using sans serif fonts;
+\newcommand{\red}[1]{{\color{red}{#1}}}
 
 \begin{document}
 \hfill%
@@ -59,7 +61,7 @@
 {\bfseries Tiago Silva}\\[.35ex]
 \small\itshape%
 1, boulevard Jourdan, Maison du Maroc\\
-Paris,France,75014\\[.35ex]
+75014,Paris,France\\[.35ex]
 \Letter~tiagochst@gmail.com
 \end{minipage}\\[1em]
 %
@@ -75,7 +77,7 @@ Lettre à un professeur\\
 %\\[1em] % UK style
 \begin{minipage}[t]{.4\textwidth}
 \raggedleft % US style
-\today
+Le \today
 %April 6, 2006 % US informal style
 %05/04/2006 % UK formal style
 \end{minipage}\\[2em]
@@ -125,9 +127,16 @@ Lettre à un professeur\\
 Bonjour Madame Davidovici,\\[1.5em]
 
 Est-ce que vous pourriez m'aider, s'il vous plaît?
-Nous, les étudiantes, avons la fameux semaine Athènes dont le choix de cours doit être fait par nous. Comme j'aime beaucoup étudier les management d’entreprise, et vous, en étant une majestueuse professeur d'économie avec une connaissance indistinguable, je voudrais votre opinion sur les cours que je dois choisir.
+Je suis un de vos étudiants de économie et nous bientôt avons la semaine Athènes
+dont le choix de cours doit être fait par nous. Comme j'aime beaucoup étudier le
+management d’entreprise, et que \red{vous êtes spécialiste du domaine}, je voudrais votre opinion sur les cours que je dois choisir.
 
-Je suis en doute entre choisir entre " Management et Economics" et "Project Finance : Non-Recourse Finance", que pensez vous?
+%Est-ce que vous pourriez m'aider, s'il vous plaît?
+%Nous, les étudiantes, avons la fameux semaine Athènes dont le choix de cours doit être fait par nous. Comme j'aime beaucoup étudier les management d’entreprise, et vous, en étant une majestueuse professeur d'économie avec une connaissance indistinguable, je voudrais votre opinion sur les cours que je dois choisir.
+
+%Je suis en doute
+\red{J'hésite}  entre  choisir entre  "  Management  et  Economics" et  "Project
+Finance : Non-Recourse Finance", \red{qu'en pensez vous}? % c'est "penser de" 
 
 Très cordialement,\\[2em] % if the opening is "Dear Sir or Madam,"
 %

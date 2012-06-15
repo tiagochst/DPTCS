@@ -147,7 +147,7 @@ On a trouvé un $w_{optimal}\approx 1.1$
 %  \frac{d\omega}{d\rho} =\frac{2\,\rho}{\sqrt{1-{\rho}^{2}}\,{\left( \sqrt{1-{\rho}^{2}}+1\right) }^{2}}
 %\end{equation}
 
-%Pour la valeur minimale ou maximuale, la dérivée doit être 0, donc $\rho(J)=0$,
+%Pour la valeur minimale ou maximale, la dérivée doit être 0, donc $\rho(J)=0$,
 %en utilisant l'équation 1 on a $\omega=1$;
 
 \newpage
@@ -180,25 +180,23 @@ Pour le même exemple que précèdemmet, on a trouvé:
 
 \subsubsection{Complexité}
 
-La complexité de la fonction Cholesky est donné par $O(\frac{N^2p}{2})$, pour les autres
+La complexité de la fonction Cholesky est donnée par $O(\frac{N^2p}{2})$, pour les autres
 méthodes on a:
 
 \begin{description}
-\item[Jacobi]{L'interaction  de Jacobi est donné  par: $x^{n+1}=D^{-1}(L+U)x^n +
-  D^{-1}b$,  comme la  matrice  A   est composée seulement par  des termes  non  nulles dans  la
-  diagonale principal et dans deux diagonales secondaires, on a: $(L+U)$ matrice
-  avec presque  2N termes et  $(D)^{-1}$ matrice avec  N termes. Ainsi,  pour le
-  nombre  des  multiplications  on  a  $D^{-1}(L+U)x^n  \in  O(3N)$,  parce  que
-  $D^{-1}(L+U)$  a 2N  multiplications  et  la matrice  résultante  a presque  N
-  termes, donc $D^{-1}(L+U)x^n$ ira avoir 3N multiplications. De plus, $D^{-1}b
-  \in O(N)$}. Finalement, $Jacobi \in O(3N)$
+\item[Jacobi]{Le calcul de $x^{n+1}$ par Jacobi est donné  par: $x^{n+1}=D^{-1}(L+U)x^n +
+  D^{-1}b$. Comme la  matrice  A   est composée seulement de termes  non  nuls dans  la
+  diagonale principale et dans deux diagonales secondaires, on a: $(L+U)$ qui est une matrice
+  avec environ 2N termes et  $(D)^{-1}$ est une matrice avec  N termes : 
+
+Ainsi,  le  nombre  de  multiplications pour calculer $D^{-1}(L+U)x^n  \in  O(3N)$. De plus, $D^{-1}b
+  \in O(N)$}, que l'on peut donc négliger. Finalement, $Jacobi \in O(3N)$
  
-\item[Relaxation]{ L'interaction  de Relaxation est donné  par: $x^{n+1}=(\frac{D}{w}-L)^{-1}(\frac{1-w}{w}D+U)x^n +
-  (\frac{D}{w}-L)^{-1}b$, comme la matrice A est composée seulement par des termes non nulles dans la
-  diagonale   principal   et   dans   deux   diagonales   secondaires,   on   a:
-  $(\frac{D}{w}-L)^{-1} $ matrice avec plus de $2N$ termes (on a trouvé cette valeur en
-  utilisant Matlab pour la matrice A de la sections antérieurs)
-         et $(\frac{1-w}{w}D+U)$ matrice avec 2N termes. Ainsi,
+\item[Relaxation]{'Le calcul de  $x^{n+1}$ par la méthode de la Relaxation est donné  par: $x^{n+1}=(\frac{D}{w}-L)^{-1}(\frac{1-w}{w}D+U)x^n +  (\frac{D}{w}-L)^{-1}b$ . Comme la matrice A est composée seulement par des termes non nuls dans la
+  diagonale   principale   et   dans   deux   diagonales   secondaires,   on   a:
+  $(\frac{D}{w}-L)^{-1} $ qui est une matrice avec plus de $2N$ termes (on a trouvé cette valeur en
+  utilisant Matlab pour la matrice A dans la section précédente)
+         et $(\frac{1-w}{w}D+U)$ est alors une matrice avec 2N termes. Ainsi,
   $(\frac{D}{w}-L)^{-1}(\frac{1-w}{w}D+U)x^n         \in        O(5N)$        et
   $(\frac{D}{w}-L)^{-1}b \in O(3N)$. Finalement $Relax \in O(5N)$
 }

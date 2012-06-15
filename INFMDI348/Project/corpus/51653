@@ -1,0 +1,42 @@
+Newsgroups  comp sys mac hardware
+Path  cantaloupe srv cs cmu edu crabapple srv cs cmu edu fs  ece cmu edu europa eng gtefsd com gatech darwin sura net haven umd edu uunet pipex zaphod crihan fr univ lyon  fr babbage isis planet imag fr salber
+From  Daniel Salber  salber imag fr 
+Subject  Quadras VRAM Question
+Message ID   C LI v ALv imag fr 
+X Xxmessage Id   A F F   E        planet imag fr 
+X Xxdate  Fri     Apr             GMT
+Sender  news imag fr  Administration des news 
+Nntp Posting Host  planet
+Organization  IMAG Institute  Grenoble  France
+X Useragent  Nuntius v     d  
+Date  Fri     Apr               GMT
+Lines    
+
+
+Hi there 
+
+
+I have a question regarding Quadras VRAM  I have tried to find info on this
+but I could not get precise answers 
+
+On one hand  we have a Quadra     with a     monitor  which is capable of
+   bit color  How much VRAM does it have 
+On the other hand  we have a Quadra     with a     monitor  which is capable
+of   bit color only  so it must have     Ko of VRAM 
+
+I would like to take VRAM SIMMs for the     and put them in the     so that
+both machines have    bit color capability 
+Is it possible  and if yes  how many VRAM SIMMs should I take from the     
+From the documentation I have  the Quadra     must get   Mo VRAM to have
+   bit color  is that correct 
+
+Bonus question  where do VRAM SIMMs hide  From the     documentation  they
+seem to be  behind  the power supply  Do I really have to take off the power
+supply to access the VRAM SIMMs 
+
+
+Thanks for your help 
+
+  
+Daniel Salber  User Interface Research Team  LGI IMAG  Grenoble  France 
+salber imag fr
