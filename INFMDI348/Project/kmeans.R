@@ -1,3 +1,14 @@
+# -%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
+# INFMDI 348  
+# Project on Data Mining
+# Date:22/06/2012 
+# Paris,France  
+# Group: 
+# - Anthony CLERBOUT
+# - Livia RIBEIRO 
+# - Tiago CHEDRAOUI SILVA 
+# -%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
+
 # Example of empty Clustering
 
 # Point used for the exemple:
