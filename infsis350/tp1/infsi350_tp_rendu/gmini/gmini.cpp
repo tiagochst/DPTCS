@@ -1,3 +1,4 @@
+
 // -------------------------------------------
 // gMini : a minimal OpenGL/GLUT application
 // for 3D graphics.
@@ -167,6 +168,9 @@ void printUsage () {
          << " <drag>+<left button>: rotate model" << endl 
          << " <drag>+<right button>: move model" << endl
          << " <drag>+<middle button>: zoom" << endl
+         << " a (Desactivate)/A (Activate) Light1 " << endl
+         << " b (Desactivate)/B (Activate) Light2 " << endl
+         << " l (Desactivate)/L (Activate) Lighting " << endl
          << " q, <esc>: Quit" << endl << endl; 
 }
 
@@ -177,21 +181,39 @@ void usage () {
 
 
 
-// ------------------------------------
-
-void initLight () {
-    GLfloat light_position1[4] = {22.0f, 16.0f, 50.0f, 0.0f};
-    GLfloat direction1[3] = {-52.0f,-16.0f,-50.0f};
-    GLfloat color1[4] = {0.5f, 1.0f, 0.5f, 1.0f};
+void initLight1 () {
+    GLfloat light_position[4] = {22.0f, 16.0f, 50.0f, 0.0f};
+    GLfloat direction[3] = {-52.0f,-16.0f,-50.0f};
+    GLfloat color[4] = {0.5f, 1.0f, 0.5f, 1.0f};
     GLfloat ambient[4] = {0.3f, 0.3f, 0.3f, 0.5f};
   
-    glLightfv (GL_LIGHT1, GL_POSITION, light_position1);
-    glLightfv (GL_LIGHT1, GL_SPOT_DIRECTION, direction1);
-    glLightfv (GL_LIGHT1, GL_DIFFUSE, color1);
-    glLightfv (GL_LIGHT1, GL_SPECULAR, color1);
+    glLightfv (GL_LIGHT1, GL_POSITION, light_position);
+    glLightfv (GL_LIGHT1, GL_SPOT_DIRECTION, direction);
+    glLightfv (GL_LIGHT1, GL_DIFFUSE, color);
+    glLightfv (GL_LIGHT1, GL_SPECULAR, color);
     glLightModelfv (GL_LIGHT_MODEL_AMBIENT, ambient);
     glEnable (GL_LIGHT1);
-    glEnable (GL_LIGHTING);
+}
+
+void initLight2 () {
+    GLfloat light_position[4] = {22.0f, 16.0f, 50.0f, 0.0f};
+    GLfloat direction[3] = {-52.0f,-16.0f,-50.0f};
+    GLfloat color[4] = {1.0f, 0.0f, 0.0f, 1.0f};
+    GLfloat ambient[4] = {0.3f, 0.3f, 0.3f, 0.5f};
+  
+    glLightfv (GL_LIGHT2, GL_POSITION, light_position);
+    glLightfv (GL_LIGHT2, GL_SPOT_DIRECTION, direction);
+    glLightfv (GL_LIGHT2, GL_DIFFUSE, color);
+    glLightfv (GL_LIGHT2, GL_SPECULAR, color);
+    glLightModelfv (GL_LIGHT_MODEL_AMBIENT, ambient);
+    glEnable (GL_LIGHT2);
+}
+
+
+void initLight () {
+  initLight1 ();
+  initLight2 (); /* [TCS] Exercise: I.a - My second light*/
+  glEnable (GL_LIGHTING);
 }
 
 void init (const char * modelFilename) {
@@ -222,14 +244,41 @@ void clear () {
 // ------------------------------------
 
 void draw () {
-    glBegin (GL_TRIANGLES);
-    for (unsigned int i = 0; i < mesh.T.size (); i++) 
-        for (unsigned int j = 0; j < 3; j++) {
-            const Vertex & v = mesh.V[mesh.T[i].v[j]];
-            glNormal3f (v.n[0], v.n[1], v.n[2]);
-            glVertex3f (v.p[0], v.p[1], v.p[2]);
-        }
-    glEnd ();
+
+  Vec3Df lightNorm(-52.0f,-16.0f,-50.0f); 
+  Vec3Df faceNorm (  0.0f,  0.0f,  0.0f); 
+  
+  lightNorm.normalize();
+  
+  glBegin (GL_TRIANGLES);
+  
+  for (unsigned int i = 0; i < mesh.T.size (); i++){ 
+ 
+    faceNorm = Vec3Df ( 0.0f, 0.0f, 0.0f); 
+    
+    for (unsigned int j = 0; j < 3; j++) {
+      const Vertex & v = mesh.V[mesh.T[i].v[j]];
+      faceNorm += v.n;
+    }
+    
+    faceNorm.normalize();
+    
+    if (Vec3Df::dotProduct (faceNorm, lightNorm  ) < 0.0) {
+      glColor3f (1.0f, 0.0f ,0.0f);
+    }
+    else {
+      glColor3f (0.0f, 0.0f ,1.0f);
+    }
+    
+   for (unsigned int j = 0; j < 3; j++) {
+      const Vertex & v = mesh.V[mesh.T[i].v[j]];
+      glNormal3f (v.n[0], v.n[1], v.n[2]);
+      glVertex3f (v.p[0], v.p[1], v.p[2]);
+    }
+
+  }
+  
+  glEnd ();
 }
 
 void display () {
@@ -261,6 +310,23 @@ void idle () {
 void key (unsigned char keyPressed, int x, int y) {
     Vec3Df l = Vec3Df (50.0, 0.0, 0.0);
     switch (keyPressed) {
+    
+    case 'a':
+      glDisable (GL_LIGHT1);
+      break;  
+
+    case 'A':
+      glEnable (GL_LIGHT1);
+      break;  
+
+    case 'b':
+      glDisable (GL_LIGHT2);
+      break;  
+
+    case 'B':
+      glEnable (GL_LIGHT2);
+      break;  
+
     case 'f':
         if (fullScreen == true) {
             glutReshapeWindow (SCREENWIDTH, SCREENHEIGHT);
@@ -270,6 +336,15 @@ void key (unsigned char keyPressed, int x, int y) {
             fullScreen = true;
         }      
         break;
+
+    case 'l':
+      glDisable (GL_LIGHTING);
+      break;  
+
+    case 'L':
+      glEnable (GL_LIGHTING);
+      break;  
+
     case 'q':
     case 27:
         clear ();
