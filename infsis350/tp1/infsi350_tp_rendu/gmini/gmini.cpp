@@ -171,6 +171,8 @@ void printUsage () {
          << " a (Desactivate)/A (Activate) Light1 " << endl
          << " b (Desactivate)/B (Activate) Light2 " << endl
          << " l (Desactivate)/L (Activate) Lighting " << endl
+         << " m (Desactivate)/M (Activate) Material " << endl
+	 << " n (Material 1)/N (Material 2)  " << endl
          << " q, <esc>: Quit" << endl << endl; 
 }
 
@@ -216,6 +218,94 @@ void initLight () {
   glEnable (GL_LIGHTING);
 }
 
+
+void initTexture () {
+  GLuint texMap;
+  //  GLuint texMapLevel;
+  //GLuint texMapWidth;
+  //GLuint texMapHeight;
+  //GLuint texMapComponents;
+  //GLuint texMapFormat;
+  //bool texMapGenerated;
+  int width=256, height=256;
+  FILE * file;
+  GLubyte data[width*height*3]; 
+
+  glEnable( GL_TEXTURE_2D );
+
+  // allocate a texture name  
+  glGenTextures (1, &texMap);
+  
+  // select our current texture
+  glBindTexture (GL_TEXTURE_2D, texMap);
+
+  // when texture area is large, bilinear filter the original
+  glTexParameteri (GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+
+  // when texture area is small, bilinear filter the closest mipmap
+  glTexParameteri (GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, 
+		   GL_LINEAR_MIPMAP_LINEAR);
+
+  // the texture wraps over at the edges (repeat)
+  glTexParameteri (GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
+  glTexParameteri (GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
+
+  
+  
+  // open and read texture data
+  //file = fopen( "../textures/ground_256x256.ppm", "rb" );
+  //  file = fopen( "../textures/brick_256x256.ppm", "rb" );
+  file = fopen( "../textures/bois_256x256.ppm", "rb" );
+
+  fread( data, width * height * 3, 1, file );
+  fclose( file );
+
+
+  // build our texture mipmaps
+  gluBuild2DMipmaps( GL_TEXTURE_2D, 3, width, height,
+		     GL_RGB, GL_UNSIGNED_BYTE, data );
+}
+
+void matGold(){
+
+
+  /*    
+    Ambient color : Ambient color is the color of an object where it is in shadow. This color is what the object reflects when illuminated by ambient light rather than direct light. ---- cor na sombra sem luz direta 
+    
+    Diffuse color :Diffuse color is the most instinctive meaning of the color of an object. It is that essential color that the object reveals under pure white light. It is perceived as the color of the object itself rather than a reflection of the light. ---- Reflection para todas as direcoes
+    
+    Emissive color : This is the self-illumination color an object has. 
+    
+    Specular color :Specular color is the color of the light of a specular reflection (specular reflection is the type of reflection that is characteristic of light reflected from a shiny surface). ---- Refleccao para uma dada direçao (espelho)
+    Fresnel: angulos rasantes
+  */
+
+  GLfloat material_ambient[] = { 0.25, 0.20 , 0.075, 1 };
+  GLfloat material_diffuse[] = { 0.75, 0.60 , 0.22, 1 };
+  GLfloat material_specular[] = { 0.63, 0.55, 0.36, 1 };
+  GLfloat material_shininess[] = { 102 };
+
+  glMaterialfv(GL_FRONT, GL_DIFFUSE, material_ambient);
+  glMaterialfv(GL_FRONT, GL_DIFFUSE, material_diffuse);
+  glMaterialfv(GL_FRONT, GL_SPECULAR, material_specular);
+  glMaterialfv(GL_FRONT, GL_SHININESS, material_shininess);
+
+}
+
+void matGrenPlastic(){
+
+  GLfloat material_ambient[] = { 0, 0 , 0, 1 };
+  GLfloat material_diffuse[] = { 0.1, 0.35 , 0.1, 1 };
+  GLfloat material_specular[] = { 0.45, 0.55, 0.45, 1 };
+  GLfloat material_shininess[] = { 32 };
+
+  glMaterialfv(GL_FRONT, GL_DIFFUSE, material_ambient);
+  glMaterialfv(GL_FRONT, GL_DIFFUSE, material_diffuse);
+  glMaterialfv(GL_FRONT, GL_SPECULAR, material_specular);
+  glMaterialfv(GL_FRONT, GL_SHININESS, material_shininess);
+}
+
+
 void init (const char * modelFilename) {
     camera.resize (SCREENWIDTH, SCREENHEIGHT);
     mesh.loadOFF (modelFilename);
@@ -245,13 +335,13 @@ void clear () {
 
 void draw () {
 
+ 
   Vec3Df lightNorm(-52.0f,-16.0f,-50.0f); 
   Vec3Df faceNorm (  0.0f,  0.0f,  0.0f); 
   
   lightNorm.normalize();
   
-  glBegin (GL_TRIANGLES);
-  
+  glBegin (GL_TRIANGLES);  
   for (unsigned int i = 0; i < mesh.T.size (); i++){ 
  
     faceNorm = Vec3Df ( 0.0f, 0.0f, 0.0f); 
@@ -273,6 +363,7 @@ void draw () {
    for (unsigned int j = 0; j < 3; j++) {
       const Vertex & v = mesh.V[mesh.T[i].v[j]];
       glNormal3f (v.n[0], v.n[1], v.n[2]);
+      glTexCoord2f (0, j);
       glVertex3f (v.p[0], v.p[1], v.p[2]);
     }
 
@@ -345,6 +436,22 @@ void key (unsigned char keyPressed, int x, int y) {
       glEnable (GL_LIGHTING);
       break;  
 
+    case 'm':
+      glDisable(GL_COLOR_MATERIAL);
+      break;  
+
+    case 'M':
+      glEnable(GL_COLOR_MATERIAL);
+      break;
+
+    case 'n':
+      matGrenPlastic();
+      break;
+  
+    case 'N':
+      matGold();
+      break;
+
     case 'q':
     case 27:
         clear ();
@@ -372,6 +479,7 @@ void key (unsigned char keyPressed, int x, int y) {
     }
     idle ();
 }
+
 
 void mouse (int button, int state, int x, int y) {
     if (state == GLUT_UP) {
@@ -434,6 +542,7 @@ int main (int argc, char ** argv) {
     window = glutCreateWindow ("gMini");
   
     init (argc == 2 ? argv[1] : "sphere.off");
+    initTexture(); 
     glutIdleFunc (idle);
     glutDisplayFunc (display);
     glutKeyboardFunc (key);
