@@ -1,0 +1,214 @@
+% -%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
+% Tutorat 01 EN                                    %  
+% Data:02/11/2011                                  %
+% Paris,France                                     %
+% - Tiago Chedraoui Silva                          %
+% -%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%
+\documentclass[dvips,11pt,xcolor=dvipsnames]{beamer}
+
+%%% fontes %%%
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}   
+\usepackage{ae,aecompl,aeguill}  % pdfs plus beaux =)
+\usepackage{calligra}
+
+%%% matematicos %%%
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathptmx}
+
+%%% figuras %%%
+\usepackage{graphicx}
+\usepackage{wrapfig}
+
+%%% tabelas %%%
+\usepackage{colortbl}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{fancyvrb}
+\usepackage{color}
+
+%%% outros %%%
+\usepackage{url}
+\usepackage{textcomp}
+\usepackage{hyperref} %internal links
+\usepackage{color}       
+\usepackage{indentfirst} %retira padrao americano de paragrafos
+\usepackage{multicol}    
+\numberwithin{table}{section}
+\numberwithin{figure}{section} %numercao de figuras por secao
+
+%%% extras %%%
+\RequirePackage{marvosym} % figuras \Letter \Email 
+\usepackage{fancyhdr}     % Headers
+\usepackage{epsf}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\tikzstyle{block}=[draw opacity=0.7,line width=1.4cm]
+
+%%% Beamer style %%%
+\usetheme{Warsaw}
+%\usecolortheme[named=Green]{structure}
+\usefonttheme[onlylarge]{structurebold} % fontes em negrito
+\setbeamerfont*{frametitle}{size=\normalsize,series=\bfseries}%define tamanhos de letras
+\setbeamertemplate{navigation symbols}{}% barra de navegacao superior
+% \setbeamercovered{transparent}
+
+% -%-%-%-%-%-%-%-%-%
+% Inicio Slides  %
+% -%-%-%-%-%-%-%-%-%
+
+\title{Poker Planning}                               
+% Refletindo os valores humanos na era digital
+\subtitle{An approach to agile estimating} 
+\author[Tiago C. Siva]{
+  Tiago Chedraoui Silva \\
+}
+\institute{Télécom Paristech}
+
+\date{March 18, 2013}
+%\date{\today}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+\end{frame}
+
+
+\section{Introduction}
+
+\begin{frame}{Estimation}
+
+  \begin{block}{Objective}
+    \begin{itemize}
+      
+    \item Answering the combined scope/schedule/ressources question for a new product
+    \end{itemize}
+    
+  \end{block}
+  
+  \begin{block}{Facts}
+    \begin{itemize}
+      
+    \item Nearly two-thirds of projects significantly overrun their cost estimates.
+    \item 64\% of the features included in products are rarely or never used
+    \item The average project exceeds its schedule by 100\%
+    \end{itemize}
+    
+  \end{block}
+  
+ \pause \begin{alertblock}{So...}
+    \begin{itemize}
+    \item Software estimation is hard!
+    \end{itemize}
+  \end{alertblock}
+
+\end{frame}
+
+
+\begin{frame}{Planning Poker}
+ 
+ \begin{block}{What is Planning Poker?}
+    \begin{itemize}
+    \item A consensus-based technique for estimating, mostly used to estimate effort or relative size of user stories commonly in software development.
+    \item  It is most commonly used in agile software development, in particular the Extreme Programming methodology.
+    \end{itemize}
+  \end{block}
+
+\begin{exampleblock}{Why Planning Poker?}
+    \begin{itemize}
+    \item ``The best way I’ve found for agile teams to estimate is by playing planning poker'' (Grenning 2002)
+    \item Make the meetings more short and productive, by making them more fun and dynamic.
+    \end{itemize}
+  \end{exampleblock}
+
+\end{frame}
+
+\begin{frame}{Preparing for the meeting}
+
+\pause \begin{alertblock}{Participantes of a session}
+
+    \begin{itemize}
+    \item All of the developers on the team (programmers, testers, database engineers, analysts, user interaction designers)
+    \item Product owner
+    \end{itemize}
+  \end{alertblock}
+  
+  \begin{exampleblock}{Material}
+    \begin{itemize}
+    \item A deck of cards
+    \end{itemize}
+  \end{exampleblock}
+
+\end{frame}
+
+\section{Conclusion}
+
+
+\begin{frame}{Conclusion}
+\end{frame}
+
+%
+% Questions
+%
+\begin{frame}{}
+  \begin{figure}
+    \begin{centering}
+      \includegraphics[scale=0.1]{img/Icon-round-Question_mark.eps}
+      \par\end{centering}
+  \end{figure}
+\end{frame}
+
+%
+% Thank you
+%
+\begin{frame}{}
+
+\centering {\calligra \Huge Thank you!}
+
+\end{frame}
+
+%
+% Referneces
+%
+
+\section{References}
+
+\begin{frame}
+
+  \begin{thebibliography}{2}  
+        
+        \beamertemplatebookbibitems %livro
+      \bibitem{Cohn}Cohn, Mike 
+        \newblock \emph{Agile estimating and planning}. Pearson, 2006.
+        
+        \beamertemplatearticlebibitems   
+      
+      \bibitem{MGS}Cohn, Mike 
+       \newblock  \emph{Planning Poker}
+       \newblock  \url{http://www.mountaingoatsoftware.com}
+        
+      \bibitem{MGS}Hartman, Bob
+       \newblock  \emph{An Introduction to Planning Poker}
+       \newblock  \url{agile.dzone.com/articles/introduction-planning-poker}
+
+      \bibitem{WIKI} Wikipedia
+       \newblock \emph{Planning poker}.
+       \newblock  \url{wikipedia.org/wiki/Planning_poker}
+        
+        
+        \beamertemplatearticlebibitems   
+      
+    
+
+  \end{thebibliography}  
+\end{frame}
+
+\end{document}
+
