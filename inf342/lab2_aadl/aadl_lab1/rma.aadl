@@ -1,0 +1,105 @@
+-- http://perso.telecom-paristech.fr/~borde/aadl/tp/raar/sujet.html#Introduction-1
+-----------------
+-- Subprograms --
+-----------------
+
+subprogram Hello_Spg_1
+properties
+  source_language => Ada95;
+  source_name     => "Hello.Hello_Spg_1";
+end Hello_Spg_1;
+
+subprogram Hello_Spg_2
+properties
+  source_language => Ada95;
+  source_name     => "Hello.Hello_Spg_2";
+end Hello_Spg_2;
+
+subprogram Hello_Spg_3
+properties
+  source_language => Ada95;
+  source_name     => "Hello.Hello_Spg_3";
+end Hello_Spg_3;
+
+-------------
+-- Threads --
+-------------
+
+thread Task
+end Task;
+
+thread implementation Task.impl_1
+calls {
+  P_Spg : subprogram Hello_Spg_1;
+};
+properties
+   Dispatch_Protocol                  => Periodic;
+   Period                             => 1000 ms;
+   Compute_Execution_time             => 0ms .. 400 ms;
+   Deadline                           => 1000 ms;
+end Task.impl_1;
+
+thread implementation Task.impl_2
+calls {
+  P_Spg : subprogram Hello_Spg_2;
+};
+properties
+   Dispatch_Protocol                  => Periodic; 
+   Period                             => 1500 ms;
+   Compute_Execution_time             => 0ms .. 400 ms;
+   Deadline                           => 1500 ms;
+end Task.impl_2;
+
+thread implementation Task.impl_3
+calls {
+  P_Spg : subprogram Hello_Spg_3;
+};
+properties
+   Dispatch_Protocol                  => Periodic; 
+   Period                             => 3600 ms;
+   Compute_Execution_time             => 0ms .. 1200 ms;
+   Deadline                           => 3600 ms;
+end Task.impl_3;
+
+---------------
+-- Processor --
+---------------
+
+processor cpurm
+properties
+  Deployment::Execution_Platform => ERC32_ORK; -- NATIVE
+end cpurm;
+
+processor implementation cpurm.impl
+properties 
+  Scheduling_Protocol => (RATE_MONOTONIC_PROTOCOL); --RATE_MONOTONIC_PROTOCOL
+end cpurm.impl;
+
+---------------
+-- Processes --
+---------------
+
+process node_a
+end node_a;
+
+process implementation node_a.impl
+subcomponents
+   Task1 : thread Task.impl_1;
+   Task2 : thread Task.impl_2;
+   Task3 : thread Task.impl_3;
+end node_a.impl;
+
+------------
+-- System --
+------------
+
+system rma 
+end rma;
+
+system implementation rma.impl
+subcomponents
+   node_a : process node_a.impl;
+   cpu_rm : processor cpurm.impl;
+properties
+   Actual_Processor_Binding => reference cpu_rm applies to node_a;
+end rma.impl;

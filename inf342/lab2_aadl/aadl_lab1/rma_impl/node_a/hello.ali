@@ -1,0 +1,41 @@
+V "GNAT Lib v2006"
+A -O1
+A -g
+A -gnatwa
+A -gnat05
+A -g
+A -gnata
+A -gnato
+A -gnatA
+P DB
+R rrnrrrnnrnrrnnrnnnnnnrnnrnnnrnrnrnrrnrnnrrrrnrrnrnnnnvnnnnr1nr0nr0nnnr0nnnnn
+
+U hello%b		hello.adb		9f633289 NE PK
+W computations%s	computations.adb	computations.ali
+W polyorb_hi%s		polyorb_hi.ads		polyorb_hi.ali
+W polyorb_hi.output%s	polyorb_hi-output.adb	polyorb_hi-output.ali
+
+U hello%s		hello.ads		771b71dc EE NE PK
+
+D computations.ads	20091210102218 7cc91a4f
+D hello.ads		20091210102308 771b71dc
+D hello.adb		20130528142557 6e80878a
+D polyorb_hi.ads	20121105104749 cb88b3c7
+D polyorb_hi-output.ads	20121105104749 fa31de90
+D polyorb_hi-streams.ads  20121105104749 15782a7a
+D system.ads		20121105103247 c4549229
+X 1 computations.ads
+1K9*Computations 6e17 3|2w6 3r5
+3U14*Compute_During_N_Times_1ms 3|19r7 36r7 53r7
+X 2 hello.ads
+1K9*Hello 7l5 7e10 3|5b14 58l5 58t10
+3U14*Hello_Spg_1 3|11b14 22l8 22t19
+4U14*Hello_Spg_2 3|28b14 39l8 39t19
+5U14*Hello_Spg_3 3|45b14 56l8 56t19
+X 4 polyorb_hi.ads
+37K9*PolyORB_HI 3|1r6 12r11 29r11 46r11 4|41e15
+X 5 polyorb_hi-output.ads
+38K20*Output 3|1w17 12r22 29r22 46r22 5|87e22
+48n7*Normal{43E9} 3|15r17 21r17 32r17 38r17 49r17 55r17
+59U14*Put_Line 3|15r7 21r7 32r7 38r7 49r7 55r7
+

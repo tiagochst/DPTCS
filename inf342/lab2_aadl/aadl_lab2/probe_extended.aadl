@@ -1,0 +1,72 @@
+
+--  This file contains some extra declaration to extends the Probe
+--  example to the distribued case.
+
+
+-----------------
+-- Subprograms --
+-----------------
+
+subprogram Send_Spg
+features
+  Sent_Data   : in  parameter POS_Internal_Type;
+  Data_Source : out parameter POS_Internal_Type;
+properties
+  source_language => Ada95;
+  source_name     => "Probe.Send_Spg";
+end Send_Spg;
+
+subprogram Receive_Spg
+features
+  Data_Sink : in parameter POS_Internal_Type;
+properties
+  source_language => Ada95;
+  source_name     => "Probe.Receive_Spg";
+end Receive_Spg;
+
+-------------
+-- Threads --
+-------------
+
+thread Ground_Thread
+features
+  Data_Sink : in event data port POS_Internal_Type;
+end Ground_Thread;
+
+thread implementation Ground_Thread.Impl
+calls {
+  Ping_Me_Spg : subprogram Receive_Spg;
+};
+connections
+  parameter Data_Sink -> Ping_Me_Spg.Data_Sink;
+properties
+  Dispatch_Protocol                  => --  TBD
+  Period                             => --  TBD
+  Compute_Execution_time             => --  TBD
+  Deadline                           => --  TBD
+end Ground_Thread.Impl;
+
+---------------
+-- Processes --
+---------------
+
+process Ground_Proc
+features
+  In_Port : in event data port POS_Internal_Type;
+end Ground_Proc;
+
+process implementation Ground_Proc.Impl
+subcomponents
+  Ground_Th : thread Ground_Thread.impl;
+connections
+  event data port In_Port -> Ground_Th.Data_Sink;
+end Ground_Proc.Impl;
+
+---------
+-- Bus --
+---------
+
+bus Ethernet_Bus
+properties
+  Deployment::Transport_API => BSD_Sockets;
+end Ethernet_Bus;

@@ -1,0 +1,27 @@
+V "GNAT Lib v2006"
+A -O1
+A -g
+A -gnatwa
+A -gnat05
+A -g
+A -gnata
+A -gnato
+A -gnatA
+P DB
+R rrnrrrnnrnrrnnrnnnnnnrnnrnnnrnrnrnrrnrnnrrrrnrrnrnnnvvnnnnr1nr0nr0nnnr0nnnnn
+
+U polyorb_hi.streams%s	polyorb_hi-streams.ads	def099bd NE PU PK
+W polyorb_hi%s		polyorb_hi.ads		polyorb_hi.ali
+
+D polyorb_hi.ads	20121105104749 cb88b3c7
+D polyorb_hi-streams.ads  20121105104749 15782a7a
+D system.ads		20121105103247 c4549229
+X 1 polyorb_hi.ads
+37K9*PolyORB_HI 41e15 2|37r9 60r5
+X 2 polyorb_hi-streams.ads
+37K20*Streams 1|37k9 2|60l16 60e23
+46M9*Stream_Element 56r56
+48I9*Stream_Element_Offset<integer> 53r6 53r39 56r13
+52I12*Stream_Element_Count{48I9}
+55A9*Stream_Element_Array(46M9)
+

@@ -1,0 +1,143 @@
+V "GNAT Lib v2006"
+A -O1
+A -g
+A -gnatwa
+A -gnat05
+A -g
+A -gnata
+A -gnato
+A -gnatA
+P DB LC TF  SS
+R rrnrrrnnrnrrnnrnnnnvnrnnrnnnrnrvrnrrvrvnrrrrnrrnrnnnnvnvnnr1nr0nr0nnnr0nnv1+nn
+
+U polyorb_hi.output%b	polyorb_hi-output.adb	9f8ed72d PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W polyorb_hi%s		polyorb_hi.ads		polyorb_hi.ali
+W polyorb_hi.output_low_level%s  polyorb_hi-output_low_level_leon.adb  polyorb_hi-output_low_level_leon.ali
+W polyorb_hi.suspenders%s  polyorb_hi-suspenders.adb  polyorb_hi-suspenders.ali
+W system%s		system.ads		system.ali
+W system.img_real%s	s-imgrea.adb		s-imgrea.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+
+U polyorb_hi.output%s	polyorb_hi-output.ads	24c1472d BN EB EE NE PK
+W polyorb_hi%s		polyorb_hi.ads		polyorb_hi.ali
+W polyorb_hi.streams%s	polyorb_hi-streams.ads	polyorb_hi-streams.ali
+
+D ada.ads		20121105103247 9c7dd3ea
+D a-except.ads		20121105103247 fee3a9c5
+D a-reatim.ads		20121105103247 c30bc497
+D a-sytaco.ads		20121105103247 f643ac4f
+D polyorb_hi.ads	20121105104749 cb88b3c7
+D polyorb_hi-output.ads	20121105104749 fa31de90
+D polyorb_hi-output.adb	20121105104749 69e3a959
+D polyorb_hi-output_low_level.ads  20121105104749 00dcae13
+D polyorb_hi-streams.ads  20121105104749 15782a7a
+D polyorb_hi-suspenders.ads  20121105104749 0bdf5849
+D polyorb_hi_generated.ads  20121105104749 5b03ed8a
+D polyorb_hi_generated-deployment.ads  20130528143430 f643d6eb
+D system.ads		20121105103247 c4549229
+D s-bb.ads		20121105103247 33bd278b
+D s-bbcppr.ads		20121105103247 6e006641
+D s-bbinte.ads		20121105103247 29a32cd4
+D s-bbpara.ads		20121105103247 bdb0bf9f
+D s-bbperi.ads		20121105103247 7d8c8965
+D s-bbthre.ads		20121105103247 8128e14f
+D s-bbtime.ads		20121105103247 8965b6b7
+D s-imgrea.ads		20121105103247 61db9acd
+D s-osinte.ads		20121105103247 21e821cd
+D s-parame.ads		20121105103247 635bb895
+D s-secsta.ads		20121105103247 965c8659
+D s-soflin.ads		20121105103247 66d613ca
+D s-soflin.adb		20121105103247 f5445476
+D s-stalib.ads		20121105103247 9adf7c3e
+D s-stoele.ads		20121105103247 f7e9ab3e
+D s-stoele.adb		20121105103247 a397f9ca
+D s-strops.ads		20121105103247 92e79914
+D s-sopco3.ads		20121105103247 14cc5bf6
+D s-sopco4.ads		20121105103247 dca7f27b
+D s-sopco5.ads		20121105103247 63c5ad18
+D s-tasinf.ads		20121105103247 0891d67c
+D s-taspri.ads		20121105103247 fd4cfe57
+D s-taprop.ads		20121105103247 48601db3
+D s-taprop.adb		20121105103247 65a971be
+D s-taskin.ads		20121105103247 052e8de4
+D s-tasdeb.ads		20121105103247 11391ca0
+D s-tasdeb.adb		20121105103247 aa8fc681
+D s-taprob.ads		20121105103247 65fad0f1
+D s-tposen.ads		20121105103247 ebf07c2d
+D s-unstyp.ads		20121105103247 b399198a
+D unchconv.ads		20121105103247 34860a55
+X 1 ada.ads
+16K9*Ada 19e8 7|36r6 40r8
+X 3 a-reatim.ads
+46K13*Real_Time 137e18 7|36w10 40r12
+48M9*Time 7|141r20
+49m4*Time_First{48M9} 7|144r23
+54I9*Time_Span 7|142r20
+61V13*Clock{48M9}<20|83p13> 7|147r21
+66V13*"-"{54I9} 7|147r27
+76V13*"*"{54I9} 7|152r47
+88V13*To_Duration{duration} 7|152r26
+89V13*To_Time_Span{54I9} 7|145r21
+X 5 polyorb_hi.ads
+37K9*PolyORB_HI 41e15 6|36r6 38r9 41r8 87r5 7|34r6 35r6 39r14 133r7 141r34
+. 150r7 151r7 153r7 154r7 189r5
+X 6 polyorb_hi-output.ads
+38K20*Output 5|37k9 6|87l16 87e22 7|39b25 189l16 189t22
+43E9*Verbosity 54e8 56r28 59r34 69r29 79r58 7|78r34 104r29 168r16
+44n7*Verbose{43E9} 79r71 7|168r40
+48n7*Normal{43E9} 56r41 59r47 69r42 7|78r47 104r42
+52n7*Error{43E9}
+56e4*Current_Mode{43E9} 7|84r18 110r18
+59U14*Put_Line 59>24 59>55 7|78b14 89l8 89t16 180r13 186r7
+59e24 Mode{43E9} 7|78b24 84r10
+59s55 Text{string} 7|78b55 86r20
+63U14*Put_Line 63>24 7|86r10 95b14 98l8 98t16
+63s24 Text{string} 7|95b24 97r22
+66U14*Unprotected_Put_Line 66>36 85r19 7|61r10 130b14 134l8 134t28
+66s36 Text{string} 7|130b36 132r24
+69U14*Put 69>19 69>50 7|104b14 115l8 115t11
+69e19 Mode{43E9} 7|104b19 110r10
+69s50 Text{string} 7|104b50 112r15
+73U14*Put 73>19 7|112r10 121b14 124l8 124t11
+73s19 Text{string} 7|121b19 123r17
+76U14*Unprotected_Put 76>31 7|70r10 132r7 140b14 155l8 155t23
+76s31 Text{string} 7|140b31 154r40
+79U14*Dump 79>20 79>51 7|166b14 187l8 187t12
+79a20 Stream{9|55A9} 7|167b7 173r16 175r46 176r46
+79e51 Mode{43E9} 7|168b7 180r23 186r17
+X 7 polyorb_hi-output.adb
+42w14 Lock 53b19 72l8 72t12 97r7 123r7
+43U17 Put 43>22 68b17 71l11 71t14 123r12
+43s22 Text{string} 68b22 70r27
+46U17 Put_Line 46>27 59b17 62l11 62t19 97r12
+46s27 Text{string} 59b27 61r32
+141m7 Start_Time=141:56{3|48M9} 144r10 147r29
+142i7 Elapsed{3|54I9} 145m10 147m10 152r39
+161A12 Output_Line{string} 164r19 164r35 171r17
+163a4 Hex{string} 175r32 176r32
+164a4 Nil{161A12} 171r32 182r23
+170i7 Index{natural} 174r18 175r18 176r18 177m10 177r19 179r13 181m13
+171a7 Output{161A12} 174m10 175m10 176m10 179r21 180r29 182m13 186r32
+173i11 J<integer> 175r54 176r54
+X 8 polyorb_hi-output_low_level.ads
+34K20*Output_Low_Level 7|34w17 133r18 150r18 151r18 153r18 154r18 8|40e32
+36U14*New_Line 7|133r35
+38U14*Put 7|150r35 151r35 153r35 154r35
+X 9 polyorb_hi-streams.ads
+37K20*Streams 6|36w17 41r19 9|60e23
+46M9*Stream_Element
+55A9*Stream_Element_Array(46M9) 6|79r29 7|167r16
+X 10 polyorb_hi-suspenders.ads
+40K20*Suspenders 7|35w17 141r45 10|63e26
+56m4*System_Startup_Time{3|48M9} 7|141r56
+X 13 system.ads
+46K9*System 7|37w6 50r24 13|168e11
+110I12*Any_Priority{integer}
+111I12*Priority{110I12} 7|50r31
+

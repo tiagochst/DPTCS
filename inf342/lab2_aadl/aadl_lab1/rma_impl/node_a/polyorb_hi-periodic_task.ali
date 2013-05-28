@@ -1,0 +1,120 @@
+V "GNAT Lib v2006"
+A -O1
+A -g
+A -gnatwa
+A -gnat05
+A -g
+A -gnata
+A -gnato
+A -gnatA
+P DB LC TF
+R rrnrrrvnrnrrnnrnnnnvnrvnrnnnrnrnrnrrnrnnrrrrvrrnrvvnnvnnnnr1nr0nr0nnv1r0nnnnn
+
+U polyorb_hi.periodic_task%b  polyorb_hi-periodic_task.adb  d958f39d NE PK GE
+W ada%s			ada.ads			ada.ali
+W ada.synchronous_task_control%s  a-sytaco.adb	a-sytaco.ali
+W polyorb_hi%s		polyorb_hi.ads		polyorb_hi.ali
+W polyorb_hi.output%s	polyorb_hi-output.adb	polyorb_hi-output.ali
+W polyorb_hi.suspenders%s  polyorb_hi-suspenders.adb  polyorb_hi-suspenders.ali
+
+U polyorb_hi.periodic_task%s  polyorb_hi-periodic_task.ads  c5a288c2 BN EE NE PK GE
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W polyorb_hi%s		polyorb_hi.ads		polyorb_hi.ali
+W polyorb_hi.errors%s	polyorb_hi-errors.ads	polyorb_hi-errors.ali
+W polyorb_hi_generated%s  polyorb_hi_generated.ads  polyorb_hi_generated.ali
+W polyorb_hi_generated.deployment%s  polyorb_hi_generated-deployment.ads  polyorb_hi_generated-deployment.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20121105103247 9c7dd3ea
+D a-except.ads		20121105103247 fee3a9c5
+D a-reatim.ads		20121105103247 c30bc497
+D a-sytaco.ads		20121105103247 f643ac4f
+D polyorb_hi.ads	20121105104749 cb88b3c7
+D polyorb_hi-errors.ads	20121105104749 cb623e76
+D polyorb_hi-output.ads	20121105104749 fa31de90
+D polyorb_hi-periodic_task.ads  20121105104749 34548526
+D polyorb_hi-periodic_task.adb  20121105104749 eaa15c2d
+D polyorb_hi-streams.ads  20121105104749 15782a7a
+D polyorb_hi-suspenders.ads  20121105104749 0bdf5849
+D polyorb_hi_generated.ads  20121105104749 5b03ed8a
+D polyorb_hi_generated-deployment.ads  20130528143430 f643d6eb
+D system.ads		20121105103247 c4549229
+D s-bb.ads		20121105103247 33bd278b
+D s-bbcppr.ads		20121105103247 6e006641
+D s-bbinte.ads		20121105103247 29a32cd4
+D s-bbpara.ads		20121105103247 bdb0bf9f
+D s-bbperi.ads		20121105103247 7d8c8965
+D s-bbthre.ads		20121105103247 8128e14f
+D s-bbtime.ads		20121105103247 8965b6b7
+D s-osinte.ads		20121105103247 21e821cd
+D s-parame.ads		20121105103247 635bb895
+D s-stalib.ads		20121105103247 9adf7c3e
+D s-stoele.ads		20121105103247 f7e9ab3e
+D s-stoele.adb		20121105103247 a397f9ca
+D s-tasinf.ads		20121105103247 0891d67c
+D s-taspri.ads		20121105103247 fd4cfe57
+D s-taskin.ads		20121105103247 052e8de4
+D s-taprob.ads		20121105103247 65fad0f1
+D s-tposen.ads		20121105103247 ebf07c2d
+D s-unstyp.ads		20121105103247 b399198a
+D unchconv.ads		20121105103247 34860a55
+X 1 ada.ads
+16K9*Ada 19e8 8|37r6 45r29 46r9 49r25 52r25 79r34 9|34r6 43r8 46r8 51r20
+. 104r31 112r34
+X 3 a-reatim.ads
+46K13*Real_Time 137e18 8|37w10 45r33 46r13 49r29 52r29 79r38 9|43r12 51r24
+. 104r35 112r38
+48M9*Time 8|79r48 9|48r24 51r34 112r48
+54I9*Time_Span 8|45r43 49r39 52r39
+61V13*Clock{48M9}<21|83p13> 9|104r45
+63V13*"+"{48M9} 9|70r41 76r39 78r9 78r27 103r42 104r51
+89V13*To_Time_Span{54I9} 8|46r23
+X 4 a-sytaco.ads
+42K13*Synchronous_Task_Control 75e33 9|34w10 46r12
+54U14*Suspend_Until_True 9|69r7
+X 5 polyorb_hi.ads
+37K9*PolyORB_HI 41e15 8|38r6 61r29 72r9 82r5 9|36r6 37r6 39r14 41r8 42r8
+. 44r8 117r5
+X 6 polyorb_hi-errors.ads
+34K20*Errors 41e22 8|38w17 61r40 9|41r19
+36E9*Error_Kind 39e7 8|61r47 9|53r15
+37n7*Error_None{36E9} 9|90r22
+X 7 polyorb_hi-output.ads
+38K20*Output 87e22 9|36w17 42r19
+44n7*Verbose{43E9} 9|64r11 83r14
+59U14*Put_Line 9|63r10 82r13
+X 8 polyorb_hi-periodic_task.ads
+42e4 Entity{13|60E8} 9|66r27 69r52 84r47
+45i4 Dispatch_Offset{3|54I9} 9|70r43 78r11
+49i4 Task_Period{3|54I9} 9|76r41 103r44
+52i4 Task_Deadline{3|54I9} 9|78r29 104r53
+55i4 Task_Priority{14|110I12} 75r24
+58i4 Task_Stack_Size{natural} 76r28
+61V18 Job{6|36E9} 9|88r19
+64U19 Activate_Entrypoint 9|58r7
+68U19 Recover_Entrypoint 9|91r13
+72k20*Periodic_Task 5|37k9 8|42z4 45z4 49z4 52z4 55z4 58z4 61z18 64z19 68z19
+. 82l16 82e29 9|39b25 117l16 117t29
+74t9*The_Periodic_Task 9|50b14 106l8 106t25
+79V13*Next_Deadline{3|48M9} 9|112b13 115l8 115t21
+X 9 polyorb_hi-periodic_task.adb
+48m4 Next_Deadline_Val{3|48M9} 77m7 104m10 114r14
+51m7 Next_Start{3|48M9} 70m7 72r19 76m7 76r28 102r22 103m10 103r31
+53e7 Error{6|36E9} 88m10 90r13
+X 11 polyorb_hi-suspenders.ads
+40K20*Suspenders 9|37w17 44r19 11|63e26
+50a4*Task_Suspension_Objects(4|46W9) 9|69m27
+56m4*System_Startup_Time{3|48M9} 9|70r21 77r28
+X 12 polyorb_hi_generated.ads
+36K9*PolyORB_HI_Generated 8|39r6 42r25 9|45r8 12|40e25
+X 13 polyorb_hi_generated-deployment.ads
+10K30*Deployment 8|39w27 42r46 9|45r29 13|124e36
+60E8*Entity_Type 8|42r57 13|63e20
+107A11*UT_Deployment_Node_A_Entity_Image_Component{string}
+111A8*UT_Deployment_Node_A_Entity_Image_Array(107A11)
+115a3*Entity_Image{111A8} 9|66r13 84r33
+X 14 system.ads
+46K9*System 8|36w6 55r25 14|168e11
+110I12*Any_Priority{integer} 8|55r32
+

@@ -1,0 +1,62 @@
+V "GNAT Lib v2006"
+A -O1
+A -g
+A -gnatwa
+A -gnat05
+A -g
+A -gnata
+A -gnato
+A -gnatA
+P DB
+R rrnrrrnnrnrrnnrnnnnvnrnnrnnnrnrnrnrrnrnnrrrrnrrnrnnnnvnvnnr1nr0nr0nnnr0nnnnn
+
+U computations%b	computations.adb	327d57c2 PK
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W system%s		system.ads		system.ali
+
+U computations%s	computations.ads	7cc91a4f EE NE PK
+
+D ada.ads		20121105103247 9c7dd3ea
+D a-reatim.ads		20121105103247 c30bc497
+D computations.ads	20091210102218 7cc91a4f
+D computations.adb	20091210102254 8dbf891a
+D system.ads		20121105103247 c4549229
+D s-bb.ads		20121105103247 33bd278b
+D s-bbcppr.ads		20121105103247 6e006641
+D s-bbinte.ads		20121105103247 29a32cd4
+D s-bbpara.ads		20121105103247 bdb0bf9f
+D s-bbperi.ads		20121105103247 7d8c8965
+D s-bbthre.ads		20121105103247 8128e14f
+D s-bbtime.ads		20121105103247 8965b6b7
+D s-osinte.ads		20121105103247 21e821cd
+D s-parame.ads		20121105103247 635bb895
+X 1 ada.ads
+16K9*Ada 19e8 4|1r6 1r25
+X 2 a-reatim.ads
+46K13*Real_Time 137e18 4|1w10 1r29
+48M9*Time 4|34r11 37r11
+54I9*Time_Span 4|17r22
+61V13*Clock{48M9}<12|83p13> 4|45r12 49r12 58r12 62r12
+66V13*"-"{54I9} 4|54r45 63r44
+76V13*"*"{54I9} 4|54r30 63r30
+78V13*"/"{integer} 4|54r40 63r39
+93V13*Milliseconds{54I9} 4|17r35
+X 3 computations.ads
+1K9*Computations 6l5 6e17 4|3b14 65l5 65t17
+3U14*Compute_During_N_Times_1ms 3>42 4|24b14 30l8 30t34
+3i42 N{natural} 4|24b42 27r29
+X 4 computations.adb
+11D9 Fixed_12_6 14r22 25r11 40r11
+13i4 N_Base{natural} 46r21 54r32
+14d4 F_Base{11D9} 25r25 40r25
+17i4 XMS{2|54I9} 54r26 63r26
+18i4 N_XMS{natural} 27r21 54m7 59r21 63m7 63r32
+25d7 X{11D9} 28m10 28r21
+27i11 I{integer}
+34m7 B{2|48M9} 45m7 54r47 58m7 63r46
+37m7 E{2|48M9} 49m7 54r43 62m7 63r42
+40d7 X{11D9} 47m10 47r21 60m10 60r21
+46i11 I{integer}
+59i11 I{integer}
+

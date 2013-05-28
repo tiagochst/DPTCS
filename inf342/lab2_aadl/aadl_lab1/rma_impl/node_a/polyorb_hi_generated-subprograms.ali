@@ -1,0 +1,37 @@
+V "GNAT Lib v2006"
+A -O1
+A -g
+A -gnatwa
+A -gnat05
+A -g
+A -gnata
+A -gnato
+A -gnatA
+P DB
+R rrnrrrnnrnrrnnrnnnnnnrnnrnnnrnrnrnrrnrnnrrrrnrrnrnnnnvnnnnr1nr0nr0nnnr0nnnnn
+
+U polyorb_hi_generated.subprograms%b  polyorb_hi_generated-subprograms.adb  cf095b1c NE PK
+W hello%s		hello.adb		hello.ali
+W polyorb_hi_generated%s  polyorb_hi_generated.ads  polyorb_hi_generated.ali
+
+U polyorb_hi_generated.subprograms%s  polyorb_hi_generated-subprograms.ads  a492d7e0 EE NE PK
+W polyorb_hi_generated%s  polyorb_hi_generated.ads  polyorb_hi_generated.ali
+
+D hello.ads		20091210102308 771b71dc
+D polyorb_hi_generated.ads  20121105104749 5b03ed8a
+D polyorb_hi_generated-subprograms.ads  20130528143430 ff913a6a
+D polyorb_hi_generated-subprograms.adb  20130528143430 478310aa
+D system.ads		20121105103247 c4549229
+X 1 hello.ads
+1K9*Hello 7e10 4|9w6 14r12 17r12 20r12
+3U14*Hello_Spg_1 4|14r18
+4U14*Hello_Spg_2 4|17r18
+5U14*Hello_Spg_3 4|20r18
+X 2 polyorb_hi_generated.ads
+36K9*PolyORB_HI_Generated 40e25 3|11r9 19r5 4|11r14 22r5
+X 3 polyorb_hi_generated-subprograms.ads
+11K30*Subprograms 2|36k9 3|19l26 19e37 4|11b35 22l26 22t37
+13U13*Hello_Spg_1 4|13b13
+15U13*Hello_Spg_2 4|16b13
+17U13*Hello_Spg_3 4|19b13
+

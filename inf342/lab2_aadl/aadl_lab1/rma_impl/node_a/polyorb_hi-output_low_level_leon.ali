@@ -1,0 +1,43 @@
+V "GNAT Lib v2006"
+A -O1
+A -g
+A -gnatwa
+A -gnat05
+A -g
+A -gnata
+A -gnato
+A -gnatA
+P DB
+R rrnrrrnnrnrrnnrnnnnnnrnnrnnnrnrnrnrrnrnnrrrrnrrnrnnnnvnnnnr1nr0nr0nnnr0nnnnn
+
+U polyorb_hi.output_low_level%b  polyorb_hi-output_low_level_leon.adb  132ed74a NE PK
+W polyorb_hi%s		polyorb_hi.ads		polyorb_hi.ali
+W system%s		system.ads		system.ali
+W system.bb%s		s-bb.ads		s-bb.ali
+W system.bb.serial_output%s  s-bbseou.adb	s-bbseou.ali
+
+U polyorb_hi.output_low_level%s  polyorb_hi-output_low_level.ads  cb541dd4 EE NE PK
+W polyorb_hi%s		polyorb_hi.ads		polyorb_hi.ali
+
+D polyorb_hi.ads	20121105104749 cb88b3c7
+D polyorb_hi-output_low_level.ads  20121105104749 00dcae13
+D polyorb_hi-output_low_level_leon.adb  20121105104749 4c71bdfe
+D system.ads		20121105103247 c4549229
+D s-bb.ads		20121105103247 33bd278b
+D s-bbseou.ads		20121105103247 5f83c4a7
+X 1 polyorb_hi.ads
+37K9*PolyORB_HI 41e15 2|34r9 40r5 3|39r14 59r5
+X 2 polyorb_hi-output_low_level.ads
+34K20*Output_Low_Level 1|37k9 2|40l16 40e32 3|39b25 59l16 59t32
+36U14*New_Line 3|45b14 48l8 48t16
+38U14*Put 38>19 3|54b14 57l8 57t11
+38s19 S{string} 3|54b19 56r36
+X 4 system.ads
+46K9*System 3|36r6 47r7 56r7 4|168e11
+X 5 s-bb.ads
+42K16*BB 3|36r13 47r14 56r14 5|44e14
+X 6 s-bbseou.ads
+42K19*Serial_Output 3|36w16 47r17 56r17 6|59e28
+47U14*Put 3|56r31
+50U14*New_Line 3|47r31
+

@@ -1,0 +1,58 @@
+V "GNAT Lib v4.7"
+A -O1
+A -g
+A -gnatwa
+A -gnat05
+A -g
+A -gnata
+A -gnato
+A -gnatA
+P ZX
+R nnnrnnnnnnnrnnnnnnnnnnnnnrnnnnnnnnnnnrnnnnnnnnnnnnnnnrnrnnnnnnnvvnnnvnvnnnnnnnnnnnnnn
+
+U polyorb_hi.output_low_level%b  polyorb_hi-output_low_level_native.adb  ec33d10e NE OO PK
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W polyorb_hi%s		polyorb_hi.ads		polyorb_hi.ali
+W system%s		system.ads		system.ali
+
+U polyorb_hi.output_low_level%s  polyorb_hi-output_low_level.ads  7f91b007 EE NE OO PK
+W polyorb_hi%s		polyorb_hi.ads		polyorb_hi.ali
+
+D ada.ads		20111220125532 3ffc8e18
+D a-unccon.ads		20111220125532 f9eb8f06
+D interfac.ads		20111220125532 129923ea
+D i-c.ads		20111220125532 5421119b
+D polyorb_hi.ads	20121105104749 f77a07a6
+D polyorb_hi-output_low_level.ads  20121105104749 88ebb7a1
+D polyorb_hi-output_low_level_native.adb  20121105104749 db97358e
+D system.ads		20111220125532 eb6e42ba
+D s-exctab.ads		20111220125532 66e51330
+D s-parame.ads		20111220125532 b6e20cc0
+D s-stalib.ads		20111220125532 f78bcf95
+X 3 interfac.ads
+36K9*Interfaces 175e15 7|34r6 46r16 48r16 64r16 66r16
+X 4 i-c.ads
+18K20*C 230e17 7|34w17 46r27 48r27 64r27 66r27
+35I9*int<integer> 7|46r29 48r29 64r29 66r29
+X 5 polyorb_hi.ads
+37K9*PolyORB_HI 41e15 6|34r9 40r5 7|37r14 74r5
+X 6 polyorb_hi-output_low_level.ads
+34K20*Output_Low_Level 5|37k9 6|40l16 40e32 7|37b25 74l16 74t32
+36U14*New_Line 7|60b14 72l8 72t16
+38U14*Put 38>19 7|43b14 54l8 54t11
+38s19 S{string} 7|43b19 52r19 52r22 52r40
+X 7 polyorb_hi-output_low_level_native.adb
+45U17*C_Write 46>10 47>10 48>10 49b<c,write>25 52s7
+46i10 Fd{4|35I9}
+47m10 P{8|64M9}
+48i10 Len{4|35I9}
+61a7 SS{string} 70m19 70r19 70r23 70r42
+63U17*C_Write 64>10 65>10 66>10 67b<c,write>25 70s7
+64i10 Fd{4|35I9}
+65m10 P{8|64M9}
+66i10 Len{4|35I9}
+X 8 system.ads
+37K9*System 7|35w6 47r16 65r16 8|151e11
+64M9*Address 7|47r23 65r23
+

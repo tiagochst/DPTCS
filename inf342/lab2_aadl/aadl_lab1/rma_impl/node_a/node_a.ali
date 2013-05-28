@@ -1,0 +1,87 @@
+V "GNAT Lib v2006"
+M P 240 W=b
+A -O1
+A -g
+A -gnatwa
+A -gnat05
+A -g
+A -gnata
+A -gnato
+A -gnatA
+P DB LC TF  SS
+R rrnrrrnnrnrrnnrnnnnnnrnnrnnnrnrnrnrrnrnnrrrrnrrnrnnnnvnnnnr1nr0nr0nnnr0nnnnn
+R ada.finalization
+
+U node_a%b		node_a.adb		de4a1530 NE SU IL
+W polyorb_hi%s		polyorb_hi.ads		polyorb_hi.ali
+W polyorb_hi.suspenders%s  polyorb_hi-suspenders.adb  polyorb_hi-suspenders.ali
+W polyorb_hi_generated%s  polyorb_hi_generated.ads  polyorb_hi_generated.ali
+W polyorb_hi_generated.activity%s  polyorb_hi_generated-activity.adb  polyorb_hi_generated-activity.ali  EA
+W system%s		system.ads		system.ali
+
+D ada.ads		20121105103247 9c7dd3ea
+D a-except.ads		20121105103247 fee3a9c5
+D a-reatim.ads		20121105103247 c30bc497
+D a-retide.ads		20121105103247 60afaac3
+D a-sytaco.ads		20121105103247 f643ac4f
+D node_a.adb		20130528143430 63d6e6bd
+D polyorb_hi.ads	20121105104749 cb88b3c7
+D polyorb_hi-errors.ads	20121105104749 cb623e76
+D polyorb_hi-output.ads	20121105104749 fa31de90
+D polyorb_hi-periodic_task.ads  20121105104749 34548526
+D polyorb_hi-periodic_task.adb  20121105104749 eaa15c2d
+D polyorb_hi-streams.ads  20121105104749 15782a7a
+D polyorb_hi-suspenders.ads  20121105104749 0bdf5849
+D polyorb_hi_generated.ads  20121105104749 5b03ed8a
+D polyorb_hi_generated-activity.ads  20130528143430 721739ed
+D polyorb_hi_generated-deployment.ads  20130528143430 f643d6eb
+D system.ads		20121105103247 c4549229
+D s-bb.ads		20121105103247 33bd278b
+D s-bbcppr.ads		20121105103247 6e006641
+D s-bbinte.ads		20121105103247 29a32cd4
+D s-bbpara.ads		20121105103247 bdb0bf9f
+D s-bbperi.ads		20121105103247 7d8c8965
+D s-bbthre.ads		20121105103247 8128e14f
+D s-bbtime.ads		20121105103247 8965b6b7
+D s-osinte.ads		20121105103247 21e821cd
+D s-parame.ads		20121105103247 635bb895
+D s-secsta.ads		20121105103247 965c8659
+D s-soflin.ads		20121105103247 66d613ca
+D s-soflin.adb		20121105103247 f5445476
+D s-stalib.ads		20121105103247 9adf7c3e
+D s-stoele.ads		20121105103247 f7e9ab3e
+D s-stoele.adb		20121105103247 a397f9ca
+D s-strops.ads		20121105103247 92e79914
+D s-sopco3.ads		20121105103247 14cc5bf6
+D s-sopco4.ads		20121105103247 dca7f27b
+D s-sopco5.ads		20121105103247 63c5ad18
+D s-tasinf.ads		20121105103247 0891d67c
+D s-taspri.ads		20121105103247 fd4cfe57
+D s-taprop.ads		20121105103247 48601db3
+D s-taprop.adb		20121105103247 65a971be
+D s-taskin.ads		20121105103247 052e8de4
+D s-tasdeb.ads		20121105103247 11391ca0
+D s-tasdeb.adb		20121105103247 aa8fc681
+D s-taprob.ads		20121105103247 65fad0f1
+D s-tposen.ads		20121105103247 ebf07c2d
+D s-tasres.ads		20121105103247 3c00ff06
+D s-tarest.ads		20121105103247 269adb67
+D s-unstyp.ads		20121105103247 b399198a
+D unchconv.ads		20121105103247 34860a55
+X 6 node_a.adb
+22U11*node_a 22b11 31l5 31t11
+X 7 polyorb_hi.ads
+37K9*PolyORB_HI 6|13r6 27r3 30r3 7|41e15
+X 13 polyorb_hi-suspenders.ads
+40K20*Suspenders 6|13w17 27r14 30r14 13|63e26
+47U14*Suspend_Forever 6|30r25
+59U14*Unblock_All_Tasks 6|27r25
+X 14 polyorb_hi_generated.ads
+36K9*PolyORB_HI_Generated 6|9r6 10r23 14|40e25
+X 15 polyorb_hi_generated-activity.ads
+21K30*Activity 6|9w27 10r44 15|68e34
+X 17 system.ads
+46K9*System 6|12w6 24r5 17|168e11
+110I12*Any_Priority{integer}
+111I12*Priority{110I12} 6|24r12
+

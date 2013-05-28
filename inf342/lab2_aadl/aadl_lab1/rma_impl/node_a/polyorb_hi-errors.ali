@@ -1,0 +1,26 @@
+V "GNAT Lib v2006"
+A -O1
+A -g
+A -gnatwa
+A -gnat05
+A -g
+A -gnata
+A -gnato
+A -gnatA
+P DB
+R rrnrrrnnrnrrnnrnnnnnnrnnrnnnrnrnrnrrnrnnrrrrnrrnrnnnnvnnnnr1nr0nr0nnnr0nnnnn
+
+U polyorb_hi.errors%s	polyorb_hi-errors.ads	00ea8db1 NE PK
+W polyorb_hi%s		polyorb_hi.ads		polyorb_hi.ali
+
+D polyorb_hi.ads	20121105104749 cb88b3c7
+D polyorb_hi-errors.ads	20121105104749 cb623e76
+D system.ads		20121105103247 c4549229
+X 1 polyorb_hi.ads
+37K9*PolyORB_HI 41e15 2|34r9 41r5
+X 2 polyorb_hi-errors.ads
+34K20*Errors 1|37k9 2|41l16 41e22
+36E9*Error_Kind 39e7
+37n7*Error_None{36E9}
+38n7*Error_Transport{36E9}
+

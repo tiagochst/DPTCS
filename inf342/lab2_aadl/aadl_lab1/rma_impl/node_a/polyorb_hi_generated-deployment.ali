@@ -1,0 +1,46 @@
+V "GNAT Lib v2006"
+A -O1
+A -g
+A -gnatwa
+A -gnat05
+A -g
+A -gnata
+A -gnato
+A -gnatA
+P DB
+R rrnrrrnnrnrrnnrnnnnnnrnnrnnnrnrnrnrrnrnnrrrrnrrnrnnnnvnnnnr1nr0nr0nnnr0nnnnn
+
+U polyorb_hi_generated.deployment%s  polyorb_hi_generated-deployment.ads  ad403b61 NE PR PK
+W polyorb_hi_generated%s  polyorb_hi_generated.ads  polyorb_hi_generated.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D polyorb_hi_generated.ads  20121105104749 5b03ed8a
+D polyorb_hi_generated-deployment.ads  20130528143430 f643d6eb
+D system.ads		20121105103247 c4549229
+D s-unstyp.ads		20121105103247 b399198a
+X 1 polyorb_hi_generated.ads
+36K9*PolyORB_HI_Generated 40e25 2|10r9 124r5
+X 2 polyorb_hi_generated-deployment.ads
+10K30*Deployment 1|36k9 2|124l26 124e36
+16E8*Node_Type 17e14 21r7 27r7 37r4 37r20 37r39 55r22 86r9
+17n5*node_a_K{16E8} 22r5 52r7 56r4 91r8 93r8 95r8
+29i3*Max_Node_Image_Size{integer} 40r23
+36E11*UT_Deployment_Node_A_Node_Type_Range{16E8} 47r11
+39I11*UT_Deployment_Node_A_1_Max_Node_Image_Size{integer} 44r7
+42A11*UT_Deployment_Node_A_Node_Image_Component{string} 48r9
+46A8*UT_Deployment_Node_A_Node_Image_Array(42A11) 50r25 51r4
+50a3*Node_Image{46A8}
+55e3*My_Node{16E8}
+60E8*Entity_Type 63e20 67r7 77r7 82r4 82r22 82r43
+61n5*node_a_Task1_K{60E8} 68r5 90r7 117r7
+62n5*node_a_Task2_K{60E8} 70r5 92r7 119r7
+63n5*node_a_Task3_K{60E8} 72r5 94r7 121r7
+81E11*UT_Deployment_Node_A_Entity_Type_Range{60E8} 85r11 112r11
+84A8*UT_Deployment_Node_A_Entity_Table_Array(16E8) 88r27 89r4
+88a3*Entity_Table{84A8}
+97i3*Max_Entity_Image_Size{integer} 105r23
+104I11*UT_Deployment_Node_A_1_Max_Entity_Image_Size{integer} 109r7
+107A11*UT_Deployment_Node_A_Entity_Image_Component{string} 113r9
+111A8*UT_Deployment_Node_A_Entity_Image_Array(107A11) 115r27 116r4
+115a3*Entity_Image{111A8}
+
