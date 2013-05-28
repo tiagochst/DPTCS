@@ -1,0 +1,72 @@
+execve("./VarCond", ["./VarCond", "3"], [/* 79 vars */]) = 0
+brk(0)                                  = 0x1d7a000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f90a8265000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/lib64/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib64/tls/x86_64", 0x7fff0a57a520) = -1 ENOENT (No such file or directory)
+open("/lib64/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib64/tls", {st_mode=S_IFDIR|0555, st_size=4096, ...}) = 0
+open("/lib64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib64/x86_64", 0x7fff0a57a520)   = -1 ENOENT (No such file or directory)
+open("/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360j\0<5\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=144552, ...}) = 0
+mmap(0x353c000000, 2208808, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x353c000000
+mprotect(0x353c016000, 2097152, PROT_NONE) = 0
+mmap(0x353c216000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x353c216000
+mmap(0x353c218000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x353c218000
+close(3)                                = 0
+open("/lib64/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\33\202;5\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2071376, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f90a8264000
+mmap(0x353b800000, 3896312, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x353b800000
+mprotect(0x353b9ad000, 2097152, PROT_NONE) = 0
+mmap(0x353bbad000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1ad000) = 0x353bbad000
+mmap(0x353bbb3000, 17400, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x353bbb3000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f90a8262000
+arch_prctl(ARCH_SET_FS, 0x7f90a8262740) = 0
+mprotect(0x353bbad000, 16384, PROT_READ) = 0
+mprotect(0x353c216000, 4096, PROT_READ) = 0
+mprotect(0x601000, 4096, PROT_READ)     = 0
+mprotect(0x353b620000, 4096, PROT_READ) = 0
+set_tid_address(0x7f90a8262a10)         = 13684
+set_robust_list(0x7f90a8262a20, 24)     = 0
+rt_sigaction(SIGRTMIN, {0x353c006650, [], SA_RESTORER|SA_SIGINFO, 0x353c00f000}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x353c0066d0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x353c00f000}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8720000, rlim_max=RLIM64_INFINITY}) = 0
+mmap(NULL, 8720384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f90a7a11000
+brk(0)                                  = 0x1d7a000
+brk(0x1d9b000)                          = 0x1d9b000
+brk(0)                                  = 0x1d9b000
+mprotect(0x7f90a7a11000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f90a8260fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f90a82619d0, tls=0x7f90a8261700, child_tidptr=0x7f90a82619d0) = 13685
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f90a7a10000
+write(1, "main (Tid (0x)a8262740 vient de "..., 53) = 53
+mmap(NULL, 8720384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f90a71bf000
+mprotect(0x7f90a71bf000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f90a7a0efb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f90a7a0f9d0, tls=0x7f90a7a0f700, child_tidptr=0x7f90a7a0f9d0) = 13686
+write(1, "main (Tid (0x)a8262740 vient de "..., 53) = 53
+mmap(NULL, 8720384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f90a696e000
+mprotect(0x7f90a696e000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f90a71bdfb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f90a71be9d0, tls=0x7f90a71be700, child_tidptr=0x7f90a71be9d0) = 13687
+write(1, "main (Tid (0x)a8262740 vient de "..., 53) = 53
+futex(0x6020c4, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+futex(0x6020f0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+write(1, "main (Tid (0x)a8262740) : fin du"..., 53) = 53
+futex(0x6020f0, FUTEX_WAKE_PRIVATE, 1)  = 0
+futex(0x6020c4, FUTEX_WAIT_PRIVATE, 3, NULL) = 0
+futex(0x6020f0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+write(1, "main (Tid (0x)a8262740) : fin du"..., 53) = 53
+futex(0x6020f0, FUTEX_WAKE_PRIVATE, 1)  = 0
+futex(0x6020c4, FUTEX_WAIT_PRIVATE, 5, NULL) = 0
+futex(0x6020f0, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+write(1, "main (Tid (0x)a8262740) : fin du"..., 53) = 53
+futex(0x6020f0, FUTEX_WAKE_PRIVATE, 1)  = 0
+write(1, "main (Tid (0x)a8262740) : FIN, n"..., 91) = 91
+exit_group(0)                           = ?
++++ exited with 0 +++
