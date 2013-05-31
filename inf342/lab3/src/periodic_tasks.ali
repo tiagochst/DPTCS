@@ -3,7 +3,7 @@ A -g
 P LC QP TF  SS ZX
 R nnvnnnnnnvnnnnnnnnvvnvnnnnnnnvnnnnnnnnnnnvnnvnnnnnnvnnnnvnvnnnnnnnnvnnvnnnnnnnv4nnnv1+nn
 
-U periodic_tasks%b	periodic_tasks.adb	c104142b OO PF PK
+U periodic_tasks%b	periodic_tasks.adb	9b99411d OO PF PK
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
@@ -43,7 +43,7 @@ D interfac.ads		20111220125532 129923ea
 D i-c.ads		20111220125532 5421119b
 D io.ads		20120626082613 26f4717a
 D periodic_tasks.ads	20120626082613 89ea18e4
-D periodic_tasks.adb	20130531080006 79407c15
+D periodic_tasks.adb	20130531080706 23dd2923
 D scenarii.ads		20120626082613 00bb8979
 D system.ads		20111220125532 eb6e42ba
 D s-atacco.ads		20111220125532 1dc856ad
@@ -89,7 +89,7 @@ X 4 a-reatim.ads
 55V13*"+"{41O9} 15|76s37 198s31
 60V13*"<"{boolean} 15|204r22
 62V13*">"{boolean} 15|190r26 200r29
-75V13*"<"{boolean} 15|93r40
+77V13*">"{boolean} 15|93r40
 87V13*Seconds{46O9} 15|76s39
 X 9 gnat.ads
 34K9*GNAT 37e9 15|3r6 3r34
@@ -103,14 +103,14 @@ X 13 io.ads
 15U14*Put_Natural 15|123s10
 17U14*New_Line 15|124s10 131s10 138s7 141s7 156s10 188s10 195s10 207s13
 X 14 periodic_tasks.ads
-3K9*Periodic_Tasks 13l5 13e19 15|9b14 219l5 219t19
+3K9*Periodic_Tasks 13l5 13e19 15|9b14 218l5 218t19
 5P9*Main_Type 11r44 15|38r38 62r44
 5r40 Info{46|29R9}
 7U14*Set_Scheduler 7>29 15|148b14 165l8 165t21
 7e29 S{46|6E9} 15|148b29 154r10
 8U14*Activate 15|48b14 56l8 56t16
 9U14*Finalize 15|74b14 82l8 82t16
-11U14*Add 11>19 11>37 15|62b14 68l8 68t11 218s4
+11U14*Add 11>19 11>37 15|62b14 68l8 68t11 217s4
 11e19 Kind{46|10E9} 15|62b19 64r22 67r19
 11p37 Main{5P9} 15|62b37 67r28
 X 15 periodic_tasks.adb
@@ -144,9 +144,9 @@ X 15 periodic_tasks.adb
 114r7 Info{46|29R9} 118m7 120r10 121r23 126r22 126r34 129r22
 134r19 E{2|66R9} 137r35 140r38
 162i11 I{integer} 163r41
-181U14 Periodic_Task_Main 181b14 181>34 215l8 215t26 218r26
+181U14 Periodic_Task_Main 181b14 181>34 214l8 214t26 217r26
 181r34 Info{46|29R9} 186r25 191r36 191r47 193r25 198r33 205r28
-182o7 Deadline{4|41O9} 198m10 198r22 200r20 204r13 213r22
+182o7 Deadline{4|41O9} 198m10 198r22 200r20 204r13 212r22
 X 16 scenarii.ads
 4K9*Scenarii 15|6w6 6r34 16|58e13
 6A9*Task_Table(46|29R9)<integer>
@@ -163,7 +163,7 @@ X 46 tasks.ads
 6E9*Scheduling_Policy 14|7r33 15|148r33 46|8e22
 8n7*RMS_Scheduling{6E9} 15|154r14
 10E9*Task_Kind 14|11r26 15|38r24 62r26 46|17e25
-12n7*K_Periodic_Task{10E9} 15|218r9
+12n7*K_Periodic_Task{10E9} 15|217r9
 19A12*Task_Name{string}<integer>
 29R9*Task_Info 14|5r47 15|114r14 181r41 46|36e14
 31e7*Kind{10E9} 15|126r27

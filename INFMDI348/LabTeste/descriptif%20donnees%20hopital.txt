@@ -1,9 +1,0 @@
-Chaque fichier contient les déclarations d'événements indésirables survenus dans un hopital (un fichier pour l'année 2008 et un fichier pour 2009). Chaque ligne de ce fichier correspond à une déclaration, qui est décrite par les informations suivantes :
-  - le jour de l'événement (à partir de laquelle il est possible de dériver le jour de la semaine, le mois, la saison, ...)
-  - le type d'événement qui appartient à un ensemble prédéfini de modalités. Les types d'événements sont regroupés en catégories d'événements (c'est une hiérarchie)
-  - le service médical de l'hopital où l'événement indésirable est survenu. Les services sont regroupés en pôles médicaux (c'est une hiérarchie)
-  - le lieu physique où l'événement est survenu, qui appartient à un ensemble prédéfini de modalités
-  - la fonction dans l'hopital de la personne qui a fait la déclaration de l'événement
-  - la gravité attribuée à l'événement après une rapide enquête sur les conditions et les conséquences de l'événement
-
-Chaque fichier correspond à une année de déclaration des événements.

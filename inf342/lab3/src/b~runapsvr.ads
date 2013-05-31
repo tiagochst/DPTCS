@@ -447,7 +447,7 @@ package ada_main is
    pragma Export (C, u00205, "ada__task_identificationB");
    u00206 : constant Version_32 := 16#2e3eb6a6#;
    pragma Export (C, u00206, "ada__task_identificationS");
-   u00207 : constant Version_32 := 16#c104142b#;
+   u00207 : constant Version_32 := 16#9b99411d#;
    pragma Export (C, u00207, "periodic_tasksB");
    u00208 : constant Version_32 := 16#4d54f585#;
    pragma Export (C, u00208, "periodic_tasksS");

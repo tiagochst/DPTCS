@@ -90,7 +90,7 @@ package body Periodic_Tasks is
       --NYI ("== FUNCION LESS PERIODIC-TASK.adb ===");
       --NYI ("which task has the greatest priority?");
 
-      if Periodic_Task_Table(L).Period < Periodic_Task_Table(R).Period
+      if Periodic_Task_Table(L).Period > Periodic_Task_Table(R).Period
       then
 	 return True;
       end if;
