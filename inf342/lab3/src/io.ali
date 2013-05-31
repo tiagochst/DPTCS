@@ -1,0 +1,137 @@
+V "GNAT Lib v4.7"
+A -g
+P LC QP TF  SS ZX
+R nnnnnnnnnnnnnnnnnnvvnvnnnvnnvnnvnnnnvnnnnnnnvnnnnnnnnnnnnnvnnnnnnnnvnnvnv1nnnnnnnnnv1+nn
+
+U io%b			io.adb			8aedd574 OO PF PK IU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+W system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+W tasks%s		tasks.adb		tasks.ali
+
+U io%s			io.ads			45040713 EE NE OO PK IU
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+
+D ada.ads		20111220125532 3ffc8e18
+D a-except.ads		20111220125532 265fe451
+D a-finali.ads		20111220125532 52ecdc1b
+D a-inteio.ads		20111220125532 f64b89a4
+D a-ioexce.ads		20111220125532 8b9de6cd
+D a-reatim.ads		20111220125532 63f07669
+D a-stream.ads		20111220125532 2ca4ee37
+D a-tags.ads		20111220125532 6c0509d0
+D a-textio.ads		20111220125532 386df5d4
+D a-tiinio.ads		20111220125532 aa04e5d6
+D a-unccon.ads		20111220125532 f9eb8f06
+D interfac.ads		20111220125532 129923ea
+D i-c.ads		20111220125532 5421119b
+D i-cstrea.ads		20111220125532 1bd72c32
+D io.ads		20120626082613 26f4717a
+D io.adb		20120626082613 80ded14e
+D system.ads		20111220125532 eb6e42ba
+D s-atacco.ads		20111220125532 1dc856ad
+D s-crtl.ads		20111220125532 ac77b159
+D s-exctab.ads		20111220125532 66e51330
+D s-ficobl.ads		20111220125532 443b9d66
+D s-finmas.ads		20111220125532 b95bb341
+D s-finroo.ads		20111220125532 2dd85ce2
+D s-linux.ads		20111220125532 70c7cb45
+D s-multip.ads		20111220125532 38ac9f73
+D s-oscons.ads		20121109125256 b4674cdb
+D s-osinte.ads		20111220125532 e7a21723
+D s-parame.ads		20111220125532 b6e20cc0
+D s-pooglo.ads		20111220125532 542f33d0
+D s-secsta.ads		20111220125532 eea35a36
+D s-soflin.ads		20111220125532 a3409513
+D s-stache.ads		20111220125532 596fc1b4
+D s-stausa.ads		20111220125532 017a0a05
+D s-stalib.ads		20111220125532 f78bcf95
+D s-stoele.ads		20111220125532 facd7d98
+D s-stoele.adb		20111220125532 afc5dc80
+D s-stopoo.ads		20111220125532 7b8fbeee
+D s-tasinf.ads		20111220125532 21316953
+D s-taspri.ads		20111220125532 15f617a8
+D s-taprop.ads		20111220125532 1dd2e1b6
+D s-taskin.ads		20111220125532 5e24fb30
+D s-taprob.ads		20111220125532 502249e3
+D s-tpoben.ads		20111220125532 20b7a89e
+D s-tpobop.ads		20111220125532 5f548bb3
+D s-traent.ads		20111220125532 5221ee41
+D s-unstyp.ads		20111220125532 6ae15c76
+D s-wchcon.ads		20111220125532 bfeb2e3d
+D tasks.ads		20120626082613 c4beed61
+X 1 ada.ads
+16K9*Ada 19e8 15|1r6 1r25 16|1r6 1r31 2r6 2r31 3r6 3r31 72r7 82r7 83r7
+X 2 a-except.ads
+53K13*Exceptions 347e19 16|1w10 1r35
+93U14*Raise_Exception 16|137s7
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[10|45] 16|3w10 3r35 72r11
+X 6 a-reatim.ads
+39K13*Real_Time 139e18 15|1w10 1r29
+41O9*Time
+46O9*Time_Span 15|7r18 10r18 13r39 16|8r26 9r26 53r30 67r18 92r11 126r39
+49o4*Time_Span_Zero{46O9} 16|97r14 98r15
+53V13*Clock{41O9} 16|92s24
+58V13*"-"{46O9} 16|92s30
+70V13*"/"{integer} 16|100s14 128s16
+75V13*"<"{boolean} 16|97r12
+85V13*Milliseconds{46O9} 16|9s39
+87V13*Seconds{46O9} 16|8s39 58s15 73s15
+X 9 a-textio.ads
+49K13*Text_IO 471e16 16|2w10 2r35 82r11 83r11
+73I12*Field{integer}
+143U14*Flush 16|83s19
+166U14*New_Line 16|82s19
+242U14*Put 16|95s7 96s7 101s7 119s7
+X 10 a-tiinio.ads
+55U14*Get 16|57s7[4|18]
+65U14*Put 16|100s7[4|18] 110s7[4|18] 128s6[4|18]
+67i7 Width{9|73I12} 16|100r28[4|18] 110r18[4|18] 128r30[4|18]
+70U14*Get 16|72s27[4|18]
+X 15 io.ads
+3K9*IO 23l5 23e7 16|6b14 140l5 140t7
+5U14*Get 6>7 7<7 8<7 16|65b14 74l8 74t11
+6s7 From{string} 16|66b7 72r32
+7o7 Item{6|46O9} 16|67b7 73m7
+8i7 Last{positive} 16|68b7 72m41
+9U14*Get 10<7 16|53b14 59l8 59t11
+10o7 Item{6|46O9} 16|53b19 58m7
+12U14*Put_Header 12>29 16|91b14 102l8 102t18
+12s29 Item{string} 16|91b26 95r12
+13U14*Put_Time_Span 13>29 16|126b14 129l8 129t21
+13o29 Item{6|46O9} 16|126b29 128r11
+14U14*Put_String 14>29 16|117b14 120l8 120t18
+14s29 Item{string} 16|117b26 119r12
+15U14*Put_Natural 15>29 16|108b14 111l8 111t19
+15i29 Item{natural} 16|108b27 110r12
+17U14*New_Line 16|80b14 85l8 85t16
+19U14*NYI 19>19 16|135b14 138l8 138t11
+19s19 Message{string} 16|135b19 137r54
+X 16 io.adb
+8o4 One_Second{6|46O9} 100r16 128r18
+9o4 One_Millis{6|46O9}
+11X4 Not_Yet_Implemented 137r24
+13w14 Lock 25b19 47l8 47t12 84r7 94r7
+14Y13 Acquire 31b13 35l11 35t18 94s12
+15U17 Release 41b17 45l11 45t18 84s12
+17i7 N{integer} 33r10 33r15 34r24 43r10 43r15 44r24
+18b7 Not_Empty{boolean} 31r26 34r10 44r10
+54i7 I{integer} 57m12 57r12 58r24
+70i7 S{integer} 72m38 72r38 73r24
+92o7 T{6|46O9} 97r10 98m10 100r12
+X 48 tasks.ads
+4K9*Tasks 16|4w6 4r31 48|74e10
+58o4*Activation_Time{6|41O9} 16|92r32
+

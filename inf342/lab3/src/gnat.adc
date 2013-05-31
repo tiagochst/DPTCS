@@ -1,0 +1,3 @@
+pragma Task_Dispatching_Policy (FIFO_Within_Priorities);
+pragma Queuing_Policy (Priority_Queuing);
+pragma Locking_Policy (Ceiling_Locking);

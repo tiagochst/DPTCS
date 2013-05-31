@@ -1,0 +1,96 @@
+V "GNAT Lib v4.7"
+A -g
+P LC QP TF  SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnn
+
+U scenarii%b		scenarii.adb		cbf32294 NE OO PK
+W interfaces%s		interfac.ads		interfac.ali
+
+U scenarii%s		scenarii.ads		a7f51271 EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W tasks%s		tasks.adb		tasks.ali
+
+D ada.ads		20111220125532 3ffc8e18
+D a-except.ads		20111220125532 265fe451
+D a-finali.ads		20111220125532 52ecdc1b
+D a-reatim.ads		20111220125532 63f07669
+D a-stream.ads		20111220125532 2ca4ee37
+D a-tags.ads		20111220125532 6c0509d0
+D a-unccon.ads		20111220125532 f9eb8f06
+D interfac.ads		20111220125532 129923ea
+D i-c.ads		20111220125532 5421119b
+D scenarii.ads		20120626082613 00bb8979
+D scenarii.adb		20120626082613 cb48abed
+D system.ads		20111220125532 eb6e42ba
+D s-atacco.ads		20111220125532 1dc856ad
+D s-exctab.ads		20111220125532 66e51330
+D s-finmas.ads		20111220125532 b95bb341
+D s-finroo.ads		20111220125532 2dd85ce2
+D s-linux.ads		20111220125532 70c7cb45
+D s-multip.ads		20111220125532 38ac9f73
+D s-oscons.ads		20121109125256 b4674cdb
+D s-osinte.ads		20111220125532 e7a21723
+D s-parame.ads		20111220125532 b6e20cc0
+D s-pooglo.ads		20111220125532 542f33d0
+D s-secsta.ads		20111220125532 eea35a36
+D s-soflin.ads		20111220125532 a3409513
+D s-stache.ads		20111220125532 596fc1b4
+D s-stausa.ads		20111220125532 017a0a05
+D s-stalib.ads		20111220125532 f78bcf95
+D s-stoele.ads		20111220125532 facd7d98
+D s-stoele.adb		20111220125532 afc5dc80
+D s-stopoo.ads		20111220125532 7b8fbeee
+D s-tasinf.ads		20111220125532 21316953
+D s-taspri.ads		20111220125532 15f617a8
+D s-taprop.ads		20111220125532 1dd2e1b6
+D s-taskin.ads		20111220125532 5e24fb30
+D s-taprob.ads		20111220125532 502249e3
+D s-tpoben.ads		20111220125532 20b7a89e
+D s-traent.ads		20111220125532 5221ee41
+D s-unstyp.ads		20111220125532 6ae15c76
+D tasks.ads		20120626082613 c4beed61
+X 1 ada.ads
+16K9*Ada 19e8 10|2r6 2r25
+X 4 a-reatim.ads
+39K13*Real_Time 139e18 10|2w10 2r29
+46O9*Time_Span
+87V13*Seconds{46O9} 10|10s38 10s51 10s65 11s38 11s51 11s65 13s38 13s51 13s65
+. 14s38 14s51 14s65 15s38 15s51 15s65 17s38 17s51 17s65 18s38 18s51 18s65
+. 19s38 19s51 19s65 21s38 21s51 21s65 22s38 22s51 22s65 23s38 23s51 23s65
+. 24s38 24s51 24s65 25s38 25s51 25s65 27s38 27s51 27s65 28s38 28s51 28s65
+. 29s38 29s51 29s65 30s38 30s51 30s65 31s38 31s51 31s65 33s38 33s51 33s65
+. 34s38 34s51 34s65 35s38 35s51 35s65 36s38 36s51 36s65 37s38 37s51 37s65
+. 39s38 39s51 39s65 40s38 40s51 40s65 41s38 41s51 41s65 42s38 42s51 42s65
+. 43s38 43s51 43s65 45s38 45s51 45s65
+X 10 scenarii.ads
+4K9*Scenarii 58l5 58e13 11|1b14 30l5 30t13
+6A9*Task_Table(39|29R9)<integer> 8r30 48r26 52r27
+8a4*Scenario_Table{6A9} 11|14r16 15r13 16r16 19r21 24r21
+48a4*Periodic_Task_Table{6A9} 11|23m16
+49i4*First_Periodic_Task{natural} 11|9m7
+50i4*Last_Periodic_Task{natural} 11|10m7 22m16 22r38 23r37
+52a4*Aperiodic_Task_Table{6A9} 11|18m16
+53i4*First_Aperiodic_Task{natural} 11|11m7
+54i4*Last_Aperiodic_Task{natural} 11|12m7 17m16 17r39 18r38
+56U14*Load_Scenario 56>29 11|7b14 28l8 28t21
+56i29 S{natural} 11|7b29 15r43
+X 11 scenarii.adb
+14i11 T{integer} 15r29 16r32 19r37 24r37
+X 39 tasks.ads
+4K9*Tasks 10|1w6 1r25 39|74e10
+11n7*K_No_Task{10E9} 10|45r11
+12n7*K_Periodic_Task{10E9} 10|10r11 11r11 13r11 14r11 15r11 17r11 18r11 19r11
+. 21r11 22r11 27r11 28r11 33r11 34r11 39r11 40r11
+13n7*K_Aperiodic_Task{10E9} 10|24r11 25r11 30r11 31r11 36r11 37r11 42r11
+. 43r11 11|16r42
+14n7*K_Background_Server{10E9} 10|23r11
+15n7*K_Polling_Server{10E9} 10|29r11
+16n7*K_Deferred_Server{10E9} 10|35r11
+17n7*K_Sporadic_Server{10E9} 10|41r11
+29R9*Task_Info 10|6r51 39|36e14
+30i7*Scenario{natural} 11|15r32
+31e7*Kind{10E9} 11|16r35
+41r4*Null_Task{29R9} 10|48r60 52r61
+

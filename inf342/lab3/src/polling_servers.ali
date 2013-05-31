@@ -1,0 +1,119 @@
+V "GNAT Lib v4.7"
+A -g
+P LC QP TF  SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnn
+
+U polling_servers%b	polling_servers.adb	20b88694 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W events%s		events.adb		events.ali
+W io%s			io.adb			io.ali
+W periodic_tasks%s	periodic_tasks.adb	periodic_tasks.ali
+W system%s		system.ads		system.ali
+W tasks%s		tasks.adb		tasks.ali
+
+U polling_servers%s	polling_servers.ads	d918ea4f EE NE OO PK
+W tasks%s		tasks.adb		tasks.ali
+
+D ada.ads		20111220125532 3ffc8e18
+D a-except.ads		20111220125532 265fe451
+D a-finali.ads		20111220125532 52ecdc1b
+D a-reatim.ads		20111220125532 63f07669
+D a-stream.ads		20111220125532 2ca4ee37
+D a-tags.ads		20111220125532 6c0509d0
+D a-unccon.ads		20111220125532 f9eb8f06
+D events.ads		20120626082613 c324af27
+D interfac.ads		20111220125532 129923ea
+D i-c.ads		20111220125532 5421119b
+D io.ads		20120626082613 26f4717a
+D periodic_tasks.ads	20120626082613 89ea18e4
+D polling_servers.ads	20120626082613 1da6072e
+D polling_servers.adb	20120626082613 3b5b7ae0
+D system.ads		20111220125532 eb6e42ba
+D s-atacco.ads		20111220125532 1dc856ad
+D s-exctab.ads		20111220125532 66e51330
+D s-finmas.ads		20111220125532 b95bb341
+D s-finroo.ads		20111220125532 2dd85ce2
+D s-linux.ads		20111220125532 70c7cb45
+D s-multip.ads		20111220125532 38ac9f73
+D s-oscons.ads		20121109125256 b4674cdb
+D s-osinte.ads		20111220125532 e7a21723
+D s-parame.ads		20111220125532 b6e20cc0
+D s-pooglo.ads		20111220125532 542f33d0
+D s-secsta.ads		20111220125532 eea35a36
+D s-soflin.ads		20111220125532 a3409513
+D s-stache.ads		20111220125532 596fc1b4
+D s-stausa.ads		20111220125532 017a0a05
+D s-stalib.ads		20111220125532 f78bcf95
+D s-stoele.ads		20111220125532 facd7d98
+D s-stoele.adb		20111220125532 afc5dc80
+D s-stopoo.ads		20111220125532 7b8fbeee
+D s-tasinf.ads		20111220125532 21316953
+D s-taspri.ads		20111220125532 15f617a8
+D s-taprop.ads		20111220125532 1dd2e1b6
+D s-taskin.ads		20111220125532 5e24fb30
+D s-taprob.ads		20111220125532 502249e3
+D s-tpoben.ads		20111220125532 20b7a89e
+D s-traent.ads		20111220125532 5221ee41
+D s-unstyp.ads		20111220125532 6ae15c76
+D tasks.ads		20120626082613 c4beed61
+X 1 ada.ads
+16K9*Ada 19e8 14|1r6 1r34 2r6 2r34
+X 2 a-except.ads
+53K13*Exceptions 347e19 14|1w10 1r38
+X 4 a-reatim.ads
+39K13*Real_Time 139e18 14|2w10 2r38
+41O9*Time
+46O9*Time_Span 14|17r11
+49o4*Time_Span_Zero{46O9} 14|26r24 36r29 104r30
+53V13*Clock{41O9} 14|30s38 99s31
+58V13*"-"{46O9} 14|67s47 96s41
+62V13*">"{boolean} 14|30r36 44r42 77r33 99r29
+X 8 events.ads
+4K9*Events 39e11 14|3w6 3r34
+6n24*K_Produce{6E9} 14|22r24 42r28 79r22
+7R9*Event 12e14 14|16r11
+8e7*Kind{6E9} 14|22m9 42r21 79r15
+9a7*Name{42|19A12} 14|23m9 125r30
+10o7*Activation{4|41O9} 14|24m9 44r31 67r36 77r22 96r30 99r18
+11o7*Computation{4|46O9} 14|25m9 53r36 65r36 94r30 127r30
+14a4*Event_Table(7R9) 14|41r21 76r15
+15i4*First_Event{integer} 14|40r22 76r28
+16i4*Last_Event{natural} 14|29r13 40r37
+31U14*Append_Event 14|27s7
+X 11 io.ads
+3K9*IO 23e7 14|4w6 4r34
+12U14*Put_Header 14|51s19 63s19 92s13 119s13
+13U14*Put_Time_Span 14|53s19 65s19 67s19 94s13 96s13 121s13 123s13 127s13
+14U14*Put_String 14|52s19 64s19 66s19 93s13 95s13 120s13 122s13 124s13 125s13
+. 126s13
+17U14*New_Line 14|54s19 68s19 97s13 128s13
+19U14*NYI 14|49s19 61s19 84s13 90s13 112s13 117s13 132s13
+X 12 periodic_tasks.ads
+3K9*Periodic_Tasks 13e19 14|5w6 5r34
+X 13 polling_servers.ads
+3K9*Polling_Servers 7l5 7e20 14|9b14 139l5 139t20
+5U14*Main 5>20 14|15b14 137l8 137t12
+5r20 Info{42|29R9} 14|15b20 18r24
+X 14 polling_servers.adb
+16r7 E{8|7R9} 22m7 23m7 24m7 25m7 27r21 41m16 42r19 44r29 53r34 65r34 67r34
+. 76m10 77r20 79r13 94r28 96r28 99r16 125r28 127r28
+17o7 C{4|46O9} 123r28 134r47
+18r7 S{42|29R9} 23r24 24r41 25r24 26m7 36r13 51r34 63r34 92r28 104m13 119r28
+. 121r28 134r39
+40i17 I{integer} 41r34
+X 15 system.ads
+37K9*System 14|6w6 6r34 15|151e11
+X 42 tasks.ads
+4K9*Tasks 13|1w6 1r17 14|7w6 7r34 42|74e10
+19A12*Task_Name{string}<integer>
+29R9*Task_Info 13|5r27 14|15r27 18r11 42|36e14
+32a7*Name{19A12} 14|23r26 51r36 63r36 92r30 119r30 134r41
+33o7*Computation{4|46O9} 14|25r26 26m9 36r15 104m15 121r30
+35o7*Period{4|46O9} 14|24r43
+52V13*Next_Activation{4|41O9} 14|24s24
+58o4*Activation_Time{4|41O9} 14|67r49 96r43
+59o4*Finalization_Time{4|41O9} 14|30r18 44r44 77r35
+62U14*Compute_During_Time_Span 14|134s13
+

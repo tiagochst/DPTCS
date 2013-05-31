@@ -1,0 +1,165 @@
+V "GNAT Lib v4.7"
+A -g
+P LC QP TF  SS ZX
+R vnnnnnnnnnnnnnvnnnvvnvnnvnnnvnnvnnnnvnnnvnnnvnnnnnnnnnnnnnvnnnnnnnnvnnvnv2nnnnnnnnnv1+nn
+
+U tasks%b		tasks.adb		83fddea9 OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.dynamic_priorities%s  a-dynpri.adb	a-dynpri.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.task_identification%s  a-taside.adb	a-taside.ali
+W io%s			io.adb			io.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+W system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U tasks%s		tasks.ads		4c20d9b2 EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+
+D ada.ads		20111220125532 3ffc8e18
+D a-dynpri.ads		20111220125532 f2824aa6
+D a-except.ads		20111220125532 265fe451
+D a-finali.ads		20111220125532 52ecdc1b
+D a-reatim.ads		20111220125532 63f07669
+D a-stream.ads		20111220125532 2ca4ee37
+D a-tags.ads		20111220125532 6c0509d0
+D a-taside.ads		20111220125532 a4888134
+D a-unccon.ads		20111220125532 f9eb8f06
+D interfac.ads		20111220125532 129923ea
+D i-c.ads		20111220125532 5421119b
+D io.ads		20120626082613 26f4717a
+D system.ads		20111220125532 eb6e42ba
+D s-atacco.ads		20111220125532 1dc856ad
+D s-exctab.ads		20111220125532 66e51330
+D s-finmas.ads		20111220125532 b95bb341
+D s-finroo.ads		20111220125532 2dd85ce2
+D s-linux.ads		20111220125532 70c7cb45
+D s-multip.ads		20111220125532 38ac9f73
+D s-oscons.ads		20121109125256 b4674cdb
+D s-osinte.ads		20111220125532 e7a21723
+D s-parame.ads		20111220125532 b6e20cc0
+D s-pooglo.ads		20111220125532 542f33d0
+D s-secsta.ads		20111220125532 eea35a36
+D s-soflin.ads		20111220125532 a3409513
+D s-stache.ads		20111220125532 596fc1b4
+D s-stausa.ads		20111220125532 017a0a05
+D s-stalib.ads		20111220125532 f78bcf95
+D s-stoele.ads		20111220125532 facd7d98
+D s-stoele.adb		20111220125532 afc5dc80
+D s-stopoo.ads		20111220125532 7b8fbeee
+D s-tasinf.ads		20111220125532 21316953
+D s-taspri.ads		20111220125532 15f617a8
+D s-taprop.ads		20111220125532 1dd2e1b6
+D s-taskin.ads		20111220125532 5e24fb30
+D s-taprob.ads		20111220125532 502249e3
+D s-tpoben.ads		20111220125532 20b7a89e
+D s-tpobop.ads		20111220125532 5f548bb3
+D s-traent.ads		20111220125532 5221ee41
+D s-unstyp.ads		20111220125532 6ae15c76
+D tasks.ads		20120626082613 c4beed61
+D tasks.adb		20120626082613 37bd8920
+X 1 ada.ads
+16K9*Ada 19e8 41|1r6 1r34 42|2r6 2r35 3r6 3r35
+X 2 a-dynpri.ads
+19K13*Dynamic_Priorities 33e27 42|3w10 3r39
+X 5 a-reatim.ads
+39K13*Real_Time 139e18 41|1w10 1r38
+41O9*Time 41|52r52 53r34 58r24 59r24 42|54r11 73r52 146r34
+46O9*Time_Span 41|33r21 34r21 35r21 52r34 53r47 60r24 62r59 42|15r20 16r20
+. 52r59 53r11 73r34 146r47
+53V13*Clock{41O9} 41|58s32 59s32 42|59s15 60s16 78s14 138s28 148s24
+55V13*"+"{41O9} 42|59s21 81s30 138s34 139s44
+58V13*"-"{46O9} 42|78s20 148s22
+60V13*"<"{boolean} 42|60r22
+66V13*"-"{46O9} 42|63s17
+68V13*"*"{46O9} 42|148s16
+69V13*"*"{46O9} 42|81s35
+70V13*"/"{integer} 42|78s39 79s15 148s31
+75V13*"<"{boolean} 42|58r15
+85V13*Milliseconds{46O9} 41|45s26 46s26 47s26 42|15s33 16s33
+87V13*Seconds{46O9} 41|60s37 42|138s36
+X 8 a-taside.ads
+39K13*Task_Identification 72e28 42|2w10 2r39
+X 12 io.ads
+3K9*IO 23e7 42|1w6 90r7 91r7 92r7 94r10 95r10 97r10 98r10 100r7
+12U14*Put_Header 42|90s10
+13U14*Put_Time_Span 42|92s10 95s13 98s13
+14U14*Put_String 42|91s10 94s13 97s13
+17U14*New_Line 42|100s10
+X 13 system.ads
+37K9*System 151e11 41|2w6 2r34
+X 41 tasks.ads
+4K9*Tasks 74l5 74e10 42|5b14 151l5 151t10
+6E9*Scheduling_Policy 8e22
+7n7*FIFO_Scheduling{6E9}
+8n7*RMS_Scheduling{6E9}
+10E9*Task_Kind 17e25 31r21
+11n7*K_No_Task{10E9} 43r26
+12n7*K_Periodic_Task{10E9}
+13n7*K_Aperiodic_Task{10E9} 42|93r19
+14n7*K_Background_Server{10E9}
+15n7*K_Polling_Server{10E9}
+16n7*K_Deferred_Server{10E9}
+17n7*K_Sporadic_Server{10E9}
+19A12*Task_Name{string}<integer> 32r21 62r44 42|52r44
+29R9*Task_Info 36e14 41r25 49r32 42|88r28
+30i7*Scenario{natural} 42m10
+31e7*Kind{10E9} 43m10 42|93r12
+32a7*Name{19A12} 44m10 42|90r24
+33o7*Computation{5|46O9} 47m10 42|92r27
+34o7*Activation{5|46O9} 45m10 42|95r30
+35o7*Period{5|46O9} 46m10 42|98r30
+41r4*Null_Task{29R9}
+49U14*Put_Task 49>24 42|88b14 101l8 101t16
+49r24 T{29R9} 42|88b24 90r22 92r25 93r10 95r28 98r28
+52V13*Next_Activation{5|41O9} 52>30 42|73b13 82l8 82t23
+52o30 P{5|46O9} 42|73b30 79r13 81r37
+53V13*Time_Left_Until{5|46O9} 53>30 42|146b13 149l8 149t23
+53o30 T{5|41O9} 42|146b30 148r20
+55U14*Signal_Activation 42|135b14 140l8 140t25
+57b4*Activation_Done{boolean} 42|137m7
+58o4*Activation_Time{5|41O9} 42|78r22 81r14 138m7 139r28
+59o4*Finalization_Time{5|41O9} 42|139m7
+60o4*Execution_Time{5|46O9} 42|139r46
+62U14*Compute_During_Time_Span 62>40 62>55 42|52b14 67l8 67t32
+62a40 N{19A12} 42|52b40
+62o55 T{5|46O9} 42|52b55 53r24
+65W19*Semaphore 65d30 71l8 71e17 72r37 42|107b19 129l8 129t17
+65i30 Initial{integer} 69r30 70r31
+66Y13 Acquire 42|113b13 117l11 117t18
+67U17 Release 42|123b17 127l11 127t18
+69i7 N{integer} 42|115r10 115r15 116r24 125r10 125r15 126r24
+70b7 Not_Empty{boolean} 42|113r26 116r10 126r10
+72P9*Semaphore_Ptr(65W19)
+X 42 tasks.adb
+7i4 N_Tasks{natural}
+10i4 N_Loop_1{natural}
+11i4 N_Loop_2{natural}
+12f4 F_Base{float}
+15o4 Q{5|46O9} 58r13 59r23 63r19 148r14 148r33
+16o4 M{5|46O9} 78r41 79r17
+18w14 Monocore 30b19 46l8 46t16 57r7 64r10 66r7
+19Y13 Acquire 31b13 34l11 34t18 39r18 57s16
+20Y13 Release_And_Acquire 36b13 40l11 40t30 64s19
+21U17 Release 42b17 45l11 45t18 66s16
+23b7 Busy{boolean} 31r30 33r10 38r10 44r10
+53o7 W{5|46O9} 58r17 63m10 63r15
+54o7 C{5|41O9} 59m10 60r24
+75i7 N1{natural} 78m7 80r13
+75i11 N2{natural} 79m7 80r18
+75i15 N3{natural} 80m7 81r32
+

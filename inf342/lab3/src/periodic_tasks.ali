@@ -1,0 +1,182 @@
+V "GNAT Lib v4.7"
+A -g
+P LC QP TF  SS ZX
+R nnvnnnnnnvnnnnnnnnvvnvnnnnnnnvnnnnnnnnnnnvnnvnnnnnnvnnnnvnvnnnnnnnnvnnvnnnnnnnv4nnnv1+nn
+
+U periodic_tasks%b	periodic_tasks.adb	c104142b OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.real_time.delays%s  a-retide.adb		a-retide.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.heap_sort_a%s	g-hesora.adb		g-hesora.ali
+W interfaces%s		interfac.ads		interfac.ali
+W io%s			io.adb			io.ali  AD
+W scenarii%s		scenarii.adb		scenarii.ali
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W tasks%s		tasks.adb		tasks.ali
+
+U periodic_tasks%s	periodic_tasks.ads	4d54f585 EE NE OO PK
+W tasks%s		tasks.adb		tasks.ali
+
+D ada.ads		20111220125532 3ffc8e18
+D a-except.ads		20111220125532 265fe451
+D a-finali.ads		20111220125532 52ecdc1b
+D a-reatim.ads		20111220125532 63f07669
+D a-retide.ads		20111220125532 081cdaa4
+D a-stream.ads		20111220125532 2ca4ee37
+D a-tags.ads		20111220125532 6c0509d0
+D a-unccon.ads		20111220125532 f9eb8f06
+D gnat.ads		20111220125532 fd2ad2f1
+D g-hesora.ads		20111220125532 7d9eb53a
+D interfac.ads		20111220125532 129923ea
+D i-c.ads		20111220125532 5421119b
+D io.ads		20120626082613 26f4717a
+D periodic_tasks.ads	20120626082613 89ea18e4
+D periodic_tasks.adb	20130531080006 79407c15
+D scenarii.ads		20120626082613 00bb8979
+D system.ads		20111220125532 eb6e42ba
+D s-atacco.ads		20111220125532 1dc856ad
+D s-exctab.ads		20111220125532 66e51330
+D s-finmas.ads		20111220125532 b95bb341
+D s-finroo.ads		20111220125532 2dd85ce2
+D s-linux.ads		20111220125532 70c7cb45
+D s-multip.ads		20111220125532 38ac9f73
+D s-oscons.ads		20121109125256 b4674cdb
+D s-osinte.ads		20111220125532 e7a21723
+D s-parame.ads		20111220125532 b6e20cc0
+D s-pooglo.ads		20111220125532 542f33d0
+D s-secsta.ads		20111220125532 eea35a36
+D s-soflin.ads		20111220125532 a3409513
+D s-stache.ads		20111220125532 596fc1b4
+D s-stausa.ads		20111220125532 017a0a05
+D s-stalib.ads		20111220125532 f78bcf95
+D s-stoele.ads		20111220125532 facd7d98
+D s-stoele.adb		20111220125532 afc5dc80
+D s-stopoo.ads		20111220125532 7b8fbeee
+D s-tasinf.ads		20111220125532 21316953
+D s-taspri.ads		20111220125532 15f617a8
+D s-taprop.ads		20111220125532 1dd2e1b6
+D s-taskin.ads		20111220125532 5e24fb30
+D s-taprob.ads		20111220125532 502249e3
+D s-tpoben.ads		20111220125532 20b7a89e
+D s-tpobop.ads		20111220125532 5f548bb3
+D s-tassta.ads		20111220125532 3a253871
+D s-traent.ads		20111220125532 5221ee41
+D s-unstyp.ads		20111220125532 6ae15c76
+D tasks.ads		20120626082613 c4beed61
+X 1 ada.ads
+16K9*Ada 19e8 15|1r6 1r34 2r6 2r34
+X 2 a-except.ads
+53K13*Exceptions 347e19 15|2w10 2r38
+75V13*Exception_Name{string} 15|137s19
+97V13*Exception_Message{string} 15|140s19
+X 4 a-reatim.ads
+39K13*Real_Time 139e18 15|1w10 1r38
+41O9*Time 15|182r18
+46O9*Time_Span
+53V13*Clock{41O9} 15|190s20 204s24
+55V13*"+"{41O9} 15|76s37 198s31
+60V13*"<"{boolean} 15|204r22
+62V13*">"{boolean} 15|190r26 200r29
+75V13*"<"{boolean} 15|93r40
+87V13*Seconds{46O9} 15|76s39
+X 9 gnat.ads
+34K9*GNAT 37e9 15|3r6 3r34
+X 10 g-hesora.ads
+45K14*Heap_Sort_A 69e21 15|3w11 3r39
+62U14*Sort 15|173s7
+X 13 io.ads
+3K9*IO 23e7 15|4w6 4r34
+12U14*Put_Header 15|121s10 129s10 135s7 139s7 155s10 186s10 193s10 205s13
+14U14*Put_String 15|122s10 130s10 136s7 137s7 140s7 187s10 194s10 206s13
+15U14*Put_Natural 15|123s10
+17U14*New_Line 15|124s10 131s10 138s7 141s7 156s10 188s10 195s10 207s13
+X 14 periodic_tasks.ads
+3K9*Periodic_Tasks 13l5 13e19 15|9b14 219l5 219t19
+5P9*Main_Type 11r44 15|38r38 62r44
+5r40 Info{46|29R9}
+7U14*Set_Scheduler 7>29 15|148b14 165l8 165t21
+7e29 S{46|6E9} 15|148b29 154r10
+8U14*Activate 15|48b14 56l8 56t16
+9U14*Finalize 15|74b14 82l8 82t16
+11U14*Add 11>19 11>37 15|62b14 68l8 68t11 218s4
+11e19 Kind{46|10E9} 15|62b19 64r22 67r19
+11p37 Main{5P9} 15|62b37 67r28
+X 15 periodic_tasks.adb
+11T14 Runnable_Task 11d29 13l8 13e21 14r41 21r31 22r31 23r31 24r31 113b14
+. 142l8 142t21
+11i29 N{natural} 12r43 117r28 118r36 123r23 128r31
+14P9 Runnable_Task_Ptr(11T14) 28r23
+16w4 Runnable_Lock_T1{46|65W19} 33m8 33r8
+17w4 Runnable_Lock_T2{46|65W19} 34m8 34r8
+18w4 Runnable_Lock_T3{46|65W19} 35m8 35r8
+19w4 Runnable_Lock_T4{46|65W19} 36m8 36r8
+21t4 Runnable_Task_T1{11T14} 33m33 33r33
+22t4 Runnable_Task_T2{11T14} 34m33 34r33
+23t4 Runnable_Task_T3{11T14} 35m33 35r33
+24t4 Runnable_Task_T4{11T14} 36m33 36r33
+26R9 Runnable_Task_Type 29e14 31r53
+27p7*Runnable_Lock{46|72P9} 52r37 53r37 78r37 79r37 117r31 128r34
+28p7*Runnable_Task{14P9}
+31a4 Runnable_Task_Table(26R9) 51r24 52r13 53r13 77r16 78r13 79r13 117r7
+. 128r10
+38a4 Main_Table(14|5P9) 64r10 67m7 126r10
+40V14 Less{boolean} 40>20 40>23 88b13 98l8 98t12 173r56
+40i20 L{natural} 88b19 93r30
+40i23 R{natural} 88b22 93r62
+41U14 Move 41>20 41>23 104b14 107l8 107t12 173r43
+41i20 L{natural} 104b20 106r55
+41i23 R{natural} 104b23 106r28
+42U14 Sort_Table 157s10 171b14 174l8 174t18
+51i11 I{integer} 52r34 53r34
+77i11 I{integer} 78r34 79r34
+114r7 Info{46|29R9} 118m7 120r10 121r23 126r22 126r34 129r22
+134r19 E{2|66R9} 137r35 140r38
+162i11 I{integer} 163r41
+181U14 Periodic_Task_Main 181b14 181>34 215l8 215t26 218r26
+181r34 Info{46|29R9} 186r25 191r36 191r47 193r25 198r33 205r28
+182o7 Deadline{4|41O9} 198m10 198r22 200r20 204r13 213r22
+X 16 scenarii.ads
+4K9*Scenarii 15|6w6 6r34 16|58e13
+6A9*Task_Table(46|29R9)<integer>
+48a4*Periodic_Task_Table{6A9} 15|93r10 93r42 106m7 106r34 118r15 163r20
+49i4*First_Periodic_Task{natural} 15|162r16
+50i4*Last_Periodic_Task{natural} 15|162r39 173r22
+X 17 system.ads
+37K9*System 15|5w6 5r34 17|151e11
+105I12*Any_Priority{integer}
+106I12*Priority{105I12}
+109i4*Default_Priority{106I12} 15|12r24
+X 46 tasks.ads
+4K9*Tasks 14|1w6 1r18 15|7w6 7r34 46|74e10
+6E9*Scheduling_Policy 14|7r33 15|148r33 46|8e22
+8n7*RMS_Scheduling{6E9} 15|154r14
+10E9*Task_Kind 14|11r26 15|38r24 62r26 46|17e25
+12n7*K_Periodic_Task{10E9} 15|218r9
+19A12*Task_Name{string}<integer>
+29R9*Task_Info 14|5r47 15|114r14 181r41 46|36e14
+31e7*Kind{10E9} 15|126r27
+32a7*Name{19A12} 15|121r28 129r27 186r30 191r41 193r30 205r33
+33o7*Computation{4|46O9} 15|191r52
+35o7*Period{4|46O9} 15|93r33 93r65 198r38
+41r4*Null_Task{29R9} 15|120r18
+49U14*Put_Task 15|163s10
+58o4*Activation_Time{4|41O9} 15|50r19 182r26
+59o4*Finalization_Time{4|41O9} 15|76r19 190r28 200r31
+62U14*Compute_During_Time_Span 15|191s10
+65W19*Semaphore 15|16r31 17r31 18r31 19r31 46|71e17
+66Y13 Acquire 15|117s45 128s48
+67U17 Release 15|53s51 79s51
+72P9*Semaphore_Ptr(65W19) 15|27r23
+
