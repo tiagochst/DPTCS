@@ -51,8 +51,10 @@ package body Deferred_Servers is
                   --  Remove Produce event and then wait for its
                   --  activation time
 
-                  NYI ("remove event and wait for its activation time");
-
+                  --NYI ("remove event and wait for its activation time");
+		  Remove_Event(I);
+		  delay until E.Activation;
+	 
                   Put_Header    (S.Name);
                   Put_String    ("C=");
                   Put_Time_Span (E.Computation);
@@ -63,7 +65,11 @@ package body Deferred_Servers is
                   --  activation time and the computation time
                   --  delivered to replenish.
 
-                  NYI ("update server capacity and schedule replenishment");
+                  --NYI ("update server capacity and schedule replenishment");
+		  S.Computation := E.Computation;
+		  E.Activation := E.Activation + S.Period;
+		  T :=E.Activation;
+		  Append_Event(E);
 
                   Put_Header    (S.Name);
                   Put_String    ("C=");
@@ -86,14 +92,20 @@ package body Deferred_Servers is
             --  Remove Produce event and then wait for its
             --  activation time
 
-            NYI ("remove event and wait for its activation time");
+            --NYI ("remove event and wait for its activation time");
+	    Remove_Event(First_Event);
+	    delay until E.Activation;
 
             S.Computation := E.Computation;
 
             --  Schedule the next replenishment
 
-            NYI ("schedule replenishment");
-
+            --NYI ("schedule replenishment");
+	    E.Activation := E.Activation + S.Period;
+	    T :=E.Activation;
+	    Append_Event(E);
+	    
+	    
             Put_Header    (S.Name);
             Put_String    ("C=");
             Put_Time_Span (E.Computation);
@@ -112,14 +124,23 @@ package body Deferred_Servers is
             --  event that is the computation time requested and the
             --  one available on the server.
 
-            NYI ("evaluate computation time for event");
-
+            --NYI ("evaluate computation time for event");
+	    if  E.Computation > S.Computation then
+	       C := S.Computation;
+	    else
+	       C := E.Computation;
+	    end if;
+	    
             --  The computation must not extend over the next
             --  replenishment. As a consequence, the final computation
             --  time must not last after the next replenishment. Use
             --  Time_Left_Until function in that purpose.
 
-            NYI ("evaluate computation time to not extend over replenishment");
+            --NYI ("evaluate computation time to not extend over replenishment");
+	    L := Time_Left_Until(T) ;
+	    if  L < C then
+	       C:= L;
+	    end if;
 
             Put_Header    (S.Name);
             Put_String    ("C=");
@@ -137,10 +158,15 @@ package body Deferred_Servers is
             --  completed or not.
 
             E.Computation := E.Computation - C;
-            Event_Table (First_Event) := E;
+	    S.Computation := S.Computation - C;
+	    Event_Table (First_Event) := E;
 
-            NYI ("remove event when completed");
+            --NYI ("remove event when completed");
+	    if  E.Computation = Time_Span_Zero  then
+	       Remove_Event(First_Event);   
+	    end if;
 
+	    
             --  If the computation time is modified not to extend over
             --  the replenishment, then set server capacity to zero
             --  (Time_Span_Zero). This forces the server to take into
@@ -150,7 +176,11 @@ package body Deferred_Servers is
             --  extend over the next replenishment, update the server
             --  capacity accordingly.
 
-            NYI ("discard capacity when replenishment occurs during computation");
+            --NYI ("discard capacity when replenishment occurs during computation");
+	    if L = C then
+	       S.Computation := Time_Span_Zero;
+	    end if;
+
 
             Compute_During_Time_Span (S.Name, C);
          end if;

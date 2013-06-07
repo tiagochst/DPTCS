@@ -149,7 +149,7 @@ package ada_main is
    pragma Export (C, u00056, "aperiodic_serversB");
    u00057 : constant Version_32 := 16#22a8748b#;
    pragma Export (C, u00057, "aperiodic_serversS");
-   u00058 : constant Version_32 := 16#c901c90d#;
+   u00058 : constant Version_32 := 16#cf2021a5#;
    pragma Export (C, u00058, "background_serversB");
    u00059 : constant Version_32 := 16#aca7604f#;
    pragma Export (C, u00059, "background_serversS");
@@ -459,11 +459,11 @@ package ada_main is
    pragma Export (C, u00211, "system__tasking__stagesB");
    u00212 : constant Version_32 := 16#9022d0bb#;
    pragma Export (C, u00212, "system__tasking__stagesS");
-   u00213 : constant Version_32 := 16#f49c0477#;
+   u00213 : constant Version_32 := 16#e2362045#;
    pragma Export (C, u00213, "deferred_serversB");
    u00214 : constant Version_32 := 16#6c11b96c#;
    pragma Export (C, u00214, "deferred_serversS");
-   u00215 : constant Version_32 := 16#20b88694#;
+   u00215 : constant Version_32 := 16#822942d8#;
    pragma Export (C, u00215, "polling_serversB");
    u00216 : constant Version_32 := 16#d918ea4f#;
    pragma Export (C, u00216, "polling_serversS");

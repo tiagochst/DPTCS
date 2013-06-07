@@ -3,7 +3,7 @@ A -g
 P LC QP TF  SS ZX
 R nnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnn
 
-U background_servers%b	background_servers.adb	c901c90d NE OO PK
+U background_servers%b	background_servers.adb	cf2021a5 NE OO PK
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
@@ -26,7 +26,7 @@ D a-stream.ads		20111220125532 2ca4ee37
 D a-tags.ads		20111220125532 6c0509d0
 D a-unccon.ads		20111220125532 f9eb8f06
 D background_servers.ads  20120626082613 68198d2e
-D background_servers.adb  20120626082613 a75dbf79
+D background_servers.adb  20130531081739 a17c57d1
 D events.ads		20120626082613 c324af27
 D interfac.ads		20111220125532 129923ea
 D i-c.ads		20111220125532 5421119b
@@ -71,27 +71,28 @@ X 4 a-reatim.ads
 53V13*Clock{41O9} 10|21s38
 62V13*">"{boolean} 10|21r36
 X 9 background_servers.ads
-3K9*Background_Servers 7l5 7e23 10|9b14 45l5 45t23
-5U14*Main 5>20 10|15b14 43l8 43t12
+3K9*Background_Servers 7l5 7e23 10|9b14 48l5 48t23
+5U14*Main 5>20 10|15b14 46l8 46t12
 5r20 Info{43|29R9} 10|15b20 17r24
 X 10 background_servers.adb
-16r7 E{11|7R9} 23m10 29r25 31r25 38r25
-17r7 S{43|29R9} 27r25 36r25
+16r7 E{11|7R9} 23m10 26r22 30r25 32r25 37r36 37r44 41r25
+17r7 S{43|29R9} 28r25 39r25
 X 11 events.ads
 4K9*Events 10|3w6 3r34 11|39e11
 7R9*Event 10|16r11 11|12e14
-9a7*Name{43|19A12} 10|29r27 38r27
-11o7*Computation{4|46O9} 10|31r27
+9a7*Name{43|19A12} 10|30r27 37r38 41r27
+10o7*Activation{4|41O9} 10|26r24
+11o7*Computation{4|46O9} 10|32r27 37r46
 14a4*Event_Table(7R9) 10|23r15
-15i4*First_Event{integer} 10|23r28
+15i4*First_Event{integer} 10|23r28 36r23
 16i4*Last_Event{natural} 10|20r13
+32U14*Remove_Event 10|36s10
 X 14 io.ads
 3K9*IO 10|4w6 4r34 14|23e7
-12U14*Put_Header 10|27s10 36s10
-13U14*Put_Time_Span 10|31s10
-14U14*Put_String 10|28s10 29s10 30s10 37s10 38s10 39s10
-17U14*New_Line 10|32s10 40s10
-19U14*NYI 10|25s10 34s10
+12U14*Put_Header 10|28s10 39s10
+13U14*Put_Time_Span 10|32s10
+14U14*Put_String 10|29s10 30s10 31s10 40s10 41s10 42s10
+17U14*New_Line 10|33s10 43s10
 X 15 periodic_tasks.ads
 3K9*Periodic_Tasks 10|7w6 7r34 15|13e19
 X 16 system.ads
@@ -100,6 +101,7 @@ X 43 tasks.ads
 4K9*Tasks 9|1w6 1r27 10|6w6 6r34 43|74e10
 19A12*Task_Name{string}<integer>
 29R9*Task_Info 9|5r27 10|15r27 17r11 43|36e14
-32a7*Name{19A12} 10|27r27 36r27
-59o4*Finalization_Time{4|41O9} 10|21r18 42r19
+32a7*Name{19A12} 10|28r27 39r27
+59o4*Finalization_Time{4|41O9} 10|21r18 45r19
+62U14*Compute_During_Time_Span 10|37s10
 

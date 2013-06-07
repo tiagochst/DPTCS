@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE nta PUBLIC '-//Uppaal Team//DTD Flat System 1.1//EN' 'http://www.it.uu.se/research/group/darts/uppaal/flat-1_1.dtd'><nta><declaration>/*
+ * Exemple de système dérivé du case study railroad crossing de UPPAAL 
+ * Déclaration des identifiants de thread + des canaux entre chaque thread 
+ * et le controleur
+ */
+
+const int N = 4;        //# threads
+typedef int[0,N-1] id_thread;
+typedef int[0, N-2] fair_thread;
+
+chan        get[N], release[N]; 	// de N canaux indépendants pour 
+				//l'acquisition et un seul canal pour le retrait</declaration><template><name x="40" y="16">Thread</name><parameter>const fair_thread  my_id</parameter><declaration>clock WCET;</declaration><location id="id0" x="96" y="96"><name x="48" y="80">Safe</name></location><location id="id1" x="96" y="232"><name x="-16" y="216">Processing_R</name><label kind="invariant" x="86" y="247">WCET&lt; 40</label></location><init ref="id0"/><transition><source ref="id1"/><target ref="id0"/><label kind="synchronisation" x="136" y="136">release[my_id]!</label><nail x="136" y="168"/></transition><transition><source ref="id0"/><target ref="id1"/><label kind="synchronisation" x="0" y="136">get[my_id]!</label><label kind="assignment" x="36" y="164">WCET = 0</label></transition></template><template><name x="40" y="16">Rcontrol</name><declaration>bool lock;
+id_thread owner;
+clock timeout;
+const int T_max=60;
+
+// Put an element at the end of the queue
+void Lock_get(id_thread element)
+{
+	owner=element;
+	lock=true;
+}
+void Lock_release()
+{
+	lock=false;
+}</declaration><location id="id2" x="-184" y="376"><name x="-168" y="376">Used</name></location><location id="id3" x="336" y="120"><name x="352" y="88">Free</name></location><init ref="id3"/><transition><source ref="id2"/><target ref="id3"/><label kind="select" x="-520" y="208">thread_calling_R : id_thread</label><label kind="guard" x="-520" y="232">timeout&lt;40 and thread_calling_R  == owner</label><label kind="synchronisation" x="-520" y="248">release[thread_calling_R]?</label><label kind="assignment" x="-520" y="272">Lock_release()</label><nail x="-184" y="120"/></transition><transition><source ref="id3"/><target ref="id2"/><label kind="select" x="352" y="168">thread_acquiring_R : id_thread</label><label kind="guard" x="352" y="184">lock == false</label><label kind="synchronisation" x="352" y="200">get[thread_acquiring_R]?</label><label kind="assignment" x="352" y="216">timeout=0,
+Lock_get(thread_acquiring_R)</label><nail x="328" y="376"/><nail x="224" y="368"/></transition></template><template><name>Unfair_Thread</name><declaration>clock x;
+const id_thread my_id=N-1;</declaration><location id="id4" x="-248" y="-88"><name x="-256" y="-72">Keep_control</name><urgent/></location><location id="id5" x="-248" y="-88"><urgent/></location><location id="id6" x="-216" y="-184"><name x="-226" y="-214">Process</name><label kind="invariant" x="-226" y="-169">x &lt; 40</label></location><location id="id7" x="-328" y="-184"><name x="-338" y="-214">Safe</name></location><init ref="id7"/><transition><source ref="id4"/><target ref="id6"/><label kind="synchronisation" x="-208" y="-120">get[my_id]!</label><nail x="-208" y="-136"/></transition><transition><source ref="id6"/><target ref="id7"/><label kind="synchronisation" x="-296" y="-280">release[my_id]!</label><label kind="assignment" x="-296" y="-264">x=0</label><nail x="-272" y="-232"/></transition><transition><source ref="id7"/><target ref="id6"/><label kind="guard" x="-288" y="-160">x&lt;100</label><label kind="synchronisation" x="-304" y="-176">get[my_id]!</label><label kind="assignment" x="-288" y="-144">x=0</label></transition><transition><source ref="id7"/><target ref="id4"/><label kind="synchronisation" x="-376" y="-88">release[my_id]!</label><label kind="assignment" x="-328" y="-72">x=0</label><nail x="-328" y="-96"/><nail x="-280" y="-104"/></transition></template><system>//system Thread, Rcontrol;
+system Thread, Unfair_Thread, Rcontrol;
+</system></nta>

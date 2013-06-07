@@ -46,8 +46,10 @@ package body Polling_Servers is
                   --  Remove Produce event and then wait for its
                   --  activation time
 
-                  NYI ("remove event and wait for its activation time");
-
+                  --NYI ("remove event and wait for its activation time");
+		  Remove_Event(I);
+		  delay until E.Activation;
+		  
                   Put_Header    (S.Name);
                   Put_String    ("C=");
                   Put_Time_Span (E.Computation);
@@ -58,8 +60,11 @@ package body Polling_Servers is
                   --  activation time and the computation time
                   --  delivered to replenish.
 
-                  NYI ("update server capacity and schedule replenishment");
-
+                  --NYI ("update server capacity and schedule replenishment");
+		  S.Computation := E.Computation;
+		  E.Activation := E.Activation + S.Period;
+		  Append_Event(E);
+		  
                   Put_Header    (S.Name);
                   Put_String    ("C=");
                   Put_Time_Span (E.Computation);
@@ -81,14 +86,19 @@ package body Polling_Servers is
             --  Remove Produce event and then wait for its
             --  activation time
 
-            NYI ("remove event and wait for its activation time");
-
-            --  As there are no Consume events to handle, the server
+            --NYI ("remove event and wait for its activation time");
+	    Remove_Event(First_Event);
+	    delay until E.Activation;
+	    
+	    --  As there are no Consume events to handle, the server
             --  discards its current capacity. Schedule its replenishment.
             --  Time_Span_Zero represents a zero capacity
 
-            NYI (" and schedule replenishment");
-
+            --NYI (" and schedule replenishment");
+	    S.Computation := Time_Span_Zero;
+	    E.Activation := E.Activation + S.Period;
+	    Append_Event(E);	    
+           
             Put_Header    (S.Name);
             Put_String    ("C=");
             Put_Time_Span (E.Computation);
@@ -109,13 +119,23 @@ package body Polling_Servers is
             --  event that is the computation time requested and the
             --  one available on the server.
 
-            NYI ("evaluate computation time for event");
-
+            --NYI ("evaluate computation time for event");
+	    if  E.Computation > S.Computation then
+	       C := S.Computation;
+	    else
+	       C := E.Computation;
+	    end if;
+	    
             --  Remove the event once it is completed or update the
             --  computation time needed to complete it.
+            --NYI ("remove event when completed");
+	    if  E.Computation < S.Computation  then
+	       Remove_Event(First_Event);   
+	    else
+	       Event_Table(First_Event).Computation := E.Computation - S.Computation;
+	    end if;
 
-            NYI ("remove event when completed");
-
+	      
             Put_Header    (S.Name);
             Put_String    ("C=");
             Put_Time_Span (S.Computation);
@@ -129,8 +149,9 @@ package body Polling_Servers is
 
             --  Update the server capacity
 
-            NYI ("update the server capacity");
-
+            --NYI ("update the server capacity");
+	    S.Computation := S.Computation - C;
+	    
             Compute_During_Time_Span (S.Name, C);
          end if;
       end loop;

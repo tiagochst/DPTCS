@@ -22,8 +22,9 @@ package body Background_Servers is
       loop
          E := Event_Table (First_Event);
 
-         NYI ("wait for event activation");
-
+         --NYI ("wait for event activation");
+	 delay until E.Activation;
+	   
          Put_Header    (S.Name);
          Put_String    ("C=oo ");
          Put_String    (E.Name);
@@ -31,7 +32,9 @@ package body Background_Servers is
          Put_Time_Span (E.Computation);
          New_Line;
 
-         NYI ("remove and handle event");
+         --NYI ("remove and handle event");
+	 Remove_Event(First_Event);
+	 Compute_During_Time_Span (E.Name, E.Computation);
 
          Put_Header    (S.Name);
          Put_String    ("C=oo ");

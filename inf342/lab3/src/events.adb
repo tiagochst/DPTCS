@@ -69,6 +69,7 @@ package body Events is
       Last_Event := Last_Event - 1;
    end Remove_Event;
 
+   
    ----------------
    -- Sort_Table --
    ----------------

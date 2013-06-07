@@ -38,7 +38,9 @@ package body Sporadic_Servers is
                   --  Remove Produce event and then wait for its
                   --  activation time
 
-                  NYI ("remove event and wait for its activation time");
+                  --NYI ("remove event and wait for its activation time");
+		  Remove_Event(First_Event);
+		  delay until E.Activation;
 
                   Put_Header    (S.Name);
                   Put_String    ("C=");
@@ -52,7 +54,9 @@ package body Sporadic_Servers is
                   --  activation time and the computation time
                   --  delivered to replenish.
 
-                  NYI ("update server capacity");
+                  --NYI ("update server capacity");
+		  S.Computation = E.Computation;
+		  
                   exit;
                end if;
             end loop;
